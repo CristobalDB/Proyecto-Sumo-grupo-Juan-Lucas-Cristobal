@@ -1,0 +1,13 @@
+# Target labels
+ bootloader
+# Source files and their labels
+/home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_2/build/CMakeFiles/bootloader
+/home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_2/build/CMakeFiles/bootloader.rule
+/home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_2/build/CMakeFiles/bootloader-complete.rule
+/home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_2/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule
+/home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_2/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule
+/home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_2/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule
+/home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_2/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule
+/home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_2/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule
+/home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_2/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule
+/home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_2/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule

@@ -1,0 +1,19 @@
+Command: make -j 18 all
+Configuration Report               
+ ───────────────────────────────── 
+   Parser Version: 1               
+   Verbosity: default              
+   Defaults policy: sdkconfig      
+   Status: Finished successfully   
+                                   
+ ───────────────────────────────── 
+/home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_3/main/Ejercicio_3.c: In function 'app_main':
+/home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_3/main/Ejercicio_3.c:12:48: warning: variable 'result_3' set but not used [-Wunused-but-set-variable]
+   12 |     volatile int result_0, result_1, result_2, result_3, result_4;
+      |                                                ^~~~~~~~
+/home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_3/main/Ejercicio_3.c:12:38: warning: variable 'result_2' set but not used [-Wunused-but-set-variable]
+   12 |     volatile int result_0, result_1, result_2, result_3, result_4;
+      |                                      ^~~~~~~~
+/home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_3/main/Ejercicio_3.c:12:28: warning: variable 'result_1' set but not used [-Wunused-but-set-variable]
+   12 |     volatile int result_0, result_1, result_2, result_3, result_4;
+      |                            ^~~~~~~~
