@@ -70,7 +70,7 @@ CMakeFiles/gen_Ejercicio_2_binary: .bin_timestamp
 
 .bin_timestamp: Ejercicio_2.elf
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating binary image from built executable"
-	/home/diazb/esp/idf-tools/python_env/idf6.1_py3.12_env/bin/python -m esptool --chip esp32s3 elf2image --flash-mode dio --flash-freq 80m --flash-size 16MB --elf-sha256-offset 0xb0 --min-rev-full 0 --max-rev-full 99 -o /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_2/build/Ejercicio_2.bin /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_2/build/Ejercicio_2.elf
+	/home/diazb/esp/idf-tools/python_env/idf6.1_py3.12_env/bin/python -m esptool --chip esp32s3 elf2image --flash-mode dio --flash-freq 80m --flash-size 2MB --elf-sha256-offset 0xb0 --min-rev-full 0 --max-rev-full 99 -o /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_2/build/Ejercicio_2.bin /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_2/build/Ejercicio_2.elf
 	/usr/bin/cmake -E echo "Generated /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_2/build/Ejercicio_2.bin"
 	/usr/bin/cmake -E md5sum /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_2/build/Ejercicio_2.bin > /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_2/build/.bin_timestamp
 

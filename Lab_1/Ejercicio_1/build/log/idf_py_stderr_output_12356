@@ -1,0 +1,9 @@
+Command: cmake -G Unix Makefiles -B /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_1/build -DPYTHON_DEPS_CHECKED=1 -DPYTHON=/home/diazb/esp/idf-tools/python_env/idf6.1_py3.12_env/bin/python -DESP_PLATFORM=1 -DIDF_TARGET=esp32s3 -DCCACHE_ENABLE=False /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_1
+Configuration Report               
+ ───────────────────────────────── 
+   Parser Version: 1               
+   Verbosity: default              
+   Defaults policy: sdkconfig      
+   Status: Finished successfully   
+                                   
+ ───────────────────────────────── 

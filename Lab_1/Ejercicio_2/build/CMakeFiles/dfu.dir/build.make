@@ -67,7 +67,7 @@ include CMakeFiles/dfu.dir/compiler_depend.make
 include CMakeFiles/dfu.dir/progress.make
 
 CMakeFiles/dfu:
-	/home/diazb/esp/idf-tools/python_env/idf6.1_py3.12_env/bin/python /home/diazb/esp/esp-idf/tools/mkdfu.py write -o /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_2/build/dfu.bin --json /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_2/build/flasher_args.json --pid 9 --flash-size 16MB
+	/home/diazb/esp/idf-tools/python_env/idf6.1_py3.12_env/bin/python /home/diazb/esp/esp-idf/tools/mkdfu.py write -o /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_2/build/dfu.bin --json /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_2/build/flasher_args.json --pid 9 --flash-size 2MB
 
 dfu: CMakeFiles/dfu
 dfu: CMakeFiles/dfu.dir/build.make
