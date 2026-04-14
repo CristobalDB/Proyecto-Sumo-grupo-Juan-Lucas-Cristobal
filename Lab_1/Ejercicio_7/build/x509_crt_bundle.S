@@ -1,4 +1,4 @@
-/* * Data converted from /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build/esp-idf/mbedtls/x509_crt_bundle
+/* * Data converted from /home/jukal/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build/esp-idf/mbedtls/x509_crt_bundle
  */
 .data
 #if !defined (__APPLE__) && !defined (__linux__)

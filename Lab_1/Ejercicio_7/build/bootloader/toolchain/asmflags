@@ -1,4 +1,4 @@
-"-specs=/home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build/bootloader/specs/picolibc.specs"
+"-specs=/home/jukal/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build/bootloader/specs/picolibc.specs"
 -Wno-frame-address
 -mlongcalls
 -fno-builtin-memcpy
