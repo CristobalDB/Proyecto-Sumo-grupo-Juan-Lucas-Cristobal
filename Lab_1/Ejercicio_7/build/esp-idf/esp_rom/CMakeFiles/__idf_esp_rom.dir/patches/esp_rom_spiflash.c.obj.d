@@ -1,9 +1,9 @@
 esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches/esp_rom_spiflash.c.obj: \
  /home/diazb/esp/esp-idf/components/esp_rom/patches/esp_rom_spiflash.c \
  /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build/config/sdkconfig.h \
- /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/soc_caps.h \
+ /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h \
  /home/diazb/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h \
- /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/soc.h \
+ /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/soc.h \
  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/stdint.h \
  /home/diazb/esp/esp-idf/components/esp_libc/platform_include/sys/cdefs.h \
  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/cdefs.h \
@@ -24,13 +24,25 @@ esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches/esp_rom_spiflash.c.obj: \
  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/_locale.h \
  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/_wait.h \
  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/assert.h \
- /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/interrupts.h \
  /home/diazb/esp/esp-idf/components/esp_common/include/esp_bit_defs.h \
- /home/diazb/esp/esp-idf/components/soc/esp32/register/soc/reg_base.h \
- /home/diazb/esp/esp-idf/components/soc/esp32/register/soc/spi_reg.h \
+ /home/diazb/esp/esp-idf/components/soc/esp32s3/register/soc/reg_base.h \
+ /home/diazb/esp/esp-idf/components/soc/esp32s3/register/soc/spi_reg.h \
+ /home/diazb/esp/esp-idf/components/soc/esp32s3/register/soc/spi_mem_struct.h \
+ /home/diazb/esp/esp-idf/components/soc/esp32s3/register/soc/spi_mem_reg.h \
  /home/diazb/esp/esp-idf/components/esp_rom/include/esp_rom_spiflash.h \
  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/stdbool.h \
  /home/diazb/esp/esp-idf/components/esp_rom/include/esp_rom_spiflash_defs.h \
- /home/diazb/esp/esp-idf/components/esp_rom/esp32/include/esp32/rom/spi_flash.h \
+ /home/diazb/esp/esp-idf/components/esp_rom/esp32s3/include/esp32s3/rom/spi_flash.h \
  /home/diazb/esp/esp-idf/components/esp_common/include/esp_attr.h \
- /home/diazb/esp/esp-idf/components/esp_common/include/esp_assert.h
+ /home/diazb/esp/esp-idf/components/esp_common/include/esp_assert.h \
+ /home/diazb/esp/esp-idf/components/esp_rom/esp32s3/include/esp32s3/rom/opi_flash.h \
+ /home/diazb/esp/esp-idf/components/esp_libc/platform_include/stdio.h \
+ /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/stdio.h \
+ /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/stdarg.h \
+ /home/diazb/esp/esp-idf/components/esp_libc/platform_include/sys/lock.h \
+ /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/lock.h \
+ /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/_types.h \
+ /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/machine/_types.h \
+ /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/string.h \
+ /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/strings.h \
+ /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/string.h

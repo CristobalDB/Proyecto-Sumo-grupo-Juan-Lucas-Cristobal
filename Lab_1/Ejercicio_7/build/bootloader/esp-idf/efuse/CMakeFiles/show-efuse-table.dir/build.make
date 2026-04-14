@@ -67,7 +67,7 @@ include esp-idf/efuse/CMakeFiles/show-efuse-table.dir/compiler_depend.make
 include esp-idf/efuse/CMakeFiles/show-efuse-table.dir/progress.make
 
 esp-idf/efuse/CMakeFiles/show-efuse-table:
-	cd /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build/bootloader/esp-idf/efuse && /home/diazb/esp/idf-tools/python_env/idf6.1_py3.12_env/bin/python /home/diazb/esp/esp-idf/components/efuse/efuse_table_gen.py /home/diazb/esp/esp-idf/components/efuse/esp32/esp_efuse_table.csv -t esp32 --max_blk_len 192 --info
+	cd /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build/bootloader/esp-idf/efuse && /home/diazb/esp/idf-tools/python_env/idf6.1_py3.12_env/bin/python /home/diazb/esp/esp-idf/components/efuse/efuse_table_gen.py /home/diazb/esp/esp-idf/components/efuse/esp32s3/esp_efuse_table.csv -t esp32s3 --max_blk_len 256 --info
 
 show-efuse-table: esp-idf/efuse/CMakeFiles/show-efuse-table
 show-efuse-table: esp-idf/efuse/CMakeFiles/show-efuse-table.dir/build.make

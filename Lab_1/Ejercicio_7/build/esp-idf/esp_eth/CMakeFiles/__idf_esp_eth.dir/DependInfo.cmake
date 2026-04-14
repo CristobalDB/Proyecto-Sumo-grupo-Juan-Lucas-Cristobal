@@ -10,11 +10,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/diazb/esp/esp-idf/components/esp_eth/src/esp_eth.c" "esp-idf/esp_eth/CMakeFiles/__idf_esp_eth.dir/src/esp_eth.c.obj" "gcc" "esp-idf/esp_eth/CMakeFiles/__idf_esp_eth.dir/src/esp_eth.c.obj.d"
   "/home/diazb/esp/esp-idf/components/esp_eth/src/esp_eth_netif_glue.c" "esp-idf/esp_eth/CMakeFiles/__idf_esp_eth.dir/src/esp_eth_netif_glue.c.obj" "gcc" "esp-idf/esp_eth/CMakeFiles/__idf_esp_eth.dir/src/esp_eth_netif_glue.c.obj.d"
-  "/home/diazb/esp/esp-idf/components/esp_eth/src/mac/esp_eth_mac_esp.c" "esp-idf/esp_eth/CMakeFiles/__idf_esp_eth.dir/src/mac/esp_eth_mac_esp.c.obj" "gcc" "esp-idf/esp_eth/CMakeFiles/__idf_esp_eth.dir/src/mac/esp_eth_mac_esp.c.obj.d"
-  "/home/diazb/esp/esp-idf/components/esp_eth/src/mac/esp_eth_mac_esp_dma.c" "esp-idf/esp_eth/CMakeFiles/__idf_esp_eth.dir/src/mac/esp_eth_mac_esp_dma.c.obj" "gcc" "esp-idf/esp_eth/CMakeFiles/__idf_esp_eth.dir/src/mac/esp_eth_mac_esp_dma.c.obj.d"
-  "/home/diazb/esp/esp-idf/components/esp_eth/src/mac/esp_eth_mac_esp_gpio.c" "esp-idf/esp_eth/CMakeFiles/__idf_esp_eth.dir/src/mac/esp_eth_mac_esp_gpio.c.obj" "gcc" "esp-idf/esp_eth/CMakeFiles/__idf_esp_eth.dir/src/mac/esp_eth_mac_esp_gpio.c.obj.d"
   "/home/diazb/esp/esp-idf/components/esp_eth/src/phy/esp_eth_phy_802_3.c" "esp-idf/esp_eth/CMakeFiles/__idf_esp_eth.dir/src/phy/esp_eth_phy_802_3.c.obj" "gcc" "esp-idf/esp_eth/CMakeFiles/__idf_esp_eth.dir/src/phy/esp_eth_phy_802_3.c.obj.d"
-  "/home/diazb/esp/esp-idf/components/esp_eth/src/phy/esp_eth_phy_generic.c" "esp-idf/esp_eth/CMakeFiles/__idf_esp_eth.dir/src/phy/esp_eth_phy_generic.c.obj" "gcc" "esp-idf/esp_eth/CMakeFiles/__idf_esp_eth.dir/src/phy/esp_eth_phy_generic.c.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

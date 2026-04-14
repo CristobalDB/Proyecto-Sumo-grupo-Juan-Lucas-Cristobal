@@ -40,12 +40,12 @@ esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/flash_ops.c.obj: \
  /home/diazb/esp/esp-idf/components/freertos/config/xtensa/include/freertos/FreeRTOSConfig_arch.h \
  /home/diazb/esp/esp-idf/components/xtensa/include/xtensa_config.h \
  /home/diazb/esp/esp-idf/components/xtensa/include/xtensa/hal.h \
- /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core.h \
+ /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/core.h \
  /home/diazb/esp/esp-idf/components/xtensa/include/xtensa/xtensa-versions.h \
- /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core-isa.h \
- /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core-matmap.h \
- /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/tie.h \
- /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/system.h \
+ /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/core-isa.h \
+ /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/core-matmap.h \
+ /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/tie.h \
+ /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/system.h \
  /home/diazb/esp/esp-idf/components/xtensa/include/xtensa_context.h \
  /home/diazb/esp/esp-idf/components/xtensa/include/xtensa/corebits.h \
  /home/diazb/esp/esp-idf/components/xtensa/include/xtensa/xtruntime-frames.h \
@@ -56,17 +56,17 @@ esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/flash_ops.c.obj: \
  /home/diazb/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/portmacro.h \
  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/stdbool.h \
  /home/diazb/esp/esp-idf/components/xtensa/include/xtensa/xtruntime.h \
- /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/xt_specreg.h \
+ /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/xt_specreg.h \
  /home/diazb/esp/esp-idf/components/xtensa/include/xtensa/xtruntime-core-state.h \
  /home/diazb/esp/esp-idf/components/xtensa/include/xt_instr_macros.h \
  /home/diazb/esp/esp-idf/components/xtensa/include/xtensa/xtruntime.h \
  /home/diazb/esp/esp-idf/components/esp_hw_support/include/spinlock.h \
  /home/diazb/esp/esp-idf/components/esp_hw_support/include/esp_cpu.h \
- /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/soc_caps.h \
+ /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h \
  /home/diazb/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h \
  /home/diazb/esp/esp-idf/components/xtensa/include/xtensa_api.h \
  /home/diazb/esp/esp-idf/components/xtensa/include/xt_utils.h \
- /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/extreg.h \
+ /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/extreg.h \
  /home/diazb/esp/esp-idf/components/esp_common/include/esp_bit_defs.h \
  /home/diazb/esp/esp-idf/components/esp_common/include/esp_attr.h \
  /home/diazb/esp/esp-idf/components/esp_common/include/esp_assert.h \
@@ -77,16 +77,15 @@ esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/flash_ops.c.obj: \
  /home/diazb/esp/esp-idf/components/esp_system/include/esp_private/crosscore_int.h \
  /home/diazb/esp/esp-idf/components/esp_common/include/esp_macros.h \
  /home/diazb/esp/esp-idf/components/esp_hw_support/include/esp_memory_utils.h \
- /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/soc.h \
+ /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/soc.h \
  /home/diazb/esp/esp-idf/components/esp_common/include/esp_assert.h \
- /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/interrupts.h \
- /home/diazb/esp/esp-idf/components/soc/esp32/register/soc/reg_base.h \
+ /home/diazb/esp/esp-idf/components/soc/esp32s3/register/soc/reg_base.h \
  /home/diazb/esp/esp-idf/components/esp_libc/platform_include/esp_newlib.h \
  /home/diazb/esp/esp-idf/components/heap/include/esp_heap_caps.h \
  /home/diazb/esp/esp-idf/components/heap/include/multi_heap.h \
  /home/diazb/esp/esp-idf/components/esp_rom/include/esp_rom_sys.h \
  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/inttypes.h \
- /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/reset_reasons.h \
+ /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/reset_reasons.h \
  /home/diazb/esp/esp-idf/components/esp_system/include/esp_system.h \
  /home/diazb/esp/esp-idf/components/esp_common/include/esp_idf_version.h \
  /home/diazb/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/portbenchmark.h \
@@ -107,8 +106,8 @@ esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/flash_ops.c.obj: \
  /home/diazb/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/timers.h \
  /home/diazb/esp/esp-idf/components/heap/include/soc/soc_memory_layout.h \
  /home/diazb/esp/esp-idf/components/heap/include/heap_memory_layout.h \
- /home/diazb/esp/esp-idf/components/soc/esp32/register/soc/io_mux_reg.h \
- /home/diazb/esp/esp-idf/components/esp_hal_gpspi/esp32/include/soc/spi_pins.h \
+ /home/diazb/esp/esp-idf/components/soc/esp32s3/register/soc/io_mux_reg.h \
+ /home/diazb/esp/esp-idf/components/esp_hal_gpspi/esp32s3/include/soc/spi_pins.h \
  /home/diazb/esp/esp-idf/components/spi_flash/include/spi_flash_mmap.h \
  /home/diazb/esp/esp-idf/components/spi_flash/include/esp_spi_flash_counters.h \
  /home/diazb/esp/esp-idf/components/log/include/esp_log.h \
@@ -126,27 +125,32 @@ esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/flash_ops.c.obj: \
  /home/diazb/esp/esp-idf/components/spi_flash/include/esp_private/spi_flash_os.h \
  /home/diazb/esp/esp-idf/components/esp_rom/include/esp_rom_spiflash.h \
  /home/diazb/esp/esp-idf/components/esp_rom/include/esp_rom_spiflash_defs.h \
- /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/clk_tree_defs.h \
+ /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/clk_tree_defs.h \
  /home/diazb/esp/esp-idf/components/esp_hal_mspi/include/hal/spi_flash_hal.h \
- /home/diazb/esp/esp-idf/components/esp_hal_mspi/esp32/include/hal/spi_flash_ll.h \
- /home/diazb/esp/esp-idf/components/soc/esp32/register/soc/spi_reg.h \
- /home/diazb/esp/esp-idf/components/soc/esp32/register/soc/spi_struct.h \
+ /home/diazb/esp/esp-idf/components/esp_hal_mspi/esp32s3/include/hal/spi_flash_ll.h \
+ /home/diazb/esp/esp-idf/components/esp_hal_mspi/esp32s3/include/hal/gpspi_flash_ll.h \
+ /home/diazb/esp/esp-idf/components/soc/esp32s3/register/soc/spi_struct.h \
+ /home/diazb/esp/esp-idf/components/soc/esp32s3/register/soc/spi_reg.h \
+ /home/diazb/esp/esp-idf/components/esp_hal_gpspi/include/hal/spi_types.h \
  /home/diazb/esp/esp-idf/components/esp_hal_mspi/include/hal/spi_flash_types.h \
  /home/diazb/esp/esp-idf/components/esp_common/include/esp_types.h \
  /home/diazb/esp/esp-idf/components/esp_hal_mspi/include/hal/esp_flash_err.h \
  /home/diazb/esp/esp-idf/components/hal/platform_port/include/hal/misc.h \
- /home/diazb/esp/esp-idf/components/esp_hal_gpspi/include/hal/spi_types.h \
+ /home/diazb/esp/esp-idf/components/esp_hal_mspi/esp32s3/include/hal/spimem_flash_ll.h \
+ /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/interrupts.h \
+ /home/diazb/esp/esp-idf/components/soc/esp32s3/register/soc/spi_mem_reg.h \
+ /home/diazb/esp/esp-idf/components/soc/esp32s3/register/soc/spi_mem_struct.h \
+ /home/diazb/esp/esp-idf/components/hal/platform_port/include/hal/assert.h \
  /home/diazb/esp/esp-idf/components/spi_flash/include/esp_flash.h \
  /home/diazb/esp/esp-idf/components/esp_blockdev/include/esp_blockdev.h \
  /home/diazb/esp/esp-idf/components/spi_flash/include/esp_flash_chips/esp_flash_types.h \
  /home/diazb/esp/esp-idf/components/spi_flash/include/esp_flash_chips/spi_flash_override.h \
  /home/diazb/esp/esp-idf/components/esp_hw_support/include/esp_private/esp_clk.h \
  /home/diazb/esp/esp-idf/components/esp_hw_support/include/esp_private/esp_gpio_reserve.h \
- /home/diazb/esp/esp-idf/components/esp_rom/esp32/include/esp32/rom/cache.h \
- /home/diazb/esp/esp-idf/components/esp_hw_support/include/dport_access.h \
- /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/dport_access.h \
- /home/diazb/esp/esp-idf/components/esp_system/include/esp_ipc_isr.h \
- /home/diazb/esp/esp-idf/components/esp_rom/esp32/include/esp32/rom/spi_flash.h \
+ /home/diazb/esp/esp-idf/components/esp_rom/esp32s3/include/esp32s3/rom/opi_flash.h \
+ /home/diazb/esp/esp-idf/components/esp_rom/esp32s3/include/esp32s3/rom/spi_flash.h \
+ /home/diazb/esp/esp-idf/components/esp_rom/esp32s3/include/esp32s3/rom/cache.h \
+ /home/diazb/esp/esp-idf/components/spi_flash/esp32s3/opi_flash_private.h \
  /home/diazb/esp/esp-idf/components/bootloader_support/include/esp_flash_partitions.h \
  /home/diazb/esp/esp-idf/components/esp_hw_support/mspi/mspi_timing_tuning/include/esp_private/mspi_timing_tuning.h \
  /home/diazb/esp/esp-idf/components/spi_flash/include/esp_private/cache_utils.h \
@@ -156,13 +160,13 @@ esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/flash_ops.c.obj: \
  /home/diazb/esp/esp-idf/components/bootloader_support/include/esp_image_format.h \
  /home/diazb/esp/esp-idf/components/bootloader_support/include/esp_app_format.h \
  /home/diazb/esp/esp-idf/components/esp_rom/include/esp_rom_efuse.h \
- /home/diazb/esp/esp-idf/components/esp_rom/esp32/esp_rom_caps.h \
+ /home/diazb/esp/esp-idf/components/esp_rom/esp32s3/esp_rom_caps.h \
  /home/diazb/esp/esp-idf/components/soc/include/soc/chip_revision.h \
- /home/diazb/esp/esp-idf/components/hal/esp32/include/hal/efuse_hal.h \
- /home/diazb/esp/esp-idf/components/hal/esp32/include/hal/efuse_ll.h \
+ /home/diazb/esp/esp-idf/components/hal/esp32s3/include/hal/efuse_hal.h \
+ /home/diazb/esp/esp-idf/components/hal/esp32s3/include/hal/efuse_ll.h \
  /home/diazb/esp/esp-idf/components/soc/include/soc/efuse_periph.h \
- /home/diazb/esp/esp-idf/components/soc/esp32/register/soc/efuse_reg.h \
- /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/efuse_defs.h \
- /home/diazb/esp/esp-idf/components/soc/esp32/register/soc/efuse_struct.h \
- /home/diazb/esp/esp-idf/components/hal/platform_port/include/hal/assert.h \
+ /home/diazb/esp/esp-idf/components/soc/esp32s3/register/soc/efuse_reg.h \
+ /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/efuse_defs.h \
+ /home/diazb/esp/esp-idf/components/soc/esp32s3/register/soc/efuse_struct.h \
+ /home/diazb/esp/esp-idf/components/esp_rom/esp32s3/include/esp32s3/rom/efuse.h \
  /home/diazb/esp/esp-idf/components/hal/include/hal/efuse_hal.h

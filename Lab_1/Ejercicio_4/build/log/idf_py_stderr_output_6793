@@ -1,0 +1,20 @@
+Command: /home/diazb/esp/idf-tools/python_env/idf6.1_py3.12_env/bin/python /home/diazb/esp/esp-idf/tools/idf_monitor.py -p /dev/ttyUSB0 -b 115200 --toolchain-prefix xtensa-esp32s3-elf- --target esp32s3 --revision 0 /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_4/build/Ejercicio_4.elf /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_4/build/bootloader/bootloader.elf -m '/home/diazb/esp/idf-tools/python_env/idf6.1_py3.12_env/bin/python' '/home/diazb/esp/esp-idf/tools/idf.py'
+[0;33m--- esp-idf-monitor 1.9.0 on /dev/ttyUSB0 115200[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H[0m
+[0m--- 0x403c8700: [0;33m_stext[0m[0m at [0;32m??[0m[0m:[1;31m?[0m
+[0m--- 0x403c8930: [0;33mcall_start_cpu0[0m[0m at [0;32m/home/diazb/esp/esp-idf/components/bootloader/subproject/main/bootloader_start.c[0m[0m:[1;31m27[0m
+[0m--- 0x42001bdf: [0;33mmspi_init[0m[0m at [0;32m/home/diazb/esp/esp-idf/components/esp_system/port/cpu_start.c[0m[0m:[1;31m640[0m
+[0m--- 0x4037acf9: [0;33mpanic_abort[0m[0m at [0;32m/home/diazb/esp/esp-idf/components/esp_system/panic.c[0m[0m:[1;31m464[0m
+[0m--- 0x4037acc1: [0;33mesp_system_abort[0m[0m at [0;32m/home/diazb/esp/esp-idf/components/esp_system/port/esp_system_chip.c[0m[0m:[1;31m87[0m
+[0m--- 0x4037a21d: [0;33mabort[0m[0m at [0;32m/home/diazb/esp/esp-idf/components/esp_libc/src/abort.c[0m[0m:[1;31m38[0m
+[0m--- 0x42001bdf: [0;33mmspi_init[0m[0m at [0;32m/home/diazb/esp/esp-idf/components/esp_system/port/cpu_start.c[0m[0m:[1;31m640[0m
+[0m--- 0x403756db: [0;33mcall_start_cpu0[0m[0m at [0;32m/home/diazb/esp/esp-idf/components/esp_system/port/cpu_start.c[0m[0m:[1;31m997[0m
+[0m--- 0x403cce7b: [0;33mset_cache_and_start_app[0m[0m at [0;32m/home/diazb/esp/esp-idf/components/bootloader_support/src/bootloader_utility.c[0m[0m:[1;31m1155[0m
+[0m--- (inlined by) [0;33munpack_load_app[0m[0m at [0;32m/home/diazb/esp/esp-idf/components/bootloader_support/src/bootloader_utility.c[0m[0m:[1;31m890[0m
+[0m--- (inlined by) [0;33mload_image[0m[0m at [0;32m/home/diazb/esp/esp-idf/components/bootloader_support/src/bootloader_utility.c[0m[0m:[1;31m800[0m
+[0m--- 0x403cd221: [0;33mbootloader_utility_load_boot_image[0m[0m at [0;32m/home/diazb/esp/esp-idf/components/bootloader_support/src/bootloader_utility.c[0m[0m:[1;31m602[0m
+[0m--- 0x403c899c: [0;33mcall_start_cpu0[0m[0m at [0;32m/home/diazb/esp/esp-idf/components/bootloader/subproject/main/bootloader_start.c[0m[0m:[1;31m64[0m
+[0m--- 0x40045c01: [0;33mets_run_flash_bootloader[0m[0m in [0;32mROM[0m
+[0m--- 0x40043ab6: [0;33mmain[0m[0m in [0;32mROM[0m
+[0m--- 0x40034c45: [0;33m.stack_ok[0m[0m in [0;32mROM[0m
+[0m

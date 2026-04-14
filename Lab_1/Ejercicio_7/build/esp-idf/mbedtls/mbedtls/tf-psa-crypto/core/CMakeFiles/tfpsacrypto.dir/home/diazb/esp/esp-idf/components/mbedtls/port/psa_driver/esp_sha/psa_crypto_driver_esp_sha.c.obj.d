@@ -25,7 +25,7 @@ esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/diazb
  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/strings.h \
  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/string.h \
  /home/diazb/esp/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h \
- /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/soc_caps.h \
+ /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h \
  /home/diazb/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h \
  /home/diazb/esp/esp-idf/components/mbedtls/port/include/esp_mem.h \
  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/stdlib.h \
@@ -97,8 +97,19 @@ esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/diazb
  /home/diazb/esp/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/include/mbedtls/private/ecdsa.h \
  /home/diazb/esp/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/include/mbedtls/md.h \
  /home/diazb/esp/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/include/mbedtls/private/ecjpake.h \
+ /home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_rsa_ds_contexts.h \
+ /home/diazb/esp/esp-idf/components/esp_security/include/esp_ds.h \
+ /home/diazb/esp/esp-idf/components/esp_security/include/esp_hmac.h \
+ /home/diazb/esp/esp-idf/components/esp_common/include/esp_err.h \
+ /home/diazb/esp/esp-idf/components/esp_libc/platform_include/assert.h \
+ /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/assert.h \
+ /home/diazb/esp/esp-idf/components/esp_common/include/esp_compiler.h \
+ /home/diazb/esp/esp-idf/components/esp_hal_security/include/hal/hmac_types.h \
+ /home/diazb/esp/esp-idf/components/esp_security/include/esp_ds_err.h \
+ /home/diazb/esp/esp-idf/components/esp_rom/esp32s3/include/esp32s3/rom/digital_signature.h \
  /home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_cmac_contexts.h \
  /home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_hmac_transparent_contexts.h \
+ /home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_hmac_opaque_contexts.h \
  /home/diazb/esp/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/include/psa/crypto_driver_contexts_key_derivation.h \
  /home/diazb/esp/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/include/psa/crypto_builtin_key_derivation.h \
  /home/diazb/esp/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/include/psa/crypto_extra.h \
@@ -108,12 +119,10 @@ esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/diazb
  /home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/esp_sha/include/psa_crypto_driver_esp_sha512.h \
  /home/diazb/esp/esp-idf/components/log/include/esp_log.h \
  /home/diazb/esp/esp-idf/components/esp_rom/include/esp_rom_sys.h \
- /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/reset_reasons.h \
+ /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/reset_reasons.h \
  /home/diazb/esp/esp-idf/components/log/include/esp_log_config.h \
  /home/diazb/esp/esp-idf/components/log/include/esp_log_level.h \
  /home/diazb/esp/esp-idf/components/esp_common/include/esp_assert.h \
- /home/diazb/esp/esp-idf/components/esp_libc/platform_include/assert.h \
- /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/assert.h \
  /home/diazb/esp/esp-idf/components/log/include/esp_log_color.h \
  /home/diazb/esp/esp-idf/components/log/include/esp_log_buffer.h \
  /home/diazb/esp/esp-idf/components/log/include/esp_log_timestamp.h \
@@ -122,13 +131,16 @@ esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/diazb
  /home/diazb/esp/esp-idf/components/log/include/esp_log_args.h \
  /home/diazb/esp/esp-idf/components/esp_common/include/esp_macros.h \
  /home/diazb/esp/esp-idf/components/esp_common/include/esp_assert.h \
- /home/diazb/esp/esp-idf/components/esp_common/include/esp_compiler.h \
  /home/diazb/esp/esp-idf/components/log/include/esp_log_attr.h \
  /home/diazb/esp/esp-idf/components/esp_common/include/esp_attr.h \
  /home/diazb/esp/esp-idf/components/log/include/esp_private/log_attr.h \
  /home/diazb/esp/esp-idf/components/heap/include/esp_heap_caps.h \
  /home/diazb/esp/esp-idf/components/heap/include/multi_heap.h \
- /home/diazb/esp/esp-idf/components/esp_common/include/esp_err.h \
+ /home/diazb/esp/esp-idf/components/mbedtls/port/sha/core/include/esp_sha_internal.h \
  /home/diazb/esp/esp-idf/components/mbedtls/port/include/sha/sha_core.h \
  /home/diazb/esp/esp-idf/components/esp_hal_security/include/hal/sha_types.h \
- /home/diazb/esp/esp-idf/components/esp_rom/esp32/include/esp32/rom/sha.h
+ /home/diazb/esp/esp-idf/components/esp_rom/esp32s3/include/esp32s3/rom/sha.h \
+ /home/diazb/esp/esp-idf/components/esp_rom/esp32s3/include/esp32s3/rom/ets_sys.h \
+ /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/soc.h \
+ /home/diazb/esp/esp-idf/components/esp_common/include/esp_bit_defs.h \
+ /home/diazb/esp/esp-idf/components/soc/esp32s3/register/soc/reg_base.h

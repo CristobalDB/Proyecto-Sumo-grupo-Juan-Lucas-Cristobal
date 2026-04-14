@@ -5,20 +5,20 @@ esp-idf/esp_hal_security/CMakeFiles/__idf_esp_hal_security.dir/mpu_hal.c.obj: /h
   config/sdkconfig.h \
   /home/diazb/esp/esp-idf/components/esp_common/include/esp_compiler.h \
   /home/diazb/esp/esp-idf/components/esp_common/include/esp_err.h \
-  /home/diazb/esp/esp-idf/components/esp_hal_security/esp32/include/hal/mpu_ll.h \
+  /home/diazb/esp/esp-idf/components/esp_hal_security/esp32s3/include/hal/mpu_ll.h \
   /home/diazb/esp/esp-idf/components/esp_hal_security/include/hal/mpu_hal.h \
   /home/diazb/esp/esp-idf/components/esp_hal_security/include/hal/mpu_types.h \
   /home/diazb/esp/esp-idf/components/esp_libc/platform_include/assert.h \
   /home/diazb/esp/esp-idf/components/esp_libc/platform_include/stdio.h \
   /home/diazb/esp/esp-idf/components/esp_libc/platform_include/sys/cdefs.h \
   /home/diazb/esp/esp-idf/components/esp_libc/platform_include/sys/lock.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/soc_caps.h \
+  /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h \
   /home/diazb/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core-isa.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core-matmap.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/tie.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/xt_specreg.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/core-isa.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/core-matmap.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/core.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/tie.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/xt_specreg.h \
   /home/diazb/esp/esp-idf/components/xtensa/include/xt_instr_macros.h \
   /home/diazb/esp/esp-idf/components/xtensa/include/xtensa/corebits.h \
   /home/diazb/esp/esp-idf/components/xtensa/include/xtensa/hal.h \
@@ -62,6 +62,10 @@ esp-idf/esp_hal_security/CMakeFiles/__idf_esp_hal_security.dir/mpu_hal.c.obj: /h
 
 /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/machine/ieeefp.h:
 
+/home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/machine/_types.h:
+
+/home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/assert.h:
+
 /home/diazb/esp/esp-idf/components/esp_libc/platform_include/assert.h:
 
 /home/diazb/esp/esp-idf/components/esp_libc/platform_include/stdio.h:
@@ -78,19 +82,33 @@ esp-idf/esp_hal_security/CMakeFiles/__idf_esp_hal_security.dir/mpu_hal.c.obj: /h
 
 /home/diazb/esp/esp-idf/components/esp_libc/platform_include/sys/lock.h:
 
-/home/diazb/esp/esp-idf/components/esp_common/include/esp_err.h:
+/home/diazb/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h:
+
+/home/diazb/esp/esp-idf/components/esp_hal_security/include/hal/mpu_hal.h:
 
 /home/diazb/esp/esp-idf/components/esp_libc/platform_include/sys/cdefs.h:
 
 /home/diazb/esp/esp-idf/components/esp_hal_security/include/hal/mpu_types.h:
 
+/home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/core-matmap.h:
+
+/home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/xt_specreg.h:
+
+/home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/core.h:
+
 /home/diazb/esp/esp-idf/components/xtensa/include/xtensa/hal.h:
+
+/home/diazb/esp/esp-idf/components/esp_common/include/esp_err.h:
 
 /home/diazb/esp/esp-idf/components/esp_common/include/esp_compiler.h:
 
 /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/stdarg.h:
 
-/home/diazb/esp/esp-idf/components/soc/esp32/include/soc/soc_caps.h:
+/home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/_intsup.h:
+
+config/sdkconfig.h:
+
+/home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/core-isa.h:
 
 /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/lock.h:
 
@@ -102,33 +120,15 @@ esp-idf/esp_hal_security/CMakeFiles/__idf_esp_hal_security.dir/mpu_hal.c.obj: /h
 
 /home/diazb/esp/esp-idf/components/xtensa/include/xtensa/corebits.h:
 
-/home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core-isa.h:
-
-/home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core-matmap.h:
-
-/home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/_intsup.h:
-
-config/sdkconfig.h:
-
-/home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/xt_specreg.h:
-
-/home/diazb/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h:
-
-/home/diazb/esp/esp-idf/components/esp_hal_security/include/hal/mpu_hal.h:
-
-/home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core.h:
-
-/home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/machine/_types.h:
-
-/home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/assert.h:
-
-/home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/tie.h:
+/home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/tie.h:
 
 /home/diazb/esp/esp-idf/components/xtensa/include/xt_instr_macros.h:
 
 /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/_wait.h:
 
 /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/picolibc.h:
+
+/home/diazb/esp/esp-idf/components/esp_hal_security/esp32s3/include/hal/mpu_ll.h:
 
 /home/diazb/esp/esp-idf/components/xtensa/include/xtensa/xtruntime-frames.h:
 
@@ -138,8 +138,8 @@ config/sdkconfig.h:
 
 /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/config.h:
 
-/home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/stddef.h:
+/home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h:
 
-/home/diazb/esp/esp-idf/components/esp_hal_security/esp32/include/hal/mpu_ll.h:
+/home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/stddef.h:
 
 /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/alloca.h:

@@ -161,68 +161,6 @@ depend:
 	cd /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
-# Convenience name for target.
-esp-idf/esp_hal_emac/CMakeFiles/__idf_esp_hal_emac.dir/rule:
-	cd /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_hal_emac/CMakeFiles/__idf_esp_hal_emac.dir/rule
-.PHONY : esp-idf/esp_hal_emac/CMakeFiles/__idf_esp_hal_emac.dir/rule
-
-# Convenience name for target.
-__idf_esp_hal_emac: esp-idf/esp_hal_emac/CMakeFiles/__idf_esp_hal_emac.dir/rule
-.PHONY : __idf_esp_hal_emac
-
-# fast build rule for target.
-__idf_esp_hal_emac/fast:
-	cd /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hal_emac/CMakeFiles/__idf_esp_hal_emac.dir/build.make esp-idf/esp_hal_emac/CMakeFiles/__idf_esp_hal_emac.dir/build
-.PHONY : __idf_esp_hal_emac/fast
-
-emac_hal.obj: emac_hal.c.obj
-.PHONY : emac_hal.obj
-
-# target to build an object file
-emac_hal.c.obj:
-	cd /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hal_emac/CMakeFiles/__idf_esp_hal_emac.dir/build.make esp-idf/esp_hal_emac/CMakeFiles/__idf_esp_hal_emac.dir/emac_hal.c.obj
-.PHONY : emac_hal.c.obj
-
-emac_hal.i: emac_hal.c.i
-.PHONY : emac_hal.i
-
-# target to preprocess a source file
-emac_hal.c.i:
-	cd /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hal_emac/CMakeFiles/__idf_esp_hal_emac.dir/build.make esp-idf/esp_hal_emac/CMakeFiles/__idf_esp_hal_emac.dir/emac_hal.c.i
-.PHONY : emac_hal.c.i
-
-emac_hal.s: emac_hal.c.s
-.PHONY : emac_hal.s
-
-# target to generate assembly for a file
-emac_hal.c.s:
-	cd /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hal_emac/CMakeFiles/__idf_esp_hal_emac.dir/build.make esp-idf/esp_hal_emac/CMakeFiles/__idf_esp_hal_emac.dir/emac_hal.c.s
-.PHONY : emac_hal.c.s
-
-esp32/emac_periph.obj: esp32/emac_periph.c.obj
-.PHONY : esp32/emac_periph.obj
-
-# target to build an object file
-esp32/emac_periph.c.obj:
-	cd /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hal_emac/CMakeFiles/__idf_esp_hal_emac.dir/build.make esp-idf/esp_hal_emac/CMakeFiles/__idf_esp_hal_emac.dir/esp32/emac_periph.c.obj
-.PHONY : esp32/emac_periph.c.obj
-
-esp32/emac_periph.i: esp32/emac_periph.c.i
-.PHONY : esp32/emac_periph.i
-
-# target to preprocess a source file
-esp32/emac_periph.c.i:
-	cd /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hal_emac/CMakeFiles/__idf_esp_hal_emac.dir/build.make esp-idf/esp_hal_emac/CMakeFiles/__idf_esp_hal_emac.dir/esp32/emac_periph.c.i
-.PHONY : esp32/emac_periph.c.i
-
-esp32/emac_periph.s: esp32/emac_periph.c.s
-.PHONY : esp32/emac_periph.s
-
-# target to generate assembly for a file
-esp32/emac_periph.c.s:
-	cd /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hal_emac/CMakeFiles/__idf_esp_hal_emac.dir/build.make esp-idf/esp_hal_emac/CMakeFiles/__idf_esp_hal_emac.dir/esp32/emac_periph.c.s
-.PHONY : esp32/emac_periph.c.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -235,13 +173,6 @@ help:
 	@echo "... install/strip"
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
-	@echo "... __idf_esp_hal_emac"
-	@echo "... emac_hal.obj"
-	@echo "... emac_hal.i"
-	@echo "... emac_hal.s"
-	@echo "... esp32/emac_periph.obj"
-	@echo "... esp32/emac_periph.i"
-	@echo "... esp32/emac_periph.s"
 .PHONY : help
 
 

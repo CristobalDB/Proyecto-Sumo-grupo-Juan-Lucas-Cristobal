@@ -32,13 +32,10 @@ esp-idf/esp_common/CMakeFiles/__idf_esp_common.dir/src/esp_err_to_name.c.obj: \
  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/_wait.h \
  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/assert.h \
  /home/diazb/esp/esp-idf/components/esp_common/include/esp_compiler.h \
- /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/soc.h \
+ /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/soc.h \
  /home/diazb/esp/esp-idf/components/esp_common/include/esp_assert.h \
- /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/soc_caps.h \
- /home/diazb/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h \
- /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/interrupts.h \
  /home/diazb/esp/esp-idf/components/esp_common/include/esp_bit_defs.h \
- /home/diazb/esp/esp-idf/components/soc/esp32/register/soc/reg_base.h \
+ /home/diazb/esp/esp-idf/components/soc/esp32s3/register/soc/reg_base.h \
  /home/diazb/esp/esp-idf/components/wpa_supplicant/esp_supplicant/include/esp_dpp.h \
  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/stdbool.h \
  /home/diazb/esp/esp-idf/components/esp_wifi/include/esp_wifi_types.h \
@@ -51,7 +48,9 @@ esp-idf/esp_common/CMakeFiles/__idf_esp_common.dir/src/esp_err_to_name.c.obj: \
  /home/diazb/esp/esp-idf/components/log/include/esp_log.h \
  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/inttypes.h \
  /home/diazb/esp/esp-idf/components/esp_rom/include/esp_rom_sys.h \
- /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/reset_reasons.h \
+ /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/reset_reasons.h \
+ /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h \
+ /home/diazb/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h \
  /home/diazb/esp/esp-idf/components/log/include/esp_log_config.h \
  /home/diazb/esp/esp-idf/components/log/include/esp_log_level.h \
  /home/diazb/esp/esp-idf/components/log/include/esp_log_color.h \
@@ -65,20 +64,19 @@ esp-idf/esp_common/CMakeFiles/__idf_esp_common.dir/src/esp_err_to_name.c.obj: \
  /home/diazb/esp/esp-idf/components/log/include/esp_log_attr.h \
  /home/diazb/esp/esp-idf/components/esp_common/include/esp_attr.h \
  /home/diazb/esp/esp-idf/components/log/include/esp_private/log_attr.h \
- /home/diazb/esp/esp-idf/components/efuse/esp32/include/esp_efuse_chip.h \
- /home/diazb/esp/esp-idf/components/esp_common/include/esp_types.h \
+ /home/diazb/esp/esp-idf/components/efuse/esp32s3/include/esp_efuse_chip.h \
  /home/diazb/esp/esp-idf/components/esp_http_client/include/esp_http_client.h \
  /home/diazb/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/FreeRTOS.h \
  /home/diazb/esp/esp-idf/components/freertos/config/include/freertos/FreeRTOSConfig.h \
  /home/diazb/esp/esp-idf/components/freertos/config/xtensa/include/freertos/FreeRTOSConfig_arch.h \
  /home/diazb/esp/esp-idf/components/xtensa/include/xtensa_config.h \
  /home/diazb/esp/esp-idf/components/xtensa/include/xtensa/hal.h \
- /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core.h \
+ /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/core.h \
  /home/diazb/esp/esp-idf/components/xtensa/include/xtensa/xtensa-versions.h \
- /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core-isa.h \
- /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core-matmap.h \
- /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/tie.h \
- /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/system.h \
+ /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/core-isa.h \
+ /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/core-matmap.h \
+ /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/tie.h \
+ /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/system.h \
  /home/diazb/esp/esp-idf/components/xtensa/include/xtensa_context.h \
  /home/diazb/esp/esp-idf/components/xtensa/include/xtensa/corebits.h \
  /home/diazb/esp/esp-idf/components/xtensa/include/xtensa/xtruntime-frames.h \
@@ -88,7 +86,7 @@ esp-idf/esp_common/CMakeFiles/__idf_esp_common.dir/src/esp_err_to_name.c.obj: \
  /home/diazb/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/deprecated_definitions.h \
  /home/diazb/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/portmacro.h \
  /home/diazb/esp/esp-idf/components/xtensa/include/xtensa/xtruntime.h \
- /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/xt_specreg.h \
+ /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/xt_specreg.h \
  /home/diazb/esp/esp-idf/components/xtensa/include/xtensa/xtruntime-core-state.h \
  /home/diazb/esp/esp-idf/components/xtensa/include/xt_instr_macros.h \
  /home/diazb/esp/esp-idf/components/xtensa/include/xtensa/xtruntime.h \
@@ -96,7 +94,7 @@ esp-idf/esp_common/CMakeFiles/__idf_esp_common.dir/src/esp_err_to_name.c.obj: \
  /home/diazb/esp/esp-idf/components/esp_hw_support/include/esp_cpu.h \
  /home/diazb/esp/esp-idf/components/xtensa/include/xtensa_api.h \
  /home/diazb/esp/esp-idf/components/xtensa/include/xt_utils.h \
- /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/extreg.h \
+ /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/extreg.h \
  /home/diazb/esp/esp-idf/components/esp_hw_support/include/esp_intr_alloc.h \
  /home/diazb/esp/esp-idf/components/esp_hw_support/include/esp_intr_types.h \
  /home/diazb/esp/esp-idf/components/esp_system/include/esp_private/crosscore_int.h \
@@ -190,6 +188,7 @@ esp-idf/esp_common/CMakeFiles/__idf_esp_common.dir/src/esp_err_to_name.c.obj: \
  /home/diazb/esp/esp-idf/components/esp_https_ota/include/esp_https_ota.h \
  /home/diazb/esp/esp-idf/components/bootloader_support/include/bootloader_common.h \
  /home/diazb/esp/esp-idf/components/bootloader_support/include/esp_flash_partitions.h \
+ /home/diazb/esp/esp-idf/components/esp_common/include/esp_types.h \
  /home/diazb/esp/esp-idf/components/bootloader_support/include/esp_image_format.h \
  /home/diazb/esp/esp-idf/components/bootloader_support/include/esp_app_format.h \
  /home/diazb/esp/esp-idf/components/esp_app_format/include/esp_app_desc.h \
@@ -275,8 +274,14 @@ esp-idf/esp_common/CMakeFiles/__idf_esp_common.dir/src/esp_err_to_name.c.obj: \
  /home/diazb/esp/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/include/mbedtls/private/ecdh.h \
  /home/diazb/esp/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/include/mbedtls/private/ecdsa.h \
  /home/diazb/esp/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/include/mbedtls/private/ecjpake.h \
+ /home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_rsa_ds_contexts.h \
+ /home/diazb/esp/esp-idf/components/esp_security/include/esp_ds.h \
+ /home/diazb/esp/esp-idf/components/esp_security/include/esp_hmac.h \
+ /home/diazb/esp/esp-idf/components/esp_hal_security/include/hal/hmac_types.h \
+ /home/diazb/esp/esp-idf/components/esp_rom/esp32s3/include/esp32s3/rom/digital_signature.h \
  /home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_cmac_contexts.h \
  /home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_hmac_transparent_contexts.h \
+ /home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_hmac_opaque_contexts.h \
  /home/diazb/esp/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/include/psa/crypto_driver_contexts_key_derivation.h \
  /home/diazb/esp/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/include/psa/crypto_builtin_key_derivation.h \
  /home/diazb/esp/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/include/psa/crypto_extra.h \

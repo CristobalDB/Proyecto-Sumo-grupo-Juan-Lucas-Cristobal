@@ -83,14 +83,13 @@ esp-idf/esp32-camera/CMakeFiles/__idf_esp32-camera.dir/conversions/to_bmp.c.obj:
   /home/diazb/esp/esp-idf/components/log/include/esp_log_timestamp.h \
   /home/diazb/esp/esp-idf/components/log/include/esp_log_write.h \
   /home/diazb/esp/esp-idf/components/log/include/esp_private/log_attr.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/clk_tree_defs.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/efuse_defs.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/interrupts.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/reset_reasons.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/soc.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/soc_caps.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/register/soc/efuse_reg.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/register/soc/reg_base.h \
+  /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/clk_tree_defs.h \
+  /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/efuse_defs.h \
+  /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/reset_reasons.h \
+  /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/soc.h \
+  /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h \
+  /home/diazb/esp/esp-idf/components/soc/esp32s3/register/soc/efuse_reg.h \
+  /home/diazb/esp/esp-idf/components/soc/esp32s3/register/soc/reg_base.h \
   /home/diazb/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h \
   /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/float.h \
   /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/stdarg.h \
@@ -170,14 +169,13 @@ esp-idf/esp32-camera/CMakeFiles/__idf_esp32-camera.dir/conversions/to_jpg.cpp.ob
   /home/diazb/esp/esp-idf/components/log/include/esp_log_timestamp.h \
   /home/diazb/esp/esp-idf/components/log/include/esp_log_write.h \
   /home/diazb/esp/esp-idf/components/log/include/esp_private/log_attr.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/clk_tree_defs.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/efuse_defs.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/interrupts.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/reset_reasons.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/soc.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/soc_caps.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/register/soc/efuse_reg.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/register/soc/reg_base.h \
+  /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/clk_tree_defs.h \
+  /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/efuse_defs.h \
+  /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/reset_reasons.h \
+  /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/soc.h \
+  /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h \
+  /home/diazb/esp/esp-idf/components/soc/esp32s3/register/soc/efuse_reg.h \
+  /home/diazb/esp/esp-idf/components/soc/esp32s3/register/soc/reg_base.h \
   /home/diazb/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h \
   /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/float.h \
   /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/stdarg.h \
@@ -261,6 +259,7 @@ esp-idf/esp32-camera/CMakeFiles/__idf_esp32-camera.dir/driver/cam_hal.c.obj: /ho
   /home/diazb/esp/esp-idf/components/esp_driver_dma/include/esp_private/gdma.h \
   /home/diazb/esp/esp-idf/components/esp_driver_ledc/include/driver/ledc.h \
   /home/diazb/esp/esp-idf/components/esp_driver_ledc/include/driver/ledc_etm.h \
+  /home/diazb/esp/esp-idf/components/esp_hal_dma/esp32s3/include/hal/gdma_channel.h \
   /home/diazb/esp/esp-idf/components/esp_hal_dma/include/hal/gdma_types.h \
   /home/diazb/esp/esp-idf/components/esp_hal_ledc/include/hal/ledc_types.h \
   /home/diazb/esp/esp-idf/components/esp_hw_support/etm/include/esp_etm.h \
@@ -278,8 +277,9 @@ esp-idf/esp32-camera/CMakeFiles/__idf_esp32-camera.dir/driver/cam_hal.c.obj: /ho
   /home/diazb/esp/esp-idf/components/esp_libc/platform_include/sys/reent.h \
   /home/diazb/esp/esp-idf/components/esp_libc/platform_include/sys/time.h \
   /home/diazb/esp/esp-idf/components/esp_mm/include/esp_cache.h \
-  /home/diazb/esp/esp-idf/components/esp_rom/esp32/include/esp32/rom/ets_sys.h \
-  /home/diazb/esp/esp-idf/components/esp_rom/esp32/include/esp32/rom/lldesc.h \
+  /home/diazb/esp/esp-idf/components/esp_rom/esp32s3/include/esp32s3/rom/cache.h \
+  /home/diazb/esp/esp-idf/components/esp_rom/esp32s3/include/esp32s3/rom/ets_sys.h \
+  /home/diazb/esp/esp-idf/components/esp_rom/esp32s3/include/esp32s3/rom/lldesc.h \
   /home/diazb/esp/esp-idf/components/esp_rom/include/esp_rom_lldesc.h \
   /home/diazb/esp/esp-idf/components/esp_rom/include/esp_rom_sys.h \
   /home/diazb/esp/esp-idf/components/esp_system/include/esp_private/crosscore_int.h \
@@ -303,7 +303,7 @@ esp-idf/esp32-camera/CMakeFiles/__idf_esp32-camera.dir/driver/cam_hal.c.obj: /ho
   /home/diazb/esp/esp-idf/components/freertos/config/include/freertos/FreeRTOSConfig.h \
   /home/diazb/esp/esp-idf/components/freertos/config/xtensa/include/freertos/FreeRTOSConfig_arch.h \
   /home/diazb/esp/esp-idf/components/freertos/esp_additions/include/freertos/idf_additions.h \
-  /home/diazb/esp/esp-idf/components/hal/esp32/include/hal/cache_ll.h \
+  /home/diazb/esp/esp-idf/components/hal/esp32s3/include/hal/cache_ll.h \
   /home/diazb/esp/esp-idf/components/hal/include/hal/cache_hal.h \
   /home/diazb/esp/esp-idf/components/hal/include/hal/cache_types.h \
   /home/diazb/esp/esp-idf/components/hal/platform_port/include/hal/assert.h \
@@ -320,24 +320,23 @@ esp-idf/esp32-camera/CMakeFiles/__idf_esp32-camera.dir/driver/cam_hal.c.obj: /ho
   /home/diazb/esp/esp-idf/components/log/include/esp_log_timestamp.h \
   /home/diazb/esp/esp-idf/components/log/include/esp_log_write.h \
   /home/diazb/esp/esp-idf/components/log/include/esp_private/log_attr.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/clk_tree_defs.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/dport_access.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/ext_mem_defs.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/interrupts.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/periph_defs.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/reset_reasons.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/soc.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/soc_caps.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/register/soc/dport_reg.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/register/soc/reg_base.h \
+  /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/clk_tree_defs.h \
+  /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/ext_mem_defs.h \
+  /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/interrupts.h \
+  /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/periph_defs.h \
+  /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/reset_reasons.h \
+  /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/soc.h \
+  /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h \
+  /home/diazb/esp/esp-idf/components/soc/esp32s3/register/soc/extmem_reg.h \
+  /home/diazb/esp/esp-idf/components/soc/esp32s3/register/soc/reg_base.h \
   /home/diazb/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core-isa.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core-matmap.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/extreg.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/system.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/tie.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/xt_specreg.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/core-isa.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/core-matmap.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/core.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/extreg.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/system.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/tie.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/xt_specreg.h \
   /home/diazb/esp/esp-idf/components/xtensa/include/xt_instr_macros.h \
   /home/diazb/esp/esp-idf/components/xtensa/include/xt_utils.h \
   /home/diazb/esp/esp-idf/components/xtensa/include/xtensa/corebits.h \
@@ -429,7 +428,7 @@ esp-idf/esp32-camera/CMakeFiles/__idf_esp32-camera.dir/driver/esp_camera.c.obj: 
   /home/diazb/esp/esp-idf/components/esp_driver_gpio/include/driver/gpio_etm.h \
   /home/diazb/esp/esp-idf/components/esp_driver_ledc/include/driver/ledc.h \
   /home/diazb/esp/esp-idf/components/esp_driver_ledc/include/driver/ledc_etm.h \
-  /home/diazb/esp/esp-idf/components/esp_hal_gpio/esp32/include/soc/gpio_num.h \
+  /home/diazb/esp/esp-idf/components/esp_hal_gpio/esp32s3/include/soc/gpio_num.h \
   /home/diazb/esp/esp-idf/components/esp_hal_gpio/include/hal/gpio_types.h \
   /home/diazb/esp/esp-idf/components/esp_hal_ledc/include/hal/ledc_types.h \
   /home/diazb/esp/esp-idf/components/esp_hw_support/etm/include/esp_etm.h \
@@ -484,21 +483,20 @@ esp-idf/esp32-camera/CMakeFiles/__idf_esp32-camera.dir/driver/esp_camera.c.obj: 
   /home/diazb/esp/esp-idf/components/log/include/esp_private/log_attr.h \
   /home/diazb/esp/esp-idf/components/nvs_flash/include/nvs.h \
   /home/diazb/esp/esp-idf/components/nvs_flash/include/nvs_flash.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/clk_tree_defs.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/gpio_pins.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/interrupts.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/reset_reasons.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/soc.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/soc_caps.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/register/soc/reg_base.h \
+  /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/clk_tree_defs.h \
+  /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/gpio_pins.h \
+  /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/reset_reasons.h \
+  /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/soc.h \
+  /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h \
+  /home/diazb/esp/esp-idf/components/soc/esp32s3/register/soc/reg_base.h \
   /home/diazb/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core-isa.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core-matmap.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/extreg.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/system.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/tie.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/xt_specreg.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/core-isa.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/core-matmap.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/core.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/extreg.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/system.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/tie.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/xt_specreg.h \
   /home/diazb/esp/esp-idf/components/xtensa/include/xt_instr_macros.h \
   /home/diazb/esp/esp-idf/components/xtensa/include/xt_utils.h \
   /home/diazb/esp/esp-idf/components/xtensa/include/xtensa/corebits.h \
@@ -600,19 +598,18 @@ esp-idf/esp32-camera/CMakeFiles/__idf_esp32-camera.dir/driver/esp_camera_af.c.ob
   /home/diazb/esp/esp-idf/components/freertos/esp_additions/include/freertos/idf_additions.h \
   /home/diazb/esp/esp-idf/components/heap/include/esp_heap_caps.h \
   /home/diazb/esp/esp-idf/components/heap/include/multi_heap.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/interrupts.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/reset_reasons.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/soc.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/soc_caps.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/register/soc/reg_base.h \
+  /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/reset_reasons.h \
+  /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/soc.h \
+  /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h \
+  /home/diazb/esp/esp-idf/components/soc/esp32s3/register/soc/reg_base.h \
   /home/diazb/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core-isa.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core-matmap.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/extreg.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/system.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/tie.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/xt_specreg.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/core-isa.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/core-matmap.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/core.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/extreg.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/system.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/tie.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/xt_specreg.h \
   /home/diazb/esp/esp-idf/components/xtensa/include/xt_instr_macros.h \
   /home/diazb/esp/esp-idf/components/xtensa/include/xt_utils.h \
   /home/diazb/esp/esp-idf/components/xtensa/include/xtensa/corebits.h \
@@ -668,7 +665,7 @@ esp-idf/esp32-camera/CMakeFiles/__idf_esp32-camera.dir/driver/sccb-ng.c.obj: /ho
   /home/diazb/esp/esp-idf/components/esp_common/include/esp_macros.h \
   /home/diazb/esp/esp-idf/components/esp_driver_i2c/include/driver/i2c_master.h \
   /home/diazb/esp/esp-idf/components/esp_driver_i2c/include/driver/i2c_types.h \
-  /home/diazb/esp/esp-idf/components/esp_hal_gpio/esp32/include/soc/gpio_num.h \
+  /home/diazb/esp/esp-idf/components/esp_hal_gpio/esp32s3/include/soc/gpio_num.h \
   /home/diazb/esp/esp-idf/components/esp_hal_gpio/include/hal/gpio_types.h \
   /home/diazb/esp/esp-idf/components/esp_hal_i2c/include/hal/i2c_types.h \
   /home/diazb/esp/esp-idf/components/esp_hw_support/include/esp_cpu.h \
@@ -717,20 +714,19 @@ esp-idf/esp32-camera/CMakeFiles/__idf_esp32-camera.dir/driver/sccb-ng.c.obj: /ho
   /home/diazb/esp/esp-idf/components/log/include/esp_log_timestamp.h \
   /home/diazb/esp/esp-idf/components/log/include/esp_log_write.h \
   /home/diazb/esp/esp-idf/components/log/include/esp_private/log_attr.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/clk_tree_defs.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/interrupts.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/reset_reasons.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/soc.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/soc_caps.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/register/soc/reg_base.h \
+  /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/clk_tree_defs.h \
+  /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/reset_reasons.h \
+  /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/soc.h \
+  /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h \
+  /home/diazb/esp/esp-idf/components/soc/esp32s3/register/soc/reg_base.h \
   /home/diazb/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core-isa.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core-matmap.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/extreg.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/system.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/tie.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/xt_specreg.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/core-isa.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/core-matmap.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/core.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/extreg.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/system.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/tie.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/xt_specreg.h \
   /home/diazb/esp/esp-idf/components/xtensa/include/xt_instr_macros.h \
   /home/diazb/esp/esp-idf/components/xtensa/include/xt_utils.h \
   /home/diazb/esp/esp-idf/components/xtensa/include/xtensa/corebits.h \
@@ -856,19 +852,18 @@ esp-idf/esp32-camera/CMakeFiles/__idf_esp32-camera.dir/sensors/bf20a6.c.obj: /ho
   /home/diazb/esp/esp-idf/components/log/include/esp_log_timestamp.h \
   /home/diazb/esp/esp-idf/components/log/include/esp_log_write.h \
   /home/diazb/esp/esp-idf/components/log/include/esp_private/log_attr.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/interrupts.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/reset_reasons.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/soc.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/soc_caps.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/register/soc/reg_base.h \
+  /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/reset_reasons.h \
+  /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/soc.h \
+  /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h \
+  /home/diazb/esp/esp-idf/components/soc/esp32s3/register/soc/reg_base.h \
   /home/diazb/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core-isa.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core-matmap.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/extreg.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/system.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/tie.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/xt_specreg.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/core-isa.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/core-matmap.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/core.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/extreg.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/system.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/tie.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/xt_specreg.h \
   /home/diazb/esp/esp-idf/components/xtensa/include/xt_instr_macros.h \
   /home/diazb/esp/esp-idf/components/xtensa/include/xt_utils.h \
   /home/diazb/esp/esp-idf/components/xtensa/include/xtensa/corebits.h \
@@ -978,20 +973,19 @@ esp-idf/esp32-camera/CMakeFiles/__idf_esp32-camera.dir/sensors/bf3005.c.obj: /ho
   /home/diazb/esp/esp-idf/components/log/include/esp_log_timestamp.h \
   /home/diazb/esp/esp-idf/components/log/include/esp_log_write.h \
   /home/diazb/esp/esp-idf/components/log/include/esp_private/log_attr.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/clk_tree_defs.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/interrupts.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/reset_reasons.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/soc.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/soc_caps.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/register/soc/reg_base.h \
+  /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/clk_tree_defs.h \
+  /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/reset_reasons.h \
+  /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/soc.h \
+  /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h \
+  /home/diazb/esp/esp-idf/components/soc/esp32s3/register/soc/reg_base.h \
   /home/diazb/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core-isa.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core-matmap.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/extreg.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/system.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/tie.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/xt_specreg.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/core-isa.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/core-matmap.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/core.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/extreg.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/system.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/tie.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/xt_specreg.h \
   /home/diazb/esp/esp-idf/components/xtensa/include/xt_instr_macros.h \
   /home/diazb/esp/esp-idf/components/xtensa/include/xt_utils.h \
   /home/diazb/esp/esp-idf/components/xtensa/include/xtensa/corebits.h \
@@ -1104,19 +1098,18 @@ esp-idf/esp32-camera/CMakeFiles/__idf_esp32-camera.dir/sensors/gc0308.c.obj: /ho
   /home/diazb/esp/esp-idf/components/log/include/esp_log_timestamp.h \
   /home/diazb/esp/esp-idf/components/log/include/esp_log_write.h \
   /home/diazb/esp/esp-idf/components/log/include/esp_private/log_attr.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/interrupts.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/reset_reasons.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/soc.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/soc_caps.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/register/soc/reg_base.h \
+  /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/reset_reasons.h \
+  /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/soc.h \
+  /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h \
+  /home/diazb/esp/esp-idf/components/soc/esp32s3/register/soc/reg_base.h \
   /home/diazb/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core-isa.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core-matmap.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/extreg.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/system.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/tie.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/xt_specreg.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/core-isa.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/core-matmap.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/core.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/extreg.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/system.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/tie.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/xt_specreg.h \
   /home/diazb/esp/esp-idf/components/xtensa/include/xt_instr_macros.h \
   /home/diazb/esp/esp-idf/components/xtensa/include/xt_utils.h \
   /home/diazb/esp/esp-idf/components/xtensa/include/xtensa/corebits.h \
@@ -1218,19 +1211,18 @@ esp-idf/esp32-camera/CMakeFiles/__idf_esp32-camera.dir/sensors/gc032a.c.obj: /ho
   /home/diazb/esp/esp-idf/components/log/include/esp_log_timestamp.h \
   /home/diazb/esp/esp-idf/components/log/include/esp_log_write.h \
   /home/diazb/esp/esp-idf/components/log/include/esp_private/log_attr.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/interrupts.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/reset_reasons.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/soc.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/soc_caps.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/register/soc/reg_base.h \
+  /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/reset_reasons.h \
+  /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/soc.h \
+  /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h \
+  /home/diazb/esp/esp-idf/components/soc/esp32s3/register/soc/reg_base.h \
   /home/diazb/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core-isa.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core-matmap.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/extreg.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/system.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/tie.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/xt_specreg.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/core-isa.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/core-matmap.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/core.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/extreg.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/system.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/tie.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/xt_specreg.h \
   /home/diazb/esp/esp-idf/components/xtensa/include/xt_instr_macros.h \
   /home/diazb/esp/esp-idf/components/xtensa/include/xt_utils.h \
   /home/diazb/esp/esp-idf/components/xtensa/include/xtensa/corebits.h \
@@ -1332,19 +1324,18 @@ esp-idf/esp32-camera/CMakeFiles/__idf_esp32-camera.dir/sensors/gc2145.c.obj: /ho
   /home/diazb/esp/esp-idf/components/log/include/esp_log_timestamp.h \
   /home/diazb/esp/esp-idf/components/log/include/esp_log_write.h \
   /home/diazb/esp/esp-idf/components/log/include/esp_private/log_attr.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/interrupts.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/reset_reasons.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/soc.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/soc_caps.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/register/soc/reg_base.h \
+  /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/reset_reasons.h \
+  /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/soc.h \
+  /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h \
+  /home/diazb/esp/esp-idf/components/soc/esp32s3/register/soc/reg_base.h \
   /home/diazb/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core-isa.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core-matmap.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/extreg.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/system.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/tie.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/xt_specreg.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/core-isa.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/core-matmap.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/core.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/extreg.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/system.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/tie.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/xt_specreg.h \
   /home/diazb/esp/esp-idf/components/xtensa/include/xt_instr_macros.h \
   /home/diazb/esp/esp-idf/components/xtensa/include/xt_utils.h \
   /home/diazb/esp/esp-idf/components/xtensa/include/xtensa/corebits.h \
@@ -1456,20 +1447,19 @@ esp-idf/esp32-camera/CMakeFiles/__idf_esp32-camera.dir/sensors/hm0360.c.obj: /ho
   /home/diazb/esp/esp-idf/components/log/include/esp_log_timestamp.h \
   /home/diazb/esp/esp-idf/components/log/include/esp_log_write.h \
   /home/diazb/esp/esp-idf/components/log/include/esp_private/log_attr.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/clk_tree_defs.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/interrupts.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/reset_reasons.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/soc.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/soc_caps.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/register/soc/reg_base.h \
+  /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/clk_tree_defs.h \
+  /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/reset_reasons.h \
+  /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/soc.h \
+  /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h \
+  /home/diazb/esp/esp-idf/components/soc/esp32s3/register/soc/reg_base.h \
   /home/diazb/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core-isa.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core-matmap.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/extreg.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/system.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/tie.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/xt_specreg.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/core-isa.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/core-matmap.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/core.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/extreg.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/system.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/tie.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/xt_specreg.h \
   /home/diazb/esp/esp-idf/components/xtensa/include/xt_instr_macros.h \
   /home/diazb/esp/esp-idf/components/xtensa/include/xt_utils.h \
   /home/diazb/esp/esp-idf/components/xtensa/include/xtensa/corebits.h \
@@ -1593,20 +1583,19 @@ esp-idf/esp32-camera/CMakeFiles/__idf_esp32-camera.dir/sensors/hm1055.c.obj: /ho
   /home/diazb/esp/esp-idf/components/log/include/esp_log_timestamp.h \
   /home/diazb/esp/esp-idf/components/log/include/esp_log_write.h \
   /home/diazb/esp/esp-idf/components/log/include/esp_private/log_attr.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/clk_tree_defs.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/interrupts.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/reset_reasons.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/soc.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/soc_caps.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/register/soc/reg_base.h \
+  /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/clk_tree_defs.h \
+  /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/reset_reasons.h \
+  /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/soc.h \
+  /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h \
+  /home/diazb/esp/esp-idf/components/soc/esp32s3/register/soc/reg_base.h \
   /home/diazb/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core-isa.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core-matmap.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/extreg.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/system.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/tie.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/xt_specreg.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/core-isa.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/core-matmap.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/core.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/extreg.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/system.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/tie.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/xt_specreg.h \
   /home/diazb/esp/esp-idf/components/xtensa/include/xt_instr_macros.h \
   /home/diazb/esp/esp-idf/components/xtensa/include/xt_utils.h \
   /home/diazb/esp/esp-idf/components/xtensa/include/xtensa/corebits.h \
@@ -1719,19 +1708,18 @@ esp-idf/esp32-camera/CMakeFiles/__idf_esp32-camera.dir/sensors/mega_ccm.c.obj: /
   /home/diazb/esp/esp-idf/components/log/include/esp_log_timestamp.h \
   /home/diazb/esp/esp-idf/components/log/include/esp_log_write.h \
   /home/diazb/esp/esp-idf/components/log/include/esp_private/log_attr.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/interrupts.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/reset_reasons.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/soc.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/soc_caps.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/register/soc/reg_base.h \
+  /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/reset_reasons.h \
+  /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/soc.h \
+  /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h \
+  /home/diazb/esp/esp-idf/components/soc/esp32s3/register/soc/reg_base.h \
   /home/diazb/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core-isa.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core-matmap.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/extreg.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/system.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/tie.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/xt_specreg.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/core-isa.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/core-matmap.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/core.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/extreg.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/system.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/tie.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/xt_specreg.h \
   /home/diazb/esp/esp-idf/components/xtensa/include/xt_instr_macros.h \
   /home/diazb/esp/esp-idf/components/xtensa/include/xt_utils.h \
   /home/diazb/esp/esp-idf/components/xtensa/include/xtensa/corebits.h \
@@ -1842,20 +1830,19 @@ esp-idf/esp32-camera/CMakeFiles/__idf_esp32-camera.dir/sensors/nt99141.c.obj: /h
   /home/diazb/esp/esp-idf/components/log/include/esp_log_timestamp.h \
   /home/diazb/esp/esp-idf/components/log/include/esp_log_write.h \
   /home/diazb/esp/esp-idf/components/log/include/esp_private/log_attr.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/clk_tree_defs.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/interrupts.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/reset_reasons.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/soc.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/soc_caps.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/register/soc/reg_base.h \
+  /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/clk_tree_defs.h \
+  /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/reset_reasons.h \
+  /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/soc.h \
+  /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h \
+  /home/diazb/esp/esp-idf/components/soc/esp32s3/register/soc/reg_base.h \
   /home/diazb/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core-isa.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core-matmap.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/extreg.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/system.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/tie.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/xt_specreg.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/core-isa.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/core-matmap.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/core.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/extreg.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/system.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/tie.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/xt_specreg.h \
   /home/diazb/esp/esp-idf/components/xtensa/include/xt_instr_macros.h \
   /home/diazb/esp/esp-idf/components/xtensa/include/xt_utils.h \
   /home/diazb/esp/esp-idf/components/xtensa/include/xtensa/corebits.h \
@@ -1977,20 +1964,19 @@ esp-idf/esp32-camera/CMakeFiles/__idf_esp32-camera.dir/sensors/ov2640.c.obj: /ho
   /home/diazb/esp/esp-idf/components/log/include/esp_log_timestamp.h \
   /home/diazb/esp/esp-idf/components/log/include/esp_log_write.h \
   /home/diazb/esp/esp-idf/components/log/include/esp_private/log_attr.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/clk_tree_defs.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/interrupts.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/reset_reasons.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/soc.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/soc_caps.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/register/soc/reg_base.h \
+  /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/clk_tree_defs.h \
+  /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/reset_reasons.h \
+  /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/soc.h \
+  /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h \
+  /home/diazb/esp/esp-idf/components/soc/esp32s3/register/soc/reg_base.h \
   /home/diazb/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core-isa.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core-matmap.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/extreg.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/system.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/tie.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/xt_specreg.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/core-isa.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/core-matmap.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/core.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/extreg.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/system.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/tie.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/xt_specreg.h \
   /home/diazb/esp/esp-idf/components/xtensa/include/xt_instr_macros.h \
   /home/diazb/esp/esp-idf/components/xtensa/include/xt_utils.h \
   /home/diazb/esp/esp-idf/components/xtensa/include/xtensa/corebits.h \
@@ -2112,20 +2098,19 @@ esp-idf/esp32-camera/CMakeFiles/__idf_esp32-camera.dir/sensors/ov3660.c.obj: /ho
   /home/diazb/esp/esp-idf/components/log/include/esp_log_timestamp.h \
   /home/diazb/esp/esp-idf/components/log/include/esp_log_write.h \
   /home/diazb/esp/esp-idf/components/log/include/esp_private/log_attr.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/clk_tree_defs.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/interrupts.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/reset_reasons.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/soc.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/soc_caps.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/register/soc/reg_base.h \
+  /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/clk_tree_defs.h \
+  /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/reset_reasons.h \
+  /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/soc.h \
+  /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h \
+  /home/diazb/esp/esp-idf/components/soc/esp32s3/register/soc/reg_base.h \
   /home/diazb/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core-isa.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core-matmap.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/extreg.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/system.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/tie.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/xt_specreg.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/core-isa.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/core-matmap.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/core.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/extreg.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/system.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/tie.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/xt_specreg.h \
   /home/diazb/esp/esp-idf/components/xtensa/include/xt_instr_macros.h \
   /home/diazb/esp/esp-idf/components/xtensa/include/xt_utils.h \
   /home/diazb/esp/esp-idf/components/xtensa/include/xtensa/corebits.h \
@@ -2247,20 +2232,19 @@ esp-idf/esp32-camera/CMakeFiles/__idf_esp32-camera.dir/sensors/ov5640.c.obj: /ho
   /home/diazb/esp/esp-idf/components/log/include/esp_log_timestamp.h \
   /home/diazb/esp/esp-idf/components/log/include/esp_log_write.h \
   /home/diazb/esp/esp-idf/components/log/include/esp_private/log_attr.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/clk_tree_defs.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/interrupts.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/reset_reasons.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/soc.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/soc_caps.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/register/soc/reg_base.h \
+  /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/clk_tree_defs.h \
+  /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/reset_reasons.h \
+  /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/soc.h \
+  /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h \
+  /home/diazb/esp/esp-idf/components/soc/esp32s3/register/soc/reg_base.h \
   /home/diazb/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core-isa.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core-matmap.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/extreg.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/system.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/tie.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/xt_specreg.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/core-isa.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/core-matmap.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/core.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/extreg.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/system.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/tie.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/xt_specreg.h \
   /home/diazb/esp/esp-idf/components/xtensa/include/xt_instr_macros.h \
   /home/diazb/esp/esp-idf/components/xtensa/include/xt_utils.h \
   /home/diazb/esp/esp-idf/components/xtensa/include/xtensa/corebits.h \
@@ -2375,19 +2359,18 @@ esp-idf/esp32-camera/CMakeFiles/__idf_esp32-camera.dir/sensors/ov7670.c.obj: /ho
   /home/diazb/esp/esp-idf/components/log/include/esp_log_timestamp.h \
   /home/diazb/esp/esp-idf/components/log/include/esp_log_write.h \
   /home/diazb/esp/esp-idf/components/log/include/esp_private/log_attr.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/interrupts.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/reset_reasons.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/soc.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/soc_caps.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/register/soc/reg_base.h \
+  /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/reset_reasons.h \
+  /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/soc.h \
+  /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h \
+  /home/diazb/esp/esp-idf/components/soc/esp32s3/register/soc/reg_base.h \
   /home/diazb/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core-isa.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core-matmap.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/extreg.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/system.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/tie.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/xt_specreg.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/core-isa.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/core-matmap.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/core.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/extreg.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/system.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/tie.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/xt_specreg.h \
   /home/diazb/esp/esp-idf/components/xtensa/include/xt_instr_macros.h \
   /home/diazb/esp/esp-idf/components/xtensa/include/xt_utils.h \
   /home/diazb/esp/esp-idf/components/xtensa/include/xtensa/corebits.h \
@@ -2497,20 +2480,19 @@ esp-idf/esp32-camera/CMakeFiles/__idf_esp32-camera.dir/sensors/ov7725.c.obj: /ho
   /home/diazb/esp/esp-idf/components/log/include/esp_log_timestamp.h \
   /home/diazb/esp/esp-idf/components/log/include/esp_log_write.h \
   /home/diazb/esp/esp-idf/components/log/include/esp_private/log_attr.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/clk_tree_defs.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/interrupts.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/reset_reasons.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/soc.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/soc_caps.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/register/soc/reg_base.h \
+  /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/clk_tree_defs.h \
+  /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/reset_reasons.h \
+  /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/soc.h \
+  /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h \
+  /home/diazb/esp/esp-idf/components/soc/esp32s3/register/soc/reg_base.h \
   /home/diazb/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core-isa.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core-matmap.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/extreg.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/system.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/tie.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/xt_specreg.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/core-isa.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/core-matmap.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/core.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/extreg.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/system.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/tie.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/xt_specreg.h \
   /home/diazb/esp/esp-idf/components/xtensa/include/xt_instr_macros.h \
   /home/diazb/esp/esp-idf/components/xtensa/include/xt_utils.h \
   /home/diazb/esp/esp-idf/components/xtensa/include/xtensa/corebits.h \
@@ -2631,20 +2613,19 @@ esp-idf/esp32-camera/CMakeFiles/__idf_esp32-camera.dir/sensors/sc030iot.c.obj: /
   /home/diazb/esp/esp-idf/components/log/include/esp_log_timestamp.h \
   /home/diazb/esp/esp-idf/components/log/include/esp_log_write.h \
   /home/diazb/esp/esp-idf/components/log/include/esp_private/log_attr.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/clk_tree_defs.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/interrupts.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/reset_reasons.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/soc.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/soc_caps.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/register/soc/reg_base.h \
+  /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/clk_tree_defs.h \
+  /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/reset_reasons.h \
+  /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/soc.h \
+  /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h \
+  /home/diazb/esp/esp-idf/components/soc/esp32s3/register/soc/reg_base.h \
   /home/diazb/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core-isa.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core-matmap.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/extreg.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/system.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/tie.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/xt_specreg.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/core-isa.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/core-matmap.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/core.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/extreg.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/system.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/tie.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/xt_specreg.h \
   /home/diazb/esp/esp-idf/components/xtensa/include/xt_instr_macros.h \
   /home/diazb/esp/esp-idf/components/xtensa/include/xt_utils.h \
   /home/diazb/esp/esp-idf/components/xtensa/include/xtensa/corebits.h \
@@ -2765,20 +2746,19 @@ esp-idf/esp32-camera/CMakeFiles/__idf_esp32-camera.dir/sensors/sc031gs.c.obj: /h
   /home/diazb/esp/esp-idf/components/log/include/esp_log_timestamp.h \
   /home/diazb/esp/esp-idf/components/log/include/esp_log_write.h \
   /home/diazb/esp/esp-idf/components/log/include/esp_private/log_attr.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/clk_tree_defs.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/interrupts.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/reset_reasons.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/soc.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/soc_caps.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/register/soc/reg_base.h \
+  /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/clk_tree_defs.h \
+  /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/reset_reasons.h \
+  /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/soc.h \
+  /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h \
+  /home/diazb/esp/esp-idf/components/soc/esp32s3/register/soc/reg_base.h \
   /home/diazb/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core-isa.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core-matmap.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/extreg.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/system.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/tie.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/xt_specreg.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/core-isa.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/core-matmap.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/core.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/extreg.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/system.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/tie.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/xt_specreg.h \
   /home/diazb/esp/esp-idf/components/xtensa/include/xt_instr_macros.h \
   /home/diazb/esp/esp-idf/components/xtensa/include/xt_utils.h \
   /home/diazb/esp/esp-idf/components/xtensa/include/xtensa/corebits.h \
@@ -2899,20 +2879,19 @@ esp-idf/esp32-camera/CMakeFiles/__idf_esp32-camera.dir/sensors/sc101iot.c.obj: /
   /home/diazb/esp/esp-idf/components/log/include/esp_log_timestamp.h \
   /home/diazb/esp/esp-idf/components/log/include/esp_log_write.h \
   /home/diazb/esp/esp-idf/components/log/include/esp_private/log_attr.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/clk_tree_defs.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/interrupts.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/reset_reasons.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/soc.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/soc_caps.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/register/soc/reg_base.h \
+  /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/clk_tree_defs.h \
+  /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/reset_reasons.h \
+  /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/soc.h \
+  /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h \
+  /home/diazb/esp/esp-idf/components/soc/esp32s3/register/soc/reg_base.h \
   /home/diazb/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core-isa.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core-matmap.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/extreg.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/system.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/tie.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/xt_specreg.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/core-isa.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/core-matmap.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/core.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/extreg.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/system.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/tie.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/xt_specreg.h \
   /home/diazb/esp/esp-idf/components/xtensa/include/xt_instr_macros.h \
   /home/diazb/esp/esp-idf/components/xtensa/include/xt_utils.h \
   /home/diazb/esp/esp-idf/components/xtensa/include/xtensa/corebits.h \
@@ -2966,13 +2945,12 @@ esp-idf/esp32-camera/CMakeFiles/__idf_esp32-camera.dir/sensors/sc101iot.c.obj: /
   /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/time.h \
   /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/types.h
 
-esp-idf/esp32-camera/CMakeFiles/__idf_esp32-camera.dir/target/esp32/ll_cam.c.obj: /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/components/esp32-camera/target/esp32/ll_cam.c \
+esp-idf/esp32-camera/CMakeFiles/__idf_esp32-camera.dir/target/esp32s3/ll_cam.c.obj: /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/components/esp32-camera/target/esp32s3/ll_cam.c \
   config/sdkconfig.h \
   /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/components/esp32-camera/conversions/include/img_converters.h \
   /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/components/esp32-camera/driver/include/esp_camera.h \
   /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/components/esp32-camera/driver/include/sensor.h \
   /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/components/esp32-camera/driver/private_include/cam_hal.h \
-  /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/components/esp32-camera/driver/private_include/xclk.h \
   /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/components/esp32-camera/target/private_include/ll_cam.h \
   /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/managed_components/espressif__esp_jpeg/include/jpeg_decoder.h \
   /home/diazb/esp/esp-idf/components/esp_common/include/esp_assert.h \
@@ -2987,9 +2965,10 @@ esp-idf/esp32-camera/CMakeFiles/__idf_esp32-camera.dir/target/esp32/ll_cam.c.obj
   /home/diazb/esp/esp-idf/components/esp_driver_gpio/include/driver/gpio_etm.h \
   /home/diazb/esp/esp-idf/components/esp_driver_ledc/include/driver/ledc.h \
   /home/diazb/esp/esp-idf/components/esp_driver_ledc/include/driver/ledc_etm.h \
+  /home/diazb/esp/esp-idf/components/esp_hal_clock/esp32s3/include/hal/clk_gate_ll.h \
+  /home/diazb/esp/esp-idf/components/esp_hal_dma/esp32s3/include/hal/gdma_channel.h \
   /home/diazb/esp/esp-idf/components/esp_hal_dma/include/hal/gdma_types.h \
-  /home/diazb/esp/esp-idf/components/esp_hal_gpio/esp32/include/hal/gpio_ll.h \
-  /home/diazb/esp/esp-idf/components/esp_hal_gpio/esp32/include/soc/gpio_num.h \
+  /home/diazb/esp/esp-idf/components/esp_hal_gpio/esp32s3/include/soc/gpio_num.h \
   /home/diazb/esp/esp-idf/components/esp_hal_gpio/include/hal/gpio_types.h \
   /home/diazb/esp/esp-idf/components/esp_hal_ledc/include/hal/ledc_types.h \
   /home/diazb/esp/esp-idf/components/esp_hw_support/etm/include/esp_etm.h \
@@ -3006,7 +2985,7 @@ esp-idf/esp32-camera/CMakeFiles/__idf_esp32-camera.dir/target/esp32/ll_cam.c.obj
   /home/diazb/esp/esp-idf/components/esp_libc/platform_include/sys/lock.h \
   /home/diazb/esp/esp-idf/components/esp_libc/platform_include/sys/reent.h \
   /home/diazb/esp/esp-idf/components/esp_libc/platform_include/sys/time.h \
-  /home/diazb/esp/esp-idf/components/esp_rom/esp32/include/esp32/rom/lldesc.h \
+  /home/diazb/esp/esp-idf/components/esp_rom/esp32s3/include/esp32s3/rom/lldesc.h \
   /home/diazb/esp/esp-idf/components/esp_rom/include/esp_rom_gpio.h \
   /home/diazb/esp/esp-idf/components/esp_rom/include/esp_rom_lldesc.h \
   /home/diazb/esp/esp-idf/components/esp_rom/include/esp_rom_sys.h \
@@ -3030,7 +3009,7 @@ esp-idf/esp32-camera/CMakeFiles/__idf_esp32-camera.dir/target/esp32/ll_cam.c.obj
   /home/diazb/esp/esp-idf/components/freertos/config/include/freertos/FreeRTOSConfig.h \
   /home/diazb/esp/esp-idf/components/freertos/config/xtensa/include/freertos/FreeRTOSConfig_arch.h \
   /home/diazb/esp/esp-idf/components/freertos/esp_additions/include/freertos/idf_additions.h \
-  /home/diazb/esp/esp-idf/components/hal/platform_port/include/hal/misc.h \
+  /home/diazb/esp/esp-idf/components/hal/platform_port/include/hal/assert.h \
   /home/diazb/esp/esp-idf/components/heap/include/esp_heap_caps.h \
   /home/diazb/esp/esp-idf/components/heap/include/multi_heap.h \
   /home/diazb/esp/esp-idf/components/log/include/esp_log.h \
@@ -3044,31 +3023,32 @@ esp-idf/esp32-camera/CMakeFiles/__idf_esp32-camera.dir/target/esp32/ll_cam.c.obj
   /home/diazb/esp/esp-idf/components/log/include/esp_log_timestamp.h \
   /home/diazb/esp/esp-idf/components/log/include/esp_log_write.h \
   /home/diazb/esp/esp-idf/components/log/include/esp_private/log_attr.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/clk_tree_defs.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/dport_access.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/gpio_pins.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/gpio_sig_map.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/interrupts.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/periph_defs.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/reset_reasons.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/soc.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/soc_caps.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/register/soc/dport_reg.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/register/soc/gpio_struct.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/register/soc/i2s_struct.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/register/soc/io_mux_reg.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/register/soc/reg_base.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/register/soc/rtc_cntl_reg.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/register/soc/rtc_io_reg.h \
+  /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/clk_tree_defs.h \
+  /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/dport_access.h \
+  /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/gpio_pins.h \
+  /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/gpio_sig_map.h \
+  /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/interrupts.h \
+  /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/periph_defs.h \
+  /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/reset_reasons.h \
+  /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/soc.h \
+  /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h \
+  /home/diazb/esp/esp-idf/components/soc/esp32s3/register/soc/gdma_reg.h \
+  /home/diazb/esp/esp-idf/components/soc/esp32s3/register/soc/gdma_struct.h \
+  /home/diazb/esp/esp-idf/components/soc/esp32s3/register/soc/io_mux_reg.h \
+  /home/diazb/esp/esp-idf/components/soc/esp32s3/register/soc/lcd_cam_reg.h \
+  /home/diazb/esp/esp-idf/components/soc/esp32s3/register/soc/lcd_cam_struct.h \
+  /home/diazb/esp/esp-idf/components/soc/esp32s3/register/soc/reg_base.h \
+  /home/diazb/esp/esp-idf/components/soc/esp32s3/register/soc/syscon_reg.h \
+  /home/diazb/esp/esp-idf/components/soc/esp32s3/register/soc/system_reg.h \
   /home/diazb/esp/esp-idf/components/soc/include/soc/gpio_periph.h \
   /home/diazb/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core-isa.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core-matmap.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/extreg.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/system.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/tie.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/xt_specreg.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/core-isa.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/core-matmap.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/core.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/extreg.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/system.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/tie.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/xt_specreg.h \
   /home/diazb/esp/esp-idf/components/xtensa/include/xt_instr_macros.h \
   /home/diazb/esp/esp-idf/components/xtensa/include/xt_utils.h \
   /home/diazb/esp/esp-idf/components/xtensa/include/xtensa/corebits.h \
@@ -3123,107 +3103,30 @@ esp-idf/esp32-camera/CMakeFiles/__idf_esp32-camera.dir/target/esp32/ll_cam.c.obj
   /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/time.h \
   /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/types.h
 
-esp-idf/esp32-camera/CMakeFiles/__idf_esp32-camera.dir/target/xclk.c.obj: /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/components/esp32-camera/target/xclk.c \
-  config/sdkconfig.h \
-  /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/components/esp32-camera/conversions/include/img_converters.h \
-  /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/components/esp32-camera/driver/include/esp_camera.h \
-  /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/components/esp32-camera/driver/include/sensor.h \
-  /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/components/esp32-camera/driver/private_include/xclk.h \
-  /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/managed_components/espressif__esp_jpeg/include/jpeg_decoder.h \
-  /home/diazb/esp/esp-idf/components/esp_common/include/esp_assert.h \
-  /home/diazb/esp/esp-idf/components/esp_common/include/esp_attr.h \
-  /home/diazb/esp/esp-idf/components/esp_common/include/esp_bit_defs.h \
-  /home/diazb/esp/esp-idf/components/esp_common/include/esp_compiler.h \
-  /home/diazb/esp/esp-idf/components/esp_common/include/esp_err.h \
-  /home/diazb/esp/esp-idf/components/esp_common/include/esp_idf_version.h \
-  /home/diazb/esp/esp-idf/components/esp_common/include/esp_macros.h \
-  /home/diazb/esp/esp-idf/components/esp_driver_gpio/include/driver/gpio.h \
-  /home/diazb/esp/esp-idf/components/esp_driver_gpio/include/driver/gpio_etm.h \
-  /home/diazb/esp/esp-idf/components/esp_driver_ledc/include/driver/ledc.h \
-  /home/diazb/esp/esp-idf/components/esp_driver_ledc/include/driver/ledc_etm.h \
-  /home/diazb/esp/esp-idf/components/esp_hal_gpio/esp32/include/soc/gpio_num.h \
-  /home/diazb/esp/esp-idf/components/esp_hal_gpio/include/hal/gpio_types.h \
-  /home/diazb/esp/esp-idf/components/esp_hal_ledc/include/hal/ledc_types.h \
-  /home/diazb/esp/esp-idf/components/esp_hw_support/etm/include/esp_etm.h \
-  /home/diazb/esp/esp-idf/components/esp_hw_support/include/esp_intr_alloc.h \
-  /home/diazb/esp/esp-idf/components/esp_hw_support/include/esp_intr_types.h \
-  /home/diazb/esp/esp-idf/components/esp_libc/platform_include/assert.h \
-  /home/diazb/esp/esp-idf/components/esp_libc/platform_include/stdio.h \
-  /home/diazb/esp/esp-idf/components/esp_libc/platform_include/sys/cdefs.h \
-  /home/diazb/esp/esp-idf/components/esp_libc/platform_include/sys/lock.h \
-  /home/diazb/esp/esp-idf/components/esp_libc/platform_include/sys/time.h \
-  /home/diazb/esp/esp-idf/components/esp_rom/include/esp_rom_gpio.h \
-  /home/diazb/esp/esp-idf/components/esp_rom/include/esp_rom_sys.h \
-  /home/diazb/esp/esp-idf/components/esp_system/include/esp_system.h \
-  /home/diazb/esp/esp-idf/components/log/include/esp_log.h \
-  /home/diazb/esp/esp-idf/components/log/include/esp_log_args.h \
-  /home/diazb/esp/esp-idf/components/log/include/esp_log_attr.h \
-  /home/diazb/esp/esp-idf/components/log/include/esp_log_buffer.h \
-  /home/diazb/esp/esp-idf/components/log/include/esp_log_color.h \
-  /home/diazb/esp/esp-idf/components/log/include/esp_log_config.h \
-  /home/diazb/esp/esp-idf/components/log/include/esp_log_format.h \
-  /home/diazb/esp/esp-idf/components/log/include/esp_log_level.h \
-  /home/diazb/esp/esp-idf/components/log/include/esp_log_timestamp.h \
-  /home/diazb/esp/esp-idf/components/log/include/esp_log_write.h \
-  /home/diazb/esp/esp-idf/components/log/include/esp_private/log_attr.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/clk_tree_defs.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/gpio_pins.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/reset_reasons.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/soc_caps.h \
-  /home/diazb/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h \
-  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/float.h \
-  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/stdarg.h \
-  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/stdbool.h \
-  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/stddef.h \
-  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/alloca.h \
-  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/assert.h \
-  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/inttypes.h \
-  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/machine/_default_types.h \
-  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/machine/_endian.h \
-  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/machine/_time.h \
-  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/machine/_types.h \
-  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/machine/endian.h \
-  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/machine/ieeefp.h \
-  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/machine/stdlib.h \
-  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/machine/types.h \
-  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/picolibc.h \
-  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/stdint.h \
-  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/stdio.h \
-  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/stdlib.h \
-  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/string.h \
-  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/strings.h \
-  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/_intsup.h \
-  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/_locale.h \
-  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/_pthreadtypes.h \
-  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/_select.h \
-  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/_stdint.h \
-  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/_timespec.h \
-  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/_timeval.h \
-  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/_types.h \
-  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/_wait.h \
-  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/cdefs.h \
-  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/config.h \
-  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/features.h \
-  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/lock.h \
-  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/sched.h \
-  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/string.h \
-  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/time.h \
-  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/types.h
-
-
-/home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/components/esp32-camera/target/xclk.c:
 
 /home/diazb/esp/esp-idf/components/soc/include/soc/gpio_periph.h:
 
+/home/diazb/esp/esp-idf/components/soc/esp32s3/register/soc/system_reg.h:
+
+/home/diazb/esp/esp-idf/components/soc/esp32s3/register/soc/syscon_reg.h:
+
+/home/diazb/esp/esp-idf/components/freertos/config/include/freertos/FreeRTOSConfig.h:
+
 /home/diazb/esp/esp-idf/components/xtensa/include/xtensa/corebits.h:
+
+/home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/types.h:
+
+/home/diazb/esp/esp-idf/components/esp_common/include/esp_assert.h:
+
+/home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/components/esp32-camera/sensors/mega_ccm.c:
+
+/home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/components/esp32-camera/sensors/private_include/mega_ccm_regs.h:
 
 /home/diazb/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/timers.h:
 
 /home/diazb/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/semphr.h:
 
 /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/_stdint.h:
-
-/home/diazb/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/projdefs.h:
 
 /home/diazb/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/mpu_wrappers.h:
 
@@ -3232,6 +3135,8 @@ esp-idf/esp32-camera/CMakeFiles/__idf_esp32-camera.dir/target/xclk.c.obj: /home/
 /home/diazb/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/message_buffer.h:
 
 /home/diazb/esp/esp-idf/components/esp_common/include/esp_attr.h:
+
+/home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/system.h:
 
 /home/diazb/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/list.h:
 
@@ -3245,71 +3150,63 @@ esp-idf/esp32-camera/CMakeFiles/__idf_esp32-camera.dir/target/xclk.c.obj: /home/
 
 /home/diazb/esp/esp-idf/components/esp_timer/include/esp_timer.h:
 
+/home/diazb/esp/esp-idf/components/esp_system/include/esp_private/crosscore_int.h:
+
+/home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/machine/_endian.h:
+
 /home/diazb/esp/esp-idf/components/esp_rom/include/esp_rom_lldesc.h:
 
-/home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/string.h:
-
-/home/diazb/esp/esp-idf/components/xtensa/include/xt_instr_macros.h:
+/home/diazb/esp/esp-idf/components/esp_mm/include/esp_cache.h:
 
 /home/diazb/esp/esp-idf/components/esp_libc/platform_include/sys/reent.h:
+
+/home/diazb/esp/esp-idf/components/esp_driver_dma/include/esp_private/gdma.h:
+
+/home/diazb/esp/esp-idf/components/esp_hal_dma/esp32s3/include/hal/gdma_channel.h:
 
 /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/components/esp32-camera/driver/private_include/cam_hal.h:
 
 /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/components/esp32-camera/sensors/bf3005.c:
 
-/home/diazb/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/portmacro.h:
+/home/diazb/esp/esp-idf/components/xtensa/include/xtensa/xtruntime.h:
+
+/home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/time.h:
+
+/home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/_timespec.h:
+
+/home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/_select.h:
+
+/home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/machine/types.h:
+
+/home/diazb/esp/esp-idf/components/soc/esp32s3/register/soc/lcd_cam_struct.h:
+
+/home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/machine/endian.h:
+
+/home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/machine/_time.h:
+
+/home/diazb/esp/esp-idf/components/soc/esp32s3/register/soc/reg_base.h:
+
+/home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/_locale.h:
+
+/home/diazb/esp/esp-idf/components/esp_hal_gpio/include/hal/gpio_types.h:
+
+/home/diazb/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h:
 
 /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/components/esp32-camera/conversions/yuv.c:
 
-/home/diazb/esp/esp-idf/components/freertos/config/xtensa/include/freertos/FreeRTOSConfig_arch.h:
+/home/diazb/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/portmacro.h:
 
-/home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/_timeval.h:
+/home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h:
+
+/home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/stdlib.h:
 
 /home/diazb/esp/esp-idf/components/esp_hw_support/include/spinlock.h:
 
 /home/diazb/esp/esp-idf/components/esp_driver_gpio/include/driver/gpio.h:
 
-/home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/_timespec.h:
+/home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/reset_reasons.h:
 
-/home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/machine/types.h:
-
-/home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/machine/endian.h:
-
-/home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/types.h:
-
-/home/diazb/esp/esp-idf/components/esp_common/include/esp_assert.h:
-
-/home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/components/esp32-camera/sensors/mega_ccm.c:
-
-/home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/machine/_time.h:
-
-/home/diazb/esp/esp-idf/components/esp_hal_gpio/include/hal/gpio_types.h:
-
-/home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/machine/_endian.h:
-
-/home/diazb/esp/esp-idf/components/esp_system/include/esp_private/crosscore_int.h:
-
-/home/diazb/esp/esp-idf/components/hal/esp32/include/hal/cache_ll.h:
-
-/home/diazb/esp/esp-idf/components/esp_driver_dma/include/esp_private/gdma.h:
-
-/home/diazb/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h:
-
-/home/diazb/esp/esp-idf/components/soc/esp32/include/soc/soc_caps.h:
-
-/home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/components/esp32-camera/sensors/ov7725.c:
-
-/home/diazb/esp/esp-idf/components/soc/esp32/include/soc/soc.h:
-
-/home/diazb/esp/esp-idf/components/soc/esp32/include/soc/interrupts.h:
-
-/home/diazb/esp/esp-idf/components/log/include/esp_log_attr.h:
-
-/home/diazb/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/portable.h:
-
-/home/diazb/esp/esp-idf/components/soc/esp32/include/soc/clk_tree_defs.h:
-
-/home/diazb/esp/esp-idf/components/esp_hal_i2c/include/hal/i2c_types.h:
+/home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/machine/_default_types.h:
 
 /home/diazb/esp/esp-idf/components/log/include/esp_private/log_attr.h:
 
@@ -3317,31 +3214,31 @@ esp-idf/esp32-camera/CMakeFiles/__idf_esp32-camera.dir/target/xclk.c.obj: /home/
 
 /home/diazb/esp/esp-idf/components/log/include/esp_log_config.h:
 
+/home/diazb/esp/esp-idf/components/soc/esp32s3/register/soc/lcd_cam_reg.h:
+
+/home/diazb/esp/esp-idf/components/log/include/esp_log_attr.h:
+
+/home/diazb/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/portable.h:
+
+/home/diazb/esp/esp-idf/components/esp_rom/esp32s3/include/esp32s3/rom/cache.h:
+
 /home/diazb/esp/esp-idf/components/esp_hw_support/include/esp_memory_utils.h:
 
 /home/diazb/esp/esp-idf/components/log/include/esp_log_args.h:
 
-/home/diazb/esp/esp-idf/components/soc/esp32/include/soc/gpio_pins.h:
-
 /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/stdio.h:
 
-/home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/machine/malloc.h:
-
-/home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/machine/_default_types.h:
+/home/diazb/esp/esp-idf/components/esp_hal_gpio/esp32s3/include/soc/gpio_num.h:
 
 /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/components/esp32-camera/sensors/private_include/sc101iot_settings.h:
 
 /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/alloca.h:
-
-/home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/components/esp32-camera/conversions/private_include/jpge.h:
 
 /home/diazb/esp/esp-idf/components/esp_hw_support/include/esp_private/periph_ctrl.h:
 
 /home/diazb/esp/esp-idf/components/esp_hal_dma/include/hal/gdma_types.h:
 
 /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/components/esp32-camera/sensors/private_include/hm0360.h:
-
-/home/diazb/esp/esp-idf/components/soc/esp32/register/soc/reg_base.h:
 
 /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/stdbool.h:
 
@@ -3361,17 +3258,17 @@ config/sdkconfig.h:
 
 /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/components/esp32-camera/driver/esp_camera.c:
 
+/home/diazb/esp/esp-idf/components/esp_rom/esp32s3/include/esp32s3/rom/lldesc.h:
+
 /home/diazb/esp/esp-idf/components/heap/include/multi_heap.h:
 
 /home/diazb/esp/esp-idf/components/log/include/esp_log_write.h:
 
 /home/diazb/esp/esp-idf/components/esp_driver_ledc/include/driver/ledc.h:
 
-/home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/stdlib.h:
-
 /home/diazb/esp/esp-idf/components/esp_rom/include/esp_rom_sys.h:
 
-/home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/system.h:
+/home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/machine/ieeefp.h:
 
 /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/stdarg.h:
 
@@ -3379,11 +3276,11 @@ config/sdkconfig.h:
 
 /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/components/esp32-camera/sensors/private_include/ov7670.h:
 
-/home/diazb/esp/esp-idf/components/freertos/config/include/freertos/FreeRTOSConfig.h:
-
-/home/diazb/esp/esp-idf/components/soc/esp32/register/soc/i2s_struct.h:
-
 /home/diazb/esp/esp-idf/components/esp_common/include/esp_compiler.h:
+
+/home/diazb/esp/esp-idf/components/soc/esp32s3/register/soc/io_mux_reg.h:
+
+/home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/efuse_defs.h:
 
 /home/diazb/esp/esp-idf/components/esp_system/include/esp_system.h:
 
@@ -3398,10 +3295,6 @@ config/sdkconfig.h:
 /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/components/esp32-camera/sensors/gc0308.c:
 
 /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/components/esp32-camera/driver/include/sensor.h:
-
-/home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/_locale.h:
-
-/home/diazb/esp/esp-idf/components/esp_rom/esp32/include/esp32/rom/lldesc.h:
 
 /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/float.h:
 
@@ -3419,13 +3312,15 @@ config/sdkconfig.h:
 
 /home/diazb/esp/esp-idf/components/esp_libc/platform_include/sys/cdefs.h:
 
-/home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/cdefs.h:
+/home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/inttypes.h:
+
+/home/diazb/esp/esp-idf/components/log/include/esp_log_level.h:
 
 /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/stdint.h:
 
-/home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/extreg.h:
+/home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/clk_tree_defs.h:
 
-/home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/components/esp32-camera/sensors/private_include/ov7725.h:
+/home/diazb/esp/esp-idf/components/xtensa/include/xtensa_api.h:
 
 /home/diazb/esp/esp-idf/components/esp_driver_gpio/include/driver/gpio_etm.h:
 
@@ -3439,23 +3334,33 @@ config/sdkconfig.h:
 
 /home/diazb/esp/esp-idf/components/esp_common/include/esp_macros.h:
 
-/home/diazb/esp/esp-idf/components/soc/esp32/register/soc/efuse_reg.h:
-
 /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/components/esp32-camera/sensors/private_include/gc2145_regs.h:
 
 /home/diazb/esp/esp-idf/components/esp_libc/platform_include/sys/time.h:
 
 /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/strings.h:
 
-/home/diazb/esp/esp-idf/components/esp_rom/esp32/include/esp32/rom/ets_sys.h:
+/home/diazb/esp/esp-idf/components/esp_rom/esp32s3/include/esp32s3/rom/ets_sys.h:
 
-/home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/components/esp32-camera/sensors/private_include/mega_ccm_regs.h:
+/home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/xt_specreg.h:
 
-/home/diazb/esp/esp-idf/components/soc/esp32/include/soc/efuse_defs.h:
+/home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/components/esp32-camera/sensors/private_include/bf20a6_settings.h:
+
+/home/diazb/esp/esp-idf/components/soc/esp32s3/register/soc/efuse_reg.h:
+
+/home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/stdalign.h:
+
+/home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/components/esp32-camera/target/private_include/ll_cam.h:
 
 /home/diazb/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/task.h:
 
+/home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/soc.h:
+
 /home/diazb/esp/esp-idf/components/log/include/esp_log_buffer.h:
+
+/home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/components/esp32-camera/sensors/sc030iot.c:
+
+/home/diazb/esp/esp-idf/components/hal/esp32s3/include/hal/cache_ll.h:
 
 /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/components/esp32-camera/driver/include/esp_camera_af.h:
 
@@ -3471,11 +3376,17 @@ config/sdkconfig.h:
 
 /home/diazb/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/event_groups.h:
 
+/home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/string.h:
+
+/home/diazb/esp/esp-idf/components/xtensa/include/xt_instr_macros.h:
+
 /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/components/esp32-camera/sensors/private_include/gc2145.h:
 
 /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/machine/stdlib.h:
 
 /home/diazb/esp/esp-idf/components/esp_hw_support/etm/include/esp_etm.h:
+
+/home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/extreg.h:
 
 /home/diazb/esp/esp-idf/components/esp_libc/platform_include/sys/lock.h:
 
@@ -3501,49 +3412,39 @@ config/sdkconfig.h:
 
 /home/diazb/esp/esp-idf/components/xtensa/include/xtensa/xtensa-versions.h:
 
+/home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/_timeval.h:
+
+/home/diazb/esp/esp-idf/components/freertos/config/xtensa/include/freertos/FreeRTOSConfig_arch.h:
+
 /home/diazb/esp/esp-idf/components/hal/include/hal/cache_hal.h:
 
 /home/diazb/esp/esp-idf/components/hal/include/hal/cache_types.h:
 
-/home/diazb/esp/esp-idf/components/soc/esp32/register/soc/rtc_io_reg.h:
-
 /home/diazb/esp/esp-idf/components/hal/platform_port/include/hal/assert.h:
 
-/home/diazb/esp/esp-idf/components/soc/esp32/include/soc/dport_access.h:
+/home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/ext_mem_defs.h:
 
-/home/diazb/esp/esp-idf/components/esp_mm/include/esp_cache.h:
+/home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/machine/malloc.h:
 
-/home/diazb/esp/esp-idf/components/soc/esp32/include/soc/ext_mem_defs.h:
+/home/diazb/esp/esp-idf/components/soc/esp32s3/register/soc/gdma_struct.h:
 
-/home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/machine/ieeefp.h:
+/home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/interrupts.h:
 
-/home/diazb/esp/esp-idf/components/soc/esp32/include/soc/periph_defs.h:
+/home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/components/esp32-camera/target/esp32s3/ll_cam.c:
 
-/home/diazb/esp/esp-idf/components/esp_rom/include/esp_rom_gpio.h:
+/home/diazb/esp/esp-idf/components/esp_driver_i2c/include/driver/i2c_types.h:
 
-/home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/components/esp32-camera/sensors/private_include/ov3660_settings.h:
+/home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/periph_defs.h:
 
-/home/diazb/esp/esp-idf/components/soc/esp32/register/soc/dport_reg.h:
+/home/diazb/esp/esp-idf/components/soc/esp32s3/register/soc/extmem_reg.h:
 
-/home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core-isa.h:
+/home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/components/esp32-camera/sensors/private_include/ov2640_settings.h:
 
-/home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/inttypes.h:
+/home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/core-isa.h:
 
-/home/diazb/esp/esp-idf/components/log/include/esp_log_level.h:
+/home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/core.h:
 
-/home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core-matmap.h:
-
-/home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/components/esp32-camera/sensors/private_include/hm1055_regs.h:
-
-/home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/components/esp32-camera/sensors/private_include/sc101iot.h:
-
-/home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core.h:
-
-/home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/components/esp32-camera/driver/sccb-ng.c:
-
-/home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/tie.h:
-
-/home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/xt_specreg.h:
+/home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/tie.h:
 
 /home/diazb/esp/esp-idf/components/freertos/esp_additions/include/freertos/idf_additions.h:
 
@@ -3561,17 +3462,11 @@ config/sdkconfig.h:
 
 /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/components/esp32-camera/sensors/private_include/ov3660.h:
 
-/home/diazb/esp/esp-idf/components/xtensa/include/xtensa/xtruntime.h:
-
-/home/diazb/esp/esp-idf/components/xtensa/include/xtensa_api.h:
-
 /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/syslimits.h:
 
 /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/components/esp32-camera/driver/private_include/sccb.h:
 
 /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/components/esp32-camera/driver/private_include/xclk.h:
-
-/home/diazb/esp/esp-idf/components/esp_hal_gpio/esp32/include/hal/gpio_ll.h:
 
 /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/components/esp32-camera/sensors/ov5640_af.c:
 
@@ -3603,11 +3498,11 @@ config/sdkconfig.h:
 
 /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/components/esp32-camera/sensors/private_include/ov5640.h:
 
+/home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/components/esp32-camera/sensors/private_include/ov7725.h:
+
 /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/string.h:
 
 /home/diazb/esp/esp-idf/components/esp_blockdev/include/esp_blockdev.h:
-
-/home/diazb/esp/esp-idf/components/esp_hal_gpio/esp32/include/soc/gpio_num.h:
 
 /home/diazb/esp/esp-idf/components/esp_driver_i2c/include/driver/i2c_master.h:
 
@@ -3615,23 +3510,31 @@ config/sdkconfig.h:
 
 /home/diazb/esp/esp-idf/components/nvs_flash/include/nvs.h:
 
+/home/diazb/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/projdefs.h:
+
+/home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/gpio_sig_map.h:
+
 /home/diazb/esp/esp-idf/components/nvs_flash/include/nvs_flash.h:
 
 /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/components/esp32-camera/sensors/private_include/sc030iot_settings.h:
+
+/home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/cdefs.h:
+
+/home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/gpio_pins.h:
 
 /home/diazb/esp/esp-idf/components/hal/include/hal/hal_utils.h:
 
 /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/time.h:
 
-/home/diazb/esp/esp-idf/components/esp_driver_i2c/include/driver/i2c_types.h:
+/home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/components/esp32-camera/driver/sccb-ng.c:
+
+/home/diazb/esp/esp-idf/components/esp_hal_i2c/include/hal/i2c_types.h:
 
 /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/components/esp32-camera/driver/sensor.c:
 
 /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/queue.h:
 
 /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/components/esp32-camera/sensors/private_include/bf20a6_regs.h:
-
-/home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/components/esp32-camera/sensors/private_include/bf20a6_settings.h:
 
 /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/components/esp32-camera/sensors/private_include/bf3005_regs.h:
 
@@ -3655,8 +3558,6 @@ config/sdkconfig.h:
 
 /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/components/esp32-camera/sensors/hm0360.c:
 
-/home/diazb/esp/esp-idf/components/soc/esp32/include/soc/reset_reasons.h:
-
 /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/components/esp32-camera/sensors/private_include/hm0360_regs.h:
 
 /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/limits.h:
@@ -3669,9 +3570,13 @@ config/sdkconfig.h:
 
 /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/errno.h:
 
-/home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/_types.h:
+/home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/components/esp32-camera/sensors/private_include/hm1055_regs.h:
+
+/home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/components/esp32-camera/sensors/private_include/sc101iot.h:
 
 /home/diazb/esp/esp-idf/components/esp_hw_support/include/esp_intr_alloc.h:
+
+/home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/_types.h:
 
 /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/components/esp32-camera/sensors/private_include/hm1055_settings.h:
 
@@ -3685,13 +3590,21 @@ config/sdkconfig.h:
 
 /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/components/esp32-camera/sensors/private_include/ov3660_regs.h:
 
+/home/diazb/esp/esp-idf/components/esp_rom/include/esp_rom_gpio.h:
+
+/home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/components/esp32-camera/sensors/private_include/ov3660_settings.h:
+
 /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/components/esp32-camera/sensors/private_include/ov5640_regs.h:
 
 /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/components/esp32-camera/sensors/private_include/hm1055.h:
 
 /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/components/esp32-camera/sensors/ov7670.c:
 
+/home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/components/esp32-camera/sensors/ov7725.c:
+
 /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/components/esp32-camera/sensors/private_include/ov7725_regs.h:
+
+/home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/core-matmap.h:
 
 /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/components/esp32-camera/sensors/sc031gs.c:
 
@@ -3705,26 +3618,10 @@ config/sdkconfig.h:
 
 /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/components/esp32-camera/sensors/sc101iot.c:
 
-/home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/components/esp32-camera/target/esp32/ll_cam.c:
+/home/diazb/esp/esp-idf/components/esp_hal_clock/esp32s3/include/hal/clk_gate_ll.h:
 
-/home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/time.h:
+/home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/dport_access.h:
 
-/home/diazb/esp/esp-idf/components/hal/platform_port/include/hal/misc.h:
+/home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/components/esp32-camera/conversions/private_include/jpge.h:
 
-/home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/stdalign.h:
-
-/home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/components/esp32-camera/target/private_include/ll_cam.h:
-
-/home/diazb/esp/esp-idf/components/soc/esp32/include/soc/gpio_sig_map.h:
-
-/home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/components/esp32-camera/sensors/private_include/ov2640_settings.h:
-
-/home/diazb/esp/esp-idf/components/soc/esp32/register/soc/gpio_struct.h:
-
-/home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/components/esp32-camera/sensors/sc030iot.c:
-
-/home/diazb/esp/esp-idf/components/soc/esp32/register/soc/io_mux_reg.h:
-
-/home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/_select.h:
-
-/home/diazb/esp/esp-idf/components/soc/esp32/register/soc/rtc_cntl_reg.h:
+/home/diazb/esp/esp-idf/components/soc/esp32s3/register/soc/gdma_reg.h:

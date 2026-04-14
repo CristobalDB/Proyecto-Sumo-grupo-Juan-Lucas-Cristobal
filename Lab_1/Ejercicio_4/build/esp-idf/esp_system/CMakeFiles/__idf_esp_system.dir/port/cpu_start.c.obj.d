@@ -68,9 +68,6 @@ esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/port/cpu_start.c.obj: \
  /home/diazb/esp/esp-idf/components/soc/esp32s3/register/soc/reg_base.h \
  /home/diazb/esp/esp-idf/components/esp_rom/esp32s3/include/esp32s3/rom/rsa_pss.h \
  /home/diazb/esp/esp-idf/components/esp_hw_support/include/esp_memprot.h \
- /home/diazb/esp/esp-idf/components/esp_hw_support/include/esp_memprot_err.h \
- /home/diazb/esp/esp-idf/components/esp_hw_support/include/soc/esp32s3/soc_memprot_types.h \
- /home/diazb/esp/esp-idf/components/esp_hw_support/include/esp_memprot_types.h \
  /home/diazb/esp/esp-idf/components/soc/esp32s3/register/soc/assist_debug_reg.h \
  /home/diazb/esp/esp-idf/components/soc/esp32s3/register/soc/system_reg.h \
  /home/diazb/esp/esp-idf/components/esp_rom/esp32s3/include/esp32s3/rom/opi_flash.h \

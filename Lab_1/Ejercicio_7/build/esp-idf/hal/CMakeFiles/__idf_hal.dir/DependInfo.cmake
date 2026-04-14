@@ -8,10 +8,10 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/home/diazb/esp/esp-idf/components/hal/cache_hal.c" "esp-idf/hal/CMakeFiles/__idf_hal.dir/cache_hal.c.obj" "gcc" "esp-idf/hal/CMakeFiles/__idf_hal.dir/cache_hal.c.obj.d"
   "/home/diazb/esp/esp-idf/components/hal/color_hal.c" "esp-idf/hal/CMakeFiles/__idf_hal.dir/color_hal.c.obj" "gcc" "esp-idf/hal/CMakeFiles/__idf_hal.dir/color_hal.c.obj.d"
   "/home/diazb/esp/esp-idf/components/hal/efuse_hal.c" "esp-idf/hal/CMakeFiles/__idf_hal.dir/efuse_hal.c.obj" "gcc" "esp-idf/hal/CMakeFiles/__idf_hal.dir/efuse_hal.c.obj.d"
-  "/home/diazb/esp/esp-idf/components/hal/esp32/cache_hal_esp32.c" "esp-idf/hal/CMakeFiles/__idf_hal.dir/esp32/cache_hal_esp32.c.obj" "gcc" "esp-idf/hal/CMakeFiles/__idf_hal.dir/esp32/cache_hal_esp32.c.obj.d"
-  "/home/diazb/esp/esp-idf/components/hal/esp32/efuse_hal.c" "esp-idf/hal/CMakeFiles/__idf_hal.dir/esp32/efuse_hal.c.obj" "gcc" "esp-idf/hal/CMakeFiles/__idf_hal.dir/esp32/efuse_hal.c.obj.d"
+  "/home/diazb/esp/esp-idf/components/hal/esp32s3/efuse_hal.c" "esp-idf/hal/CMakeFiles/__idf_hal.dir/esp32s3/efuse_hal.c.obj" "gcc" "esp-idf/hal/CMakeFiles/__idf_hal.dir/esp32s3/efuse_hal.c.obj.d"
   "/home/diazb/esp/esp-idf/components/hal/hal_utils.c" "esp-idf/hal/CMakeFiles/__idf_hal.dir/hal_utils.c.obj" "gcc" "esp-idf/hal/CMakeFiles/__idf_hal.dir/hal_utils.c.obj.d"
   "/home/diazb/esp/esp-idf/components/hal/mmu_hal.c" "esp-idf/hal/CMakeFiles/__idf_hal.dir/mmu_hal.c.obj" "gcc" "esp-idf/hal/CMakeFiles/__idf_hal.dir/mmu_hal.c.obj.d"
   )

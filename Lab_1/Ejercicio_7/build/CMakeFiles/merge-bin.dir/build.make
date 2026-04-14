@@ -67,7 +67,7 @@ include CMakeFiles/merge-bin.dir/compiler_depend.make
 include CMakeFiles/merge-bin.dir/progress.make
 
 CMakeFiles/merge-bin:
-	cd /home/diazb/esp/esp-idf/components/esptool_py && /usr/bin/cmake -D IDF_PATH=/home/diazb/esp/esp-idf -D "SERIAL_TOOL=/home/diazb/esp/idf-tools/python_env/idf6.1_py3.12_env/bin/python;-m;esptool;--chip;esp32" -D "SERIAL_TOOL_ARGS=merge-bin;-o;/home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build/merged-binary.bin;@/home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build/flash_args" -D WORKING_DIRECTORY=/home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build -P run_serial_tool.cmake
+	cd /home/diazb/esp/esp-idf/components/esptool_py && /usr/bin/cmake -D IDF_PATH=/home/diazb/esp/esp-idf -D "SERIAL_TOOL=/home/diazb/esp/idf-tools/python_env/idf6.1_py3.12_env/bin/python;-m;esptool;--chip;esp32s3" -D "SERIAL_TOOL_ARGS=merge-bin;-o;/home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build/merged-binary.bin;@/home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build/flash_args" -D WORKING_DIRECTORY=/home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build -P run_serial_tool.cmake
 
 merge-bin: CMakeFiles/merge-bin
 merge-bin: CMakeFiles/merge-bin.dir/build.make

@@ -130,29 +130,29 @@ __idf_esp_hal_mspi/fast:
 	cd /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hal_mspi/CMakeFiles/__idf_esp_hal_mspi.dir/build.make esp-idf/esp_hal_mspi/CMakeFiles/__idf_esp_hal_mspi.dir/build
 .PHONY : __idf_esp_hal_mspi/fast
 
-esp32/mspi_periph.obj: esp32/mspi_periph.c.obj
-.PHONY : esp32/mspi_periph.obj
+esp32s3/mspi_periph.obj: esp32s3/mspi_periph.c.obj
+.PHONY : esp32s3/mspi_periph.obj
 
 # target to build an object file
-esp32/mspi_periph.c.obj:
-	cd /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hal_mspi/CMakeFiles/__idf_esp_hal_mspi.dir/build.make esp-idf/esp_hal_mspi/CMakeFiles/__idf_esp_hal_mspi.dir/esp32/mspi_periph.c.obj
-.PHONY : esp32/mspi_periph.c.obj
+esp32s3/mspi_periph.c.obj:
+	cd /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hal_mspi/CMakeFiles/__idf_esp_hal_mspi.dir/build.make esp-idf/esp_hal_mspi/CMakeFiles/__idf_esp_hal_mspi.dir/esp32s3/mspi_periph.c.obj
+.PHONY : esp32s3/mspi_periph.c.obj
 
-esp32/mspi_periph.i: esp32/mspi_periph.c.i
-.PHONY : esp32/mspi_periph.i
+esp32s3/mspi_periph.i: esp32s3/mspi_periph.c.i
+.PHONY : esp32s3/mspi_periph.i
 
 # target to preprocess a source file
-esp32/mspi_periph.c.i:
-	cd /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hal_mspi/CMakeFiles/__idf_esp_hal_mspi.dir/build.make esp-idf/esp_hal_mspi/CMakeFiles/__idf_esp_hal_mspi.dir/esp32/mspi_periph.c.i
-.PHONY : esp32/mspi_periph.c.i
+esp32s3/mspi_periph.c.i:
+	cd /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hal_mspi/CMakeFiles/__idf_esp_hal_mspi.dir/build.make esp-idf/esp_hal_mspi/CMakeFiles/__idf_esp_hal_mspi.dir/esp32s3/mspi_periph.c.i
+.PHONY : esp32s3/mspi_periph.c.i
 
-esp32/mspi_periph.s: esp32/mspi_periph.c.s
-.PHONY : esp32/mspi_periph.s
+esp32s3/mspi_periph.s: esp32s3/mspi_periph.c.s
+.PHONY : esp32s3/mspi_periph.s
 
 # target to generate assembly for a file
-esp32/mspi_periph.c.s:
-	cd /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hal_mspi/CMakeFiles/__idf_esp_hal_mspi.dir/build.make esp-idf/esp_hal_mspi/CMakeFiles/__idf_esp_hal_mspi.dir/esp32/mspi_periph.c.s
-.PHONY : esp32/mspi_periph.c.s
+esp32s3/mspi_periph.c.s:
+	cd /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hal_mspi/CMakeFiles/__idf_esp_hal_mspi.dir/build.make esp-idf/esp_hal_mspi/CMakeFiles/__idf_esp_hal_mspi.dir/esp32s3/mspi_periph.c.s
+.PHONY : esp32s3/mspi_periph.c.s
 
 # Help Target
 help:
@@ -163,9 +163,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... __idf_esp_hal_mspi"
-	@echo "... esp32/mspi_periph.obj"
-	@echo "... esp32/mspi_periph.i"
-	@echo "... esp32/mspi_periph.s"
+	@echo "... esp32s3/mspi_periph.obj"
+	@echo "... esp32s3/mspi_periph.i"
+	@echo "... esp32s3/mspi_periph.s"
 .PHONY : help
 
 

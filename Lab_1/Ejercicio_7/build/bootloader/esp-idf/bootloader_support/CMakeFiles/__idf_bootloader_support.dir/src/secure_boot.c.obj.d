@@ -22,8 +22,8 @@ esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/secure_bo
  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/inttypes.h \
  /home/diazb/esp/esp-idf/components/esp_rom/include/esp_rom_sys.h \
  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/stdbool.h \
- /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/reset_reasons.h \
- /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/soc_caps.h \
+ /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/reset_reasons.h \
+ /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h \
  /home/diazb/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h \
  /home/diazb/esp/esp-idf/components/log/include/esp_log_config.h \
  /home/diazb/esp/esp-idf/components/log/include/esp_log_level.h \
@@ -54,27 +54,28 @@ esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/secure_bo
  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/stdio.h \
  /home/diazb/esp/esp-idf/components/esp_libc/platform_include/sys/lock.h \
  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/lock.h \
- /home/diazb/esp/esp-idf/components/efuse/esp32/include/esp_efuse_chip.h \
- /home/diazb/esp/esp-idf/components/esp_common/include/esp_types.h \
- /home/diazb/esp/esp-idf/components/efuse/esp32/include/esp_efuse_table.h \
+ /home/diazb/esp/esp-idf/components/efuse/esp32s3/include/esp_efuse_chip.h \
+ /home/diazb/esp/esp-idf/components/efuse/esp32s3/include/esp_efuse_table.h \
  /home/diazb/esp/esp-idf/components/bootloader_support/include/esp_secure_boot.h \
  /home/diazb/esp/esp-idf/components/soc/include/soc/efuse_periph.h \
- /home/diazb/esp/esp-idf/components/soc/esp32/register/soc/efuse_reg.h \
- /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/soc.h \
- /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/interrupts.h \
+ /home/diazb/esp/esp-idf/components/soc/esp32s3/register/soc/efuse_reg.h \
+ /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/soc.h \
  /home/diazb/esp/esp-idf/components/esp_common/include/esp_bit_defs.h \
- /home/diazb/esp/esp-idf/components/soc/esp32/register/soc/reg_base.h \
- /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/efuse_defs.h \
- /home/diazb/esp/esp-idf/components/soc/esp32/register/soc/efuse_struct.h \
+ /home/diazb/esp/esp-idf/components/soc/esp32s3/register/soc/reg_base.h \
+ /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/efuse_defs.h \
+ /home/diazb/esp/esp-idf/components/soc/esp32s3/register/soc/efuse_struct.h \
  /home/diazb/esp/esp-idf/components/hal/platform_port/include/hal/misc.h \
  /home/diazb/esp/esp-idf/components/bootloader_support/include/esp_image_format.h \
  /home/diazb/esp/esp-idf/components/bootloader_support/include/esp_flash_partitions.h \
+ /home/diazb/esp/esp-idf/components/esp_common/include/esp_types.h \
  /home/diazb/esp/esp-idf/components/bootloader_support/include/esp_app_format.h \
  /home/diazb/esp/esp-idf/components/esp_rom/include/esp_rom_efuse.h \
  /home/diazb/esp/esp-idf/components/esp_rom/include/esp_rom_crc.h \
- /home/diazb/esp/esp-idf/components/hal/esp32/include/hal/efuse_ll.h \
+ /home/diazb/esp/esp-idf/components/hal/esp32s3/include/hal/efuse_ll.h \
  /home/diazb/esp/esp-idf/components/hal/platform_port/include/hal/assert.h \
- /home/diazb/esp/esp-idf/components/esp_rom/esp32/include/esp32/rom/secure_boot.h \
- /home/diazb/esp/esp-idf/components/esp_rom/esp32/include/esp32/rom/ets_sys.h \
- /home/diazb/esp/esp-idf/components/hal/esp32/include/hal/efuse_hal.h \
+ /home/diazb/esp/esp-idf/components/esp_rom/esp32s3/include/esp32s3/rom/efuse.h \
+ /home/diazb/esp/esp-idf/components/esp_rom/esp32s3/include/esp32s3/rom/secure_boot.h \
+ /home/diazb/esp/esp-idf/components/esp_rom/esp32s3/include/esp32s3/rom/ets_sys.h \
+ /home/diazb/esp/esp-idf/components/esp_rom/esp32s3/include/esp32s3/rom/rsa_pss.h \
+ /home/diazb/esp/esp-idf/components/hal/esp32s3/include/hal/efuse_hal.h \
  /home/diazb/esp/esp-idf/components/hal/include/hal/efuse_hal.h

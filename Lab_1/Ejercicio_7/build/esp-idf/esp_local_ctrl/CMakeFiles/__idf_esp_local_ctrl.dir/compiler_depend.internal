@@ -99,19 +99,18 @@ esp-idf/esp_local_ctrl/CMakeFiles/__idf_esp_local_ctrl.dir/src/esp_local_ctrl.c.
  /home/diazb/esp/esp-idf/components/protocomm/include/security/protocomm_security1.h
  /home/diazb/esp/esp-idf/components/protocomm/include/security/protocomm_security2.h
  /home/diazb/esp/esp-idf/components/protocomm/proto-c/constants.pb-c.h
- /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/interrupts.h
- /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/reset_reasons.h
- /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/soc.h
- /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/soc_caps.h
- /home/diazb/esp/esp-idf/components/soc/esp32/register/soc/reg_base.h
+ /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/reset_reasons.h
+ /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/soc.h
+ /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h
+ /home/diazb/esp/esp-idf/components/soc/esp32s3/register/soc/reg_base.h
  /home/diazb/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h
- /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core-isa.h
- /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core-matmap.h
- /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core.h
- /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/extreg.h
- /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/system.h
- /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/tie.h
- /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/xt_specreg.h
+ /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/core-isa.h
+ /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/core-matmap.h
+ /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/core.h
+ /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/extreg.h
+ /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/system.h
+ /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/tie.h
+ /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/xt_specreg.h
  /home/diazb/esp/esp-idf/components/xtensa/include/xt_instr_macros.h
  /home/diazb/esp/esp-idf/components/xtensa/include/xt_utils.h
  /home/diazb/esp/esp-idf/components/xtensa/include/xtensa/corebits.h
@@ -227,19 +226,18 @@ esp-idf/esp_local_ctrl/CMakeFiles/__idf_esp_local_ctrl.dir/src/esp_local_ctrl_ha
  /home/diazb/esp/esp-idf/components/protocomm/include/common/protocomm.h
  /home/diazb/esp/esp-idf/components/protocomm/include/security/protocomm_security.h
  /home/diazb/esp/esp-idf/components/protocomm/proto-c/constants.pb-c.h
- /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/interrupts.h
- /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/reset_reasons.h
- /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/soc.h
- /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/soc_caps.h
- /home/diazb/esp/esp-idf/components/soc/esp32/register/soc/reg_base.h
+ /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/reset_reasons.h
+ /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/soc.h
+ /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h
+ /home/diazb/esp/esp-idf/components/soc/esp32s3/register/soc/reg_base.h
  /home/diazb/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h
- /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core-isa.h
- /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core-matmap.h
- /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core.h
- /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/extreg.h
- /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/system.h
- /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/tie.h
- /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/xt_specreg.h
+ /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/core-isa.h
+ /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/core-matmap.h
+ /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/core.h
+ /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/extreg.h
+ /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/system.h
+ /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/tie.h
+ /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/xt_specreg.h
  /home/diazb/esp/esp-idf/components/xtensa/include/xt_instr_macros.h
  /home/diazb/esp/esp-idf/components/xtensa/include/xt_utils.h
  /home/diazb/esp/esp-idf/components/xtensa/include/xtensa/corebits.h
@@ -357,19 +355,18 @@ esp-idf/esp_local_ctrl/CMakeFiles/__idf_esp_local_ctrl.dir/src/esp_local_ctrl_tr
  /home/diazb/esp/esp-idf/components/protocomm/include/common/protocomm.h
  /home/diazb/esp/esp-idf/components/protocomm/include/security/protocomm_security.h
  /home/diazb/esp/esp-idf/components/protocomm/include/transports/protocomm_httpd.h
- /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/interrupts.h
- /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/reset_reasons.h
- /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/soc.h
- /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/soc_caps.h
- /home/diazb/esp/esp-idf/components/soc/esp32/register/soc/reg_base.h
+ /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/reset_reasons.h
+ /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/soc.h
+ /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h
+ /home/diazb/esp/esp-idf/components/soc/esp32s3/register/soc/reg_base.h
  /home/diazb/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h
- /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core-isa.h
- /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core-matmap.h
- /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core.h
- /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/extreg.h
- /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/system.h
- /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/tie.h
- /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/xt_specreg.h
+ /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/core-isa.h
+ /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/core-matmap.h
+ /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/core.h
+ /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/extreg.h
+ /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/system.h
+ /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/tie.h
+ /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/xt_specreg.h
  /home/diazb/esp/esp-idf/components/xtensa/include/xt_instr_macros.h
  /home/diazb/esp/esp-idf/components/xtensa/include/xt_utils.h
  /home/diazb/esp/esp-idf/components/xtensa/include/xtensa/corebits.h

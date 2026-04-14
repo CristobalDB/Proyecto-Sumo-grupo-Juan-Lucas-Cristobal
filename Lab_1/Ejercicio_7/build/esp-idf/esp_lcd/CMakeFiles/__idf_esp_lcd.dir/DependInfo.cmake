@@ -9,7 +9,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/diazb/esp/esp-idf/components/esp_lcd/i2c/esp_lcd_panel_io_i2c.c" "esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/i2c/esp_lcd_panel_io_i2c.c.obj" "gcc" "esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/i2c/esp_lcd_panel_io_i2c.c.obj.d"
-  "/home/diazb/esp/esp-idf/components/esp_lcd/i80/esp_lcd_panel_io_i2s.c" "esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/i80/esp_lcd_panel_io_i2s.c.obj" "gcc" "esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/i80/esp_lcd_panel_io_i2s.c.obj.d"
+  "/home/diazb/esp/esp-idf/components/esp_lcd/i80/esp_lcd_panel_io_i80.c" "esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/i80/esp_lcd_panel_io_i80.c.obj" "gcc" "esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/i80/esp_lcd_panel_io_i80.c.obj.d"
+  "/home/diazb/esp/esp-idf/components/esp_lcd/rgb/esp_lcd_panel_rgb.c" "esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/rgb/esp_lcd_panel_rgb.c.obj" "gcc" "esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/rgb/esp_lcd_panel_rgb.c.obj.d"
   "/home/diazb/esp/esp-idf/components/esp_lcd/spi/esp_lcd_panel_io_spi.c" "esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/spi/esp_lcd_panel_io_spi.c.obj" "gcc" "esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/spi/esp_lcd_panel_io_spi.c.obj.d"
   "/home/diazb/esp/esp-idf/components/esp_lcd/src/esp_lcd_common.c" "esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_common.c.obj" "gcc" "esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_common.c.obj.d"
   "/home/diazb/esp/esp-idf/components/esp_lcd/src/esp_lcd_panel_io.c" "esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_panel_io.c.obj" "gcc" "esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_panel_io.c.obj.d"

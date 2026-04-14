@@ -68,10 +68,10 @@ include CMakeFiles/bootloader_ld_in_preprocess.dir/progress.make
 
 CMakeFiles/bootloader_ld_in_preprocess: ld/bootloader.ld
 
-ld/bootloader.ld: /home/diazb/esp/esp-idf/components/bootloader/subproject/main/ld/esp32/bootloader.ld.in
+ld/bootloader.ld: /home/diazb/esp/esp-idf/components/bootloader/subproject/main/ld/esp32s3/bootloader.ld.in
 ld/bootloader.ld: config/sdkconfig.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build/bootloader/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Preprocessing linker script /home/diazb/esp/esp-idf/components/bootloader/subproject/main/ld/esp32/bootloader.ld.in -> /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build/bootloader/ld/bootloader.ld"
-	/usr/bin/cmake -DCC=/home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc -DSOURCE=/home/diazb/esp/esp-idf/components/bootloader/subproject/main/ld/esp32/bootloader.ld.in -DTARGET=/home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build/bootloader/ld/bootloader.ld "-DCFLAGS=-I\"/home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build/bootloader/config\" -I\"/home/diazb/esp/esp-idf/components/bootloader/subproject/main/ld\"" -P /home/diazb/esp/esp-idf/tools/cmake/linker_script_preprocessor.cmake
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build/bootloader/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Preprocessing linker script /home/diazb/esp/esp-idf/components/bootloader/subproject/main/ld/esp32s3/bootloader.ld.in -> /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build/bootloader/ld/bootloader.ld"
+	/usr/bin/cmake -DCC=/home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc -DSOURCE=/home/diazb/esp/esp-idf/components/bootloader/subproject/main/ld/esp32s3/bootloader.ld.in -DTARGET=/home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build/bootloader/ld/bootloader.ld "-DCFLAGS=-I\"/home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build/bootloader/config\" -I\"/home/diazb/esp/esp-idf/components/bootloader/subproject/main/ld\"" -P /home/diazb/esp/esp-idf/tools/cmake/linker_script_preprocessor.cmake
 
 bootloader_ld_in_preprocess: CMakeFiles/bootloader_ld_in_preprocess
 bootloader_ld_in_preprocess: ld/bootloader.ld

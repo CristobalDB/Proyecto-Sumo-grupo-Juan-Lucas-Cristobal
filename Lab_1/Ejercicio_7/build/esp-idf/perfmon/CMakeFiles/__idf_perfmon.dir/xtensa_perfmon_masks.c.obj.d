@@ -17,9 +17,9 @@ esp-idf/perfmon/CMakeFiles/__idf_perfmon.dir/xtensa_perfmon_masks.c.obj: \
  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/_stdint.h \
  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/_locale.h \
  /home/diazb/esp/esp-idf/components/xtensa/include/xtensa/xt_perf_consts.h \
- /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core.h \
+ /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/core.h \
  /home/diazb/esp/esp-idf/components/xtensa/include/xtensa/hal.h \
  /home/diazb/esp/esp-idf/components/xtensa/include/xtensa/xtensa-versions.h \
- /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core-isa.h \
- /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core-matmap.h \
- /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/tie.h
+ /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/core-isa.h \
+ /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/core-matmap.h \
+ /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/tie.h

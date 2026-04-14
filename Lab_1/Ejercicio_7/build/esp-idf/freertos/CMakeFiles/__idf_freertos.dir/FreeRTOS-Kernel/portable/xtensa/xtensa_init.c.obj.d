@@ -1,7 +1,7 @@
 esp-idf/freertos/CMakeFiles/__idf_freertos.dir/FreeRTOS-Kernel/portable/xtensa/xtensa_init.c.obj: \
  /home/diazb/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/xtensa_init.c \
  /home/diazb/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/xtensa_rtos.h \
- /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core.h \
+ /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/core.h \
  /home/diazb/esp/esp-idf/components/xtensa/include/xtensa/hal.h \
  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/stdint.h \
  /home/diazb/esp/esp-idf/components/esp_libc/platform_include/sys/cdefs.h \
@@ -17,11 +17,11 @@ esp-idf/freertos/CMakeFiles/__idf_freertos.dir/FreeRTOS-Kernel/portable/xtensa/x
  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/_intsup.h \
  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/_stdint.h \
  /home/diazb/esp/esp-idf/components/xtensa/include/xtensa/xtensa-versions.h \
- /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core-isa.h \
- /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core-matmap.h \
- /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/tie.h \
+ /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/core-isa.h \
+ /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/core-matmap.h \
+ /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/tie.h \
  /home/diazb/esp/esp-idf/components/xtensa/include/xtensa/corebits.h \
- /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/system.h \
+ /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/system.h \
  /home/diazb/esp/esp-idf/components/freertos/config/include/freertos/FreeRTOSConfig.h \
  /home/diazb/esp/esp-idf/components/esp_libc/platform_include/assert.h \
  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/stdlib.h \
@@ -36,5 +36,4 @@ esp-idf/freertos/CMakeFiles/__idf_freertos.dir/FreeRTOS-Kernel/portable/xtensa/x
  /home/diazb/esp/esp-idf/components/xtensa/include/xtensa/xtruntime-frames.h \
  /home/diazb/esp/esp-idf/components/esp_libc/platform_include/sys/reent.h \
  /home/diazb/esp/esp-idf/components/xtensa/include/xtensa_context.h \
- /home/diazb/esp/esp-idf/components/xtensa/include/xtensa_timer.h \
  /home/diazb/esp/esp-idf/components/esp_hw_support/include/esp_private/esp_clk.h

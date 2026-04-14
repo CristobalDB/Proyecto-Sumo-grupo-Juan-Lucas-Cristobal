@@ -66,12 +66,12 @@ esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/src/picolibc/picolibc_init.c.obj:
  /home/diazb/esp/esp-idf/components/esp_libc/platform_include/esp_newlib.h \
  /home/diazb/esp/esp-idf/components/esp_common/include/esp_attr.h \
  /home/diazb/esp/esp-idf/components/esp_common/include/esp_assert.h \
- /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/soc_caps.h \
+ /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h \
  /home/diazb/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h \
- /home/diazb/esp/esp-idf/components/esp_rom/esp32/esp_rom_caps.h \
+ /home/diazb/esp/esp-idf/components/esp_rom/esp32s3/esp_rom_caps.h \
  /home/diazb/esp/esp-idf/components/heap/include/esp_heap_caps.h \
  /home/diazb/esp/esp-idf/components/heap/include/multi_heap.h \
  /home/diazb/esp/esp-idf/components/esp_common/include/esp_err.h \
  /home/diazb/esp/esp-idf/components/esp_common/include/esp_compiler.h \
- /home/diazb/esp/esp-idf/components/esp_rom/esp32/include/esp32/rom/libc_stubs.h \
+ /home/diazb/esp/esp-idf/components/esp_rom/esp32s3/include/esp32s3/rom/libc_stubs.h \
  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/xtensa-esp-elf/include/reent.h

@@ -1,10 +1,10 @@
 esp-idf/efuse/CMakeFiles/__idf_efuse.dir/src/esp_efuse_startup.c.obj: \
  /home/diazb/esp/esp-idf/components/efuse/src/esp_efuse_startup.c \
  /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build/config/sdkconfig.h \
- /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/soc_caps.h \
+ /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h \
  /home/diazb/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h \
  /home/diazb/esp/esp-idf/components/soc/include/soc/chip_revision.h \
- /home/diazb/esp/esp-idf/components/hal/esp32/include/hal/efuse_hal.h \
+ /home/diazb/esp/esp-idf/components/hal/esp32s3/include/hal/efuse_hal.h \
  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/stdint.h \
  /home/diazb/esp/esp-idf/components/esp_libc/platform_include/sys/cdefs.h \
  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/cdefs.h \
@@ -18,7 +18,7 @@ esp-idf/efuse/CMakeFiles/__idf_efuse.dir/src/esp_efuse_startup.c.obj: \
  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/_intsup.h \
  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/_stdint.h \
  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/stdbool.h \
- /home/diazb/esp/esp-idf/components/hal/esp32/include/hal/efuse_ll.h \
+ /home/diazb/esp/esp-idf/components/hal/esp32s3/include/hal/efuse_ll.h \
  /home/diazb/esp/esp-idf/components/hal/platform_port/include/hal/misc.h \
  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/string.h \
  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/_locale.h \
@@ -27,8 +27,8 @@ esp-idf/efuse/CMakeFiles/__idf_efuse.dir/src/esp_efuse_startup.c.obj: \
  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/machine/_types.h \
  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/string.h \
  /home/diazb/esp/esp-idf/components/soc/include/soc/efuse_periph.h \
- /home/diazb/esp/esp-idf/components/soc/esp32/register/soc/efuse_reg.h \
- /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/soc.h \
+ /home/diazb/esp/esp-idf/components/soc/esp32s3/register/soc/efuse_reg.h \
+ /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/soc.h \
  /home/diazb/esp/esp-idf/components/esp_common/include/esp_assert.h \
  /home/diazb/esp/esp-idf/components/esp_libc/platform_include/assert.h \
  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/stdlib.h \
@@ -36,14 +36,13 @@ esp-idf/efuse/CMakeFiles/__idf_efuse.dir/src/esp_efuse_startup.c.obj: \
  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/alloca.h \
  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/_wait.h \
  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/assert.h \
- /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/interrupts.h \
  /home/diazb/esp/esp-idf/components/esp_common/include/esp_bit_defs.h \
- /home/diazb/esp/esp-idf/components/soc/esp32/register/soc/reg_base.h \
- /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/efuse_defs.h \
- /home/diazb/esp/esp-idf/components/soc/esp32/register/soc/efuse_struct.h \
+ /home/diazb/esp/esp-idf/components/soc/esp32s3/register/soc/reg_base.h \
+ /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/efuse_defs.h \
+ /home/diazb/esp/esp-idf/components/soc/esp32s3/register/soc/efuse_struct.h \
  /home/diazb/esp/esp-idf/components/hal/platform_port/include/hal/assert.h \
+ /home/diazb/esp/esp-idf/components/esp_rom/esp32s3/include/esp32s3/rom/efuse.h \
  /home/diazb/esp/esp-idf/components/hal/include/hal/efuse_hal.h \
- /home/diazb/esp/esp-idf/components/esp_rom/esp32/include/esp32/rom/efuse.h \
  /home/diazb/esp/esp-idf/components/efuse/include/esp_efuse.h \
  /home/diazb/esp/esp-idf/components/esp_common/include/esp_err.h \
  /home/diazb/esp/esp-idf/components/esp_libc/platform_include/stdio.h \
@@ -55,7 +54,7 @@ esp-idf/efuse/CMakeFiles/__idf_efuse.dir/src/esp_efuse_startup.c.obj: \
  /home/diazb/esp/esp-idf/components/log/include/esp_log.h \
  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/inttypes.h \
  /home/diazb/esp/esp-idf/components/esp_rom/include/esp_rom_sys.h \
- /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/reset_reasons.h \
+ /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/reset_reasons.h \
  /home/diazb/esp/esp-idf/components/log/include/esp_log_config.h \
  /home/diazb/esp/esp-idf/components/log/include/esp_log_level.h \
  /home/diazb/esp/esp-idf/components/log/include/esp_log_color.h \
@@ -69,12 +68,12 @@ esp-idf/efuse/CMakeFiles/__idf_efuse.dir/src/esp_efuse_startup.c.obj: \
  /home/diazb/esp/esp-idf/components/log/include/esp_log_attr.h \
  /home/diazb/esp/esp-idf/components/esp_common/include/esp_attr.h \
  /home/diazb/esp/esp-idf/components/log/include/esp_private/log_attr.h \
- /home/diazb/esp/esp-idf/components/efuse/esp32/include/esp_efuse_chip.h \
- /home/diazb/esp/esp-idf/components/esp_common/include/esp_types.h \
- /home/diazb/esp/esp-idf/components/efuse/esp32/include/esp_efuse_table.h \
+ /home/diazb/esp/esp-idf/components/efuse/esp32s3/include/esp_efuse_chip.h \
+ /home/diazb/esp/esp-idf/components/efuse/esp32s3/include/esp_efuse_table.h \
  /home/diazb/esp/esp-idf/components/esp_common/include/esp_check.h \
  /home/diazb/esp/esp-idf/components/efuse/private_include/esp_efuse_utility.h \
- /home/diazb/esp/esp-idf/components/efuse/esp32/private_include/esp_efuse_utility.h \
+ /home/diazb/esp/esp-idf/components/esp_common/include/esp_types.h \
+ /home/diazb/esp/esp-idf/components/efuse/esp32s3/private_include/esp_efuse_utility.h \
  /home/diazb/esp/esp-idf/components/esp_system/include/esp_system.h \
  /home/diazb/esp/esp-idf/components/esp_common/include/esp_idf_version.h \
  /home/diazb/esp/esp-idf/components/esp_system/include/esp_private/startup_internal.h \
@@ -82,17 +81,17 @@ esp-idf/efuse/CMakeFiles/__idf_efuse.dir/src/esp_efuse_startup.c.obj: \
  /home/diazb/esp/esp-idf/components/xtensa/include/xtensa_api.h \
  /home/diazb/esp/esp-idf/components/xtensa/include/xtensa/hal.h \
  /home/diazb/esp/esp-idf/components/xtensa/include/xtensa_context.h \
- /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/tie.h \
+ /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/tie.h \
  /home/diazb/esp/esp-idf/components/xtensa/include/xtensa/corebits.h \
- /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/system.h \
+ /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/system.h \
  /home/diazb/esp/esp-idf/components/xtensa/include/xtensa/xtruntime-frames.h \
- /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core.h \
+ /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/core.h \
  /home/diazb/esp/esp-idf/components/xtensa/include/xtensa/xtensa-versions.h \
- /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core-isa.h \
- /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core-matmap.h \
+ /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/core-isa.h \
+ /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/core-matmap.h \
  /home/diazb/esp/esp-idf/components/xtensa/include/xt_utils.h \
- /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/extreg.h \
- /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/xt_specreg.h \
+ /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/extreg.h \
+ /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/xt_specreg.h \
  /home/diazb/esp/esp-idf/components/xtensa/include/xtensa/xtruntime.h \
  /home/diazb/esp/esp-idf/components/xtensa/include/xtensa/xtruntime-core-state.h \
  /home/diazb/esp/esp-idf/components/xtensa/include/xt_instr_macros.h \

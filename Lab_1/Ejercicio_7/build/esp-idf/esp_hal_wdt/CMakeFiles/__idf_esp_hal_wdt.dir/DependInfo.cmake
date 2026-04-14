@@ -8,8 +8,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/diazb/esp/esp-idf/components/esp_hal_wdt/esp32/mwdt_periph.c" "esp-idf/esp_hal_wdt/CMakeFiles/__idf_esp_hal_wdt.dir/esp32/mwdt_periph.c.obj" "gcc" "esp-idf/esp_hal_wdt/CMakeFiles/__idf_esp_hal_wdt.dir/esp32/mwdt_periph.c.obj.d"
-  "/home/diazb/esp/esp-idf/components/esp_hal_wdt/wdt_hal_iram.c" "esp-idf/esp_hal_wdt/CMakeFiles/__idf_esp_hal_wdt.dir/wdt_hal_iram.c.obj" "gcc" "esp-idf/esp_hal_wdt/CMakeFiles/__idf_esp_hal_wdt.dir/wdt_hal_iram.c.obj.d"
+  "/home/diazb/esp/esp-idf/components/esp_hal_wdt/esp32s3/mwdt_periph.c" "esp-idf/esp_hal_wdt/CMakeFiles/__idf_esp_hal_wdt.dir/esp32s3/mwdt_periph.c.obj" "gcc" "esp-idf/esp_hal_wdt/CMakeFiles/__idf_esp_hal_wdt.dir/esp32s3/mwdt_periph.c.obj.d"
+  "/home/diazb/esp/esp-idf/components/esp_hal_wdt/rom_patch.c" "esp-idf/esp_hal_wdt/CMakeFiles/__idf_esp_hal_wdt.dir/rom_patch.c.obj" "gcc" "esp-idf/esp_hal_wdt/CMakeFiles/__idf_esp_hal_wdt.dir/rom_patch.c.obj.d"
+  "/home/diazb/esp/esp-idf/components/esp_hal_wdt/xt_wdt_hal.c" "esp-idf/esp_hal_wdt/CMakeFiles/__idf_esp_hal_wdt.dir/xt_wdt_hal.c.obj" "gcc" "esp-idf/esp_hal_wdt/CMakeFiles/__idf_esp_hal_wdt.dir/xt_wdt_hal.c.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

@@ -41,9 +41,9 @@ esp-idf/esp32-camera/CMakeFiles/__idf_esp32-camera.dir/conversions/to_bmp.c.obj:
  /home/diazb/esp/esp-idf/components/esp_driver_ledc/include/driver/ledc_etm.h \
  /home/diazb/esp/esp-idf/components/esp_hw_support/etm/include/esp_etm.h \
  /home/diazb/esp/esp-idf/components/esp_hal_ledc/include/hal/ledc_types.h \
- /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/soc_caps.h \
+ /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h \
  /home/diazb/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h \
- /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/clk_tree_defs.h \
+ /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/clk_tree_defs.h \
  /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/components/esp32-camera/driver/include/sensor.h \
  /home/diazb/esp/esp-idf/components/esp_libc/platform_include/sys/time.h \
  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/time.h \
@@ -58,13 +58,12 @@ esp-idf/esp32-camera/CMakeFiles/__idf_esp32-camera.dir/conversions/to_bmp.c.obj:
  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/sched.h \
  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/machine/types.h \
  /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/managed_components/espressif__esp_jpeg/include/jpeg_decoder.h \
- /home/diazb/esp/esp-idf/components/soc/esp32/register/soc/efuse_reg.h \
- /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/soc.h \
+ /home/diazb/esp/esp-idf/components/soc/esp32s3/register/soc/efuse_reg.h \
+ /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/soc.h \
  /home/diazb/esp/esp-idf/components/esp_common/include/esp_assert.h \
- /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/interrupts.h \
  /home/diazb/esp/esp-idf/components/esp_common/include/esp_bit_defs.h \
- /home/diazb/esp/esp-idf/components/soc/esp32/register/soc/reg_base.h \
- /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/efuse_defs.h \
+ /home/diazb/esp/esp-idf/components/soc/esp32s3/register/soc/reg_base.h \
+ /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/efuse_defs.h \
  /home/diazb/esp/esp-idf/components/heap/include/esp_heap_caps.h \
  /home/diazb/esp/esp-idf/components/heap/include/multi_heap.h \
  /home/diazb/esp/esp-idf/components/esp_common/include/esp_attr.h \
@@ -75,7 +74,7 @@ esp-idf/esp32-camera/CMakeFiles/__idf_esp32-camera.dir/conversions/to_bmp.c.obj:
  /home/diazb/esp/esp-idf/components/log/include/esp_log.h \
  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/inttypes.h \
  /home/diazb/esp/esp-idf/components/esp_rom/include/esp_rom_sys.h \
- /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/reset_reasons.h \
+ /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/reset_reasons.h \
  /home/diazb/esp/esp-idf/components/log/include/esp_log_config.h \
  /home/diazb/esp/esp-idf/components/log/include/esp_log_level.h \
  /home/diazb/esp/esp-idf/components/log/include/esp_log_color.h \

@@ -3,14 +3,11 @@
 #include "freertos/task.h"
 #include "esp_log.h"
 
-// Dimensiones requeridas por el enunciado [cite: 95]
 #define WIDTH 96
 #define HEIGHT 96
 
 static const char *TAG = "SOBEL_PROJECT";
 
-// --- PASO 1: PEGA AQUÍ TU ARREGLO DE COLAB ---
-// Reemplaza este ejemplo con los datos de alexis.png
 const uint8_t image_96x96[WIDTH * HEIGHT] = {
     0x29, 0x24, 0x20, 0x1e, 0x1e, 0x21, 0x26, 0x29, 0x2e, 0x35, 0x3d, 0x43,
   0x47, 0x49, 0x4b, 0x4b, 0x46, 0x41, 0x3d, 0x38, 0x36, 0x33, 0x30, 0x30,
@@ -783,11 +780,9 @@ const uint8_t image_96x96[WIDTH * HEIGHT] = {
 };
 
 void apply_sobel() {
-    // Usamos static para no sobrecargar el stack de la tarea [cite: 86]
     static int16_t Gx[WIDTH * HEIGHT];
     static int16_t Gy[WIDTH * HEIGHT];
 
-    // Kernels de Sobel [cite: 96]
     int kernel_x[3][3] = {
         {-1, 0, 1},
         {-2, 0, 2},
@@ -801,7 +796,6 @@ void apply_sobel() {
 
     ESP_LOGI(TAG, "Iniciando procesamiento Sobel...");
 
-    // Aplicar convolución (evitando bordes para simplicidad)
     for (int y = 1; y < HEIGHT - 1; y++) {
         for (int x = 1; x < WIDTH - 1; x++) {
             int sumX = 0;
@@ -819,36 +813,29 @@ void apply_sobel() {
         }
     }
 
-    // --- PASO 3: IMPRESIÓN PARA COLAB ---
-    // El profesor advierte que esto puede ser lento [cite: 237]
     printf("--- INICIO DATOS SOBEL ---\n");
     for (int i = 0; i < WIDTH * HEIGHT; i++) {
-        // Imprimimos la magnitud combinada aproximada
         int magnitude = abs(Gx[i]) + abs(Gy[i]);
         printf("%d,", magnitude);
         
-        // Salto de línea cada 96 píxeles para legibilidad
         if ((i + 1) % WIDTH == 0) {
             printf("\n");
-            vTaskDelay(pdMS_TO_TICKS(10)); // "Acariciar" al watchdog indirectamente [cite: 237]
+            vTaskDelay(pdMS_TO_TICKS(10));
         }
     }
     printf("\n--- FIN DATOS SOBEL ---\n");
 }
 
 void app_main(void) {
-    // 1. IMPORTANTE: Espera 3-5 segundos para que el monitor serial se conecte
     vTaskDelay(pdMS_TO_TICKS(5000)); 
     
     printf("--- INICIANDO PROCESAMIENTO SOBEL (ALEXIS) ---\n");
     
-    // 2. Ejecuta la lógica del filtro
     apply_sobel(); 
     
     printf("--- PROCESAMIENTO COMPLETADO ---\n");
 
-    // 3. BUCLE INFINITO: Evita que aparezca "Returned from app_main"
     while(1) {
-        vTaskDelay(pdMS_TO_TICKS(1000)); // Mantiene el chip encendido
+        vTaskDelay(pdMS_TO_TICKS(1000));
     }
 }

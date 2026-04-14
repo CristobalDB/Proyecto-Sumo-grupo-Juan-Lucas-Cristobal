@@ -161,6 +161,44 @@ depend:
 	cd /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
+# Convenience name for target.
+esp-idf/esp_hal_systimer/CMakeFiles/__idf_esp_hal_systimer.dir/rule:
+	cd /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_hal_systimer/CMakeFiles/__idf_esp_hal_systimer.dir/rule
+.PHONY : esp-idf/esp_hal_systimer/CMakeFiles/__idf_esp_hal_systimer.dir/rule
+
+# Convenience name for target.
+__idf_esp_hal_systimer: esp-idf/esp_hal_systimer/CMakeFiles/__idf_esp_hal_systimer.dir/rule
+.PHONY : __idf_esp_hal_systimer
+
+# fast build rule for target.
+__idf_esp_hal_systimer/fast:
+	cd /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hal_systimer/CMakeFiles/__idf_esp_hal_systimer.dir/build.make esp-idf/esp_hal_systimer/CMakeFiles/__idf_esp_hal_systimer.dir/build
+.PHONY : __idf_esp_hal_systimer/fast
+
+systimer_hal.obj: systimer_hal.c.obj
+.PHONY : systimer_hal.obj
+
+# target to build an object file
+systimer_hal.c.obj:
+	cd /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hal_systimer/CMakeFiles/__idf_esp_hal_systimer.dir/build.make esp-idf/esp_hal_systimer/CMakeFiles/__idf_esp_hal_systimer.dir/systimer_hal.c.obj
+.PHONY : systimer_hal.c.obj
+
+systimer_hal.i: systimer_hal.c.i
+.PHONY : systimer_hal.i
+
+# target to preprocess a source file
+systimer_hal.c.i:
+	cd /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hal_systimer/CMakeFiles/__idf_esp_hal_systimer.dir/build.make esp-idf/esp_hal_systimer/CMakeFiles/__idf_esp_hal_systimer.dir/systimer_hal.c.i
+.PHONY : systimer_hal.c.i
+
+systimer_hal.s: systimer_hal.c.s
+.PHONY : systimer_hal.s
+
+# target to generate assembly for a file
+systimer_hal.c.s:
+	cd /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hal_systimer/CMakeFiles/__idf_esp_hal_systimer.dir/build.make esp-idf/esp_hal_systimer/CMakeFiles/__idf_esp_hal_systimer.dir/systimer_hal.c.s
+.PHONY : systimer_hal.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -173,6 +211,10 @@ help:
 	@echo "... install/strip"
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
+	@echo "... __idf_esp_hal_systimer"
+	@echo "... systimer_hal.obj"
+	@echo "... systimer_hal.i"
+	@echo "... systimer_hal.s"
 .PHONY : help
 
 

@@ -9,12 +9,17 @@ esp-idf/esp_http_server/CMakeFiles/__idf_esp_http_server.dir/src/httpd_crypto_ps
   /home/diazb/esp/esp-idf/components/esp_common/include/esp_err.h \
   /home/diazb/esp/esp-idf/components/esp_common/include/esp_macros.h \
   /home/diazb/esp/esp-idf/components/esp_common/include/esp_types.h \
+  /home/diazb/esp/esp-idf/components/esp_hal_security/include/hal/hmac_types.h \
   /home/diazb/esp/esp-idf/components/esp_libc/platform_include/assert.h \
   /home/diazb/esp/esp-idf/components/esp_libc/platform_include/stdio.h \
   /home/diazb/esp/esp-idf/components/esp_libc/platform_include/sys/cdefs.h \
   /home/diazb/esp/esp-idf/components/esp_libc/platform_include/sys/lock.h \
+  /home/diazb/esp/esp-idf/components/esp_rom/esp32s3/include/esp32s3/rom/digital_signature.h \
   /home/diazb/esp/esp-idf/components/esp_rom/include/esp_rom_md5.h \
   /home/diazb/esp/esp-idf/components/esp_rom/include/esp_rom_sys.h \
+  /home/diazb/esp/esp-idf/components/esp_security/include/esp_ds.h \
+  /home/diazb/esp/esp-idf/components/esp_security/include/esp_ds_err.h \
+  /home/diazb/esp/esp-idf/components/esp_security/include/esp_hmac.h \
   /home/diazb/esp/esp-idf/components/log/include/esp_log.h \
   /home/diazb/esp/esp-idf/components/log/include/esp_log_args.h \
   /home/diazb/esp/esp-idf/components/log/include/esp_log_attr.h \
@@ -76,10 +81,12 @@ esp-idf/esp_http_server/CMakeFiles/__idf_esp_http_server.dir/src/httpd_crypto_ps
   /home/diazb/esp/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h \
   /home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_aes_contexts.h \
   /home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_cmac_contexts.h \
+  /home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_hmac_opaque_contexts.h \
   /home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_hmac_transparent_contexts.h \
+  /home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_rsa_ds_contexts.h \
   /home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_sha_contexts.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/reset_reasons.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/soc_caps.h \
+  /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/reset_reasons.h \
+  /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h \
   /home/diazb/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h \
   /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/float.h \
   /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/limits.h \
@@ -228,19 +235,18 @@ esp-idf/esp_http_server/CMakeFiles/__idf_esp_http_server.dir/src/httpd_main.c.ob
   /home/diazb/esp/esp-idf/components/lwip/port/include/netinet/tcp.h \
   /home/diazb/esp/esp-idf/components/lwip/port/include/sntp/sntp_get_set_time.h \
   /home/diazb/esp/esp-idf/components/lwip/port/include/sockets_ext.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/interrupts.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/reset_reasons.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/soc.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/soc_caps.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/register/soc/reg_base.h \
+  /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/reset_reasons.h \
+  /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/soc.h \
+  /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h \
+  /home/diazb/esp/esp-idf/components/soc/esp32s3/register/soc/reg_base.h \
   /home/diazb/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core-isa.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core-matmap.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/extreg.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/system.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/tie.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/xt_specreg.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/core-isa.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/core-matmap.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/core.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/extreg.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/system.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/tie.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/xt_specreg.h \
   /home/diazb/esp/esp-idf/components/xtensa/include/xt_instr_macros.h \
   /home/diazb/esp/esp-idf/components/xtensa/include/xt_utils.h \
   /home/diazb/esp/esp-idf/components/xtensa/include/xtensa/corebits.h \
@@ -408,19 +414,18 @@ esp-idf/esp_http_server/CMakeFiles/__idf_esp_http_server.dir/src/httpd_parse.c.o
   /home/diazb/esp/esp-idf/components/lwip/port/include/netinet/in.h \
   /home/diazb/esp/esp-idf/components/lwip/port/include/sntp/sntp_get_set_time.h \
   /home/diazb/esp/esp-idf/components/lwip/port/include/sockets_ext.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/interrupts.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/reset_reasons.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/soc.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/soc_caps.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/register/soc/reg_base.h \
+  /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/reset_reasons.h \
+  /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/soc.h \
+  /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h \
+  /home/diazb/esp/esp-idf/components/soc/esp32s3/register/soc/reg_base.h \
   /home/diazb/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core-isa.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core-matmap.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/extreg.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/system.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/tie.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/xt_specreg.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/core-isa.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/core-matmap.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/core.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/extreg.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/system.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/tie.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/xt_specreg.h \
   /home/diazb/esp/esp-idf/components/xtensa/include/xt_instr_macros.h \
   /home/diazb/esp/esp-idf/components/xtensa/include/xt_utils.h \
   /home/diazb/esp/esp-idf/components/xtensa/include/xtensa/corebits.h \
@@ -588,19 +593,18 @@ esp-idf/esp_http_server/CMakeFiles/__idf_esp_http_server.dir/src/httpd_sess.c.ob
   /home/diazb/esp/esp-idf/components/lwip/port/include/netinet/in.h \
   /home/diazb/esp/esp-idf/components/lwip/port/include/sntp/sntp_get_set_time.h \
   /home/diazb/esp/esp-idf/components/lwip/port/include/sockets_ext.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/interrupts.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/reset_reasons.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/soc.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/soc_caps.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/register/soc/reg_base.h \
+  /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/reset_reasons.h \
+  /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/soc.h \
+  /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h \
+  /home/diazb/esp/esp-idf/components/soc/esp32s3/register/soc/reg_base.h \
   /home/diazb/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core-isa.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core-matmap.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/extreg.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/system.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/tie.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/xt_specreg.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/core-isa.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/core-matmap.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/core.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/extreg.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/system.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/tie.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/xt_specreg.h \
   /home/diazb/esp/esp-idf/components/xtensa/include/xt_instr_macros.h \
   /home/diazb/esp/esp-idf/components/xtensa/include/xt_utils.h \
   /home/diazb/esp/esp-idf/components/xtensa/include/xtensa/corebits.h \
@@ -783,19 +787,18 @@ esp-idf/esp_http_server/CMakeFiles/__idf_esp_http_server.dir/src/httpd_txrx.c.ob
   /home/diazb/esp/esp-idf/components/lwip/port/include/netinet/tcp.h \
   /home/diazb/esp/esp-idf/components/lwip/port/include/sntp/sntp_get_set_time.h \
   /home/diazb/esp/esp-idf/components/lwip/port/include/sockets_ext.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/interrupts.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/reset_reasons.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/soc.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/soc_caps.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/register/soc/reg_base.h \
+  /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/reset_reasons.h \
+  /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/soc.h \
+  /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h \
+  /home/diazb/esp/esp-idf/components/soc/esp32s3/register/soc/reg_base.h \
   /home/diazb/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core-isa.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core-matmap.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/extreg.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/system.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/tie.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/xt_specreg.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/core-isa.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/core-matmap.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/core.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/extreg.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/system.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/tie.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/xt_specreg.h \
   /home/diazb/esp/esp-idf/components/xtensa/include/xt_instr_macros.h \
   /home/diazb/esp/esp-idf/components/xtensa/include/xt_utils.h \
   /home/diazb/esp/esp-idf/components/xtensa/include/xtensa/corebits.h \
@@ -963,19 +966,18 @@ esp-idf/esp_http_server/CMakeFiles/__idf_esp_http_server.dir/src/httpd_uri.c.obj
   /home/diazb/esp/esp-idf/components/lwip/port/include/netinet/in.h \
   /home/diazb/esp/esp-idf/components/lwip/port/include/sntp/sntp_get_set_time.h \
   /home/diazb/esp/esp-idf/components/lwip/port/include/sockets_ext.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/interrupts.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/reset_reasons.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/soc.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/soc_caps.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/register/soc/reg_base.h \
+  /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/reset_reasons.h \
+  /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/soc.h \
+  /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h \
+  /home/diazb/esp/esp-idf/components/soc/esp32s3/register/soc/reg_base.h \
   /home/diazb/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core-isa.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core-matmap.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/extreg.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/system.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/tie.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/xt_specreg.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/core-isa.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/core-matmap.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/core.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/extreg.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/system.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/tie.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/xt_specreg.h \
   /home/diazb/esp/esp-idf/components/xtensa/include/xt_instr_macros.h \
   /home/diazb/esp/esp-idf/components/xtensa/include/xt_utils.h \
   /home/diazb/esp/esp-idf/components/xtensa/include/xtensa/corebits.h \
@@ -1053,6 +1055,7 @@ esp-idf/esp_http_server/CMakeFiles/__idf_esp_http_server.dir/src/httpd_ws.c.obj:
   /home/diazb/esp/esp-idf/components/esp_common/include/esp_types.h \
   /home/diazb/esp/esp-idf/components/esp_event/include/esp_event.h \
   /home/diazb/esp/esp-idf/components/esp_event/include/esp_event_base.h \
+  /home/diazb/esp/esp-idf/components/esp_hal_security/include/hal/hmac_types.h \
   /home/diazb/esp/esp-idf/components/esp_http_server/include/esp_http_server.h \
   /home/diazb/esp/esp-idf/components/esp_http_server/src/esp_httpd_priv.h \
   /home/diazb/esp/esp-idf/components/esp_http_server/src/port/esp32/osal.h \
@@ -1079,8 +1082,12 @@ esp-idf/esp_http_server/CMakeFiles/__idf_esp_http_server.dir/src/httpd_ws.c.obj:
   /home/diazb/esp/esp-idf/components/esp_libc/platform_include/sys/time.h \
   /home/diazb/esp/esp-idf/components/esp_libc/platform_include/sys/unistd.h \
   /home/diazb/esp/esp-idf/components/esp_libc/platform_include/time.h \
+  /home/diazb/esp/esp-idf/components/esp_rom/esp32s3/include/esp32s3/rom/digital_signature.h \
   /home/diazb/esp/esp-idf/components/esp_rom/include/esp_rom_md5.h \
   /home/diazb/esp/esp-idf/components/esp_rom/include/esp_rom_sys.h \
+  /home/diazb/esp/esp-idf/components/esp_security/include/esp_ds.h \
+  /home/diazb/esp/esp-idf/components/esp_security/include/esp_ds_err.h \
+  /home/diazb/esp/esp-idf/components/esp_security/include/esp_hmac.h \
   /home/diazb/esp/esp-idf/components/esp_system/include/esp_private/crosscore_int.h \
   /home/diazb/esp/esp-idf/components/esp_system/include/esp_system.h \
   /home/diazb/esp/esp-idf/components/esp_system/include/esp_task.h \
@@ -1203,21 +1210,22 @@ esp-idf/esp_http_server/CMakeFiles/__idf_esp_http_server.dir/src/httpd_ws.c.obj:
   /home/diazb/esp/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h \
   /home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_aes_contexts.h \
   /home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_cmac_contexts.h \
+  /home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_hmac_opaque_contexts.h \
   /home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_hmac_transparent_contexts.h \
+  /home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_rsa_ds_contexts.h \
   /home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_sha_contexts.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/interrupts.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/reset_reasons.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/soc.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/soc_caps.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/register/soc/reg_base.h \
+  /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/reset_reasons.h \
+  /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/soc.h \
+  /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h \
+  /home/diazb/esp/esp-idf/components/soc/esp32s3/register/soc/reg_base.h \
   /home/diazb/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core-isa.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core-matmap.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/extreg.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/system.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/tie.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/xt_specreg.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/core-isa.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/core-matmap.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/core.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/extreg.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/system.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/tie.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/xt_specreg.h \
   /home/diazb/esp/esp-idf/components/xtensa/include/xt_instr_macros.h \
   /home/diazb/esp/esp-idf/components/xtensa/include/xt_utils.h \
   /home/diazb/esp/esp-idf/components/xtensa/include/xtensa/corebits.h \
@@ -1379,19 +1387,18 @@ esp-idf/esp_http_server/CMakeFiles/__idf_esp_http_server.dir/src/util/ctrl_sock.
   /home/diazb/esp/esp-idf/components/lwip/port/include/netinet/in.h \
   /home/diazb/esp/esp-idf/components/lwip/port/include/sntp/sntp_get_set_time.h \
   /home/diazb/esp/esp-idf/components/lwip/port/include/sockets_ext.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/interrupts.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/reset_reasons.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/soc.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/soc_caps.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/register/soc/reg_base.h \
+  /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/reset_reasons.h \
+  /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/soc.h \
+  /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h \
+  /home/diazb/esp/esp-idf/components/soc/esp32s3/register/soc/reg_base.h \
   /home/diazb/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core-isa.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core-matmap.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/extreg.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/system.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/tie.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/xt_specreg.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/core-isa.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/core-matmap.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/core.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/extreg.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/system.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/tie.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/xt_specreg.h \
   /home/diazb/esp/esp-idf/components/xtensa/include/xt_instr_macros.h \
   /home/diazb/esp/esp-idf/components/xtensa/include/xt_utils.h \
   /home/diazb/esp/esp-idf/components/xtensa/include/xtensa/corebits.h \
@@ -1470,17 +1477,19 @@ esp-idf/esp_http_server/CMakeFiles/__idf_esp_http_server.dir/src/util/ctrl_sock.
 
 /home/diazb/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/private/config_adjust_ssl.h:
 
-/home/diazb/esp/esp-idf/components/esp_hw_support/include/esp_intr_types.h:
+/home/diazb/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/build_info.h:
 
-/home/diazb/esp/esp-idf/components/esp_system/include/esp_system.h:
+/home/diazb/esp/esp-idf/components/esp_libc/platform_include/sys/random.h:
 
-/home/diazb/esp/esp-idf/components/lwip/lwip/src/include/lwip/ip4.h:
+/home/diazb/esp/esp-idf/components/esp_http_server/src/httpd_ws.c:
 
-/home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/_locale.h:
+/home/diazb/esp/esp-idf/components/esp_http_server/src/httpd_uri.c:
 
-/home/diazb/esp/esp-idf/components/lwip/lwip/src/include/lwip/tcp.h:
+/home/diazb/esp/esp-idf/components/esp_http_server/src/httpd_txrx.c:
 
 /home/diazb/esp/esp-idf/components/esp_http_server/src/esp_httpd_priv.h:
+
+/home/diazb/esp/esp-idf/components/esp_event/include/esp_event.h:
 
 /home/diazb/esp/esp-idf/components/esp_http_server/include/esp_http_server.h:
 
@@ -1488,9 +1497,7 @@ esp-idf/esp_http_server/CMakeFiles/__idf_esp_http_server.dir/src/util/ctrl_sock.
 
 /home/diazb/esp/esp-idf/components/xtensa/include/xt_instr_macros.h:
 
-/home/diazb/esp/esp-idf/components/esp_libc/platform_include/esp_newlib.h:
-
-/home/diazb/esp/esp-idf/components/esp_libc/platform_include/sys/cdefs.h:
+/home/diazb/esp/esp-idf/components/esp_security/include/esp_ds_err.h:
 
 /home/diazb/esp/esp-idf/components/lwip/lwip/src/include/lwip/ip6.h:
 
@@ -1504,14 +1511,6 @@ esp-idf/esp_http_server/CMakeFiles/__idf_esp_http_server.dir/src/util/ctrl_sock.
 
 /home/diazb/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/mpu_wrappers.h:
 
-/home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/machine/_types.h:
-
-/home/diazb/esp/esp-idf/components/log/include/esp_log_args.h:
-
-/home/diazb/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/build_info.h:
-
-/home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/stdarg.h:
-
 /home/diazb/esp/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/include/mbedtls/private/ccm.h:
 
 /home/diazb/esp/esp-idf/components/lwip/lwip/src/include/lwip/ip_addr.h:
@@ -1520,23 +1519,37 @@ esp-idf/esp_http_server/CMakeFiles/__idf_esp_http_server.dir/src/util/ctrl_sock.
 
 /home/diazb/esp/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/include/mbedtls/private/gcm.h:
 
+/home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/stdarg.h:
+
+/home/diazb/esp/esp-idf/components/log/include/esp_log_level.h:
+
+/home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/inttypes.h:
+
 /home/diazb/esp/esp-idf/components/esp_timer/include/esp_timer.h:
 
 /home/diazb/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h:
 
-/home/diazb/esp/esp-idf/components/soc/esp32/include/soc/soc_caps.h:
+/home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h:
 
-/home/diazb/esp/esp-idf/components/log/include/esp_log_attr.h:
+/home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_rsa_ds_contexts.h:
 
-/home/diazb/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/portable.h:
+/home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/stdlib.h:
 
 /home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_hmac_transparent_contexts.h:
+
+/home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/machine/_types.h:
+
+/home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_hmac_opaque_contexts.h:
 
 /home/diazb/esp/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h:
 
 /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/machine/endian.h:
 
 /home/diazb/esp/esp-idf/components/esp_common/include/esp_bit_defs.h:
+
+/home/diazb/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/error.h:
+
+/home/diazb/esp/esp-idf/components/esp_http_server/src/port/esp32/osal.h:
 
 /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/errno.h:
 
@@ -1549,8 +1562,6 @@ esp-idf/esp_http_server/CMakeFiles/__idf_esp_http_server.dir/src/util/ctrl_sock.
 /home/diazb/esp/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/include/tf-psa-crypto/build_info.h:
 
 /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/machine/ieeefp.h:
-
-/home/diazb/esp/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/include/psa/crypto_types.h:
 
 /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/features.h:
 
@@ -1566,15 +1577,15 @@ esp-idf/esp_http_server/CMakeFiles/__idf_esp_http_server.dir/src/util/ctrl_sock.
 
 /home/diazb/esp/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/include/psa/crypto_driver_contexts_composites.h:
 
-/home/diazb/esp/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/include/psa/crypto_driver_common.h:
-
 /home/diazb/esp/esp-idf/components/xtensa/include/xtensa/xtruntime.h:
 
 /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/ctype.h:
 
-/home/diazb/esp/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/include/mbedtls/private/sha512.h:
+/home/diazb/esp/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/include/psa/crypto_builtin_primitives.h:
 
-/home/diazb/esp/esp-idf/components/lwip/lwip/src/include/lwip/tcpbase.h:
+/home/diazb/esp/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/include/psa/crypto_builtin_composites.h:
+
+/home/diazb/esp/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/include/psa/crypto_adjust_config_synonyms.h:
 
 /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/_intsup.h:
 
@@ -1592,25 +1603,17 @@ esp-idf/esp_http_server/CMakeFiles/__idf_esp_http_server.dir/src/util/ctrl_sock.
 
 /home/diazb/esp/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/include/psa/crypto_extra.h:
 
-/home/diazb/esp/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/include/psa/crypto_sizes.h:
-
 /home/diazb/esp/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/include/psa/crypto_compat.h:
 
-/home/diazb/esp/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/include/mbedtls/private/sha3.h:
+/home/diazb/esp/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/include/psa/crypto_sizes.h:
 
-/home/diazb/esp/esp-idf/components/esp_hw_support/include/esp_intr_alloc.h:
+/home/diazb/esp/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/include/mbedtls/private/sha512.h:
 
-/home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/_types.h:
+/home/diazb/esp/esp-idf/components/lwip/lwip/src/include/lwip/tcpbase.h:
 
-/home/diazb/esp/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/include/mbedtls/private/ecp.h:
+/home/diazb/esp/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/include/psa/crypto_types.h:
 
-/home/diazb/esp/esp-idf/components/xtensa/include/xtensa_config.h:
-
-/home/diazb/esp/esp-idf/components/log/include/esp_log.h:
-
-/home/diazb/esp/esp-idf/components/esp_rom/include/esp_rom_sys.h:
-
-/home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/system.h:
+/home/diazb/esp/esp-idf/components/esp_rom/esp32s3/include/esp32s3/rom/digital_signature.h:
 
 /home/diazb/esp/esp-idf/components/esp_libc/platform_include/assert.h:
 
@@ -1620,15 +1623,11 @@ esp-idf/esp_http_server/CMakeFiles/__idf_esp_http_server.dir/src/util/ctrl_sock.
 
 /home/diazb/esp/esp-idf/components/esp_libc/platform_include/stdio.h:
 
-config/sdkconfig.h:
-
 /home/diazb/esp/esp-idf/components/esp_hw_support/etm/include/esp_etm.h:
 
 /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/machine/stdlib.h:
 
 /home/diazb/esp/esp-idf/components/esp_rom/include/esp_rom_md5.h:
-
-/home/diazb/esp/esp-idf/components/soc/esp32/register/soc/reg_base.h:
 
 /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/stdbool.h:
 
@@ -1640,6 +1639,22 @@ config/sdkconfig.h:
 
 /home/diazb/esp/esp-idf/components/lwip/port/esp32xx/include/sys/socket.h:
 
+/home/diazb/esp/esp-idf/components/esp_libc/platform_include/sys/cdefs.h:
+
+/home/diazb/esp/esp-idf/components/esp_libc/platform_include/esp_newlib.h:
+
+/home/diazb/esp/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/include/psa/crypto_driver_common.h:
+
+/home/diazb/esp/esp-idf/components/soc/esp32s3/register/soc/reg_base.h:
+
+/home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/syslimits.h:
+
+/home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_aes_contexts.h:
+
+/home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/unistd.h:
+
+config/sdkconfig.h:
+
 /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/stddef.h:
 
 /home/diazb/esp/esp-idf/components/esp_common/include/esp_assert.h:
@@ -1649,6 +1664,20 @@ config/sdkconfig.h:
 /home/diazb/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/portbenchmark.h:
 
 /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/types.h:
+
+/home/diazb/esp/esp-idf/components/esp_common/include/esp_attr.h:
+
+/home/diazb/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/message_buffer.h:
+
+/home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/system.h:
+
+/home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/time.h:
+
+/home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/machine/param.h:
+
+/home/diazb/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/semphr.h:
+
+/home/diazb/esp/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/include/psa/crypto_builtin_key_derivation.h:
 
 /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/assert.h:
 
@@ -1664,13 +1693,15 @@ config/sdkconfig.h:
 
 /home/diazb/esp/esp-idf/components/esp_libc/platform_include/net/if.h:
 
-/home/diazb/esp/esp-idf/components/esp_common/include/esp_attr.h:
+/home/diazb/esp/esp-idf/components/esp_event/include/esp_event_base.h:
 
-/home/diazb/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/message_buffer.h:
+/home/diazb/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/projdefs.h:
 
-/home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/time.h:
+/home/diazb/esp/esp-idf/components/lwip/lwip/src/include/lwip/mem.h:
 
-/home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/machine/param.h:
+/home/diazb/esp/esp-idf/components/esp_http_server/src/httpd_crypto_psa.c:
+
+/home/diazb/esp/esp-idf/components/log/include/esp_log_color.h:
 
 /home/diazb/esp/esp-idf/components/esp_hw_support/include/esp_random.h:
 
@@ -1682,23 +1713,35 @@ config/sdkconfig.h:
 
 /home/diazb/esp/esp-idf/components/esp_common/include/esp_macros.h:
 
-/home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/extreg.h:
-
 /home/diazb/esp/esp-idf/components/lwip/lwip/src/include/lwip/ip.h:
 
-/home/diazb/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/semphr.h:
+/home/diazb/esp/esp-idf/components/esp_hal_security/include/hal/hmac_types.h:
 
-/home/diazb/esp/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/include/psa/crypto_builtin_key_derivation.h:
+/home/diazb/esp/esp-idf/components/lwip/lwip/src/include/lwip/if_api.h:
 
-/home/diazb/esp/esp-idf/components/esp_hw_support/include/esp_memory_utils.h:
+/home/diazb/esp/esp-idf/components/esp_rom/include/esp_rom_sys.h:
+
+/home/diazb/esp/esp-idf/components/log/include/esp_log_args.h:
 
 /home/diazb/esp/esp-idf/components/esp_libc/platform_include/sys/lock.h:
 
 /home/diazb/esp/esp-idf/components/esp_libc/platform_include/sys/ioctl.h:
 
-/home/diazb/esp/esp-idf/components/esp_http_server/src/util/ctrl_sock.h:
+/home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/reset_reasons.h:
 
-/home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/stdlib.h:
+/home/diazb/esp/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/include/mbedtls/private/sha3.h:
+
+/home/diazb/esp/esp-idf/components/esp_hw_support/include/esp_intr_alloc.h:
+
+/home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/_types.h:
+
+/home/diazb/esp/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/include/mbedtls/private/ecp.h:
+
+/home/diazb/esp/esp-idf/components/log/include/esp_log_attr.h:
+
+/home/diazb/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/portable.h:
+
+/home/diazb/esp/esp-idf/components/esp_http_server/src/util/ctrl_sock.h:
 
 /home/diazb/esp/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/include/mbedtls/private/cmac.h:
 
@@ -1756,27 +1799,29 @@ config/sdkconfig.h:
 
 /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/machine/_endian.h:
 
-/home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/stdint.h:
-
 /home/diazb/esp/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/include/psa/crypto_config.h:
+
+/home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/stdint.h:
 
 /home/diazb/esp/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/include/psa/crypto_adjust_config_dependencies.h:
 
-/home/diazb/esp/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/include/psa/crypto_adjust_config_synonyms.h:
+/home/diazb/esp/esp-idf/components/esp_hw_support/include/esp_intr_types.h:
 
-/home/diazb/esp/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/include/psa/crypto_builtin_composites.h:
+/home/diazb/esp/esp-idf/components/esp_system/include/esp_system.h:
 
-/home/diazb/esp/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/include/psa/crypto_builtin_primitives.h:
+/home/diazb/esp/esp-idf/components/lwip/lwip/src/include/lwip/ip4.h:
 
-/home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/syslimits.h:
+/home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/_locale.h:
 
-/home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_aes_contexts.h:
+/home/diazb/esp/esp-idf/components/lwip/lwip/src/include/lwip/tcp.h:
 
-/home/diazb/esp/esp-idf/components/log/include/esp_log_color.h:
+/home/diazb/esp/esp-idf/components/log/include/esp_log.h:
 
-/home/diazb/esp/esp-idf/components/esp_http_server/src/httpd_crypto_psa.c:
+/home/diazb/esp/esp-idf/components/xtensa/include/xtensa_config.h:
 
-/home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/unistd.h:
+/home/diazb/esp/esp-idf/components/esp_security/include/esp_hmac.h:
+
+/home/diazb/esp/esp-idf/components/esp_hw_support/include/esp_memory_utils.h:
 
 /home/diazb/esp/esp-idf/components/esp_libc/platform_include/sys/fcntl.h:
 
@@ -1796,6 +1841,8 @@ config/sdkconfig.h:
 
 /home/diazb/esp/esp-idf/components/esp_libc/platform_include/time.h:
 
+/home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/core-matmap.h:
+
 /home/diazb/esp/esp-idf/components/esp_system/include/esp_task.h:
 
 /home/diazb/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/FreeRTOS.h:
@@ -1808,15 +1855,11 @@ config/sdkconfig.h:
 
 /home/diazb/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/list.h:
 
-/home/diazb/esp/esp-idf/components/esp_event/include/esp_event_base.h:
-
-/home/diazb/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/projdefs.h:
-
-/home/diazb/esp/esp-idf/components/lwip/lwip/src/include/lwip/mem.h:
-
 /home/diazb/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/queue.h:
 
 /home/diazb/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/task.h:
+
+/home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/soc.h:
 
 /home/diazb/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/timers.h:
 
@@ -1836,8 +1879,6 @@ config/sdkconfig.h:
 
 /home/diazb/esp/esp-idf/components/freertos/config/xtensa/include/freertos/FreeRTOSConfig_arch.h:
 
-/home/diazb/esp/esp-idf/components/esp_http_server/src/httpd_uri.c:
-
 /home/diazb/esp/esp-idf/components/xtensa/include/xt_utils.h:
 
 /home/diazb/esp/esp-idf/components/freertos/esp_additions/include/freertos/idf_additions.h:
@@ -1848,7 +1889,7 @@ config/sdkconfig.h:
 
 /home/diazb/esp/esp-idf/components/lwip/include/lwip/sockets.h:
 
-/home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core-isa.h:
+/home/diazb/esp/esp-idf/components/esp_security/include/esp_ds.h:
 
 /home/diazb/esp/esp-idf/components/lwip/lwip/src/include/lwip/arch.h:
 
@@ -1865,8 +1906,6 @@ config/sdkconfig.h:
 /home/diazb/esp/esp-idf/components/lwip/lwip/src/include/lwip/icmp.h:
 
 /home/diazb/esp/esp-idf/components/lwip/lwip/src/include/lwip/icmp6.h:
-
-/home/diazb/esp/esp-idf/components/lwip/lwip/src/include/lwip/if_api.h:
 
 /home/diazb/esp/esp-idf/components/esp_common/include/esp_compiler.h:
 
@@ -1886,9 +1925,9 @@ config/sdkconfig.h:
 
 /home/diazb/esp/esp-idf/components/lwip/lwip/src/include/lwip/ip6_zone.h:
 
-/home/diazb/esp/esp-idf/components/soc/esp32/include/soc/reset_reasons.h:
-
 /home/diazb/esp/esp-idf/components/lwip/lwip/src/include/lwip/memp.h:
+
+/home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/extreg.h:
 
 /home/diazb/esp/esp-idf/components/lwip/lwip/src/include/lwip/netif.h:
 
@@ -1916,29 +1955,19 @@ config/sdkconfig.h:
 
 /home/diazb/esp/esp-idf/components/lwip/port/include/lwipopts.h:
 
-/home/diazb/esp/esp-idf/components/soc/esp32/include/soc/interrupts.h:
-
 /home/diazb/esp/esp-idf/components/esp_libc/platform_include/sys/unistd.h:
 
 /home/diazb/esp/esp-idf/components/lwip/port/include/netinet/tcp.h:
 
 /home/diazb/esp/esp-idf/components/lwip/port/include/sntp/sntp_get_set_time.h:
 
-/home/diazb/esp/esp-idf/components/soc/esp32/include/soc/soc.h:
+/home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/core-isa.h:
 
-/home/diazb/esp/esp-idf/components/log/include/esp_log_level.h:
+/home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/core.h:
 
-/home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/inttypes.h:
+/home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/tie.h:
 
-/home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core-matmap.h:
-
-/home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core.h:
-
-/home/diazb/esp/esp-idf/components/esp_event/include/esp_event.h:
-
-/home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/tie.h:
-
-/home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/xt_specreg.h:
+/home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/xt_specreg.h:
 
 /home/diazb/esp/esp-idf/components/xtensa/include/xtensa/xtruntime-core-state.h:
 
@@ -1973,13 +2002,3 @@ config/sdkconfig.h:
 /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/_timespec.h:
 
 /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/fcntl.h:
-
-/home/diazb/esp/esp-idf/components/esp_http_server/src/httpd_txrx.c:
-
-/home/diazb/esp/esp-idf/components/esp_libc/platform_include/sys/random.h:
-
-/home/diazb/esp/esp-idf/components/esp_http_server/src/httpd_ws.c:
-
-/home/diazb/esp/esp-idf/components/esp_http_server/src/port/esp32/osal.h:
-
-/home/diazb/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/error.h:

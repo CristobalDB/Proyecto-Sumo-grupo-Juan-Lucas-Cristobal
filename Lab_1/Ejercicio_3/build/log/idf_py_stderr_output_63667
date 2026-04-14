@@ -1,3 +1,0 @@
-Command: make -j 18 flash
-make[3]: Warning: File 'esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/compiler_depend.make' has modification time 1.6 s in the future
-make[3]: warning:  Clock skew detected.  Your build may be incomplete.

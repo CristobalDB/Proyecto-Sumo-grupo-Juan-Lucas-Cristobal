@@ -39,9 +39,14 @@ esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloade
  /home/diazb/esp/esp-idf/components/esp_libc/platform_include/sys/lock.h \
  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/lock.h \
  /home/diazb/esp/esp-idf/components/esp_common/include/esp_compiler.h \
- /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/soc_caps.h \
+ /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h \
  /home/diazb/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h \
- /home/diazb/esp/esp-idf/components/esp_rom/esp32/include/esp32/rom/sha.h \
+ /home/diazb/esp/esp-idf/components/esp_rom/esp32s3/include/esp32s3/rom/sha.h \
+ /home/diazb/esp/esp-idf/components/esp_rom/esp32s3/include/esp32s3/rom/ets_sys.h \
+ /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/soc.h \
+ /home/diazb/esp/esp-idf/components/esp_common/include/esp_assert.h \
+ /home/diazb/esp/esp-idf/components/esp_common/include/esp_bit_defs.h \
+ /home/diazb/esp/esp-idf/components/soc/esp32s3/register/soc/reg_base.h \
  /home/diazb/esp/esp-idf/components/bootloader_support/bootloader_flash/include/bootloader_flash_priv.h \
  /home/diazb/esp/esp-idf/components/spi_flash/include/spi_flash_mmap.h \
  /home/diazb/esp/esp-idf/components/spi_flash/include/esp_spi_flash_counters.h \
@@ -49,21 +54,22 @@ esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloade
  /home/diazb/esp/esp-idf/components/spi_flash/include/esp_private/spi_flash_os.h \
  /home/diazb/esp/esp-idf/components/esp_rom/include/esp_rom_spiflash.h \
  /home/diazb/esp/esp-idf/components/esp_rom/include/esp_rom_spiflash_defs.h \
- /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/clk_tree_defs.h \
+ /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/clk_tree_defs.h \
  /home/diazb/esp/esp-idf/components/esp_hal_mspi/include/hal/spi_flash_hal.h \
- /home/diazb/esp/esp-idf/components/esp_hal_mspi/esp32/include/hal/spi_flash_ll.h \
- /home/diazb/esp/esp-idf/components/soc/esp32/register/soc/spi_reg.h \
- /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/soc.h \
- /home/diazb/esp/esp-idf/components/esp_common/include/esp_assert.h \
- /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/interrupts.h \
- /home/diazb/esp/esp-idf/components/esp_common/include/esp_bit_defs.h \
- /home/diazb/esp/esp-idf/components/soc/esp32/register/soc/reg_base.h \
- /home/diazb/esp/esp-idf/components/soc/esp32/register/soc/spi_struct.h \
+ /home/diazb/esp/esp-idf/components/esp_hal_mspi/esp32s3/include/hal/spi_flash_ll.h \
+ /home/diazb/esp/esp-idf/components/esp_hal_mspi/esp32s3/include/hal/gpspi_flash_ll.h \
+ /home/diazb/esp/esp-idf/components/soc/esp32s3/register/soc/spi_struct.h \
+ /home/diazb/esp/esp-idf/components/soc/esp32s3/register/soc/spi_reg.h \
+ /home/diazb/esp/esp-idf/components/esp_hal_gpspi/include/hal/spi_types.h \
  /home/diazb/esp/esp-idf/components/esp_hal_mspi/include/hal/spi_flash_types.h \
  /home/diazb/esp/esp-idf/components/esp_common/include/esp_types.h \
  /home/diazb/esp/esp-idf/components/esp_hal_mspi/include/hal/esp_flash_err.h \
  /home/diazb/esp/esp-idf/components/hal/platform_port/include/hal/misc.h \
- /home/diazb/esp/esp-idf/components/esp_hal_gpspi/include/hal/spi_types.h \
+ /home/diazb/esp/esp-idf/components/esp_hal_mspi/esp32s3/include/hal/spimem_flash_ll.h \
+ /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/interrupts.h \
+ /home/diazb/esp/esp-idf/components/soc/esp32s3/register/soc/spi_mem_reg.h \
+ /home/diazb/esp/esp-idf/components/soc/esp32s3/register/soc/spi_mem_struct.h \
+ /home/diazb/esp/esp-idf/components/hal/platform_port/include/hal/assert.h \
  /home/diazb/esp/esp-idf/components/spi_flash/include/esp_flash.h \
  /home/diazb/esp/esp-idf/components/esp_blockdev/include/esp_blockdev.h \
  /home/diazb/esp/esp-idf/components/spi_flash/include/esp_flash_chips/esp_flash_types.h \
@@ -71,7 +77,7 @@ esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloade
  /home/diazb/esp/esp-idf/components/bootloader_support/bootloader_flash/include/bootloader_flash_override.h \
  /home/diazb/esp/esp-idf/components/esp_common/include/esp_attr.h \
  /home/diazb/esp/esp-idf/components/esp_common/include/esp_assert.h \
- /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/ext_mem_defs.h \
+ /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/ext_mem_defs.h \
  /home/diazb/esp/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/include/psa/crypto.h \
  /home/diazb/esp/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/include/psa/crypto_platform.h \
  /home/diazb/esp/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/include/mbedtls/private_access.h \
@@ -124,8 +130,15 @@ esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloade
  /home/diazb/esp/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/include/mbedtls/private/ecdsa.h \
  /home/diazb/esp/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/include/mbedtls/md.h \
  /home/diazb/esp/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/include/mbedtls/private/ecjpake.h \
+ /home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_rsa_ds_contexts.h \
+ /home/diazb/esp/esp-idf/components/esp_security/include/esp_ds.h \
+ /home/diazb/esp/esp-idf/components/esp_security/include/esp_hmac.h \
+ /home/diazb/esp/esp-idf/components/esp_hal_security/include/hal/hmac_types.h \
+ /home/diazb/esp/esp-idf/components/esp_security/include/esp_ds_err.h \
+ /home/diazb/esp/esp-idf/components/esp_rom/esp32s3/include/esp32s3/rom/digital_signature.h \
  /home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_cmac_contexts.h \
  /home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_hmac_transparent_contexts.h \
+ /home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_hmac_opaque_contexts.h \
  /home/diazb/esp/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/include/psa/crypto_driver_contexts_key_derivation.h \
  /home/diazb/esp/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/include/psa/crypto_builtin_key_derivation.h \
  /home/diazb/esp/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/include/psa/crypto_extra.h \

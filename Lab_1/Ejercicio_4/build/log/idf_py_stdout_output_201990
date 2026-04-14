@@ -1,0 +1,48 @@
+Command: /home/diazb/esp/idf-tools/python_env/idf6.1_py3.12_env/bin/python /home/diazb/esp/esp-idf/tools/idf_monitor.py -p /dev/ttyUSB0 -b 115200 --toolchain-prefix xtensa-esp32s3-elf- --target esp32s3 --revision 0 /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_4/build/Ejercicio_4.elf /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_4/build/bootloader/bootloader.elf -m '/home/diazb/esp/idf-tools/python_env/idf6.1_py3.12_env/bin/python' '/home/diazb/esp/esp-idf/tools/idf.py'
+ESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0x1 (POWERON),boot:0x28 (SPI_FAST_FLASH_BOOT)
+SPIWP:0xee
+mode:DIO, clock div:2
+load:0x3fce2820,len:0x1664
+load:0x403c8700,len:0xf38
+load:0x403cb700,len:0x31ec
+entry 0x403c8930
+[0;32mI (31) boot: ESP-IDF v6.1-dev-2938-g12f36a021f 2nd stage bootloader[0m
+[0;32mI (31) boot: compile time Apr 13 2026 21:09:20[0m
+[0;32mI (31) boot: Multicore bootloader[0m
+[0;32mI (33) boot: chip revision: v0.2[0m
+[0;32mI (36) boot: efuse block revision: v1.4[0m
+[0;32mI (39) qio_mode: Enabling QIO for flash chip MXIC[0m
+[0;32mI (44) boot.esp32s3: Boot SPI Speed : 40MHz[0m
+[0;32mI (47) boot.esp32s3: SPI Mode       : QIO[0m
+[0;32mI (51) boot.esp32s3: SPI Flash Size : 2MB[0m
+[0;32mI (55) boot: Enabling RNG early entropy source...[0m
+[0;32mI (59) boot: Partition Table:[0m
+[0;32mI (62) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (68) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (75) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (81) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (88) boot: End of partition table[0m
+[0;32mI (91) esp_image: segment 0: paddr=00010020 vaddr=3c010020 size=08994h ( 35220) map[0m
+[0;32mI (105) esp_image: segment 1: paddr=000189bc vaddr=3fc90800 size=03190h ( 12688) load[0m
+[0;32mI (109) esp_image: segment 2: paddr=0001bb54 vaddr=40374000 size=044c4h ( 17604) load[0m
+[0;32mI (118) esp_image: segment 3: paddr=00020020 vaddr=42000020 size=0de60h ( 56928) map[0m
+[0;32mI (132) esp_image: segment 4: paddr=0002de88 vaddr=403784c4 size=08234h ( 33332) load[0m
+[0;32mI (140) esp_image: segment 5: paddr=000360c4 vaddr=50000000 size=00074h (   116) load[0m
+[0;32mI (146) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (146) boot: Disabling RNG early entropy source...[0m
+[1;31mE (158) quad_psram: PSRAM chip is not connected, or wrong PSRAM line mode[0m
+E cpu_start: Failed to init external RAM!
+
+abort() was called at PC 0x42001bdf on core 0
+
+
+Backtrace: 0x4037acf9:0x3fceb220 0x4037acc1:0x3fceb240 0x4037a21d:0x3fceb260 0x42001bdf:0x3fceb2d0 0x403756db:0x3fceb2f0 0x403cce7b:0x3fceb330 0x403cd221:0x3fceb370 0x403c899c:0x3fceb4a0 0x40045c01:0x3fceb570 0x40043ab6:0x3fceb6f0 0x40034c45:0x3fceb710
+
+
+
+
+ELF file SHA256: 
+
+Rebooting in 15 seconds...

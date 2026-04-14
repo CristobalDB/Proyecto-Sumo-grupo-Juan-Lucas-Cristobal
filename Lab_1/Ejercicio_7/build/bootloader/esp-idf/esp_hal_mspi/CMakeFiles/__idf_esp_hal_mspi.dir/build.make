@@ -69,28 +69,28 @@ include esp-idf/esp_hal_mspi/CMakeFiles/__idf_esp_hal_mspi.dir/progress.make
 # Include the compile flags for this target's objects.
 include esp-idf/esp_hal_mspi/CMakeFiles/__idf_esp_hal_mspi.dir/flags.make
 
-esp-idf/esp_hal_mspi/CMakeFiles/__idf_esp_hal_mspi.dir/esp32/mspi_periph.c.obj: esp-idf/esp_hal_mspi/CMakeFiles/__idf_esp_hal_mspi.dir/flags.make
-esp-idf/esp_hal_mspi/CMakeFiles/__idf_esp_hal_mspi.dir/esp32/mspi_periph.c.obj: /home/diazb/esp/esp-idf/components/esp_hal_mspi/esp32/mspi_periph.c
-esp-idf/esp_hal_mspi/CMakeFiles/__idf_esp_hal_mspi.dir/esp32/mspi_periph.c.obj: esp-idf/esp_hal_mspi/CMakeFiles/__idf_esp_hal_mspi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build/bootloader/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object esp-idf/esp_hal_mspi/CMakeFiles/__idf_esp_hal_mspi.dir/esp32/mspi_periph.c.obj"
-	cd /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build/bootloader/esp-idf/esp_hal_mspi && /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/esp_hal_mspi/CMakeFiles/__idf_esp_hal_mspi.dir/esp32/mspi_periph.c.obj -MF CMakeFiles/__idf_esp_hal_mspi.dir/esp32/mspi_periph.c.obj.d -o CMakeFiles/__idf_esp_hal_mspi.dir/esp32/mspi_periph.c.obj -c /home/diazb/esp/esp-idf/components/esp_hal_mspi/esp32/mspi_periph.c
+esp-idf/esp_hal_mspi/CMakeFiles/__idf_esp_hal_mspi.dir/esp32s3/mspi_periph.c.obj: esp-idf/esp_hal_mspi/CMakeFiles/__idf_esp_hal_mspi.dir/flags.make
+esp-idf/esp_hal_mspi/CMakeFiles/__idf_esp_hal_mspi.dir/esp32s3/mspi_periph.c.obj: /home/diazb/esp/esp-idf/components/esp_hal_mspi/esp32s3/mspi_periph.c
+esp-idf/esp_hal_mspi/CMakeFiles/__idf_esp_hal_mspi.dir/esp32s3/mspi_periph.c.obj: esp-idf/esp_hal_mspi/CMakeFiles/__idf_esp_hal_mspi.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build/bootloader/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object esp-idf/esp_hal_mspi/CMakeFiles/__idf_esp_hal_mspi.dir/esp32s3/mspi_periph.c.obj"
+	cd /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build/bootloader/esp-idf/esp_hal_mspi && /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/esp_hal_mspi/CMakeFiles/__idf_esp_hal_mspi.dir/esp32s3/mspi_periph.c.obj -MF CMakeFiles/__idf_esp_hal_mspi.dir/esp32s3/mspi_periph.c.obj.d -o CMakeFiles/__idf_esp_hal_mspi.dir/esp32s3/mspi_periph.c.obj -c /home/diazb/esp/esp-idf/components/esp_hal_mspi/esp32s3/mspi_periph.c
 
-esp-idf/esp_hal_mspi/CMakeFiles/__idf_esp_hal_mspi.dir/esp32/mspi_periph.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/__idf_esp_hal_mspi.dir/esp32/mspi_periph.c.i"
-	cd /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build/bootloader/esp-idf/esp_hal_mspi && /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/diazb/esp/esp-idf/components/esp_hal_mspi/esp32/mspi_periph.c > CMakeFiles/__idf_esp_hal_mspi.dir/esp32/mspi_periph.c.i
+esp-idf/esp_hal_mspi/CMakeFiles/__idf_esp_hal_mspi.dir/esp32s3/mspi_periph.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/__idf_esp_hal_mspi.dir/esp32s3/mspi_periph.c.i"
+	cd /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build/bootloader/esp-idf/esp_hal_mspi && /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/diazb/esp/esp-idf/components/esp_hal_mspi/esp32s3/mspi_periph.c > CMakeFiles/__idf_esp_hal_mspi.dir/esp32s3/mspi_periph.c.i
 
-esp-idf/esp_hal_mspi/CMakeFiles/__idf_esp_hal_mspi.dir/esp32/mspi_periph.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/__idf_esp_hal_mspi.dir/esp32/mspi_periph.c.s"
-	cd /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build/bootloader/esp-idf/esp_hal_mspi && /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/diazb/esp/esp-idf/components/esp_hal_mspi/esp32/mspi_periph.c -o CMakeFiles/__idf_esp_hal_mspi.dir/esp32/mspi_periph.c.s
+esp-idf/esp_hal_mspi/CMakeFiles/__idf_esp_hal_mspi.dir/esp32s3/mspi_periph.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/__idf_esp_hal_mspi.dir/esp32s3/mspi_periph.c.s"
+	cd /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build/bootloader/esp-idf/esp_hal_mspi && /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/diazb/esp/esp-idf/components/esp_hal_mspi/esp32s3/mspi_periph.c -o CMakeFiles/__idf_esp_hal_mspi.dir/esp32s3/mspi_periph.c.s
 
 # Object files for target __idf_esp_hal_mspi
 __idf_esp_hal_mspi_OBJECTS = \
-"CMakeFiles/__idf_esp_hal_mspi.dir/esp32/mspi_periph.c.obj"
+"CMakeFiles/__idf_esp_hal_mspi.dir/esp32s3/mspi_periph.c.obj"
 
 # External object files for target __idf_esp_hal_mspi
 __idf_esp_hal_mspi_EXTERNAL_OBJECTS =
 
-esp-idf/esp_hal_mspi/libesp_hal_mspi.a: esp-idf/esp_hal_mspi/CMakeFiles/__idf_esp_hal_mspi.dir/esp32/mspi_periph.c.obj
+esp-idf/esp_hal_mspi/libesp_hal_mspi.a: esp-idf/esp_hal_mspi/CMakeFiles/__idf_esp_hal_mspi.dir/esp32s3/mspi_periph.c.obj
 esp-idf/esp_hal_mspi/libesp_hal_mspi.a: esp-idf/esp_hal_mspi/CMakeFiles/__idf_esp_hal_mspi.dir/build.make
 esp-idf/esp_hal_mspi/libesp_hal_mspi.a: esp-idf/esp_hal_mspi/CMakeFiles/__idf_esp_hal_mspi.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build/bootloader/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C static library libesp_hal_mspi.a"

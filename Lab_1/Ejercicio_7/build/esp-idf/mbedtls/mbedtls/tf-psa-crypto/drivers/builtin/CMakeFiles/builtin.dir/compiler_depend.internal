@@ -36,7 +36,7 @@ esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/CMakeFiles/builtin.dir/src
  /home/diazb/esp/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/include/tf-psa-crypto/build_info.h
  /home/diazb/esp/esp-idf/components/mbedtls/port/include/esp_mem.h
  /home/diazb/esp/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h
- /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/soc_caps.h
+ /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h
  /home/diazb/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h
  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/float.h
  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/limits.h
@@ -95,7 +95,7 @@ esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/CMakeFiles/builtin.dir/src
  /home/diazb/esp/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/include/tf-psa-crypto/build_info.h
  /home/diazb/esp/esp-idf/components/mbedtls/port/include/esp_mem.h
  /home/diazb/esp/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h
- /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/soc_caps.h
+ /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h
  /home/diazb/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h
  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/float.h
  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/limits.h
@@ -142,7 +142,7 @@ esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/CMakeFiles/builtin.dir/src
  /home/diazb/esp/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/include/tf-psa-crypto/build_info.h
  /home/diazb/esp/esp-idf/components/mbedtls/port/include/esp_mem.h
  /home/diazb/esp/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h
- /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/soc_caps.h
+ /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h
  /home/diazb/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h
  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/float.h
  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/limits.h
@@ -189,7 +189,7 @@ esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/CMakeFiles/builtin.dir/src
  /home/diazb/esp/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/include/tf-psa-crypto/build_info.h
  /home/diazb/esp/esp-idf/components/mbedtls/port/include/esp_mem.h
  /home/diazb/esp/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h
- /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/soc_caps.h
+ /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h
  /home/diazb/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h
  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/float.h
  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/limits.h
@@ -253,7 +253,7 @@ esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/CMakeFiles/builtin.dir/src
  /home/diazb/esp/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/include/tf-psa-crypto/build_info.h
  /home/diazb/esp/esp-idf/components/mbedtls/port/include/esp_mem.h
  /home/diazb/esp/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h
- /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/soc_caps.h
+ /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h
  /home/diazb/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h
  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/float.h
  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/limits.h
@@ -333,7 +333,7 @@ esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/CMakeFiles/builtin.dir/src
  /home/diazb/esp/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/include/tf-psa-crypto/build_info.h
  /home/diazb/esp/esp-idf/components/mbedtls/port/include/esp_mem.h
  /home/diazb/esp/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h
- /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/soc_caps.h
+ /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h
  /home/diazb/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h
  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/float.h
  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/limits.h
@@ -411,7 +411,7 @@ esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/CMakeFiles/builtin.dir/src
  /home/diazb/esp/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/include/tf-psa-crypto/build_info.h
  /home/diazb/esp/esp-idf/components/mbedtls/port/include/esp_mem.h
  /home/diazb/esp/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h
- /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/soc_caps.h
+ /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h
  /home/diazb/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h
  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/float.h
  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/limits.h
@@ -491,7 +491,7 @@ esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/CMakeFiles/builtin.dir/src
  /home/diazb/esp/esp-idf/components/mbedtls/port/include/esp_mem.h
  /home/diazb/esp/esp-idf/components/mbedtls/port/include/mbedtls/bignum.h
  /home/diazb/esp/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h
- /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/soc_caps.h
+ /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h
  /home/diazb/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h
  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/float.h
  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/limits.h
@@ -570,7 +570,7 @@ esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/CMakeFiles/builtin.dir/src
  /home/diazb/esp/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/include/tf-psa-crypto/build_info.h
  /home/diazb/esp/esp-idf/components/mbedtls/port/include/esp_mem.h
  /home/diazb/esp/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h
- /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/soc_caps.h
+ /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h
  /home/diazb/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h
  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/float.h
  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/limits.h
@@ -629,7 +629,7 @@ esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/CMakeFiles/builtin.dir/src
  /home/diazb/esp/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/include/tf-psa-crypto/build_info.h
  /home/diazb/esp/esp-idf/components/mbedtls/port/include/esp_mem.h
  /home/diazb/esp/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h
- /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/soc_caps.h
+ /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h
  /home/diazb/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h
  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/float.h
  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/limits.h
@@ -676,7 +676,7 @@ esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/CMakeFiles/builtin.dir/src
  /home/diazb/esp/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/include/tf-psa-crypto/build_info.h
  /home/diazb/esp/esp-idf/components/mbedtls/port/include/esp_mem.h
  /home/diazb/esp/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h
- /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/soc_caps.h
+ /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h
  /home/diazb/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h
  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/float.h
  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/limits.h
@@ -732,7 +732,7 @@ esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/CMakeFiles/builtin.dir/src
  /home/diazb/esp/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/include/tf-psa-crypto/build_info.h
  /home/diazb/esp/esp-idf/components/mbedtls/port/include/esp_mem.h
  /home/diazb/esp/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h
- /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/soc_caps.h
+ /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h
  /home/diazb/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h
  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/float.h
  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/limits.h
@@ -779,7 +779,7 @@ esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/CMakeFiles/builtin.dir/src
  /home/diazb/esp/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/include/tf-psa-crypto/build_info.h
  /home/diazb/esp/esp-idf/components/mbedtls/port/include/esp_mem.h
  /home/diazb/esp/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h
- /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/soc_caps.h
+ /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h
  /home/diazb/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h
  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/float.h
  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/limits.h
@@ -843,7 +843,7 @@ esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/CMakeFiles/builtin.dir/src
  /home/diazb/esp/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/include/tf-psa-crypto/build_info.h
  /home/diazb/esp/esp-idf/components/mbedtls/port/include/esp_mem.h
  /home/diazb/esp/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h
- /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/soc_caps.h
+ /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h
  /home/diazb/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h
  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/float.h
  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/limits.h
@@ -902,7 +902,7 @@ esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/CMakeFiles/builtin.dir/src
  /home/diazb/esp/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/include/tf-psa-crypto/build_info.h
  /home/diazb/esp/esp-idf/components/mbedtls/port/include/esp_mem.h
  /home/diazb/esp/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h
- /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/soc_caps.h
+ /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h
  /home/diazb/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h
  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/float.h
  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/limits.h
@@ -949,7 +949,7 @@ esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/CMakeFiles/builtin.dir/src
  /home/diazb/esp/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/include/tf-psa-crypto/build_info.h
  /home/diazb/esp/esp-idf/components/mbedtls/port/include/esp_mem.h
  /home/diazb/esp/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h
- /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/soc_caps.h
+ /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h
  /home/diazb/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h
  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/float.h
  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/limits.h
@@ -980,13 +980,20 @@ esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/CMakeFiles/builtin.dir/src
 esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/CMakeFiles/builtin.dir/src/cipher.c.obj
  /home/diazb/esp/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/src/cipher.c
  /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build/config/sdkconfig.h
+ /home/diazb/esp/esp-idf/components/esp_common/include/esp_compiler.h
+ /home/diazb/esp/esp-idf/components/esp_common/include/esp_err.h
  /home/diazb/esp/esp-idf/components/esp_common/include/esp_types.h
+ /home/diazb/esp/esp-idf/components/esp_hal_security/include/hal/hmac_types.h
  /home/diazb/esp/esp-idf/components/esp_libc/platform_include/assert.h
  /home/diazb/esp/esp-idf/components/esp_libc/platform_include/stdio.h
  /home/diazb/esp/esp-idf/components/esp_libc/platform_include/sys/cdefs.h
  /home/diazb/esp/esp-idf/components/esp_libc/platform_include/sys/lock.h
  /home/diazb/esp/esp-idf/components/esp_libc/platform_include/time.h
+ /home/diazb/esp/esp-idf/components/esp_rom/esp32s3/include/esp32s3/rom/digital_signature.h
  /home/diazb/esp/esp-idf/components/esp_rom/include/esp_rom_md5.h
+ /home/diazb/esp/esp-idf/components/esp_security/include/esp_ds.h
+ /home/diazb/esp/esp-idf/components/esp_security/include/esp_ds_err.h
+ /home/diazb/esp/esp-idf/components/esp_security/include/esp_hmac.h
  /home/diazb/esp/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/core/alignment.h
  /home/diazb/esp/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/core/tf_psa_crypto_common.h
  /home/diazb/esp/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/include/mbedtls/config_adjust_legacy_crypto.h
@@ -1048,9 +1055,11 @@ esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/CMakeFiles/builtin.dir/src
  /home/diazb/esp/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h
  /home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_aes_contexts.h
  /home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_cmac_contexts.h
+ /home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_hmac_opaque_contexts.h
  /home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_hmac_transparent_contexts.h
+ /home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_rsa_ds_contexts.h
  /home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_sha_contexts.h
- /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/soc_caps.h
+ /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h
  /home/diazb/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h
  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/float.h
  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/limits.h
@@ -1094,13 +1103,20 @@ esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/CMakeFiles/builtin.dir/src
 esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/CMakeFiles/builtin.dir/src/cipher_wrap.c.obj
  /home/diazb/esp/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/src/cipher_wrap.c
  /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build/config/sdkconfig.h
+ /home/diazb/esp/esp-idf/components/esp_common/include/esp_compiler.h
+ /home/diazb/esp/esp-idf/components/esp_common/include/esp_err.h
  /home/diazb/esp/esp-idf/components/esp_common/include/esp_types.h
+ /home/diazb/esp/esp-idf/components/esp_hal_security/include/hal/hmac_types.h
  /home/diazb/esp/esp-idf/components/esp_libc/platform_include/assert.h
  /home/diazb/esp/esp-idf/components/esp_libc/platform_include/stdio.h
  /home/diazb/esp/esp-idf/components/esp_libc/platform_include/sys/cdefs.h
  /home/diazb/esp/esp-idf/components/esp_libc/platform_include/sys/lock.h
  /home/diazb/esp/esp-idf/components/esp_libc/platform_include/time.h
+ /home/diazb/esp/esp-idf/components/esp_rom/esp32s3/include/esp32s3/rom/digital_signature.h
  /home/diazb/esp/esp-idf/components/esp_rom/include/esp_rom_md5.h
+ /home/diazb/esp/esp-idf/components/esp_security/include/esp_ds.h
+ /home/diazb/esp/esp-idf/components/esp_security/include/esp_ds_err.h
+ /home/diazb/esp/esp-idf/components/esp_security/include/esp_hmac.h
  /home/diazb/esp/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/core/alignment.h
  /home/diazb/esp/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/core/tf_psa_crypto_common.h
  /home/diazb/esp/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/include/mbedtls/config_adjust_legacy_crypto.h
@@ -1159,9 +1175,11 @@ esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/CMakeFiles/builtin.dir/src
  /home/diazb/esp/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h
  /home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_aes_contexts.h
  /home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_cmac_contexts.h
+ /home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_hmac_opaque_contexts.h
  /home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_hmac_transparent_contexts.h
+ /home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_rsa_ds_contexts.h
  /home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_sha_contexts.h
- /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/soc_caps.h
+ /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h
  /home/diazb/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h
  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/float.h
  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/limits.h
@@ -1240,7 +1258,7 @@ esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/CMakeFiles/builtin.dir/src
  /home/diazb/esp/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/include/tf-psa-crypto/build_info.h
  /home/diazb/esp/esp-idf/components/mbedtls/port/include/esp_mem.h
  /home/diazb/esp/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h
- /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/soc_caps.h
+ /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h
  /home/diazb/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h
  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/float.h
  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/limits.h
@@ -1311,7 +1329,7 @@ esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/CMakeFiles/builtin.dir/src
  /home/diazb/esp/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/include/tf-psa-crypto/build_info.h
  /home/diazb/esp/esp-idf/components/mbedtls/port/include/esp_mem.h
  /home/diazb/esp/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h
- /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/soc_caps.h
+ /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h
  /home/diazb/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h
  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/float.h
  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/limits.h
@@ -1345,7 +1363,10 @@ esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/CMakeFiles/builtin.dir/src
 esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/CMakeFiles/builtin.dir/src/ctr_drbg.c.obj
  /home/diazb/esp/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/src/ctr_drbg.c
  /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build/config/sdkconfig.h
+ /home/diazb/esp/esp-idf/components/esp_common/include/esp_compiler.h
+ /home/diazb/esp/esp-idf/components/esp_common/include/esp_err.h
  /home/diazb/esp/esp-idf/components/esp_common/include/esp_types.h
+ /home/diazb/esp/esp-idf/components/esp_hal_security/include/hal/hmac_types.h
  /home/diazb/esp/esp-idf/components/esp_libc/platform_include/assert.h
  /home/diazb/esp/esp-idf/components/esp_libc/platform_include/pthread.h
  /home/diazb/esp/esp-idf/components/esp_libc/platform_include/stdio.h
@@ -1355,7 +1376,11 @@ esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/CMakeFiles/builtin.dir/src
  /home/diazb/esp/esp-idf/components/esp_libc/platform_include/sys/time.h
  /home/diazb/esp/esp-idf/components/esp_libc/platform_include/sys/unistd.h
  /home/diazb/esp/esp-idf/components/esp_libc/platform_include/time.h
+ /home/diazb/esp/esp-idf/components/esp_rom/esp32s3/include/esp32s3/rom/digital_signature.h
  /home/diazb/esp/esp-idf/components/esp_rom/include/esp_rom_md5.h
+ /home/diazb/esp/esp-idf/components/esp_security/include/esp_ds.h
+ /home/diazb/esp/esp-idf/components/esp_security/include/esp_ds_err.h
+ /home/diazb/esp/esp-idf/components/esp_security/include/esp_hmac.h
  /home/diazb/esp/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/core/alignment.h
  /home/diazb/esp/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/core/tf_psa_crypto_common.h
  /home/diazb/esp/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/include/mbedtls/config_adjust_legacy_crypto.h
@@ -1421,9 +1446,11 @@ esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/CMakeFiles/builtin.dir/src
  /home/diazb/esp/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h
  /home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_aes_contexts.h
  /home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_cmac_contexts.h
+ /home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_hmac_opaque_contexts.h
  /home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_hmac_transparent_contexts.h
+ /home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_rsa_ds_contexts.h
  /home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_sha_contexts.h
- /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/soc_caps.h
+ /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h
  /home/diazb/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h
  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/float.h
  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/limits.h
@@ -1504,7 +1531,7 @@ esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/CMakeFiles/builtin.dir/src
  /home/diazb/esp/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/include/tf-psa-crypto/build_info.h
  /home/diazb/esp/esp-idf/components/mbedtls/port/include/esp_mem.h
  /home/diazb/esp/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h
- /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/soc_caps.h
+ /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h
  /home/diazb/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h
  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/float.h
  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/limits.h
@@ -1582,7 +1609,7 @@ esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/CMakeFiles/builtin.dir/src
  /home/diazb/esp/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/include/tf-psa-crypto/build_info.h
  /home/diazb/esp/esp-idf/components/mbedtls/port/include/esp_mem.h
  /home/diazb/esp/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h
- /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/soc_caps.h
+ /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h
  /home/diazb/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h
  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/float.h
  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/limits.h
@@ -1669,7 +1696,7 @@ esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/CMakeFiles/builtin.dir/src
  /home/diazb/esp/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/include/tf-psa-crypto/build_info.h
  /home/diazb/esp/esp-idf/components/mbedtls/port/include/esp_mem.h
  /home/diazb/esp/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h
- /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/soc_caps.h
+ /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h
  /home/diazb/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h
  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/float.h
  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/limits.h
@@ -1755,7 +1782,7 @@ esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/CMakeFiles/builtin.dir/src
  /home/diazb/esp/esp-idf/components/mbedtls/port/include/esp_mem.h
  /home/diazb/esp/esp-idf/components/mbedtls/port/include/mbedtls/ecp.h
  /home/diazb/esp/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h
- /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/soc_caps.h
+ /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h
  /home/diazb/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h
  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/float.h
  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/limits.h
@@ -1840,7 +1867,7 @@ esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/CMakeFiles/builtin.dir/src
  /home/diazb/esp/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/include/tf-psa-crypto/build_info.h
  /home/diazb/esp/esp-idf/components/mbedtls/port/include/esp_mem.h
  /home/diazb/esp/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h
- /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/soc_caps.h
+ /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h
  /home/diazb/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h
  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/float.h
  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/limits.h
@@ -1890,7 +1917,7 @@ esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/CMakeFiles/builtin.dir/src
  /home/diazb/esp/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/include/tf-psa-crypto/build_info.h
  /home/diazb/esp/esp-idf/components/mbedtls/port/include/esp_mem.h
  /home/diazb/esp/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h
- /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/soc_caps.h
+ /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h
  /home/diazb/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h
  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/float.h
  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/limits.h
@@ -1937,7 +1964,7 @@ esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/CMakeFiles/builtin.dir/src
  /home/diazb/esp/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/include/tf-psa-crypto/build_info.h
  /home/diazb/esp/esp-idf/components/mbedtls/port/include/esp_mem.h
  /home/diazb/esp/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h
- /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/soc_caps.h
+ /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h
  /home/diazb/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h
  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/float.h
  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/limits.h
@@ -1984,7 +2011,7 @@ esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/CMakeFiles/builtin.dir/src
  /home/diazb/esp/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/include/tf-psa-crypto/build_info.h
  /home/diazb/esp/esp-idf/components/mbedtls/port/include/esp_mem.h
  /home/diazb/esp/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h
- /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/soc_caps.h
+ /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h
  /home/diazb/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h
  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/float.h
  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/limits.h
@@ -2048,7 +2075,7 @@ esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/CMakeFiles/builtin.dir/src
  /home/diazb/esp/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/include/tf-psa-crypto/build_info.h
  /home/diazb/esp/esp-idf/components/mbedtls/port/include/esp_mem.h
  /home/diazb/esp/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h
- /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/soc_caps.h
+ /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h
  /home/diazb/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h
  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/float.h
  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/limits.h
@@ -2129,7 +2156,7 @@ esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/CMakeFiles/builtin.dir/src
  /home/diazb/esp/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/include/tf-psa-crypto/build_info.h
  /home/diazb/esp/esp-idf/components/mbedtls/port/include/esp_mem.h
  /home/diazb/esp/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h
- /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/soc_caps.h
+ /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h
  /home/diazb/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h
  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/float.h
  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/limits.h
@@ -2198,7 +2225,7 @@ esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/CMakeFiles/builtin.dir/src
  /home/diazb/esp/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/include/tf-psa-crypto/build_info.h
  /home/diazb/esp/esp-idf/components/mbedtls/port/include/esp_mem.h
  /home/diazb/esp/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h
- /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/soc_caps.h
+ /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h
  /home/diazb/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h
  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/float.h
  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/limits.h
@@ -2245,7 +2272,7 @@ esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/CMakeFiles/builtin.dir/src
  /home/diazb/esp/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/include/tf-psa-crypto/build_info.h
  /home/diazb/esp/esp-idf/components/mbedtls/port/include/esp_mem.h
  /home/diazb/esp/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h
- /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/soc_caps.h
+ /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h
  /home/diazb/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h
  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/float.h
  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/limits.h
@@ -2276,7 +2303,10 @@ esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/CMakeFiles/builtin.dir/src
 esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/CMakeFiles/builtin.dir/src/md.c.obj
  /home/diazb/esp/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/src/md.c
  /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build/config/sdkconfig.h
+ /home/diazb/esp/esp-idf/components/esp_common/include/esp_compiler.h
+ /home/diazb/esp/esp-idf/components/esp_common/include/esp_err.h
  /home/diazb/esp/esp-idf/components/esp_common/include/esp_types.h
+ /home/diazb/esp/esp-idf/components/esp_hal_security/include/hal/hmac_types.h
  /home/diazb/esp/esp-idf/components/esp_libc/platform_include/assert.h
  /home/diazb/esp/esp-idf/components/esp_libc/platform_include/pthread.h
  /home/diazb/esp/esp-idf/components/esp_libc/platform_include/stdio.h
@@ -2286,7 +2316,11 @@ esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/CMakeFiles/builtin.dir/src
  /home/diazb/esp/esp-idf/components/esp_libc/platform_include/sys/time.h
  /home/diazb/esp/esp-idf/components/esp_libc/platform_include/sys/unistd.h
  /home/diazb/esp/esp-idf/components/esp_libc/platform_include/time.h
+ /home/diazb/esp/esp-idf/components/esp_rom/esp32s3/include/esp32s3/rom/digital_signature.h
  /home/diazb/esp/esp-idf/components/esp_rom/include/esp_rom_md5.h
+ /home/diazb/esp/esp-idf/components/esp_security/include/esp_ds.h
+ /home/diazb/esp/esp-idf/components/esp_security/include/esp_ds_err.h
+ /home/diazb/esp/esp-idf/components/esp_security/include/esp_hmac.h
  /home/diazb/esp/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/core/alignment.h
  /home/diazb/esp/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/core/psa_crypto_core.h
  /home/diazb/esp/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/core/tf_psa_crypto_common.h
@@ -2352,9 +2386,11 @@ esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/CMakeFiles/builtin.dir/src
  /home/diazb/esp/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h
  /home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_aes_contexts.h
  /home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_cmac_contexts.h
+ /home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_hmac_opaque_contexts.h
  /home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_hmac_transparent_contexts.h
+ /home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_rsa_ds_contexts.h
  /home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_sha_contexts.h
- /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/soc_caps.h
+ /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h
  /home/diazb/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h
  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/float.h
  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/limits.h
@@ -2424,7 +2460,7 @@ esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/CMakeFiles/builtin.dir/src
  /home/diazb/esp/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/include/tf-psa-crypto/build_info.h
  /home/diazb/esp/esp-idf/components/mbedtls/port/include/esp_mem.h
  /home/diazb/esp/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h
- /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/soc_caps.h
+ /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h
  /home/diazb/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h
  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/float.h
  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/limits.h
@@ -2471,7 +2507,7 @@ esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/CMakeFiles/builtin.dir/src
  /home/diazb/esp/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/include/tf-psa-crypto/build_info.h
  /home/diazb/esp/esp-idf/components/mbedtls/port/include/esp_mem.h
  /home/diazb/esp/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h
- /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/soc_caps.h
+ /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h
  /home/diazb/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h
  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/float.h
  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/limits.h
@@ -2518,7 +2554,7 @@ esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/CMakeFiles/builtin.dir/src
  /home/diazb/esp/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/include/tf-psa-crypto/build_info.h
  /home/diazb/esp/esp-idf/components/mbedtls/port/include/esp_mem.h
  /home/diazb/esp/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h
- /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/soc_caps.h
+ /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h
  /home/diazb/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h
  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/float.h
  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/limits.h
@@ -2549,7 +2585,10 @@ esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/CMakeFiles/builtin.dir/src
 esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/CMakeFiles/builtin.dir/src/oid.c.obj
  /home/diazb/esp/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/src/oid.c
  /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build/config/sdkconfig.h
+ /home/diazb/esp/esp-idf/components/esp_common/include/esp_compiler.h
+ /home/diazb/esp/esp-idf/components/esp_common/include/esp_err.h
  /home/diazb/esp/esp-idf/components/esp_common/include/esp_types.h
+ /home/diazb/esp/esp-idf/components/esp_hal_security/include/hal/hmac_types.h
  /home/diazb/esp/esp-idf/components/esp_libc/platform_include/assert.h
  /home/diazb/esp/esp-idf/components/esp_libc/platform_include/pthread.h
  /home/diazb/esp/esp-idf/components/esp_libc/platform_include/stdio.h
@@ -2559,7 +2598,11 @@ esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/CMakeFiles/builtin.dir/src
  /home/diazb/esp/esp-idf/components/esp_libc/platform_include/sys/time.h
  /home/diazb/esp/esp-idf/components/esp_libc/platform_include/sys/unistd.h
  /home/diazb/esp/esp-idf/components/esp_libc/platform_include/time.h
+ /home/diazb/esp/esp-idf/components/esp_rom/esp32s3/include/esp32s3/rom/digital_signature.h
  /home/diazb/esp/esp-idf/components/esp_rom/include/esp_rom_md5.h
+ /home/diazb/esp/esp-idf/components/esp_security/include/esp_ds.h
+ /home/diazb/esp/esp-idf/components/esp_security/include/esp_ds_err.h
+ /home/diazb/esp/esp-idf/components/esp_security/include/esp_hmac.h
  /home/diazb/esp/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/core/alignment.h
  /home/diazb/esp/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/core/tf_psa_crypto_common.h
  /home/diazb/esp/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/include/mbedtls/config_adjust_legacy_crypto.h
@@ -2623,9 +2666,11 @@ esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/CMakeFiles/builtin.dir/src
  /home/diazb/esp/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h
  /home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_aes_contexts.h
  /home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_cmac_contexts.h
+ /home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_hmac_opaque_contexts.h
  /home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_hmac_transparent_contexts.h
+ /home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_rsa_ds_contexts.h
  /home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_sha_contexts.h
- /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/soc_caps.h
+ /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h
  /home/diazb/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h
  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/float.h
  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/limits.h
@@ -2679,13 +2724,20 @@ esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/CMakeFiles/builtin.dir/src
 esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/CMakeFiles/builtin.dir/src/pem.c.obj
  /home/diazb/esp/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/src/pem.c
  /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build/config/sdkconfig.h
+ /home/diazb/esp/esp-idf/components/esp_common/include/esp_compiler.h
+ /home/diazb/esp/esp-idf/components/esp_common/include/esp_err.h
  /home/diazb/esp/esp-idf/components/esp_common/include/esp_types.h
+ /home/diazb/esp/esp-idf/components/esp_hal_security/include/hal/hmac_types.h
  /home/diazb/esp/esp-idf/components/esp_libc/platform_include/assert.h
  /home/diazb/esp/esp-idf/components/esp_libc/platform_include/stdio.h
  /home/diazb/esp/esp-idf/components/esp_libc/platform_include/sys/cdefs.h
  /home/diazb/esp/esp-idf/components/esp_libc/platform_include/sys/lock.h
  /home/diazb/esp/esp-idf/components/esp_libc/platform_include/time.h
+ /home/diazb/esp/esp-idf/components/esp_rom/esp32s3/include/esp32s3/rom/digital_signature.h
  /home/diazb/esp/esp-idf/components/esp_rom/include/esp_rom_md5.h
+ /home/diazb/esp/esp-idf/components/esp_security/include/esp_ds.h
+ /home/diazb/esp/esp-idf/components/esp_security/include/esp_ds_err.h
+ /home/diazb/esp/esp-idf/components/esp_security/include/esp_hmac.h
  /home/diazb/esp/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/core/alignment.h
  /home/diazb/esp/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/core/tf_psa_crypto_common.h
  /home/diazb/esp/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/include/mbedtls/config_adjust_legacy_crypto.h
@@ -2746,9 +2798,11 @@ esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/CMakeFiles/builtin.dir/src
  /home/diazb/esp/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h
  /home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_aes_contexts.h
  /home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_cmac_contexts.h
+ /home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_hmac_opaque_contexts.h
  /home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_hmac_transparent_contexts.h
+ /home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_rsa_ds_contexts.h
  /home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_sha_contexts.h
- /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/soc_caps.h
+ /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h
  /home/diazb/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h
  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/float.h
  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/limits.h
@@ -2792,7 +2846,10 @@ esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/CMakeFiles/builtin.dir/src
 esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/CMakeFiles/builtin.dir/src/pk.c.obj
  /home/diazb/esp/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/src/pk.c
  /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build/config/sdkconfig.h
+ /home/diazb/esp/esp-idf/components/esp_common/include/esp_compiler.h
+ /home/diazb/esp/esp-idf/components/esp_common/include/esp_err.h
  /home/diazb/esp/esp-idf/components/esp_common/include/esp_types.h
+ /home/diazb/esp/esp-idf/components/esp_hal_security/include/hal/hmac_types.h
  /home/diazb/esp/esp-idf/components/esp_libc/platform_include/assert.h
  /home/diazb/esp/esp-idf/components/esp_libc/platform_include/pthread.h
  /home/diazb/esp/esp-idf/components/esp_libc/platform_include/stdio.h
@@ -2802,7 +2859,11 @@ esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/CMakeFiles/builtin.dir/src
  /home/diazb/esp/esp-idf/components/esp_libc/platform_include/sys/time.h
  /home/diazb/esp/esp-idf/components/esp_libc/platform_include/sys/unistd.h
  /home/diazb/esp/esp-idf/components/esp_libc/platform_include/time.h
+ /home/diazb/esp/esp-idf/components/esp_rom/esp32s3/include/esp32s3/rom/digital_signature.h
  /home/diazb/esp/esp-idf/components/esp_rom/include/esp_rom_md5.h
+ /home/diazb/esp/esp-idf/components/esp_security/include/esp_ds.h
+ /home/diazb/esp/esp-idf/components/esp_security/include/esp_ds_err.h
+ /home/diazb/esp/esp-idf/components/esp_security/include/esp_hmac.h
  /home/diazb/esp/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/core/alignment.h
  /home/diazb/esp/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/core/tf_psa_crypto_common.h
  /home/diazb/esp/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/include/mbedtls/config_adjust_legacy_crypto.h
@@ -2871,9 +2932,11 @@ esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/CMakeFiles/builtin.dir/src
  /home/diazb/esp/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h
  /home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_aes_contexts.h
  /home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_cmac_contexts.h
+ /home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_hmac_opaque_contexts.h
  /home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_hmac_transparent_contexts.h
+ /home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_rsa_ds_contexts.h
  /home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_sha_contexts.h
- /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/soc_caps.h
+ /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h
  /home/diazb/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h
  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/float.h
  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/limits.h
@@ -2927,7 +2990,10 @@ esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/CMakeFiles/builtin.dir/src
 esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/CMakeFiles/builtin.dir/src/pk_ecc.c.obj
  /home/diazb/esp/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/src/pk_ecc.c
  /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build/config/sdkconfig.h
+ /home/diazb/esp/esp-idf/components/esp_common/include/esp_compiler.h
+ /home/diazb/esp/esp-idf/components/esp_common/include/esp_err.h
  /home/diazb/esp/esp-idf/components/esp_common/include/esp_types.h
+ /home/diazb/esp/esp-idf/components/esp_hal_security/include/hal/hmac_types.h
  /home/diazb/esp/esp-idf/components/esp_libc/platform_include/assert.h
  /home/diazb/esp/esp-idf/components/esp_libc/platform_include/pthread.h
  /home/diazb/esp/esp-idf/components/esp_libc/platform_include/stdio.h
@@ -2937,7 +3003,11 @@ esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/CMakeFiles/builtin.dir/src
  /home/diazb/esp/esp-idf/components/esp_libc/platform_include/sys/time.h
  /home/diazb/esp/esp-idf/components/esp_libc/platform_include/sys/unistd.h
  /home/diazb/esp/esp-idf/components/esp_libc/platform_include/time.h
+ /home/diazb/esp/esp-idf/components/esp_rom/esp32s3/include/esp32s3/rom/digital_signature.h
  /home/diazb/esp/esp-idf/components/esp_rom/include/esp_rom_md5.h
+ /home/diazb/esp/esp-idf/components/esp_security/include/esp_ds.h
+ /home/diazb/esp/esp-idf/components/esp_security/include/esp_ds_err.h
+ /home/diazb/esp/esp-idf/components/esp_security/include/esp_hmac.h
  /home/diazb/esp/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/core/alignment.h
  /home/diazb/esp/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/core/tf_psa_crypto_common.h
  /home/diazb/esp/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/include/mbedtls/config_adjust_legacy_crypto.h
@@ -3001,9 +3071,11 @@ esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/CMakeFiles/builtin.dir/src
  /home/diazb/esp/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h
  /home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_aes_contexts.h
  /home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_cmac_contexts.h
+ /home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_hmac_opaque_contexts.h
  /home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_hmac_transparent_contexts.h
+ /home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_rsa_ds_contexts.h
  /home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_sha_contexts.h
- /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/soc_caps.h
+ /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h
  /home/diazb/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h
  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/float.h
  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/limits.h
@@ -3056,7 +3128,10 @@ esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/CMakeFiles/builtin.dir/src
 esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/CMakeFiles/builtin.dir/src/pk_rsa.c.obj
  /home/diazb/esp/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/src/pk_rsa.c
  /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build/config/sdkconfig.h
+ /home/diazb/esp/esp-idf/components/esp_common/include/esp_compiler.h
+ /home/diazb/esp/esp-idf/components/esp_common/include/esp_err.h
  /home/diazb/esp/esp-idf/components/esp_common/include/esp_types.h
+ /home/diazb/esp/esp-idf/components/esp_hal_security/include/hal/hmac_types.h
  /home/diazb/esp/esp-idf/components/esp_libc/platform_include/assert.h
  /home/diazb/esp/esp-idf/components/esp_libc/platform_include/pthread.h
  /home/diazb/esp/esp-idf/components/esp_libc/platform_include/stdio.h
@@ -3066,7 +3141,11 @@ esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/CMakeFiles/builtin.dir/src
  /home/diazb/esp/esp-idf/components/esp_libc/platform_include/sys/time.h
  /home/diazb/esp/esp-idf/components/esp_libc/platform_include/sys/unistd.h
  /home/diazb/esp/esp-idf/components/esp_libc/platform_include/time.h
+ /home/diazb/esp/esp-idf/components/esp_rom/esp32s3/include/esp32s3/rom/digital_signature.h
  /home/diazb/esp/esp-idf/components/esp_rom/include/esp_rom_md5.h
+ /home/diazb/esp/esp-idf/components/esp_security/include/esp_ds.h
+ /home/diazb/esp/esp-idf/components/esp_security/include/esp_ds_err.h
+ /home/diazb/esp/esp-idf/components/esp_security/include/esp_hmac.h
  /home/diazb/esp/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/core/alignment.h
  /home/diazb/esp/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/core/tf_psa_crypto_common.h
  /home/diazb/esp/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/include/mbedtls/config_adjust_legacy_crypto.h
@@ -3130,9 +3209,11 @@ esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/CMakeFiles/builtin.dir/src
  /home/diazb/esp/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h
  /home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_aes_contexts.h
  /home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_cmac_contexts.h
+ /home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_hmac_opaque_contexts.h
  /home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_hmac_transparent_contexts.h
+ /home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_rsa_ds_contexts.h
  /home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_sha_contexts.h
- /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/soc_caps.h
+ /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h
  /home/diazb/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h
  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/float.h
  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/limits.h
@@ -3185,7 +3266,10 @@ esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/CMakeFiles/builtin.dir/src
 esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/CMakeFiles/builtin.dir/src/pk_wrap.c.obj
  /home/diazb/esp/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/src/pk_wrap.c
  /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build/config/sdkconfig.h
+ /home/diazb/esp/esp-idf/components/esp_common/include/esp_compiler.h
+ /home/diazb/esp/esp-idf/components/esp_common/include/esp_err.h
  /home/diazb/esp/esp-idf/components/esp_common/include/esp_types.h
+ /home/diazb/esp/esp-idf/components/esp_hal_security/include/hal/hmac_types.h
  /home/diazb/esp/esp-idf/components/esp_libc/platform_include/assert.h
  /home/diazb/esp/esp-idf/components/esp_libc/platform_include/pthread.h
  /home/diazb/esp/esp-idf/components/esp_libc/platform_include/stdio.h
@@ -3195,7 +3279,11 @@ esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/CMakeFiles/builtin.dir/src
  /home/diazb/esp/esp-idf/components/esp_libc/platform_include/sys/time.h
  /home/diazb/esp/esp-idf/components/esp_libc/platform_include/sys/unistd.h
  /home/diazb/esp/esp-idf/components/esp_libc/platform_include/time.h
+ /home/diazb/esp/esp-idf/components/esp_rom/esp32s3/include/esp32s3/rom/digital_signature.h
  /home/diazb/esp/esp-idf/components/esp_rom/include/esp_rom_md5.h
+ /home/diazb/esp/esp-idf/components/esp_security/include/esp_ds.h
+ /home/diazb/esp/esp-idf/components/esp_security/include/esp_ds_err.h
+ /home/diazb/esp/esp-idf/components/esp_security/include/esp_hmac.h
  /home/diazb/esp/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/core/alignment.h
  /home/diazb/esp/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/core/tf_psa_crypto_common.h
  /home/diazb/esp/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/include/mbedtls/config_adjust_legacy_crypto.h
@@ -3263,9 +3351,11 @@ esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/CMakeFiles/builtin.dir/src
  /home/diazb/esp/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h
  /home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_aes_contexts.h
  /home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_cmac_contexts.h
+ /home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_hmac_opaque_contexts.h
  /home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_hmac_transparent_contexts.h
+ /home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_rsa_ds_contexts.h
  /home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_sha_contexts.h
- /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/soc_caps.h
+ /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h
  /home/diazb/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h
  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/float.h
  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/limits.h
@@ -3319,7 +3409,10 @@ esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/CMakeFiles/builtin.dir/src
 esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/CMakeFiles/builtin.dir/src/pkcs5.c.obj
  /home/diazb/esp/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/src/pkcs5.c
  /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build/config/sdkconfig.h
+ /home/diazb/esp/esp-idf/components/esp_common/include/esp_compiler.h
+ /home/diazb/esp/esp-idf/components/esp_common/include/esp_err.h
  /home/diazb/esp/esp-idf/components/esp_common/include/esp_types.h
+ /home/diazb/esp/esp-idf/components/esp_hal_security/include/hal/hmac_types.h
  /home/diazb/esp/esp-idf/components/esp_libc/platform_include/assert.h
  /home/diazb/esp/esp-idf/components/esp_libc/platform_include/pthread.h
  /home/diazb/esp/esp-idf/components/esp_libc/platform_include/stdio.h
@@ -3329,7 +3422,11 @@ esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/CMakeFiles/builtin.dir/src
  /home/diazb/esp/esp-idf/components/esp_libc/platform_include/sys/time.h
  /home/diazb/esp/esp-idf/components/esp_libc/platform_include/sys/unistd.h
  /home/diazb/esp/esp-idf/components/esp_libc/platform_include/time.h
+ /home/diazb/esp/esp-idf/components/esp_rom/esp32s3/include/esp32s3/rom/digital_signature.h
  /home/diazb/esp/esp-idf/components/esp_rom/include/esp_rom_md5.h
+ /home/diazb/esp/esp-idf/components/esp_security/include/esp_ds.h
+ /home/diazb/esp/esp-idf/components/esp_security/include/esp_ds_err.h
+ /home/diazb/esp/esp-idf/components/esp_security/include/esp_hmac.h
  /home/diazb/esp/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/core/alignment.h
  /home/diazb/esp/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/core/tf_psa_crypto_common.h
  /home/diazb/esp/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/include/mbedtls/config_adjust_legacy_crypto.h
@@ -3397,9 +3494,11 @@ esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/CMakeFiles/builtin.dir/src
  /home/diazb/esp/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h
  /home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_aes_contexts.h
  /home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_cmac_contexts.h
+ /home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_hmac_opaque_contexts.h
  /home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_hmac_transparent_contexts.h
+ /home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_rsa_ds_contexts.h
  /home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_sha_contexts.h
- /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/soc_caps.h
+ /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h
  /home/diazb/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h
  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/float.h
  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/limits.h
@@ -3453,7 +3552,10 @@ esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/CMakeFiles/builtin.dir/src
 esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/CMakeFiles/builtin.dir/src/pkparse.c.obj
  /home/diazb/esp/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/src/pkparse.c
  /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build/config/sdkconfig.h
+ /home/diazb/esp/esp-idf/components/esp_common/include/esp_compiler.h
+ /home/diazb/esp/esp-idf/components/esp_common/include/esp_err.h
  /home/diazb/esp/esp-idf/components/esp_common/include/esp_types.h
+ /home/diazb/esp/esp-idf/components/esp_hal_security/include/hal/hmac_types.h
  /home/diazb/esp/esp-idf/components/esp_libc/platform_include/assert.h
  /home/diazb/esp/esp-idf/components/esp_libc/platform_include/pthread.h
  /home/diazb/esp/esp-idf/components/esp_libc/platform_include/stdio.h
@@ -3463,7 +3565,11 @@ esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/CMakeFiles/builtin.dir/src
  /home/diazb/esp/esp-idf/components/esp_libc/platform_include/sys/time.h
  /home/diazb/esp/esp-idf/components/esp_libc/platform_include/sys/unistd.h
  /home/diazb/esp/esp-idf/components/esp_libc/platform_include/time.h
+ /home/diazb/esp/esp-idf/components/esp_rom/esp32s3/include/esp32s3/rom/digital_signature.h
  /home/diazb/esp/esp-idf/components/esp_rom/include/esp_rom_md5.h
+ /home/diazb/esp/esp-idf/components/esp_security/include/esp_ds.h
+ /home/diazb/esp/esp-idf/components/esp_security/include/esp_ds_err.h
+ /home/diazb/esp/esp-idf/components/esp_security/include/esp_hmac.h
  /home/diazb/esp/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/core/alignment.h
  /home/diazb/esp/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/core/tf_psa_crypto_common.h
  /home/diazb/esp/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/include/mbedtls/config_adjust_legacy_crypto.h
@@ -3533,9 +3639,11 @@ esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/CMakeFiles/builtin.dir/src
  /home/diazb/esp/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h
  /home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_aes_contexts.h
  /home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_cmac_contexts.h
+ /home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_hmac_opaque_contexts.h
  /home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_hmac_transparent_contexts.h
+ /home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_rsa_ds_contexts.h
  /home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_sha_contexts.h
- /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/soc_caps.h
+ /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h
  /home/diazb/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h
  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/float.h
  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/limits.h
@@ -3589,7 +3697,10 @@ esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/CMakeFiles/builtin.dir/src
 esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/CMakeFiles/builtin.dir/src/pkwrite.c.obj
  /home/diazb/esp/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/src/pkwrite.c
  /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build/config/sdkconfig.h
+ /home/diazb/esp/esp-idf/components/esp_common/include/esp_compiler.h
+ /home/diazb/esp/esp-idf/components/esp_common/include/esp_err.h
  /home/diazb/esp/esp-idf/components/esp_common/include/esp_types.h
+ /home/diazb/esp/esp-idf/components/esp_hal_security/include/hal/hmac_types.h
  /home/diazb/esp/esp-idf/components/esp_libc/platform_include/assert.h
  /home/diazb/esp/esp-idf/components/esp_libc/platform_include/pthread.h
  /home/diazb/esp/esp-idf/components/esp_libc/platform_include/stdio.h
@@ -3599,7 +3710,11 @@ esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/CMakeFiles/builtin.dir/src
  /home/diazb/esp/esp-idf/components/esp_libc/platform_include/sys/time.h
  /home/diazb/esp/esp-idf/components/esp_libc/platform_include/sys/unistd.h
  /home/diazb/esp/esp-idf/components/esp_libc/platform_include/time.h
+ /home/diazb/esp/esp-idf/components/esp_rom/esp32s3/include/esp32s3/rom/digital_signature.h
  /home/diazb/esp/esp-idf/components/esp_rom/include/esp_rom_md5.h
+ /home/diazb/esp/esp-idf/components/esp_security/include/esp_ds.h
+ /home/diazb/esp/esp-idf/components/esp_security/include/esp_ds_err.h
+ /home/diazb/esp/esp-idf/components/esp_security/include/esp_hmac.h
  /home/diazb/esp/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/core/alignment.h
  /home/diazb/esp/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/core/tf_psa_crypto_common.h
  /home/diazb/esp/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/include/mbedtls/config_adjust_legacy_crypto.h
@@ -3669,9 +3784,11 @@ esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/CMakeFiles/builtin.dir/src
  /home/diazb/esp/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h
  /home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_aes_contexts.h
  /home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_cmac_contexts.h
+ /home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_hmac_opaque_contexts.h
  /home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_hmac_transparent_contexts.h
+ /home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_rsa_ds_contexts.h
  /home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_sha_contexts.h
- /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/soc_caps.h
+ /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h
  /home/diazb/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h
  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/float.h
  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/limits.h
@@ -3755,7 +3872,7 @@ esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/CMakeFiles/builtin.dir/src
  /home/diazb/esp/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/include/tf-psa-crypto/build_info.h
  /home/diazb/esp/esp-idf/components/mbedtls/port/include/esp_mem.h
  /home/diazb/esp/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h
- /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/soc_caps.h
+ /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h
  /home/diazb/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h
  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/float.h
  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/limits.h
@@ -3834,7 +3951,7 @@ esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/CMakeFiles/builtin.dir/src
  /home/diazb/esp/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/include/tf-psa-crypto/build_info.h
  /home/diazb/esp/esp-idf/components/mbedtls/port/include/esp_mem.h
  /home/diazb/esp/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h
- /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/soc_caps.h
+ /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h
  /home/diazb/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h
  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/float.h
  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/limits.h
@@ -3903,7 +4020,7 @@ esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/CMakeFiles/builtin.dir/src
  /home/diazb/esp/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/include/tf-psa-crypto/build_info.h
  /home/diazb/esp/esp-idf/components/mbedtls/port/include/esp_mem.h
  /home/diazb/esp/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h
- /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/soc_caps.h
+ /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h
  /home/diazb/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h
  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/float.h
  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/limits.h
@@ -3934,7 +4051,10 @@ esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/CMakeFiles/builtin.dir/src
 esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/CMakeFiles/builtin.dir/src/psa_crypto_aead.c.obj
  /home/diazb/esp/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/src/psa_crypto_aead.c
  /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build/config/sdkconfig.h
+ /home/diazb/esp/esp-idf/components/esp_common/include/esp_compiler.h
+ /home/diazb/esp/esp-idf/components/esp_common/include/esp_err.h
  /home/diazb/esp/esp-idf/components/esp_common/include/esp_types.h
+ /home/diazb/esp/esp-idf/components/esp_hal_security/include/hal/hmac_types.h
  /home/diazb/esp/esp-idf/components/esp_libc/platform_include/assert.h
  /home/diazb/esp/esp-idf/components/esp_libc/platform_include/pthread.h
  /home/diazb/esp/esp-idf/components/esp_libc/platform_include/stdio.h
@@ -3944,7 +4064,11 @@ esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/CMakeFiles/builtin.dir/src
  /home/diazb/esp/esp-idf/components/esp_libc/platform_include/sys/time.h
  /home/diazb/esp/esp-idf/components/esp_libc/platform_include/sys/unistd.h
  /home/diazb/esp/esp-idf/components/esp_libc/platform_include/time.h
+ /home/diazb/esp/esp-idf/components/esp_rom/esp32s3/include/esp32s3/rom/digital_signature.h
  /home/diazb/esp/esp-idf/components/esp_rom/include/esp_rom_md5.h
+ /home/diazb/esp/esp-idf/components/esp_security/include/esp_ds.h
+ /home/diazb/esp/esp-idf/components/esp_security/include/esp_ds_err.h
+ /home/diazb/esp/esp-idf/components/esp_security/include/esp_hmac.h
  /home/diazb/esp/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/core/alignment.h
  /home/diazb/esp/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/core/psa_crypto_core.h
  /home/diazb/esp/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/core/tf_psa_crypto_common.h
@@ -4006,9 +4130,11 @@ esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/CMakeFiles/builtin.dir/src
  /home/diazb/esp/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h
  /home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_aes_contexts.h
  /home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_cmac_contexts.h
+ /home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_hmac_opaque_contexts.h
  /home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_hmac_transparent_contexts.h
+ /home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_rsa_ds_contexts.h
  /home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_sha_contexts.h
- /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/soc_caps.h
+ /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h
  /home/diazb/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h
  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/float.h
  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/limits.h
@@ -4062,7 +4188,10 @@ esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/CMakeFiles/builtin.dir/src
 esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/CMakeFiles/builtin.dir/src/psa_crypto_cipher.c.obj
  /home/diazb/esp/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/src/psa_crypto_cipher.c
  /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build/config/sdkconfig.h
+ /home/diazb/esp/esp-idf/components/esp_common/include/esp_compiler.h
+ /home/diazb/esp/esp-idf/components/esp_common/include/esp_err.h
  /home/diazb/esp/esp-idf/components/esp_common/include/esp_types.h
+ /home/diazb/esp/esp-idf/components/esp_hal_security/include/hal/hmac_types.h
  /home/diazb/esp/esp-idf/components/esp_libc/platform_include/assert.h
  /home/diazb/esp/esp-idf/components/esp_libc/platform_include/pthread.h
  /home/diazb/esp/esp-idf/components/esp_libc/platform_include/stdio.h
@@ -4072,7 +4201,11 @@ esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/CMakeFiles/builtin.dir/src
  /home/diazb/esp/esp-idf/components/esp_libc/platform_include/sys/time.h
  /home/diazb/esp/esp-idf/components/esp_libc/platform_include/sys/unistd.h
  /home/diazb/esp/esp-idf/components/esp_libc/platform_include/time.h
+ /home/diazb/esp/esp-idf/components/esp_rom/esp32s3/include/esp32s3/rom/digital_signature.h
  /home/diazb/esp/esp-idf/components/esp_rom/include/esp_rom_md5.h
+ /home/diazb/esp/esp-idf/components/esp_security/include/esp_ds.h
+ /home/diazb/esp/esp-idf/components/esp_security/include/esp_ds_err.h
+ /home/diazb/esp/esp-idf/components/esp_security/include/esp_hmac.h
  /home/diazb/esp/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/core/alignment.h
  /home/diazb/esp/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/core/psa_crypto_core.h
  /home/diazb/esp/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/core/psa_crypto_random_impl.h
@@ -4136,9 +4269,11 @@ esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/CMakeFiles/builtin.dir/src
  /home/diazb/esp/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h
  /home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_aes_contexts.h
  /home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_cmac_contexts.h
+ /home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_hmac_opaque_contexts.h
  /home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_hmac_transparent_contexts.h
+ /home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_rsa_ds_contexts.h
  /home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_sha_contexts.h
- /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/soc_caps.h
+ /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h
  /home/diazb/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h
  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/float.h
  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/limits.h
@@ -4191,7 +4326,10 @@ esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/CMakeFiles/builtin.dir/src
 esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/CMakeFiles/builtin.dir/src/psa_crypto_ecp.c.obj
  /home/diazb/esp/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/src/psa_crypto_ecp.c
  /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build/config/sdkconfig.h
+ /home/diazb/esp/esp-idf/components/esp_common/include/esp_compiler.h
+ /home/diazb/esp/esp-idf/components/esp_common/include/esp_err.h
  /home/diazb/esp/esp-idf/components/esp_common/include/esp_types.h
+ /home/diazb/esp/esp-idf/components/esp_hal_security/include/hal/hmac_types.h
  /home/diazb/esp/esp-idf/components/esp_libc/platform_include/assert.h
  /home/diazb/esp/esp-idf/components/esp_libc/platform_include/pthread.h
  /home/diazb/esp/esp-idf/components/esp_libc/platform_include/stdio.h
@@ -4201,7 +4339,11 @@ esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/CMakeFiles/builtin.dir/src
  /home/diazb/esp/esp-idf/components/esp_libc/platform_include/sys/time.h
  /home/diazb/esp/esp-idf/components/esp_libc/platform_include/sys/unistd.h
  /home/diazb/esp/esp-idf/components/esp_libc/platform_include/time.h
+ /home/diazb/esp/esp-idf/components/esp_rom/esp32s3/include/esp32s3/rom/digital_signature.h
  /home/diazb/esp/esp-idf/components/esp_rom/include/esp_rom_md5.h
+ /home/diazb/esp/esp-idf/components/esp_security/include/esp_ds.h
+ /home/diazb/esp/esp-idf/components/esp_security/include/esp_ds_err.h
+ /home/diazb/esp/esp-idf/components/esp_security/include/esp_hmac.h
  /home/diazb/esp/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/core/alignment.h
  /home/diazb/esp/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/core/psa_crypto_core.h
  /home/diazb/esp/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/core/psa_crypto_random_impl.h
@@ -4267,9 +4409,11 @@ esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/CMakeFiles/builtin.dir/src
  /home/diazb/esp/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h
  /home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_aes_contexts.h
  /home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_cmac_contexts.h
+ /home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_hmac_opaque_contexts.h
  /home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_hmac_transparent_contexts.h
+ /home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_rsa_ds_contexts.h
  /home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_sha_contexts.h
- /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/soc_caps.h
+ /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h
  /home/diazb/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h
  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/float.h
  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/limits.h
@@ -4323,7 +4467,10 @@ esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/CMakeFiles/builtin.dir/src
 esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/CMakeFiles/builtin.dir/src/psa_crypto_ffdh.c.obj
  /home/diazb/esp/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/src/psa_crypto_ffdh.c
  /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build/config/sdkconfig.h
+ /home/diazb/esp/esp-idf/components/esp_common/include/esp_compiler.h
+ /home/diazb/esp/esp-idf/components/esp_common/include/esp_err.h
  /home/diazb/esp/esp-idf/components/esp_common/include/esp_types.h
+ /home/diazb/esp/esp-idf/components/esp_hal_security/include/hal/hmac_types.h
  /home/diazb/esp/esp-idf/components/esp_libc/platform_include/assert.h
  /home/diazb/esp/esp-idf/components/esp_libc/platform_include/pthread.h
  /home/diazb/esp/esp-idf/components/esp_libc/platform_include/stdio.h
@@ -4333,7 +4480,11 @@ esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/CMakeFiles/builtin.dir/src
  /home/diazb/esp/esp-idf/components/esp_libc/platform_include/sys/time.h
  /home/diazb/esp/esp-idf/components/esp_libc/platform_include/sys/unistd.h
  /home/diazb/esp/esp-idf/components/esp_libc/platform_include/time.h
+ /home/diazb/esp/esp-idf/components/esp_rom/esp32s3/include/esp32s3/rom/digital_signature.h
  /home/diazb/esp/esp-idf/components/esp_rom/include/esp_rom_md5.h
+ /home/diazb/esp/esp-idf/components/esp_security/include/esp_ds.h
+ /home/diazb/esp/esp-idf/components/esp_security/include/esp_ds_err.h
+ /home/diazb/esp/esp-idf/components/esp_security/include/esp_hmac.h
  /home/diazb/esp/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/core/alignment.h
  /home/diazb/esp/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/core/psa_crypto_core.h
  /home/diazb/esp/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/core/psa_crypto_random_impl.h
@@ -4398,9 +4549,11 @@ esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/CMakeFiles/builtin.dir/src
  /home/diazb/esp/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h
  /home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_aes_contexts.h
  /home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_cmac_contexts.h
+ /home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_hmac_opaque_contexts.h
  /home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_hmac_transparent_contexts.h
+ /home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_rsa_ds_contexts.h
  /home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_sha_contexts.h
- /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/soc_caps.h
+ /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h
  /home/diazb/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h
  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/float.h
  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/limits.h
@@ -4454,7 +4607,10 @@ esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/CMakeFiles/builtin.dir/src
 esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/CMakeFiles/builtin.dir/src/psa_crypto_hash.c.obj
  /home/diazb/esp/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/src/psa_crypto_hash.c
  /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build/config/sdkconfig.h
+ /home/diazb/esp/esp-idf/components/esp_common/include/esp_compiler.h
+ /home/diazb/esp/esp-idf/components/esp_common/include/esp_err.h
  /home/diazb/esp/esp-idf/components/esp_common/include/esp_types.h
+ /home/diazb/esp/esp-idf/components/esp_hal_security/include/hal/hmac_types.h
  /home/diazb/esp/esp-idf/components/esp_libc/platform_include/assert.h
  /home/diazb/esp/esp-idf/components/esp_libc/platform_include/pthread.h
  /home/diazb/esp/esp-idf/components/esp_libc/platform_include/stdio.h
@@ -4464,7 +4620,11 @@ esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/CMakeFiles/builtin.dir/src
  /home/diazb/esp/esp-idf/components/esp_libc/platform_include/sys/time.h
  /home/diazb/esp/esp-idf/components/esp_libc/platform_include/sys/unistd.h
  /home/diazb/esp/esp-idf/components/esp_libc/platform_include/time.h
+ /home/diazb/esp/esp-idf/components/esp_rom/esp32s3/include/esp32s3/rom/digital_signature.h
  /home/diazb/esp/esp-idf/components/esp_rom/include/esp_rom_md5.h
+ /home/diazb/esp/esp-idf/components/esp_security/include/esp_ds.h
+ /home/diazb/esp/esp-idf/components/esp_security/include/esp_ds_err.h
+ /home/diazb/esp/esp-idf/components/esp_security/include/esp_hmac.h
  /home/diazb/esp/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/core/alignment.h
  /home/diazb/esp/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/core/psa_crypto_core.h
  /home/diazb/esp/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/core/tf_psa_crypto_common.h
@@ -4522,9 +4682,11 @@ esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/CMakeFiles/builtin.dir/src
  /home/diazb/esp/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h
  /home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_aes_contexts.h
  /home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_cmac_contexts.h
+ /home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_hmac_opaque_contexts.h
  /home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_hmac_transparent_contexts.h
+ /home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_rsa_ds_contexts.h
  /home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_sha_contexts.h
- /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/soc_caps.h
+ /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h
  /home/diazb/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h
  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/float.h
  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/limits.h
@@ -4577,7 +4739,10 @@ esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/CMakeFiles/builtin.dir/src
 esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/CMakeFiles/builtin.dir/src/psa_crypto_mac.c.obj
  /home/diazb/esp/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/src/psa_crypto_mac.c
  /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build/config/sdkconfig.h
+ /home/diazb/esp/esp-idf/components/esp_common/include/esp_compiler.h
+ /home/diazb/esp/esp-idf/components/esp_common/include/esp_err.h
  /home/diazb/esp/esp-idf/components/esp_common/include/esp_types.h
+ /home/diazb/esp/esp-idf/components/esp_hal_security/include/hal/hmac_types.h
  /home/diazb/esp/esp-idf/components/esp_libc/platform_include/assert.h
  /home/diazb/esp/esp-idf/components/esp_libc/platform_include/pthread.h
  /home/diazb/esp/esp-idf/components/esp_libc/platform_include/stdio.h
@@ -4587,7 +4752,11 @@ esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/CMakeFiles/builtin.dir/src
  /home/diazb/esp/esp-idf/components/esp_libc/platform_include/sys/time.h
  /home/diazb/esp/esp-idf/components/esp_libc/platform_include/sys/unistd.h
  /home/diazb/esp/esp-idf/components/esp_libc/platform_include/time.h
+ /home/diazb/esp/esp-idf/components/esp_rom/esp32s3/include/esp32s3/rom/digital_signature.h
  /home/diazb/esp/esp-idf/components/esp_rom/include/esp_rom_md5.h
+ /home/diazb/esp/esp-idf/components/esp_security/include/esp_ds.h
+ /home/diazb/esp/esp-idf/components/esp_security/include/esp_ds_err.h
+ /home/diazb/esp/esp-idf/components/esp_security/include/esp_hmac.h
  /home/diazb/esp/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/core/alignment.h
  /home/diazb/esp/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/core/psa_crypto_core.h
  /home/diazb/esp/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/core/tf_psa_crypto_common.h
@@ -4647,9 +4816,11 @@ esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/CMakeFiles/builtin.dir/src
  /home/diazb/esp/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h
  /home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_aes_contexts.h
  /home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_cmac_contexts.h
+ /home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_hmac_opaque_contexts.h
  /home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_hmac_transparent_contexts.h
+ /home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_rsa_ds_contexts.h
  /home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_sha_contexts.h
- /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/soc_caps.h
+ /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h
  /home/diazb/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h
  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/float.h
  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/limits.h
@@ -4702,7 +4873,10 @@ esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/CMakeFiles/builtin.dir/src
 esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/CMakeFiles/builtin.dir/src/psa_crypto_pake.c.obj
  /home/diazb/esp/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/src/psa_crypto_pake.c
  /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build/config/sdkconfig.h
+ /home/diazb/esp/esp-idf/components/esp_common/include/esp_compiler.h
+ /home/diazb/esp/esp-idf/components/esp_common/include/esp_err.h
  /home/diazb/esp/esp-idf/components/esp_common/include/esp_types.h
+ /home/diazb/esp/esp-idf/components/esp_hal_security/include/hal/hmac_types.h
  /home/diazb/esp/esp-idf/components/esp_libc/platform_include/assert.h
  /home/diazb/esp/esp-idf/components/esp_libc/platform_include/pthread.h
  /home/diazb/esp/esp-idf/components/esp_libc/platform_include/stdio.h
@@ -4712,7 +4886,11 @@ esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/CMakeFiles/builtin.dir/src
  /home/diazb/esp/esp-idf/components/esp_libc/platform_include/sys/time.h
  /home/diazb/esp/esp-idf/components/esp_libc/platform_include/sys/unistd.h
  /home/diazb/esp/esp-idf/components/esp_libc/platform_include/time.h
+ /home/diazb/esp/esp-idf/components/esp_rom/esp32s3/include/esp32s3/rom/digital_signature.h
  /home/diazb/esp/esp-idf/components/esp_rom/include/esp_rom_md5.h
+ /home/diazb/esp/esp-idf/components/esp_security/include/esp_ds.h
+ /home/diazb/esp/esp-idf/components/esp_security/include/esp_ds_err.h
+ /home/diazb/esp/esp-idf/components/esp_security/include/esp_hmac.h
  /home/diazb/esp/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/core/alignment.h
  /home/diazb/esp/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/core/psa_crypto_core.h
  /home/diazb/esp/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/core/psa_crypto_slot_management.h
@@ -4778,9 +4956,11 @@ esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/CMakeFiles/builtin.dir/src
  /home/diazb/esp/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h
  /home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_aes_contexts.h
  /home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_cmac_contexts.h
+ /home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_hmac_opaque_contexts.h
  /home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_hmac_transparent_contexts.h
+ /home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_rsa_ds_contexts.h
  /home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_sha_contexts.h
- /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/soc_caps.h
+ /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h
  /home/diazb/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h
  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/float.h
  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/limits.h
@@ -4834,7 +5014,10 @@ esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/CMakeFiles/builtin.dir/src
 esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/CMakeFiles/builtin.dir/src/psa_crypto_rsa.c.obj
  /home/diazb/esp/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/src/psa_crypto_rsa.c
  /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build/config/sdkconfig.h
+ /home/diazb/esp/esp-idf/components/esp_common/include/esp_compiler.h
+ /home/diazb/esp/esp-idf/components/esp_common/include/esp_err.h
  /home/diazb/esp/esp-idf/components/esp_common/include/esp_types.h
+ /home/diazb/esp/esp-idf/components/esp_hal_security/include/hal/hmac_types.h
  /home/diazb/esp/esp-idf/components/esp_libc/platform_include/assert.h
  /home/diazb/esp/esp-idf/components/esp_libc/platform_include/pthread.h
  /home/diazb/esp/esp-idf/components/esp_libc/platform_include/stdio.h
@@ -4844,7 +5027,11 @@ esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/CMakeFiles/builtin.dir/src
  /home/diazb/esp/esp-idf/components/esp_libc/platform_include/sys/time.h
  /home/diazb/esp/esp-idf/components/esp_libc/platform_include/sys/unistd.h
  /home/diazb/esp/esp-idf/components/esp_libc/platform_include/time.h
+ /home/diazb/esp/esp-idf/components/esp_rom/esp32s3/include/esp32s3/rom/digital_signature.h
  /home/diazb/esp/esp-idf/components/esp_rom/include/esp_rom_md5.h
+ /home/diazb/esp/esp-idf/components/esp_security/include/esp_ds.h
+ /home/diazb/esp/esp-idf/components/esp_security/include/esp_ds_err.h
+ /home/diazb/esp/esp-idf/components/esp_security/include/esp_hmac.h
  /home/diazb/esp/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/core/alignment.h
  /home/diazb/esp/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/core/psa_crypto_core.h
  /home/diazb/esp/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/core/psa_crypto_random_impl.h
@@ -4912,9 +5099,11 @@ esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/CMakeFiles/builtin.dir/src
  /home/diazb/esp/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h
  /home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_aes_contexts.h
  /home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_cmac_contexts.h
+ /home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_hmac_opaque_contexts.h
  /home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_hmac_transparent_contexts.h
+ /home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_rsa_ds_contexts.h
  /home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_sha_contexts.h
- /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/soc_caps.h
+ /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h
  /home/diazb/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h
  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/float.h
  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/limits.h
@@ -4968,7 +5157,10 @@ esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/CMakeFiles/builtin.dir/src
 esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/CMakeFiles/builtin.dir/src/psa_util.c.obj
  /home/diazb/esp/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/src/psa_util.c
  /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build/config/sdkconfig.h
+ /home/diazb/esp/esp-idf/components/esp_common/include/esp_compiler.h
+ /home/diazb/esp/esp-idf/components/esp_common/include/esp_err.h
  /home/diazb/esp/esp-idf/components/esp_common/include/esp_types.h
+ /home/diazb/esp/esp-idf/components/esp_hal_security/include/hal/hmac_types.h
  /home/diazb/esp/esp-idf/components/esp_libc/platform_include/assert.h
  /home/diazb/esp/esp-idf/components/esp_libc/platform_include/pthread.h
  /home/diazb/esp/esp-idf/components/esp_libc/platform_include/stdio.h
@@ -4978,7 +5170,11 @@ esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/CMakeFiles/builtin.dir/src
  /home/diazb/esp/esp-idf/components/esp_libc/platform_include/sys/time.h
  /home/diazb/esp/esp-idf/components/esp_libc/platform_include/sys/unistd.h
  /home/diazb/esp/esp-idf/components/esp_libc/platform_include/time.h
+ /home/diazb/esp/esp-idf/components/esp_rom/esp32s3/include/esp32s3/rom/digital_signature.h
  /home/diazb/esp/esp-idf/components/esp_rom/include/esp_rom_md5.h
+ /home/diazb/esp/esp-idf/components/esp_security/include/esp_ds.h
+ /home/diazb/esp/esp-idf/components/esp_security/include/esp_ds_err.h
+ /home/diazb/esp/esp-idf/components/esp_security/include/esp_hmac.h
  /home/diazb/esp/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/core/alignment.h
  /home/diazb/esp/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/core/tf_psa_crypto_common.h
  /home/diazb/esp/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/include/mbedtls/config_adjust_legacy_crypto.h
@@ -5042,9 +5238,11 @@ esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/CMakeFiles/builtin.dir/src
  /home/diazb/esp/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h
  /home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_aes_contexts.h
  /home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_cmac_contexts.h
+ /home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_hmac_opaque_contexts.h
  /home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_hmac_transparent_contexts.h
+ /home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_rsa_ds_contexts.h
  /home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_sha_contexts.h
- /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/soc_caps.h
+ /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h
  /home/diazb/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h
  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/float.h
  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/limits.h
@@ -5113,7 +5311,7 @@ esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/CMakeFiles/builtin.dir/src
  /home/diazb/esp/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/include/tf-psa-crypto/build_info.h
  /home/diazb/esp/esp-idf/components/mbedtls/port/include/esp_mem.h
  /home/diazb/esp/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h
- /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/soc_caps.h
+ /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h
  /home/diazb/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h
  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/float.h
  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/limits.h
@@ -5144,7 +5342,10 @@ esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/CMakeFiles/builtin.dir/src
 esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/CMakeFiles/builtin.dir/src/rsa.c.obj
  /home/diazb/esp/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/src/rsa.c
  /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build/config/sdkconfig.h
+ /home/diazb/esp/esp-idf/components/esp_common/include/esp_compiler.h
+ /home/diazb/esp/esp-idf/components/esp_common/include/esp_err.h
  /home/diazb/esp/esp-idf/components/esp_common/include/esp_types.h
+ /home/diazb/esp/esp-idf/components/esp_hal_security/include/hal/hmac_types.h
  /home/diazb/esp/esp-idf/components/esp_libc/platform_include/assert.h
  /home/diazb/esp/esp-idf/components/esp_libc/platform_include/pthread.h
  /home/diazb/esp/esp-idf/components/esp_libc/platform_include/stdio.h
@@ -5154,7 +5355,11 @@ esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/CMakeFiles/builtin.dir/src
  /home/diazb/esp/esp-idf/components/esp_libc/platform_include/sys/time.h
  /home/diazb/esp/esp-idf/components/esp_libc/platform_include/sys/unistd.h
  /home/diazb/esp/esp-idf/components/esp_libc/platform_include/time.h
+ /home/diazb/esp/esp-idf/components/esp_rom/esp32s3/include/esp32s3/rom/digital_signature.h
  /home/diazb/esp/esp-idf/components/esp_rom/include/esp_rom_md5.h
+ /home/diazb/esp/esp-idf/components/esp_security/include/esp_ds.h
+ /home/diazb/esp/esp-idf/components/esp_security/include/esp_ds_err.h
+ /home/diazb/esp/esp-idf/components/esp_security/include/esp_hmac.h
  /home/diazb/esp/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/core/alignment.h
  /home/diazb/esp/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/core/tf_psa_crypto_common.h
  /home/diazb/esp/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/include/mbedtls/config_adjust_legacy_crypto.h
@@ -5227,9 +5432,11 @@ esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/CMakeFiles/builtin.dir/src
  /home/diazb/esp/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h
  /home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_aes_contexts.h
  /home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_cmac_contexts.h
+ /home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_hmac_opaque_contexts.h
  /home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_hmac_transparent_contexts.h
+ /home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_rsa_ds_contexts.h
  /home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_sha_contexts.h
- /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/soc_caps.h
+ /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h
  /home/diazb/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h
  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/float.h
  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/limits.h
@@ -5318,7 +5525,7 @@ esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/CMakeFiles/builtin.dir/src
  /home/diazb/esp/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/include/tf-psa-crypto/build_info.h
  /home/diazb/esp/esp-idf/components/mbedtls/port/include/esp_mem.h
  /home/diazb/esp/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h
- /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/soc_caps.h
+ /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h
  /home/diazb/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h
  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/float.h
  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/limits.h
@@ -5386,7 +5593,7 @@ esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/CMakeFiles/builtin.dir/src
  /home/diazb/esp/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/include/tf-psa-crypto/build_info.h
  /home/diazb/esp/esp-idf/components/mbedtls/port/include/esp_mem.h
  /home/diazb/esp/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h
- /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/soc_caps.h
+ /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h
  /home/diazb/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h
  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/float.h
  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/limits.h
@@ -5448,7 +5655,7 @@ esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/CMakeFiles/builtin.dir/src
  /home/diazb/esp/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/include/tf-psa-crypto/build_info.h
  /home/diazb/esp/esp-idf/components/mbedtls/port/include/esp_mem.h
  /home/diazb/esp/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h
- /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/soc_caps.h
+ /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h
  /home/diazb/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h
  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/float.h
  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/limits.h
@@ -5507,7 +5714,7 @@ esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/CMakeFiles/builtin.dir/src
  /home/diazb/esp/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/include/tf-psa-crypto/build_info.h
  /home/diazb/esp/esp-idf/components/mbedtls/port/include/esp_mem.h
  /home/diazb/esp/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h
- /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/soc_caps.h
+ /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h
  /home/diazb/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h
  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/float.h
  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/limits.h
@@ -5554,7 +5761,7 @@ esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/CMakeFiles/builtin.dir/src
  /home/diazb/esp/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/include/tf-psa-crypto/build_info.h
  /home/diazb/esp/esp-idf/components/mbedtls/port/include/esp_mem.h
  /home/diazb/esp/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h
- /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/soc_caps.h
+ /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h
  /home/diazb/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h
  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/float.h
  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/limits.h
@@ -5613,7 +5820,7 @@ esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/CMakeFiles/builtin.dir/src
  /home/diazb/esp/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/include/tf-psa-crypto/build_info.h
  /home/diazb/esp/esp-idf/components/mbedtls/port/include/esp_mem.h
  /home/diazb/esp/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h
- /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/soc_caps.h
+ /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h
  /home/diazb/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h
  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/float.h
  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/limits.h

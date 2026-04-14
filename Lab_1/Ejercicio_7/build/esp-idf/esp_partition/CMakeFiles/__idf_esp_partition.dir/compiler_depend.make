@@ -5,7 +5,7 @@ esp-idf/esp_partition/CMakeFiles/__idf_esp_partition.dir/partition.c.obj: /home/
   config/sdkconfig.h \
   /home/diazb/esp/esp-idf/components/bootloader_support/include/bootloader_util.h \
   /home/diazb/esp/esp-idf/components/bootloader_support/include/esp_flash_partitions.h \
-  /home/diazb/esp/esp-idf/components/efuse/esp32/include/esp_efuse_chip.h \
+  /home/diazb/esp/esp-idf/components/efuse/esp32s3/include/esp_efuse_chip.h \
   /home/diazb/esp/esp-idf/components/efuse/include/esp_efuse.h \
   /home/diazb/esp/esp-idf/components/esp_blockdev/include/esp_blockdev.h \
   /home/diazb/esp/esp-idf/components/esp_common/include/esp_assert.h \
@@ -22,10 +22,11 @@ esp-idf/esp_partition/CMakeFiles/__idf_esp_partition.dir/partition.c.obj: /home/
   /home/diazb/esp/esp-idf/components/esp_libc/platform_include/sys/cdefs.h \
   /home/diazb/esp/esp-idf/components/esp_libc/platform_include/sys/lock.h \
   /home/diazb/esp/esp-idf/components/esp_partition/include/esp_partition.h \
+  /home/diazb/esp/esp-idf/components/esp_rom/esp32s3/include/esp32s3/rom/efuse.h \
   /home/diazb/esp/esp-idf/components/esp_rom/include/esp_rom_md5.h \
   /home/diazb/esp/esp-idf/components/esp_rom/include/esp_rom_sys.h \
-  /home/diazb/esp/esp-idf/components/hal/esp32/include/hal/efuse_hal.h \
-  /home/diazb/esp/esp-idf/components/hal/esp32/include/hal/efuse_ll.h \
+  /home/diazb/esp/esp-idf/components/hal/esp32s3/include/hal/efuse_hal.h \
+  /home/diazb/esp/esp-idf/components/hal/esp32s3/include/hal/efuse_ll.h \
   /home/diazb/esp/esp-idf/components/hal/include/hal/efuse_hal.h \
   /home/diazb/esp/esp-idf/components/hal/platform_port/include/hal/assert.h \
   /home/diazb/esp/esp-idf/components/hal/platform_port/include/hal/misc.h \
@@ -40,14 +41,13 @@ esp-idf/esp_partition/CMakeFiles/__idf_esp_partition.dir/partition.c.obj: /home/
   /home/diazb/esp/esp-idf/components/log/include/esp_log_timestamp.h \
   /home/diazb/esp/esp-idf/components/log/include/esp_log_write.h \
   /home/diazb/esp/esp-idf/components/log/include/esp_private/log_attr.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/efuse_defs.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/interrupts.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/reset_reasons.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/soc.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/soc_caps.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/register/soc/efuse_reg.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/register/soc/efuse_struct.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/register/soc/reg_base.h \
+  /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/efuse_defs.h \
+  /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/reset_reasons.h \
+  /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/soc.h \
+  /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h \
+  /home/diazb/esp/esp-idf/components/soc/esp32s3/register/soc/efuse_reg.h \
+  /home/diazb/esp/esp-idf/components/soc/esp32s3/register/soc/efuse_struct.h \
+  /home/diazb/esp/esp-idf/components/soc/esp32s3/register/soc/reg_base.h \
   /home/diazb/esp/esp-idf/components/soc/include/soc/efuse_periph.h \
   /home/diazb/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h \
   /home/diazb/esp/esp-idf/components/spi_flash/include/esp_flash.h \
@@ -125,8 +125,8 @@ esp-idf/esp_partition/CMakeFiles/__idf_esp_partition.dir/partition_target.c.obj:
   /home/diazb/esp/esp-idf/components/log/include/esp_log_timestamp.h \
   /home/diazb/esp/esp-idf/components/log/include/esp_log_write.h \
   /home/diazb/esp/esp-idf/components/log/include/esp_private/log_attr.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/reset_reasons.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/soc_caps.h \
+  /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/reset_reasons.h \
+  /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h \
   /home/diazb/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h \
   /home/diazb/esp/esp-idf/components/spi_flash/include/esp_flash.h \
   /home/diazb/esp/esp-idf/components/spi_flash/include/esp_spi_flash_counters.h \
@@ -164,21 +164,19 @@ esp-idf/esp_partition/CMakeFiles/__idf_esp_partition.dir/partition_target.c.obj:
 
 /home/diazb/esp/esp-idf/components/bootloader_support/include/esp_flash_encrypt.h:
 
-/home/diazb/esp/esp-idf/components/bootloader_support/include/esp_app_format.h:
-
 /home/diazb/esp/esp-idf/components/bootloader_support/include/bootloader_common.h:
 
-/home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/string.h:
-
-/home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/queue.h:
+/home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/syslimits.h:
 
 /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/param.h:
+
+/home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/features.h:
 
 /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/config.h:
 
 /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/cdefs.h:
 
-/home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/_wait.h:
+/home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/_stdint.h:
 
 /home/diazb/esp/esp-idf/components/esp_app_format/include/esp_app_desc.h:
 
@@ -192,6 +190,8 @@ esp-idf/esp_partition/CMakeFiles/__idf_esp_partition.dir/partition_target.c.obj:
 
 /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/stdint.h:
 
+/home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/picolibc.h:
+
 /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/machine/param.h:
 
 /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/machine/ieeefp.h:
@@ -202,45 +202,51 @@ esp-idf/esp_partition/CMakeFiles/__idf_esp_partition.dir/partition_target.c.obj:
 
 /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/machine/_default_types.h:
 
-/home/diazb/esp/esp-idf/components/esp_libc/platform_include/assert.h:
-
-/home/diazb/esp/esp-idf/components/soc/esp32/register/soc/reg_base.h:
-
 /home/diazb/esp/esp-idf/components/hal/platform_port/include/hal/misc.h:
 
 /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/stdbool.h:
 
-/home/diazb/esp/esp-idf/components/hal/esp32/include/hal/efuse_ll.h:
+/home/diazb/esp/esp-idf/components/bootloader_support/include/esp_app_format.h:
 
-/home/diazb/esp/esp-idf/components/soc/esp32/include/soc/reset_reasons.h:
-
-/home/diazb/esp/esp-idf/components/esp_libc/platform_include/stdio.h:
-
-/home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/float.h:
+/home/diazb/esp/esp-idf/components/hal/esp32s3/include/hal/efuse_ll.h:
 
 /home/diazb/esp/esp-idf/components/esp_libc/platform_include/sys/cdefs.h:
 
 /home/diazb/esp/esp-idf/components/esp_rom/include/esp_rom_sys.h:
 
-/home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/_types.h:
-
-/home/diazb/esp/esp-idf/components/log/include/esp_log.h:
-
-/home/diazb/esp/esp-idf/components/esp_hal_mspi/include/hal/spi_flash_types.h:
-
 /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/string.h:
 
 /home/diazb/esp/esp-idf/components/esp_partition/include/esp_partition.h:
 
-/home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/_stdint.h:
-
-/home/diazb/esp/esp-idf/components/soc/esp32/include/soc/efuse_defs.h:
-
 /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/stdarg.h:
+
+/home/diazb/esp/esp-idf/components/esp_libc/platform_include/assert.h:
+
+/home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/_types.h:
+
+/home/diazb/esp/esp-idf/components/esp_hal_mspi/include/hal/spi_flash_types.h:
+
+/home/diazb/esp/esp-idf/components/log/include/esp_log.h:
 
 /home/diazb/esp/esp-idf/components/esp_hal_mspi/include/hal/esp_flash_err.h:
 
 /home/diazb/esp/esp-idf/components/esp_common/include/esp_types.h:
+
+config/sdkconfig.h:
+
+/home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/machine/stdlib.h:
+
+/home/diazb/esp/esp-idf/components/hal/esp32s3/include/hal/efuse_hal.h:
+
+/home/diazb/esp/esp-idf/components/esp_rom/include/esp_rom_md5.h:
+
+/home/diazb/esp/esp-idf/components/esp_common/include/esp_err.h:
+
+/home/diazb/esp/esp-idf/components/bootloader_support/include/esp_flash_partitions.h:
+
+/home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/alloca.h:
+
+/home/diazb/esp/esp-idf/components/esp_rom/esp32s3/include/esp32s3/rom/efuse.h:
 
 /home/diazb/esp/esp-idf/components/esp_libc/platform_include/sys/lock.h:
 
@@ -248,31 +254,17 @@ esp-idf/esp_partition/CMakeFiles/__idf_esp_partition.dir/partition_target.c.obj:
 
 /home/diazb/esp/esp-idf/components/spi_flash/include/spi_flash_mmap.h:
 
-/home/diazb/esp/esp-idf/components/efuse/include/esp_efuse.h:
-
-config/sdkconfig.h:
-
-/home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/picolibc.h:
-
-/home/diazb/esp/esp-idf/components/hal/esp32/include/hal/efuse_hal.h:
-
-/home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/machine/stdlib.h:
-
-/home/diazb/esp/esp-idf/components/esp_rom/include/esp_rom_md5.h:
+/home/diazb/esp/esp-idf/components/bootloader_support/include/bootloader_util.h:
 
 /home/diazb/esp/esp-idf/components/esp_partition/partition.c:
 
-/home/diazb/esp/esp-idf/components/bootloader_support/include/bootloader_util.h:
-
-/home/diazb/esp/esp-idf/components/esp_common/include/esp_err.h:
-
-/home/diazb/esp/esp-idf/components/log/include/esp_private/log_attr.h:
-
-/home/diazb/esp/esp-idf/components/bootloader_support/include/esp_flash_partitions.h:
-
-/home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/alloca.h:
+/home/diazb/esp/esp-idf/components/efuse/include/esp_efuse.h:
 
 /home/diazb/esp/esp-idf/components/hal/platform_port/include/hal/assert.h:
+
+/home/diazb/esp/esp-idf/components/efuse/esp32s3/include/esp_efuse_chip.h:
+
+/home/diazb/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h:
 
 /home/diazb/esp/esp-idf/components/spi_flash/include/esp_spi_flash_counters.h:
 
@@ -288,13 +280,17 @@ config/sdkconfig.h:
 
 /home/diazb/esp/esp-idf/components/esp_common/include/esp_attr.h:
 
+/home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/string.h:
+
+/home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/soc.h:
+
 /home/diazb/esp/esp-idf/components/log/include/esp_log_args.h:
 
 /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/lock.h:
 
-/home/diazb/esp/esp-idf/components/efuse/esp32/include/esp_efuse_chip.h:
-
 /home/diazb/esp/esp-idf/components/log/include/esp_log_buffer.h:
+
+/home/diazb/esp/esp-idf/components/soc/esp32s3/register/soc/reg_base.h:
 
 /home/diazb/esp/esp-idf/components/esp_common/include/esp_compiler.h:
 
@@ -314,7 +310,25 @@ config/sdkconfig.h:
 
 /home/diazb/esp/esp-idf/components/log/include/esp_log_level.h:
 
-/home/diazb/esp/esp-idf/components/soc/esp32/include/soc/interrupts.h:
+/home/diazb/esp/esp-idf/components/log/include/esp_private/log_attr.h:
+
+/home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/efuse_defs.h:
+
+/home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/reset_reasons.h:
+
+/home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/_wait.h:
+
+/home/diazb/esp/esp-idf/components/soc/esp32s3/register/soc/efuse_reg.h:
+
+/home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/queue.h:
+
+/home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h:
+
+/home/diazb/esp/esp-idf/components/esp_common/include/esp_assert.h:
+
+/home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/stddef.h:
+
+/home/diazb/esp/esp-idf/components/soc/esp32s3/register/soc/efuse_struct.h:
 
 /home/diazb/esp/esp-idf/components/esp_common/include/esp_bit_defs.h:
 
@@ -322,26 +336,12 @@ config/sdkconfig.h:
 
 /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/assert.h:
 
-/home/diazb/esp/esp-idf/components/soc/esp32/include/soc/soc.h:
-
 /home/diazb/esp/esp-idf/components/log/include/esp_log_attr.h:
 
 /home/diazb/esp/esp-idf/components/spi_flash/include/esp_flash.h:
 
-/home/diazb/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h:
+/home/diazb/esp/esp-idf/components/esp_libc/platform_include/stdio.h:
 
-/home/diazb/esp/esp-idf/components/soc/esp32/include/soc/soc_caps.h:
-
-/home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/syslimits.h:
-
-/home/diazb/esp/esp-idf/components/soc/esp32/register/soc/efuse_reg.h:
-
-/home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/features.h:
-
-/home/diazb/esp/esp-idf/components/soc/esp32/register/soc/efuse_struct.h:
-
-/home/diazb/esp/esp-idf/components/esp_common/include/esp_assert.h:
-
-/home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/stddef.h:
+/home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/float.h:
 
 /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/inttypes.h:

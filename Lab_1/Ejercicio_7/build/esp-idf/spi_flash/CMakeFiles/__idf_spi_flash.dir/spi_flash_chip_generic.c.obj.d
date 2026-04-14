@@ -33,8 +33,8 @@ esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/spi_flash_chip_generic.c.obj: \
  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/inttypes.h \
  /home/diazb/esp/esp-idf/components/esp_rom/include/esp_rom_sys.h \
  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/stdbool.h \
- /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/reset_reasons.h \
- /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/soc_caps.h \
+ /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/reset_reasons.h \
+ /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h \
  /home/diazb/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h \
  /home/diazb/esp/esp-idf/components/log/include/esp_log_config.h \
  /home/diazb/esp/esp-idf/components/log/include/esp_log_level.h \
@@ -53,17 +53,16 @@ esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/spi_flash_chip_generic.c.obj: \
  /home/diazb/esp/esp-idf/components/log/include/esp_log_attr.h \
  /home/diazb/esp/esp-idf/components/esp_common/include/esp_attr.h \
  /home/diazb/esp/esp-idf/components/log/include/esp_private/log_attr.h \
- /home/diazb/esp/esp-idf/components/esp_rom/esp32/esp_rom_caps.h \
+ /home/diazb/esp/esp-idf/components/esp_rom/esp32s3/esp_rom_caps.h \
  /home/diazb/esp/esp-idf/components/esp_hal_mspi/include/hal/spi_flash_encrypt_hal.h \
  /home/diazb/esp/esp-idf/components/esp_hal_mspi/include/hal/spi_flash_encrypt_types.h \
- /home/diazb/esp/esp-idf/components/esp_hal_mspi/esp32/include/hal/spi_flash_encrypted_ll.h \
- /home/diazb/esp/esp-idf/components/soc/esp32/register/soc/dport_reg.h \
- /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/soc.h \
- /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/interrupts.h \
+ /home/diazb/esp/esp-idf/components/esp_hal_mspi/esp32s3/include/hal/spi_flash_encrypted_ll.h \
+ /home/diazb/esp/esp-idf/components/soc/esp32s3/register/soc/system_reg.h \
+ /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/soc.h \
  /home/diazb/esp/esp-idf/components/esp_common/include/esp_bit_defs.h \
- /home/diazb/esp/esp-idf/components/soc/esp32/register/soc/reg_base.h \
- /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/dport_access.h \
- /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/flash_encryption_reg.h \
+ /home/diazb/esp/esp-idf/components/soc/esp32s3/register/soc/reg_base.h \
+ /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/hwcrypto_reg.h \
+ /home/diazb/esp/esp-idf/components/hal/platform_port/include/hal/assert.h \
  /home/diazb/esp/esp-idf/components/spi_flash/include/esp_flash_chips/spi_flash_defs.h \
  /home/diazb/esp/esp-idf/components/spi_flash/include/esp_flash_chips/spi_flash_chip_generic.h \
  /home/diazb/esp/esp-idf/components/spi_flash/include/esp_flash.h \
@@ -81,11 +80,16 @@ esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/spi_flash_chip_generic.c.obj: \
  /home/diazb/esp/esp-idf/components/spi_flash/include/esp_private/spi_flash_os.h \
  /home/diazb/esp/esp-idf/components/esp_rom/include/esp_rom_spiflash.h \
  /home/diazb/esp/esp-idf/components/esp_rom/include/esp_rom_spiflash_defs.h \
- /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/clk_tree_defs.h \
+ /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/clk_tree_defs.h \
  /home/diazb/esp/esp-idf/components/esp_hal_mspi/include/hal/spi_flash_hal.h \
- /home/diazb/esp/esp-idf/components/esp_hal_mspi/esp32/include/hal/spi_flash_ll.h \
- /home/diazb/esp/esp-idf/components/soc/esp32/register/soc/spi_reg.h \
- /home/diazb/esp/esp-idf/components/soc/esp32/register/soc/spi_struct.h \
- /home/diazb/esp/esp-idf/components/hal/platform_port/include/hal/misc.h \
+ /home/diazb/esp/esp-idf/components/esp_hal_mspi/esp32s3/include/hal/spi_flash_ll.h \
+ /home/diazb/esp/esp-idf/components/esp_hal_mspi/esp32s3/include/hal/gpspi_flash_ll.h \
+ /home/diazb/esp/esp-idf/components/soc/esp32s3/register/soc/spi_struct.h \
+ /home/diazb/esp/esp-idf/components/soc/esp32s3/register/soc/spi_reg.h \
  /home/diazb/esp/esp-idf/components/esp_hal_gpspi/include/hal/spi_types.h \
+ /home/diazb/esp/esp-idf/components/hal/platform_port/include/hal/misc.h \
+ /home/diazb/esp/esp-idf/components/esp_hal_mspi/esp32s3/include/hal/spimem_flash_ll.h \
+ /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/interrupts.h \
+ /home/diazb/esp/esp-idf/components/soc/esp32s3/register/soc/spi_mem_reg.h \
+ /home/diazb/esp/esp-idf/components/soc/esp32s3/register/soc/spi_mem_struct.h \
  /home/diazb/esp/esp-idf/components/spi_flash/include/esp_flash_chips/spi_flash_override.h

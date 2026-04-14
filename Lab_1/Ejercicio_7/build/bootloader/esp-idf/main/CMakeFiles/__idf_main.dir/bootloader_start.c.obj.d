@@ -19,8 +19,8 @@ esp-idf/main/CMakeFiles/__idf_main.dir/bootloader_start.c.obj: \
  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/inttypes.h \
  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/_locale.h \
  /home/diazb/esp/esp-idf/components/esp_rom/include/esp_rom_sys.h \
- /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/reset_reasons.h \
- /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/soc_caps.h \
+ /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/reset_reasons.h \
+ /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h \
  /home/diazb/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h \
  /home/diazb/esp/esp-idf/components/log/include/esp_log_config.h \
  /home/diazb/esp/esp-idf/components/log/include/esp_log_level.h \
@@ -48,7 +48,7 @@ esp-idf/main/CMakeFiles/__idf_main.dir/bootloader_start.c.obj: \
  /home/diazb/esp/esp-idf/components/log/include/esp_log_attr.h \
  /home/diazb/esp/esp-idf/components/esp_common/include/esp_attr.h \
  /home/diazb/esp/esp-idf/components/log/include/esp_private/log_attr.h \
- /home/diazb/esp/esp-idf/components/esp_rom/esp32/esp_rom_caps.h \
+ /home/diazb/esp/esp-idf/components/esp_rom/esp32s3/esp_rom_caps.h \
  /home/diazb/esp/esp-idf/components/bootloader_support/private_include/bootloader_init.h \
  /home/diazb/esp/esp-idf/components/esp_common/include/esp_err.h \
  /home/diazb/esp/esp-idf/components/esp_libc/platform_include/stdio.h \
@@ -61,9 +61,8 @@ esp-idf/main/CMakeFiles/__idf_main.dir/bootloader_start.c.obj: \
  /home/diazb/esp/esp-idf/components/bootloader_support/include/esp_app_format.h \
  /home/diazb/esp/esp-idf/components/bootloader_support/private_include/bootloader_utility.h \
  /home/diazb/esp/esp-idf/components/bootloader_support/private_include/bootloader_config.h \
- /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/soc.h \
- /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/interrupts.h \
+ /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/soc.h \
  /home/diazb/esp/esp-idf/components/esp_common/include/esp_bit_defs.h \
- /home/diazb/esp/esp-idf/components/soc/esp32/register/soc/reg_base.h \
+ /home/diazb/esp/esp-idf/components/soc/esp32s3/register/soc/reg_base.h \
  /home/diazb/esp/esp-idf/components/bootloader_support/include/bootloader_common.h \
  /home/diazb/esp/esp-idf/components/bootloader/subproject/main/bootloader_hooks.h

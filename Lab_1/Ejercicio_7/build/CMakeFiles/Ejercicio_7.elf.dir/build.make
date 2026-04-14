@@ -69,31 +69,32 @@ include CMakeFiles/Ejercicio_7.elf.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Ejercicio_7.elf.dir/flags.make
 
-CMakeFiles/Ejercicio_7.elf.dir/project_elf_src_esp32.c.obj: CMakeFiles/Ejercicio_7.elf.dir/flags.make
-CMakeFiles/Ejercicio_7.elf.dir/project_elf_src_esp32.c.obj: project_elf_src_esp32.c
-CMakeFiles/Ejercicio_7.elf.dir/project_elf_src_esp32.c.obj: CMakeFiles/Ejercicio_7.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Ejercicio_7.elf.dir/project_elf_src_esp32.c.obj"
-	/home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Ejercicio_7.elf.dir/project_elf_src_esp32.c.obj -MF CMakeFiles/Ejercicio_7.elf.dir/project_elf_src_esp32.c.obj.d -o CMakeFiles/Ejercicio_7.elf.dir/project_elf_src_esp32.c.obj -c /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build/project_elf_src_esp32.c
+CMakeFiles/Ejercicio_7.elf.dir/project_elf_src_esp32s3.c.obj: CMakeFiles/Ejercicio_7.elf.dir/flags.make
+CMakeFiles/Ejercicio_7.elf.dir/project_elf_src_esp32s3.c.obj: project_elf_src_esp32s3.c
+CMakeFiles/Ejercicio_7.elf.dir/project_elf_src_esp32s3.c.obj: CMakeFiles/Ejercicio_7.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Ejercicio_7.elf.dir/project_elf_src_esp32s3.c.obj"
+	/home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Ejercicio_7.elf.dir/project_elf_src_esp32s3.c.obj -MF CMakeFiles/Ejercicio_7.elf.dir/project_elf_src_esp32s3.c.obj.d -o CMakeFiles/Ejercicio_7.elf.dir/project_elf_src_esp32s3.c.obj -c /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build/project_elf_src_esp32s3.c
 
-CMakeFiles/Ejercicio_7.elf.dir/project_elf_src_esp32.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/Ejercicio_7.elf.dir/project_elf_src_esp32.c.i"
-	/home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build/project_elf_src_esp32.c > CMakeFiles/Ejercicio_7.elf.dir/project_elf_src_esp32.c.i
+CMakeFiles/Ejercicio_7.elf.dir/project_elf_src_esp32s3.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/Ejercicio_7.elf.dir/project_elf_src_esp32s3.c.i"
+	/home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build/project_elf_src_esp32s3.c > CMakeFiles/Ejercicio_7.elf.dir/project_elf_src_esp32s3.c.i
 
-CMakeFiles/Ejercicio_7.elf.dir/project_elf_src_esp32.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/Ejercicio_7.elf.dir/project_elf_src_esp32.c.s"
-	/home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build/project_elf_src_esp32.c -o CMakeFiles/Ejercicio_7.elf.dir/project_elf_src_esp32.c.s
+CMakeFiles/Ejercicio_7.elf.dir/project_elf_src_esp32s3.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/Ejercicio_7.elf.dir/project_elf_src_esp32s3.c.s"
+	/home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build/project_elf_src_esp32s3.c -o CMakeFiles/Ejercicio_7.elf.dir/project_elf_src_esp32s3.c.s
 
 # Object files for target Ejercicio_7.elf
 Ejercicio_7_elf_OBJECTS = \
-"CMakeFiles/Ejercicio_7.elf.dir/project_elf_src_esp32.c.obj"
+"CMakeFiles/Ejercicio_7.elf.dir/project_elf_src_esp32s3.c.obj"
 
 # External object files for target Ejercicio_7.elf
 Ejercicio_7_elf_EXTERNAL_OBJECTS =
 
-Ejercicio_7.elf: CMakeFiles/Ejercicio_7.elf.dir/project_elf_src_esp32.c.obj
+Ejercicio_7.elf: CMakeFiles/Ejercicio_7.elf.dir/project_elf_src_esp32s3.c.obj
 Ejercicio_7.elf: CMakeFiles/Ejercicio_7.elf.dir/build.make
 Ejercicio_7.elf: esp-idf/xtensa/libxtensa.a
 Ejercicio_7.elf: esp-idf/esp_stdio/libesp_stdio.a
+Ejercicio_7.elf: esp-idf/esp_hal_dma/libesp_hal_dma.a
 Ejercicio_7.elf: esp-idf/esp_hal_gpspi/libesp_hal_gpspi.a
 Ejercicio_7.elf: esp-idf/esp_hal_clock/libesp_hal_clock.a
 Ejercicio_7.elf: esp-idf/esp_hal_mspi/libesp_hal_mspi.a
@@ -112,7 +113,6 @@ Ejercicio_7.elf: esp-idf/esp_driver_dma/libesp_driver_dma.a
 Ejercicio_7.elf: esp-idf/mbedtls/libmbedtls.a
 Ejercicio_7.elf: esp-idf/esp_hal_timg/libesp_hal_timg.a
 Ejercicio_7.elf: esp-idf/esp_hal_wdt/libesp_hal_wdt.a
-Ejercicio_7.elf: esp-idf/esp_hal_i2s/libesp_hal_i2s.a
 Ejercicio_7.elf: esp-idf/esp_hal_ana_conv/libesp_hal_ana_conv.a
 Ejercicio_7.elf: esp-idf/bootloader_support/libbootloader_support.a
 Ejercicio_7.elf: esp-idf/spi_flash/libspi_flash.a
@@ -124,7 +124,9 @@ Ejercicio_7.elf: esp-idf/log/liblog.a
 Ejercicio_7.elf: esp-idf/heap/libheap.a
 Ejercicio_7.elf: esp-idf/soc/libsoc.a
 Ejercicio_7.elf: esp-idf/esp_hal_gpio/libesp_hal_gpio.a
+Ejercicio_7.elf: esp-idf/esp_hal_usb/libesp_hal_usb.a
 Ejercicio_7.elf: esp-idf/esp_hal_pmu/libesp_hal_pmu.a
+Ejercicio_7.elf: esp-idf/esp_hal_systimer/libesp_hal_systimer.a
 Ejercicio_7.elf: esp-idf/esp_hal_touch_sens/libesp_hal_touch_sens.a
 Ejercicio_7.elf: esp-idf/esp_hw_support/libesp_hw_support.a
 Ejercicio_7.elf: esp-idf/freertos/libfreertos.a
@@ -140,6 +142,7 @@ Ejercicio_7.elf: esp-idf/esp_event/libesp_event.a
 Ejercicio_7.elf: esp-idf/nvs_sec_provider/libnvs_sec_provider.a
 Ejercicio_7.elf: esp-idf/nvs_flash/libnvs_flash.a
 Ejercicio_7.elf: esp-idf/esp_phy/libesp_phy.a
+Ejercicio_7.elf: esp-idf/esp_driver_usb_serial_jtag/libesp_driver_usb_serial_jtag.a
 Ejercicio_7.elf: esp-idf/vfs/libvfs.a
 Ejercicio_7.elf: esp-idf/lwip/liblwip.a
 Ejercicio_7.elf: esp-idf/esp_netif/libesp_netif.a
@@ -156,11 +159,12 @@ Ejercicio_7.elf: esp-idf/esp_hal_twai/libesp_hal_twai.a
 Ejercicio_7.elf: esp-idf/driver/libdriver.a
 Ejercicio_7.elf: esp-idf/http_parser/libhttp_parser.a
 Ejercicio_7.elf: esp-idf/esp-tls/libesp-tls.a
-Ejercicio_7.elf: esp-idf/esp_driver_i2s/libesp_driver_i2s.a
 Ejercicio_7.elf: esp-idf/esp_adc/libesp_adc.a
+Ejercicio_7.elf: esp-idf/esp_hal_cam/libesp_hal_cam.a
 Ejercicio_7.elf: esp-idf/esp_driver_cam/libesp_driver_cam.a
-Ejercicio_7.elf: esp-idf/esp_driver_dac/libesp_driver_dac.a
 Ejercicio_7.elf: esp-idf/esp_driver_i2c/libesp_driver_i2c.a
+Ejercicio_7.elf: esp-idf/esp_hal_i2s/libesp_hal_i2s.a
+Ejercicio_7.elf: esp-idf/esp_driver_i2s/libesp_driver_i2s.a
 Ejercicio_7.elf: esp-idf/esp_hal_ledc/libesp_hal_ledc.a
 Ejercicio_7.elf: esp-idf/esp_driver_ledc/libesp_driver_ledc.a
 Ejercicio_7.elf: esp-idf/esp_hal_mcpwm/libesp_hal_mcpwm.a
@@ -172,13 +176,12 @@ Ejercicio_7.elf: esp-idf/esp_driver_rmt/libesp_driver_rmt.a
 Ejercicio_7.elf: esp-idf/esp_hal_sd/libesp_hal_sd.a
 Ejercicio_7.elf: esp-idf/sdmmc/libsdmmc.a
 Ejercicio_7.elf: esp-idf/esp_driver_sd_intf/libesp_driver_sd_intf.a
-Ejercicio_7.elf: esp-idf/esp_driver_sdio/libesp_driver_sdio.a
 Ejercicio_7.elf: esp-idf/esp_driver_sdm/libesp_driver_sdm.a
 Ejercicio_7.elf: esp-idf/esp_driver_sdmmc/libesp_driver_sdmmc.a
 Ejercicio_7.elf: esp-idf/esp_driver_sdspi/libesp_driver_sdspi.a
 Ejercicio_7.elf: esp-idf/esp_driver_touch_sens/libesp_driver_touch_sens.a
+Ejercicio_7.elf: esp-idf/esp_driver_tsens/libesp_driver_tsens.a
 Ejercicio_7.elf: esp-idf/esp_driver_twai/libesp_driver_twai.a
-Ejercicio_7.elf: esp-idf/esp_hal_emac/libesp_hal_emac.a
 Ejercicio_7.elf: esp-idf/esp_eth/libesp_eth.a
 Ejercicio_7.elf: esp-idf/esp_hal_lcd/libesp_hal_lcd.a
 Ejercicio_7.elf: esp-idf/esp_hid/libesp_hid.a
@@ -200,10 +203,10 @@ Ejercicio_7.elf: esp-idf/espressif__esp_jpeg/libespressif__esp_jpeg.a
 Ejercicio_7.elf: esp-idf/esp32-camera/libesp32-camera.a
 Ejercicio_7.elf: esp-idf/main/libmain.a
 Ejercicio_7.elf: esp-idf/unity/libunity.a
+Ejercicio_7.elf: esp-idf/esp_hal_cam/libesp_hal_cam.a
 Ejercicio_7.elf: esp-idf/esp_hal_mcpwm/libesp_hal_mcpwm.a
 Ejercicio_7.elf: esp-idf/esp_hal_pcnt/libesp_hal_pcnt.a
 Ejercicio_7.elf: esp-idf/esp_hal_rmt/libesp_hal_rmt.a
-Ejercicio_7.elf: esp-idf/esp_hal_emac/libesp_hal_emac.a
 Ejercicio_7.elf: esp-idf/esp_hal_lcd/libesp_hal_lcd.a
 Ejercicio_7.elf: esp-idf/esp_https_server/libesp_https_server.a
 Ejercicio_7.elf: esp-idf/protocomm/libprotocomm.a
@@ -225,6 +228,7 @@ Ejercicio_7.elf: esp-idf/esp_hal_ledc/libesp_hal_ledc.a
 Ejercicio_7.elf: esp-idf/espressif__esp_jpeg/libespressif__esp_jpeg.a
 Ejercicio_7.elf: esp-idf/xtensa/libxtensa.a
 Ejercicio_7.elf: esp-idf/esp_stdio/libesp_stdio.a
+Ejercicio_7.elf: esp-idf/esp_hal_dma/libesp_hal_dma.a
 Ejercicio_7.elf: esp-idf/esp_hal_gpspi/libesp_hal_gpspi.a
 Ejercicio_7.elf: esp-idf/esp_hal_clock/libesp_hal_clock.a
 Ejercicio_7.elf: esp-idf/esp_hal_mspi/libesp_hal_mspi.a
@@ -243,7 +247,6 @@ Ejercicio_7.elf: esp-idf/esp_driver_dma/libesp_driver_dma.a
 Ejercicio_7.elf: esp-idf/mbedtls/libmbedtls.a
 Ejercicio_7.elf: esp-idf/esp_hal_timg/libesp_hal_timg.a
 Ejercicio_7.elf: esp-idf/esp_hal_wdt/libesp_hal_wdt.a
-Ejercicio_7.elf: esp-idf/esp_hal_i2s/libesp_hal_i2s.a
 Ejercicio_7.elf: esp-idf/esp_hal_ana_conv/libesp_hal_ana_conv.a
 Ejercicio_7.elf: esp-idf/bootloader_support/libbootloader_support.a
 Ejercicio_7.elf: esp-idf/spi_flash/libspi_flash.a
@@ -255,7 +258,9 @@ Ejercicio_7.elf: esp-idf/log/liblog.a
 Ejercicio_7.elf: esp-idf/heap/libheap.a
 Ejercicio_7.elf: esp-idf/soc/libsoc.a
 Ejercicio_7.elf: esp-idf/esp_hal_gpio/libesp_hal_gpio.a
+Ejercicio_7.elf: esp-idf/esp_hal_usb/libesp_hal_usb.a
 Ejercicio_7.elf: esp-idf/esp_hal_pmu/libesp_hal_pmu.a
+Ejercicio_7.elf: esp-idf/esp_hal_systimer/libesp_hal_systimer.a
 Ejercicio_7.elf: esp-idf/esp_hal_touch_sens/libesp_hal_touch_sens.a
 Ejercicio_7.elf: esp-idf/esp_hw_support/libesp_hw_support.a
 Ejercicio_7.elf: esp-idf/freertos/libfreertos.a
@@ -270,6 +275,7 @@ Ejercicio_7.elf: esp-idf/esp_event/libesp_event.a
 Ejercicio_7.elf: esp-idf/nvs_sec_provider/libnvs_sec_provider.a
 Ejercicio_7.elf: esp-idf/nvs_flash/libnvs_flash.a
 Ejercicio_7.elf: esp-idf/esp_phy/libesp_phy.a
+Ejercicio_7.elf: esp-idf/esp_driver_usb_serial_jtag/libesp_driver_usb_serial_jtag.a
 Ejercicio_7.elf: esp-idf/vfs/libvfs.a
 Ejercicio_7.elf: esp-idf/lwip/liblwip.a
 Ejercicio_7.elf: esp-idf/esp_netif/libesp_netif.a
@@ -280,30 +286,32 @@ Ejercicio_7.elf: esp-idf/esp_gdbstub/libesp_gdbstub.a
 Ejercicio_7.elf: esp-idf/esp_hal_i2c/libesp_hal_i2c.a
 Ejercicio_7.elf: esp-idf/http_parser/libhttp_parser.a
 Ejercicio_7.elf: esp-idf/esp-tls/libesp-tls.a
-Ejercicio_7.elf: esp-idf/esp_driver_i2s/libesp_driver_i2s.a
 Ejercicio_7.elf: esp-idf/esp_adc/libesp_adc.a
+Ejercicio_7.elf: esp-idf/esp_hal_i2s/libesp_hal_i2s.a
+Ejercicio_7.elf: esp-idf/esp_driver_i2s/libesp_driver_i2s.a
 Ejercicio_7.elf: esp-idf/tcp_transport/libtcp_transport.a
 Ejercicio_7.elf: esp-idf/esp_http_client/libesp_http_client.a
 Ejercicio_7.elf: esp-idf/esp_http_server/libesp_http_server.a
 Ejercicio_7.elf: esp-idf/esp_https_ota/libesp_https_ota.a
-Ejercicio_7.elf: /home/diazb/esp/esp-idf/components/xtensa/esp32/libxt_hal.a
+Ejercicio_7.elf: /home/diazb/esp/esp-idf/components/xtensa/esp32s3/libxt_hal.a
 Ejercicio_7.elf: esp-idf/mbedtls/mbedtls/library/libmbedtls.a
 Ejercicio_7.elf: esp-idf/mbedtls/mbedtls/library/libmbedx509.a
 Ejercicio_7.elf: esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/libtfpsacrypto.a
 Ejercicio_7.elf: esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/libmbed-builtin.a
 Ejercicio_7.elf: esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/everest/libeverest.a
 Ejercicio_7.elf: esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/p256-m/libp256m.a
-Ejercicio_7.elf: /home/diazb/esp/esp-idf/components/esp_phy/lib/esp32/librtc.a
-Ejercicio_7.elf: /home/diazb/esp/esp-idf/components/esp_phy/lib/esp32/libphy.a
-Ejercicio_7.elf: /home/diazb/esp/esp-idf/components/esp_wifi/lib/esp32/libcore.a
-Ejercicio_7.elf: /home/diazb/esp/esp-idf/components/esp_wifi/lib/esp32/libespnow.a
-Ejercicio_7.elf: /home/diazb/esp/esp-idf/components/esp_wifi/lib/esp32/libmesh.a
-Ejercicio_7.elf: /home/diazb/esp/esp-idf/components/esp_wifi/lib/esp32/libnet80211.a
-Ejercicio_7.elf: /home/diazb/esp/esp-idf/components/esp_wifi/lib/esp32/libpp.a
-Ejercicio_7.elf: /home/diazb/esp/esp-idf/components/esp_wifi/lib/esp32/libsmartconfig.a
-Ejercicio_7.elf: /home/diazb/esp/esp-idf/components/esp_wifi/lib/esp32/libwapi.a
+Ejercicio_7.elf: /home/diazb/esp/esp-idf/components/esp_phy/lib/esp32s3/libbtbb.a
+Ejercicio_7.elf: /home/diazb/esp/esp-idf/components/esp_phy/lib/esp32s3/libphy.a
+Ejercicio_7.elf: /home/diazb/esp/esp-idf/components/esp_wifi/lib/esp32s3/libcore.a
+Ejercicio_7.elf: /home/diazb/esp/esp-idf/components/esp_wifi/lib/esp32s3/libespnow.a
+Ejercicio_7.elf: /home/diazb/esp/esp-idf/components/esp_wifi/lib/esp32s3/libmesh.a
+Ejercicio_7.elf: /home/diazb/esp/esp-idf/components/esp_wifi/lib/esp32s3/libnet80211.a
+Ejercicio_7.elf: /home/diazb/esp/esp-idf/components/esp_wifi/lib/esp32s3/libpp.a
+Ejercicio_7.elf: /home/diazb/esp/esp-idf/components/esp_wifi/lib/esp32s3/libsmartconfig.a
+Ejercicio_7.elf: /home/diazb/esp/esp-idf/components/esp_wifi/lib/esp32s3/libwapi.a
 Ejercicio_7.elf: esp-idf/xtensa/libxtensa.a
 Ejercicio_7.elf: esp-idf/esp_stdio/libesp_stdio.a
+Ejercicio_7.elf: esp-idf/esp_hal_dma/libesp_hal_dma.a
 Ejercicio_7.elf: esp-idf/esp_hal_gpspi/libesp_hal_gpspi.a
 Ejercicio_7.elf: esp-idf/esp_hal_clock/libesp_hal_clock.a
 Ejercicio_7.elf: esp-idf/esp_hal_mspi/libesp_hal_mspi.a
@@ -322,7 +330,6 @@ Ejercicio_7.elf: esp-idf/esp_driver_dma/libesp_driver_dma.a
 Ejercicio_7.elf: esp-idf/mbedtls/libmbedtls.a
 Ejercicio_7.elf: esp-idf/esp_hal_timg/libesp_hal_timg.a
 Ejercicio_7.elf: esp-idf/esp_hal_wdt/libesp_hal_wdt.a
-Ejercicio_7.elf: esp-idf/esp_hal_i2s/libesp_hal_i2s.a
 Ejercicio_7.elf: esp-idf/esp_hal_ana_conv/libesp_hal_ana_conv.a
 Ejercicio_7.elf: esp-idf/bootloader_support/libbootloader_support.a
 Ejercicio_7.elf: esp-idf/spi_flash/libspi_flash.a
@@ -334,7 +341,9 @@ Ejercicio_7.elf: esp-idf/log/liblog.a
 Ejercicio_7.elf: esp-idf/heap/libheap.a
 Ejercicio_7.elf: esp-idf/soc/libsoc.a
 Ejercicio_7.elf: esp-idf/esp_hal_gpio/libesp_hal_gpio.a
+Ejercicio_7.elf: esp-idf/esp_hal_usb/libesp_hal_usb.a
 Ejercicio_7.elf: esp-idf/esp_hal_pmu/libesp_hal_pmu.a
+Ejercicio_7.elf: esp-idf/esp_hal_systimer/libesp_hal_systimer.a
 Ejercicio_7.elf: esp-idf/esp_hal_touch_sens/libesp_hal_touch_sens.a
 Ejercicio_7.elf: esp-idf/esp_hw_support/libesp_hw_support.a
 Ejercicio_7.elf: esp-idf/freertos/libfreertos.a
@@ -349,6 +358,7 @@ Ejercicio_7.elf: esp-idf/esp_event/libesp_event.a
 Ejercicio_7.elf: esp-idf/nvs_sec_provider/libnvs_sec_provider.a
 Ejercicio_7.elf: esp-idf/nvs_flash/libnvs_flash.a
 Ejercicio_7.elf: esp-idf/esp_phy/libesp_phy.a
+Ejercicio_7.elf: esp-idf/esp_driver_usb_serial_jtag/libesp_driver_usb_serial_jtag.a
 Ejercicio_7.elf: esp-idf/vfs/libvfs.a
 Ejercicio_7.elf: esp-idf/lwip/liblwip.a
 Ejercicio_7.elf: esp-idf/esp_netif/libesp_netif.a
@@ -359,30 +369,32 @@ Ejercicio_7.elf: esp-idf/esp_gdbstub/libesp_gdbstub.a
 Ejercicio_7.elf: esp-idf/esp_hal_i2c/libesp_hal_i2c.a
 Ejercicio_7.elf: esp-idf/http_parser/libhttp_parser.a
 Ejercicio_7.elf: esp-idf/esp-tls/libesp-tls.a
-Ejercicio_7.elf: esp-idf/esp_driver_i2s/libesp_driver_i2s.a
 Ejercicio_7.elf: esp-idf/esp_adc/libesp_adc.a
+Ejercicio_7.elf: esp-idf/esp_hal_i2s/libesp_hal_i2s.a
+Ejercicio_7.elf: esp-idf/esp_driver_i2s/libesp_driver_i2s.a
 Ejercicio_7.elf: esp-idf/tcp_transport/libtcp_transport.a
 Ejercicio_7.elf: esp-idf/esp_http_client/libesp_http_client.a
 Ejercicio_7.elf: esp-idf/esp_http_server/libesp_http_server.a
 Ejercicio_7.elf: esp-idf/esp_https_ota/libesp_https_ota.a
-Ejercicio_7.elf: /home/diazb/esp/esp-idf/components/xtensa/esp32/libxt_hal.a
+Ejercicio_7.elf: /home/diazb/esp/esp-idf/components/xtensa/esp32s3/libxt_hal.a
 Ejercicio_7.elf: esp-idf/mbedtls/mbedtls/library/libmbedtls.a
 Ejercicio_7.elf: esp-idf/mbedtls/mbedtls/library/libmbedx509.a
 Ejercicio_7.elf: esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/libtfpsacrypto.a
 Ejercicio_7.elf: esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/libmbed-builtin.a
 Ejercicio_7.elf: esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/everest/libeverest.a
 Ejercicio_7.elf: esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/p256-m/libp256m.a
-Ejercicio_7.elf: /home/diazb/esp/esp-idf/components/esp_phy/lib/esp32/librtc.a
-Ejercicio_7.elf: /home/diazb/esp/esp-idf/components/esp_phy/lib/esp32/libphy.a
-Ejercicio_7.elf: /home/diazb/esp/esp-idf/components/esp_wifi/lib/esp32/libcore.a
-Ejercicio_7.elf: /home/diazb/esp/esp-idf/components/esp_wifi/lib/esp32/libespnow.a
-Ejercicio_7.elf: /home/diazb/esp/esp-idf/components/esp_wifi/lib/esp32/libmesh.a
-Ejercicio_7.elf: /home/diazb/esp/esp-idf/components/esp_wifi/lib/esp32/libnet80211.a
-Ejercicio_7.elf: /home/diazb/esp/esp-idf/components/esp_wifi/lib/esp32/libpp.a
-Ejercicio_7.elf: /home/diazb/esp/esp-idf/components/esp_wifi/lib/esp32/libsmartconfig.a
-Ejercicio_7.elf: /home/diazb/esp/esp-idf/components/esp_wifi/lib/esp32/libwapi.a
+Ejercicio_7.elf: /home/diazb/esp/esp-idf/components/esp_phy/lib/esp32s3/libbtbb.a
+Ejercicio_7.elf: /home/diazb/esp/esp-idf/components/esp_phy/lib/esp32s3/libphy.a
+Ejercicio_7.elf: /home/diazb/esp/esp-idf/components/esp_wifi/lib/esp32s3/libcore.a
+Ejercicio_7.elf: /home/diazb/esp/esp-idf/components/esp_wifi/lib/esp32s3/libespnow.a
+Ejercicio_7.elf: /home/diazb/esp/esp-idf/components/esp_wifi/lib/esp32s3/libmesh.a
+Ejercicio_7.elf: /home/diazb/esp/esp-idf/components/esp_wifi/lib/esp32s3/libnet80211.a
+Ejercicio_7.elf: /home/diazb/esp/esp-idf/components/esp_wifi/lib/esp32s3/libpp.a
+Ejercicio_7.elf: /home/diazb/esp/esp-idf/components/esp_wifi/lib/esp32s3/libsmartconfig.a
+Ejercicio_7.elf: /home/diazb/esp/esp-idf/components/esp_wifi/lib/esp32s3/libwapi.a
 Ejercicio_7.elf: esp-idf/xtensa/libxtensa.a
 Ejercicio_7.elf: esp-idf/esp_stdio/libesp_stdio.a
+Ejercicio_7.elf: esp-idf/esp_hal_dma/libesp_hal_dma.a
 Ejercicio_7.elf: esp-idf/esp_hal_gpspi/libesp_hal_gpspi.a
 Ejercicio_7.elf: esp-idf/esp_hal_clock/libesp_hal_clock.a
 Ejercicio_7.elf: esp-idf/esp_hal_mspi/libesp_hal_mspi.a
@@ -401,7 +413,6 @@ Ejercicio_7.elf: esp-idf/esp_driver_dma/libesp_driver_dma.a
 Ejercicio_7.elf: esp-idf/mbedtls/libmbedtls.a
 Ejercicio_7.elf: esp-idf/esp_hal_timg/libesp_hal_timg.a
 Ejercicio_7.elf: esp-idf/esp_hal_wdt/libesp_hal_wdt.a
-Ejercicio_7.elf: esp-idf/esp_hal_i2s/libesp_hal_i2s.a
 Ejercicio_7.elf: esp-idf/esp_hal_ana_conv/libesp_hal_ana_conv.a
 Ejercicio_7.elf: esp-idf/bootloader_support/libbootloader_support.a
 Ejercicio_7.elf: esp-idf/spi_flash/libspi_flash.a
@@ -413,7 +424,9 @@ Ejercicio_7.elf: esp-idf/log/liblog.a
 Ejercicio_7.elf: esp-idf/heap/libheap.a
 Ejercicio_7.elf: esp-idf/soc/libsoc.a
 Ejercicio_7.elf: esp-idf/esp_hal_gpio/libesp_hal_gpio.a
+Ejercicio_7.elf: esp-idf/esp_hal_usb/libesp_hal_usb.a
 Ejercicio_7.elf: esp-idf/esp_hal_pmu/libesp_hal_pmu.a
+Ejercicio_7.elf: esp-idf/esp_hal_systimer/libesp_hal_systimer.a
 Ejercicio_7.elf: esp-idf/esp_hal_touch_sens/libesp_hal_touch_sens.a
 Ejercicio_7.elf: esp-idf/esp_hw_support/libesp_hw_support.a
 Ejercicio_7.elf: esp-idf/freertos/libfreertos.a
@@ -428,6 +441,7 @@ Ejercicio_7.elf: esp-idf/esp_event/libesp_event.a
 Ejercicio_7.elf: esp-idf/nvs_sec_provider/libnvs_sec_provider.a
 Ejercicio_7.elf: esp-idf/nvs_flash/libnvs_flash.a
 Ejercicio_7.elf: esp-idf/esp_phy/libesp_phy.a
+Ejercicio_7.elf: esp-idf/esp_driver_usb_serial_jtag/libesp_driver_usb_serial_jtag.a
 Ejercicio_7.elf: esp-idf/vfs/libvfs.a
 Ejercicio_7.elf: esp-idf/lwip/liblwip.a
 Ejercicio_7.elf: esp-idf/esp_netif/libesp_netif.a
@@ -438,30 +452,32 @@ Ejercicio_7.elf: esp-idf/esp_gdbstub/libesp_gdbstub.a
 Ejercicio_7.elf: esp-idf/esp_hal_i2c/libesp_hal_i2c.a
 Ejercicio_7.elf: esp-idf/http_parser/libhttp_parser.a
 Ejercicio_7.elf: esp-idf/esp-tls/libesp-tls.a
-Ejercicio_7.elf: esp-idf/esp_driver_i2s/libesp_driver_i2s.a
 Ejercicio_7.elf: esp-idf/esp_adc/libesp_adc.a
+Ejercicio_7.elf: esp-idf/esp_hal_i2s/libesp_hal_i2s.a
+Ejercicio_7.elf: esp-idf/esp_driver_i2s/libesp_driver_i2s.a
 Ejercicio_7.elf: esp-idf/tcp_transport/libtcp_transport.a
 Ejercicio_7.elf: esp-idf/esp_http_client/libesp_http_client.a
 Ejercicio_7.elf: esp-idf/esp_http_server/libesp_http_server.a
 Ejercicio_7.elf: esp-idf/esp_https_ota/libesp_https_ota.a
-Ejercicio_7.elf: /home/diazb/esp/esp-idf/components/xtensa/esp32/libxt_hal.a
+Ejercicio_7.elf: /home/diazb/esp/esp-idf/components/xtensa/esp32s3/libxt_hal.a
 Ejercicio_7.elf: esp-idf/mbedtls/mbedtls/library/libmbedtls.a
 Ejercicio_7.elf: esp-idf/mbedtls/mbedtls/library/libmbedx509.a
 Ejercicio_7.elf: esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/libtfpsacrypto.a
 Ejercicio_7.elf: esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/libmbed-builtin.a
 Ejercicio_7.elf: esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/everest/libeverest.a
 Ejercicio_7.elf: esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/p256-m/libp256m.a
-Ejercicio_7.elf: /home/diazb/esp/esp-idf/components/esp_phy/lib/esp32/librtc.a
-Ejercicio_7.elf: /home/diazb/esp/esp-idf/components/esp_phy/lib/esp32/libphy.a
-Ejercicio_7.elf: /home/diazb/esp/esp-idf/components/esp_wifi/lib/esp32/libcore.a
-Ejercicio_7.elf: /home/diazb/esp/esp-idf/components/esp_wifi/lib/esp32/libespnow.a
-Ejercicio_7.elf: /home/diazb/esp/esp-idf/components/esp_wifi/lib/esp32/libmesh.a
-Ejercicio_7.elf: /home/diazb/esp/esp-idf/components/esp_wifi/lib/esp32/libnet80211.a
-Ejercicio_7.elf: /home/diazb/esp/esp-idf/components/esp_wifi/lib/esp32/libpp.a
-Ejercicio_7.elf: /home/diazb/esp/esp-idf/components/esp_wifi/lib/esp32/libsmartconfig.a
-Ejercicio_7.elf: /home/diazb/esp/esp-idf/components/esp_wifi/lib/esp32/libwapi.a
+Ejercicio_7.elf: /home/diazb/esp/esp-idf/components/esp_phy/lib/esp32s3/libbtbb.a
+Ejercicio_7.elf: /home/diazb/esp/esp-idf/components/esp_phy/lib/esp32s3/libphy.a
+Ejercicio_7.elf: /home/diazb/esp/esp-idf/components/esp_wifi/lib/esp32s3/libcore.a
+Ejercicio_7.elf: /home/diazb/esp/esp-idf/components/esp_wifi/lib/esp32s3/libespnow.a
+Ejercicio_7.elf: /home/diazb/esp/esp-idf/components/esp_wifi/lib/esp32s3/libmesh.a
+Ejercicio_7.elf: /home/diazb/esp/esp-idf/components/esp_wifi/lib/esp32s3/libnet80211.a
+Ejercicio_7.elf: /home/diazb/esp/esp-idf/components/esp_wifi/lib/esp32s3/libpp.a
+Ejercicio_7.elf: /home/diazb/esp/esp-idf/components/esp_wifi/lib/esp32s3/libsmartconfig.a
+Ejercicio_7.elf: /home/diazb/esp/esp-idf/components/esp_wifi/lib/esp32s3/libwapi.a
 Ejercicio_7.elf: esp-idf/xtensa/libxtensa.a
 Ejercicio_7.elf: esp-idf/esp_stdio/libesp_stdio.a
+Ejercicio_7.elf: esp-idf/esp_hal_dma/libesp_hal_dma.a
 Ejercicio_7.elf: esp-idf/esp_hal_gpspi/libesp_hal_gpspi.a
 Ejercicio_7.elf: esp-idf/esp_hal_clock/libesp_hal_clock.a
 Ejercicio_7.elf: esp-idf/esp_hal_mspi/libesp_hal_mspi.a
@@ -480,7 +496,6 @@ Ejercicio_7.elf: esp-idf/esp_driver_dma/libesp_driver_dma.a
 Ejercicio_7.elf: esp-idf/mbedtls/libmbedtls.a
 Ejercicio_7.elf: esp-idf/esp_hal_timg/libesp_hal_timg.a
 Ejercicio_7.elf: esp-idf/esp_hal_wdt/libesp_hal_wdt.a
-Ejercicio_7.elf: esp-idf/esp_hal_i2s/libesp_hal_i2s.a
 Ejercicio_7.elf: esp-idf/esp_hal_ana_conv/libesp_hal_ana_conv.a
 Ejercicio_7.elf: esp-idf/bootloader_support/libbootloader_support.a
 Ejercicio_7.elf: esp-idf/spi_flash/libspi_flash.a
@@ -492,7 +507,9 @@ Ejercicio_7.elf: esp-idf/log/liblog.a
 Ejercicio_7.elf: esp-idf/heap/libheap.a
 Ejercicio_7.elf: esp-idf/soc/libsoc.a
 Ejercicio_7.elf: esp-idf/esp_hal_gpio/libesp_hal_gpio.a
+Ejercicio_7.elf: esp-idf/esp_hal_usb/libesp_hal_usb.a
 Ejercicio_7.elf: esp-idf/esp_hal_pmu/libesp_hal_pmu.a
+Ejercicio_7.elf: esp-idf/esp_hal_systimer/libesp_hal_systimer.a
 Ejercicio_7.elf: esp-idf/esp_hal_touch_sens/libesp_hal_touch_sens.a
 Ejercicio_7.elf: esp-idf/esp_hw_support/libesp_hw_support.a
 Ejercicio_7.elf: esp-idf/freertos/libfreertos.a
@@ -507,6 +524,7 @@ Ejercicio_7.elf: esp-idf/esp_event/libesp_event.a
 Ejercicio_7.elf: esp-idf/nvs_sec_provider/libnvs_sec_provider.a
 Ejercicio_7.elf: esp-idf/nvs_flash/libnvs_flash.a
 Ejercicio_7.elf: esp-idf/esp_phy/libesp_phy.a
+Ejercicio_7.elf: esp-idf/esp_driver_usb_serial_jtag/libesp_driver_usb_serial_jtag.a
 Ejercicio_7.elf: esp-idf/vfs/libvfs.a
 Ejercicio_7.elf: esp-idf/lwip/liblwip.a
 Ejercicio_7.elf: esp-idf/esp_netif/libesp_netif.a
@@ -517,30 +535,32 @@ Ejercicio_7.elf: esp-idf/esp_gdbstub/libesp_gdbstub.a
 Ejercicio_7.elf: esp-idf/esp_hal_i2c/libesp_hal_i2c.a
 Ejercicio_7.elf: esp-idf/http_parser/libhttp_parser.a
 Ejercicio_7.elf: esp-idf/esp-tls/libesp-tls.a
-Ejercicio_7.elf: esp-idf/esp_driver_i2s/libesp_driver_i2s.a
 Ejercicio_7.elf: esp-idf/esp_adc/libesp_adc.a
+Ejercicio_7.elf: esp-idf/esp_hal_i2s/libesp_hal_i2s.a
+Ejercicio_7.elf: esp-idf/esp_driver_i2s/libesp_driver_i2s.a
 Ejercicio_7.elf: esp-idf/tcp_transport/libtcp_transport.a
 Ejercicio_7.elf: esp-idf/esp_http_client/libesp_http_client.a
 Ejercicio_7.elf: esp-idf/esp_http_server/libesp_http_server.a
 Ejercicio_7.elf: esp-idf/esp_https_ota/libesp_https_ota.a
-Ejercicio_7.elf: /home/diazb/esp/esp-idf/components/xtensa/esp32/libxt_hal.a
+Ejercicio_7.elf: /home/diazb/esp/esp-idf/components/xtensa/esp32s3/libxt_hal.a
 Ejercicio_7.elf: esp-idf/mbedtls/mbedtls/library/libmbedtls.a
 Ejercicio_7.elf: esp-idf/mbedtls/mbedtls/library/libmbedx509.a
 Ejercicio_7.elf: esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/libtfpsacrypto.a
 Ejercicio_7.elf: esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/libmbed-builtin.a
 Ejercicio_7.elf: esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/everest/libeverest.a
 Ejercicio_7.elf: esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/p256-m/libp256m.a
-Ejercicio_7.elf: /home/diazb/esp/esp-idf/components/esp_phy/lib/esp32/librtc.a
-Ejercicio_7.elf: /home/diazb/esp/esp-idf/components/esp_phy/lib/esp32/libphy.a
-Ejercicio_7.elf: /home/diazb/esp/esp-idf/components/esp_wifi/lib/esp32/libcore.a
-Ejercicio_7.elf: /home/diazb/esp/esp-idf/components/esp_wifi/lib/esp32/libespnow.a
-Ejercicio_7.elf: /home/diazb/esp/esp-idf/components/esp_wifi/lib/esp32/libmesh.a
-Ejercicio_7.elf: /home/diazb/esp/esp-idf/components/esp_wifi/lib/esp32/libnet80211.a
-Ejercicio_7.elf: /home/diazb/esp/esp-idf/components/esp_wifi/lib/esp32/libpp.a
-Ejercicio_7.elf: /home/diazb/esp/esp-idf/components/esp_wifi/lib/esp32/libsmartconfig.a
-Ejercicio_7.elf: /home/diazb/esp/esp-idf/components/esp_wifi/lib/esp32/libwapi.a
+Ejercicio_7.elf: /home/diazb/esp/esp-idf/components/esp_phy/lib/esp32s3/libbtbb.a
+Ejercicio_7.elf: /home/diazb/esp/esp-idf/components/esp_phy/lib/esp32s3/libphy.a
+Ejercicio_7.elf: /home/diazb/esp/esp-idf/components/esp_wifi/lib/esp32s3/libcore.a
+Ejercicio_7.elf: /home/diazb/esp/esp-idf/components/esp_wifi/lib/esp32s3/libespnow.a
+Ejercicio_7.elf: /home/diazb/esp/esp-idf/components/esp_wifi/lib/esp32s3/libmesh.a
+Ejercicio_7.elf: /home/diazb/esp/esp-idf/components/esp_wifi/lib/esp32s3/libnet80211.a
+Ejercicio_7.elf: /home/diazb/esp/esp-idf/components/esp_wifi/lib/esp32s3/libpp.a
+Ejercicio_7.elf: /home/diazb/esp/esp-idf/components/esp_wifi/lib/esp32s3/libsmartconfig.a
+Ejercicio_7.elf: /home/diazb/esp/esp-idf/components/esp_wifi/lib/esp32s3/libwapi.a
 Ejercicio_7.elf: esp-idf/xtensa/libxtensa.a
 Ejercicio_7.elf: esp-idf/esp_stdio/libesp_stdio.a
+Ejercicio_7.elf: esp-idf/esp_hal_dma/libesp_hal_dma.a
 Ejercicio_7.elf: esp-idf/esp_hal_gpspi/libesp_hal_gpspi.a
 Ejercicio_7.elf: esp-idf/esp_hal_clock/libesp_hal_clock.a
 Ejercicio_7.elf: esp-idf/esp_hal_mspi/libesp_hal_mspi.a
@@ -559,7 +579,6 @@ Ejercicio_7.elf: esp-idf/esp_driver_dma/libesp_driver_dma.a
 Ejercicio_7.elf: esp-idf/mbedtls/libmbedtls.a
 Ejercicio_7.elf: esp-idf/esp_hal_timg/libesp_hal_timg.a
 Ejercicio_7.elf: esp-idf/esp_hal_wdt/libesp_hal_wdt.a
-Ejercicio_7.elf: esp-idf/esp_hal_i2s/libesp_hal_i2s.a
 Ejercicio_7.elf: esp-idf/esp_hal_ana_conv/libesp_hal_ana_conv.a
 Ejercicio_7.elf: esp-idf/bootloader_support/libbootloader_support.a
 Ejercicio_7.elf: esp-idf/spi_flash/libspi_flash.a
@@ -571,7 +590,9 @@ Ejercicio_7.elf: esp-idf/log/liblog.a
 Ejercicio_7.elf: esp-idf/heap/libheap.a
 Ejercicio_7.elf: esp-idf/soc/libsoc.a
 Ejercicio_7.elf: esp-idf/esp_hal_gpio/libesp_hal_gpio.a
+Ejercicio_7.elf: esp-idf/esp_hal_usb/libesp_hal_usb.a
 Ejercicio_7.elf: esp-idf/esp_hal_pmu/libesp_hal_pmu.a
+Ejercicio_7.elf: esp-idf/esp_hal_systimer/libesp_hal_systimer.a
 Ejercicio_7.elf: esp-idf/esp_hal_touch_sens/libesp_hal_touch_sens.a
 Ejercicio_7.elf: esp-idf/esp_hw_support/libesp_hw_support.a
 Ejercicio_7.elf: esp-idf/freertos/libfreertos.a
@@ -586,6 +607,7 @@ Ejercicio_7.elf: esp-idf/esp_event/libesp_event.a
 Ejercicio_7.elf: esp-idf/nvs_sec_provider/libnvs_sec_provider.a
 Ejercicio_7.elf: esp-idf/nvs_flash/libnvs_flash.a
 Ejercicio_7.elf: esp-idf/esp_phy/libesp_phy.a
+Ejercicio_7.elf: esp-idf/esp_driver_usb_serial_jtag/libesp_driver_usb_serial_jtag.a
 Ejercicio_7.elf: esp-idf/vfs/libvfs.a
 Ejercicio_7.elf: esp-idf/lwip/liblwip.a
 Ejercicio_7.elf: esp-idf/esp_netif/libesp_netif.a
@@ -596,37 +618,47 @@ Ejercicio_7.elf: esp-idf/esp_gdbstub/libesp_gdbstub.a
 Ejercicio_7.elf: esp-idf/esp_hal_i2c/libesp_hal_i2c.a
 Ejercicio_7.elf: esp-idf/http_parser/libhttp_parser.a
 Ejercicio_7.elf: esp-idf/esp-tls/libesp-tls.a
-Ejercicio_7.elf: esp-idf/esp_driver_i2s/libesp_driver_i2s.a
 Ejercicio_7.elf: esp-idf/esp_adc/libesp_adc.a
+Ejercicio_7.elf: esp-idf/esp_hal_i2s/libesp_hal_i2s.a
+Ejercicio_7.elf: esp-idf/esp_driver_i2s/libesp_driver_i2s.a
 Ejercicio_7.elf: esp-idf/tcp_transport/libtcp_transport.a
 Ejercicio_7.elf: esp-idf/esp_http_client/libesp_http_client.a
 Ejercicio_7.elf: esp-idf/esp_http_server/libesp_http_server.a
 Ejercicio_7.elf: esp-idf/esp_https_ota/libesp_https_ota.a
-Ejercicio_7.elf: /home/diazb/esp/esp-idf/components/xtensa/esp32/libxt_hal.a
+Ejercicio_7.elf: /home/diazb/esp/esp-idf/components/xtensa/esp32s3/libxt_hal.a
 Ejercicio_7.elf: esp-idf/mbedtls/mbedtls/library/libmbedtls.a
 Ejercicio_7.elf: esp-idf/mbedtls/mbedtls/library/libmbedx509.a
 Ejercicio_7.elf: esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/libtfpsacrypto.a
 Ejercicio_7.elf: esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/libmbed-builtin.a
 Ejercicio_7.elf: esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/everest/libeverest.a
 Ejercicio_7.elf: esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/p256-m/libp256m.a
-Ejercicio_7.elf: /home/diazb/esp/esp-idf/components/esp_phy/lib/esp32/librtc.a
-Ejercicio_7.elf: /home/diazb/esp/esp-idf/components/esp_phy/lib/esp32/libphy.a
-Ejercicio_7.elf: /home/diazb/esp/esp-idf/components/esp_wifi/lib/esp32/libcore.a
-Ejercicio_7.elf: /home/diazb/esp/esp-idf/components/esp_wifi/lib/esp32/libespnow.a
-Ejercicio_7.elf: /home/diazb/esp/esp-idf/components/esp_wifi/lib/esp32/libmesh.a
-Ejercicio_7.elf: /home/diazb/esp/esp-idf/components/esp_wifi/lib/esp32/libnet80211.a
-Ejercicio_7.elf: /home/diazb/esp/esp-idf/components/esp_wifi/lib/esp32/libpp.a
-Ejercicio_7.elf: /home/diazb/esp/esp-idf/components/esp_wifi/lib/esp32/libsmartconfig.a
-Ejercicio_7.elf: /home/diazb/esp/esp-idf/components/esp_wifi/lib/esp32/libwapi.a
+Ejercicio_7.elf: /home/diazb/esp/esp-idf/components/esp_phy/lib/esp32s3/libbtbb.a
+Ejercicio_7.elf: /home/diazb/esp/esp-idf/components/esp_phy/lib/esp32s3/libphy.a
+Ejercicio_7.elf: /home/diazb/esp/esp-idf/components/esp_wifi/lib/esp32s3/libcore.a
+Ejercicio_7.elf: /home/diazb/esp/esp-idf/components/esp_wifi/lib/esp32s3/libespnow.a
+Ejercicio_7.elf: /home/diazb/esp/esp-idf/components/esp_wifi/lib/esp32s3/libmesh.a
+Ejercicio_7.elf: /home/diazb/esp/esp-idf/components/esp_wifi/lib/esp32s3/libnet80211.a
+Ejercicio_7.elf: /home/diazb/esp/esp-idf/components/esp_wifi/lib/esp32s3/libpp.a
+Ejercicio_7.elf: /home/diazb/esp/esp-idf/components/esp_wifi/lib/esp32s3/libsmartconfig.a
+Ejercicio_7.elf: /home/diazb/esp/esp-idf/components/esp_wifi/lib/esp32s3/libwapi.a
 Ejercicio_7.elf: esp-idf/pthread/libpthread.a
 Ejercicio_7.elf: esp-idf/esp_libc/libesp_libc.a
 Ejercicio_7.elf: esp-idf/cxx/libcxx.a
+Ejercicio_7.elf: /home/diazb/esp/esp-idf/components/esp_hal_wdt/esp32s3/rom.wdt.ld
 Ejercicio_7.elf: esp-idf/esp_system/ld/memory.ld
-Ejercicio_7.elf: /home/diazb/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.ld
-Ejercicio_7.elf: /home/diazb/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.api.ld
-Ejercicio_7.elf: /home/diazb/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.libgcc.ld
-Ejercicio_7.elf: /home/diazb/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.libc-funcs.ld
-Ejercicio_7.elf: /home/diazb/esp/esp-idf/components/soc/esp32/ld/esp32.peripherals.ld
+Ejercicio_7.elf: /home/diazb/esp/esp-idf/components/esp_rom/esp32s3/ld/esp32s3.rom.ld
+Ejercicio_7.elf: /home/diazb/esp/esp-idf/components/esp_rom/esp32s3/ld/esp32s3.rom.api.ld
+Ejercicio_7.elf: /home/diazb/esp/esp-idf/components/esp_rom/esp32s3/ld/esp32s3.rom.bt_funcs.ld
+Ejercicio_7.elf: /home/diazb/esp/esp-idf/components/esp_rom/esp32s3/ld/esp32s3.rom.libgcc.ld
+Ejercicio_7.elf: /home/diazb/esp/esp-idf/components/esp_rom/esp32s3/ld/esp32s3.rom.version.ld
+Ejercicio_7.elf: /home/diazb/esp/esp-idf/components/esp_rom/esp32s3/ld/esp32s3.rom.ble_master.ld
+Ejercicio_7.elf: /home/diazb/esp/esp-idf/components/esp_rom/esp32s3/ld/esp32s3.rom.ble_50.ld
+Ejercicio_7.elf: /home/diazb/esp/esp-idf/components/esp_rom/esp32s3/ld/esp32s3.rom.ble_smp.ld
+Ejercicio_7.elf: /home/diazb/esp/esp-idf/components/esp_rom/esp32s3/ld/esp32s3.rom.ble_dtm.ld
+Ejercicio_7.elf: /home/diazb/esp/esp-idf/components/esp_rom/esp32s3/ld/esp32s3.rom.ble_test.ld
+Ejercicio_7.elf: /home/diazb/esp/esp-idf/components/esp_rom/esp32s3/ld/esp32s3.rom.ble_scan.ld
+Ejercicio_7.elf: /home/diazb/esp/esp-idf/components/esp_rom/esp32s3/ld/esp32s3.rom.libc.ld
+Ejercicio_7.elf: /home/diazb/esp/esp-idf/components/soc/esp32s3/ld/esp32s3.peripherals.ld
 Ejercicio_7.elf: esp-idf/esp_system/ld/sections.ld
 Ejercicio_7.elf: CMakeFiles/Ejercicio_7.elf.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Ejercicio_7.elf"

@@ -67,7 +67,7 @@ include CMakeFiles/monitor.dir/compiler_depend.make
 include CMakeFiles/monitor.dir/progress.make
 
 CMakeFiles/monitor:
-	cd /home/diazb/esp/esp-idf/components/esptool_py && /usr/bin/cmake -D IDF_PATH=/home/diazb/esp/esp-idf -D "SERIAL_TOOL=/home/diazb/esp/idf-tools/python_env/idf6.1_py3.12_env/bin/python -m esp_idf_monitor" -D "SERIAL_TOOL_ARGS=--toolchain-prefix;xtensa-esp32-elf-;;--target;esp32;;--revision;0;;/home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build/Ejercicio_7.elf" -D WORKING_DIRECTORY=/home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build -P run_serial_tool.cmake
+	cd /home/diazb/esp/esp-idf/components/esptool_py && /usr/bin/cmake -D IDF_PATH=/home/diazb/esp/esp-idf -D "SERIAL_TOOL=/home/diazb/esp/idf-tools/python_env/idf6.1_py3.12_env/bin/python -m esp_idf_monitor" -D "SERIAL_TOOL_ARGS=--toolchain-prefix;xtensa-esp32s3-elf-;;--target;esp32s3;;--revision;0;;/home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build/Ejercicio_7.elf" -D WORKING_DIRECTORY=/home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build -P run_serial_tool.cmake
 
 monitor: CMakeFiles/monitor
 monitor: CMakeFiles/monitor.dir/build.make

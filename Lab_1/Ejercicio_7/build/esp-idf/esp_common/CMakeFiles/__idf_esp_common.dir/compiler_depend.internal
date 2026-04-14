@@ -9,7 +9,7 @@ esp-idf/esp_common/CMakeFiles/__idf_esp_common.dir/src/esp_err_to_name.c.obj
  /home/diazb/esp/esp-idf/components/bootloader_support/include/esp_app_format.h
  /home/diazb/esp/esp-idf/components/bootloader_support/include/esp_flash_partitions.h
  /home/diazb/esp/esp-idf/components/bootloader_support/include/esp_image_format.h
- /home/diazb/esp/esp-idf/components/efuse/esp32/include/esp_efuse_chip.h
+ /home/diazb/esp/esp-idf/components/efuse/esp32s3/include/esp_efuse_chip.h
  /home/diazb/esp/esp-idf/components/efuse/include/esp_efuse.h
  /home/diazb/esp/esp-idf/components/esp-tls/esp_tls_errors.h
  /home/diazb/esp/esp-idf/components/esp_app_format/include/esp_app_desc.h
@@ -26,6 +26,7 @@ esp-idf/esp_common/CMakeFiles/__idf_esp_common.dir/src/esp_err_to_name.c.obj
  /home/diazb/esp/esp-idf/components/esp_event/include/esp_event.h
  /home/diazb/esp/esp-idf/components/esp_event/include/esp_event_base.h
  /home/diazb/esp/esp-idf/components/esp_hal_mspi/include/hal/esp_flash_err.h
+ /home/diazb/esp/esp-idf/components/esp_hal_security/include/hal/hmac_types.h
  /home/diazb/esp/esp-idf/components/esp_http_client/include/esp_http_client.h
  /home/diazb/esp/esp-idf/components/esp_http_server/include/esp_http_server.h
  /home/diazb/esp/esp-idf/components/esp_https_ota/include/esp_https_ota.h
@@ -56,9 +57,12 @@ esp-idf/esp_common/CMakeFiles/__idf_esp_common.dir/src/esp_err_to_name.c.obj
  /home/diazb/esp/esp-idf/components/esp_netif/include/esp_netif_ip_addr.h
  /home/diazb/esp/esp-idf/components/esp_netif/include/esp_netif_types.h
  /home/diazb/esp/esp-idf/components/esp_partition/include/esp_partition.h
+ /home/diazb/esp/esp-idf/components/esp_rom/esp32s3/include/esp32s3/rom/digital_signature.h
  /home/diazb/esp/esp-idf/components/esp_rom/include/esp_rom_md5.h
  /home/diazb/esp/esp-idf/components/esp_rom/include/esp_rom_sys.h
+ /home/diazb/esp/esp-idf/components/esp_security/include/esp_ds.h
  /home/diazb/esp/esp-idf/components/esp_security/include/esp_ds_err.h
+ /home/diazb/esp/esp-idf/components/esp_security/include/esp_hmac.h
  /home/diazb/esp/esp-idf/components/esp_system/include/esp_private/crosscore_int.h
  /home/diazb/esp/esp-idf/components/esp_system/include/esp_system.h
  /home/diazb/esp/esp-idf/components/esp_system/include/esp_task.h
@@ -198,26 +202,27 @@ esp-idf/esp_common/CMakeFiles/__idf_esp_common.dir/src/esp_err_to_name.c.obj
  /home/diazb/esp/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h
  /home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_aes_contexts.h
  /home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_cmac_contexts.h
+ /home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_hmac_opaque_contexts.h
  /home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_hmac_transparent_contexts.h
+ /home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_rsa_ds_contexts.h
  /home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_sha_contexts.h
  /home/diazb/esp/esp-idf/components/nvs_flash/include/nvs.h
- /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/interrupts.h
- /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/reset_reasons.h
- /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/soc.h
- /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/soc_caps.h
- /home/diazb/esp/esp-idf/components/soc/esp32/register/soc/reg_base.h
+ /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/reset_reasons.h
+ /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/soc.h
+ /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h
+ /home/diazb/esp/esp-idf/components/soc/esp32s3/register/soc/reg_base.h
  /home/diazb/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h
  /home/diazb/esp/esp-idf/components/spi_flash/include/esp_spi_flash_counters.h
  /home/diazb/esp/esp-idf/components/spi_flash/include/spi_flash_mmap.h
  /home/diazb/esp/esp-idf/components/wpa_supplicant/esp_supplicant/include/esp_dpp.h
  /home/diazb/esp/esp-idf/components/wpa_supplicant/esp_supplicant/include/esp_wps.h
- /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core-isa.h
- /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core-matmap.h
- /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core.h
- /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/extreg.h
- /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/system.h
- /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/tie.h
- /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/xt_specreg.h
+ /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/core-isa.h
+ /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/core-matmap.h
+ /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/core.h
+ /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/extreg.h
+ /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/system.h
+ /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/tie.h
+ /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/xt_specreg.h
  /home/diazb/esp/esp-idf/components/xtensa/include/xt_instr_macros.h
  /home/diazb/esp/esp-idf/components/xtensa/include/xt_utils.h
  /home/diazb/esp/esp-idf/components/xtensa/include/xtensa/corebits.h

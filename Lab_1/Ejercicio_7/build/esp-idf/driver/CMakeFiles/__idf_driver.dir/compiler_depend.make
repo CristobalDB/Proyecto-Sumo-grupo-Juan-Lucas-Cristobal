@@ -16,15 +16,16 @@ esp-idf/driver/CMakeFiles/__idf_driver.dir/i2c/i2c.c.obj: /home/diazb/esp/esp-id
   /home/diazb/esp/esp-idf/components/esp_driver_gpio/include/driver/gpio.h \
   /home/diazb/esp/esp-idf/components/esp_driver_gpio/include/driver/gpio_etm.h \
   /home/diazb/esp/esp-idf/components/esp_driver_gpio/include/esp_private/gpio.h \
-  /home/diazb/esp/esp-idf/components/esp_hal_gpio/esp32/include/hal/gpio_ll.h \
-  /home/diazb/esp/esp-idf/components/esp_hal_gpio/esp32/include/soc/gpio_num.h \
+  /home/diazb/esp/esp-idf/components/esp_hal_gpio/esp32s3/include/hal/gpio_ll.h \
+  /home/diazb/esp/esp-idf/components/esp_hal_gpio/esp32s3/include/soc/gpio_num.h \
   /home/diazb/esp/esp-idf/components/esp_hal_gpio/include/hal/gpio_hal.h \
   /home/diazb/esp/esp-idf/components/esp_hal_gpio/include/hal/gpio_types.h \
-  /home/diazb/esp/esp-idf/components/esp_hal_i2c/esp32/include/hal/i2c_ll.h \
+  /home/diazb/esp/esp-idf/components/esp_hal_i2c/esp32s3/include/hal/i2c_ll.h \
   /home/diazb/esp/esp-idf/components/esp_hal_i2c/include/hal/i2c_hal.h \
   /home/diazb/esp/esp-idf/components/esp_hal_i2c/include/hal/i2c_periph.h \
   /home/diazb/esp/esp-idf/components/esp_hal_i2c/include/hal/i2c_types.h \
   /home/diazb/esp/esp-idf/components/esp_hw_support/etm/include/esp_etm.h \
+  /home/diazb/esp/esp-idf/components/esp_hw_support/include/clk_ctrl_os.h \
   /home/diazb/esp/esp-idf/components/esp_hw_support/include/esp_cpu.h \
   /home/diazb/esp/esp-idf/components/esp_hw_support/include/esp_intr_alloc.h \
   /home/diazb/esp/esp-idf/components/esp_hw_support/include/esp_intr_types.h \
@@ -80,33 +81,32 @@ esp-idf/driver/CMakeFiles/__idf_driver.dir/i2c/i2c.c.obj: /home/diazb/esp/esp-id
   /home/diazb/esp/esp-idf/components/log/include/esp_log_timestamp.h \
   /home/diazb/esp/esp-idf/components/log/include/esp_log_write.h \
   /home/diazb/esp/esp-idf/components/log/include/esp_private/log_attr.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/clk_tree_defs.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/dport_access.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/gpio_pins.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/gpio_sig_map.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/interrupts.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/periph_defs.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/reset_reasons.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/soc.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/soc_caps.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/register/soc/dport_reg.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/register/soc/gpio_struct.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/register/soc/i2c_reg.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/register/soc/i2c_struct.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/register/soc/io_mux_reg.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/register/soc/reg_base.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/register/soc/rtc_cntl_reg.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/register/soc/rtc_io_reg.h \
+  /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/clk_tree_defs.h \
+  /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/gpio_pins.h \
+  /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/gpio_sig_map.h \
+  /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/interrupts.h \
+  /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/periph_defs.h \
+  /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/reset_reasons.h \
+  /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/soc.h \
+  /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h \
+  /home/diazb/esp/esp-idf/components/soc/esp32s3/register/soc/gpio_struct.h \
+  /home/diazb/esp/esp-idf/components/soc/esp32s3/register/soc/i2c_reg.h \
+  /home/diazb/esp/esp-idf/components/soc/esp32s3/register/soc/i2c_struct.h \
+  /home/diazb/esp/esp-idf/components/soc/esp32s3/register/soc/io_mux_reg.h \
+  /home/diazb/esp/esp-idf/components/soc/esp32s3/register/soc/reg_base.h \
+  /home/diazb/esp/esp-idf/components/soc/esp32s3/register/soc/rtc_cntl_reg.h \
+  /home/diazb/esp/esp-idf/components/soc/esp32s3/register/soc/system_struct.h \
+  /home/diazb/esp/esp-idf/components/soc/esp32s3/register/soc/usb_serial_jtag_reg.h \
   /home/diazb/esp/esp-idf/components/soc/include/soc/gpio_periph.h \
   /home/diazb/esp/esp-idf/components/soc/include/soc/regdma.h \
   /home/diazb/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core-isa.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core-matmap.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/extreg.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/system.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/tie.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/xt_specreg.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/core-isa.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/core-matmap.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/core.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/extreg.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/system.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/tie.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/xt_specreg.h \
   /home/diazb/esp/esp-idf/components/xtensa/include/xt_instr_macros.h \
   /home/diazb/esp/esp-idf/components/xtensa/include/xt_utils.h \
   /home/diazb/esp/esp-idf/components/xtensa/include/xtensa/corebits.h \
@@ -155,9 +155,8 @@ esp-idf/driver/CMakeFiles/__idf_driver.dir/i2c/i2c.c.obj: /home/diazb/esp/esp-id
   /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/string.h \
   /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/syslimits.h
 
-esp-idf/driver/CMakeFiles/__idf_driver.dir/touch_sensor/esp32/touch_sensor.c.obj: /home/diazb/esp/esp-idf/components/driver/touch_sensor/esp32/touch_sensor.c \
+esp-idf/driver/CMakeFiles/__idf_driver.dir/touch_sensor/esp32s3/touch_sensor.c.obj: /home/diazb/esp/esp-idf/components/driver/touch_sensor/esp32s3/touch_sensor.c \
   config/sdkconfig.h \
-  /home/diazb/esp/esp-idf/components/driver/touch_sensor/esp32/include/driver/touch_sensor_legacy.h \
   /home/diazb/esp/esp-idf/components/driver/touch_sensor/include/driver/touch_sensor_common.h \
   /home/diazb/esp/esp-idf/components/esp_common/include/esp_assert.h \
   /home/diazb/esp/esp-idf/components/esp_common/include/esp_attr.h \
@@ -171,11 +170,11 @@ esp-idf/driver/CMakeFiles/__idf_driver.dir/touch_sensor/esp32/touch_sensor.c.obj
   /home/diazb/esp/esp-idf/components/esp_driver_gpio/include/driver/gpio.h \
   /home/diazb/esp/esp-idf/components/esp_driver_gpio/include/driver/gpio_etm.h \
   /home/diazb/esp/esp-idf/components/esp_driver_gpio/include/driver/rtc_io.h \
-  /home/diazb/esp/esp-idf/components/esp_hal_gpio/esp32/include/soc/gpio_num.h \
+  /home/diazb/esp/esp-idf/components/esp_hal_gpio/esp32s3/include/soc/gpio_num.h \
   /home/diazb/esp/esp-idf/components/esp_hal_gpio/include/hal/gpio_types.h \
   /home/diazb/esp/esp-idf/components/esp_hal_gpio/include/hal/rtc_io_types.h \
-  /home/diazb/esp/esp-idf/components/esp_hal_touch_sens/esp32/include/hal/touch_sensor_legacy_hal.h \
-  /home/diazb/esp/esp-idf/components/esp_hal_touch_sens/esp32/include/hal/touch_sensor_ll.h \
+  /home/diazb/esp/esp-idf/components/esp_hal_touch_sens/esp32s3/include/hal/touch_sensor_legacy_hal.h \
+  /home/diazb/esp/esp-idf/components/esp_hal_touch_sens/esp32s3/include/hal/touch_sensor_ll.h \
   /home/diazb/esp/esp-idf/components/esp_hal_touch_sens/include/hal/touch_sens_types.h \
   /home/diazb/esp/esp-idf/components/esp_hal_touch_sens/include/hal/touch_sensor_legacy_hal.h \
   /home/diazb/esp/esp-idf/components/esp_hal_touch_sens/include/hal/touch_sensor_legacy_types.h \
@@ -187,7 +186,6 @@ esp-idf/driver/CMakeFiles/__idf_driver.dir/touch_sensor/esp32/touch_sensor.c.obj
   /home/diazb/esp/esp-idf/components/esp_hw_support/include/esp_memory_utils.h \
   /home/diazb/esp/esp-idf/components/esp_hw_support/include/esp_private/rtc_ctrl.h \
   /home/diazb/esp/esp-idf/components/esp_hw_support/include/spinlock.h \
-  /home/diazb/esp/esp-idf/components/esp_hw_support/port/esp32/include/soc/rtc.h \
   /home/diazb/esp/esp-idf/components/esp_libc/platform_include/assert.h \
   /home/diazb/esp/esp-idf/components/esp_libc/platform_include/esp_newlib.h \
   /home/diazb/esp/esp-idf/components/esp_libc/platform_include/stdio.h \
@@ -198,7 +196,6 @@ esp-idf/driver/CMakeFiles/__idf_driver.dir/touch_sensor/esp32/touch_sensor.c.obj
   /home/diazb/esp/esp-idf/components/esp_rom/include/esp_rom_sys.h \
   /home/diazb/esp/esp-idf/components/esp_system/include/esp_private/crosscore_int.h \
   /home/diazb/esp/esp-idf/components/esp_system/include/esp_system.h \
-  /home/diazb/esp/esp-idf/components/esp_timer/include/esp_timer.h \
   /home/diazb/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/FreeRTOS.h \
   /home/diazb/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/deprecated_definitions.h \
   /home/diazb/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/event_groups.h \
@@ -232,28 +229,23 @@ esp-idf/driver/CMakeFiles/__idf_driver.dir/touch_sensor/esp32/touch_sensor.c.obj
   /home/diazb/esp/esp-idf/components/log/include/esp_log_timestamp.h \
   /home/diazb/esp/esp-idf/components/log/include/esp_log_write.h \
   /home/diazb/esp/esp-idf/components/log/include/esp_private/log_attr.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/clk_tree_defs.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/gpio_pins.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/interrupts.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/periph_defs.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/reset_reasons.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/soc.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/soc_caps.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/register/soc/reg_base.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/register/soc/rtc_cntl_reg.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/register/soc/rtc_cntl_struct.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/register/soc/rtc_io_struct.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/register/soc/sens_struct.h \
-  /home/diazb/esp/esp-idf/components/soc/include/soc/rtc_cntl_periph.h \
-  /home/diazb/esp/esp-idf/components/soc/include/soc/rtc_periph.h \
+  /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/gpio_pins.h \
+  /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/reset_reasons.h \
+  /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/soc.h \
+  /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h \
+  /home/diazb/esp/esp-idf/components/soc/esp32s3/register/soc/reg_base.h \
+  /home/diazb/esp/esp-idf/components/soc/esp32s3/register/soc/rtc_cntl_reg.h \
+  /home/diazb/esp/esp-idf/components/soc/esp32s3/register/soc/rtc_cntl_struct.h \
+  /home/diazb/esp/esp-idf/components/soc/esp32s3/register/soc/rtc_io_struct.h \
+  /home/diazb/esp/esp-idf/components/soc/esp32s3/register/soc/sens_struct.h \
   /home/diazb/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core-isa.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core-matmap.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/extreg.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/system.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/tie.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/xt_specreg.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/core-isa.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/core-matmap.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/core.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/extreg.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/system.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/tie.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/xt_specreg.h \
   /home/diazb/esp/esp-idf/components/xtensa/include/xt_instr_macros.h \
   /home/diazb/esp/esp-idf/components/xtensa/include/xt_utils.h \
   /home/diazb/esp/esp-idf/components/xtensa/include/xtensa/corebits.h \
@@ -311,10 +303,10 @@ esp-idf/driver/CMakeFiles/__idf_driver.dir/touch_sensor/touch_sensor_common.c.ob
   /home/diazb/esp/esp-idf/components/esp_driver_gpio/include/driver/gpio.h \
   /home/diazb/esp/esp-idf/components/esp_driver_gpio/include/driver/gpio_etm.h \
   /home/diazb/esp/esp-idf/components/esp_driver_gpio/include/esp_private/gpio.h \
-  /home/diazb/esp/esp-idf/components/esp_hal_gpio/esp32/include/soc/gpio_num.h \
+  /home/diazb/esp/esp-idf/components/esp_hal_gpio/esp32s3/include/soc/gpio_num.h \
   /home/diazb/esp/esp-idf/components/esp_hal_gpio/include/hal/gpio_types.h \
-  /home/diazb/esp/esp-idf/components/esp_hal_touch_sens/esp32/include/hal/touch_sensor_legacy_hal.h \
-  /home/diazb/esp/esp-idf/components/esp_hal_touch_sens/esp32/include/hal/touch_sensor_ll.h \
+  /home/diazb/esp/esp-idf/components/esp_hal_touch_sens/esp32s3/include/hal/touch_sensor_legacy_hal.h \
+  /home/diazb/esp/esp-idf/components/esp_hal_touch_sens/esp32s3/include/hal/touch_sensor_ll.h \
   /home/diazb/esp/esp-idf/components/esp_hal_touch_sens/include/hal/touch_sens_types.h \
   /home/diazb/esp/esp-idf/components/esp_hal_touch_sens/include/hal/touch_sensor_legacy_hal.h \
   /home/diazb/esp/esp-idf/components/esp_hal_touch_sens/include/hal/touch_sensor_legacy_types.h \
@@ -369,24 +361,23 @@ esp-idf/driver/CMakeFiles/__idf_driver.dir/touch_sensor/touch_sensor_common.c.ob
   /home/diazb/esp/esp-idf/components/log/include/esp_log_timestamp.h \
   /home/diazb/esp/esp-idf/components/log/include/esp_log_write.h \
   /home/diazb/esp/esp-idf/components/log/include/esp_private/log_attr.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/gpio_pins.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/interrupts.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/reset_reasons.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/soc.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/soc_caps.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/register/soc/io_mux_reg.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/register/soc/reg_base.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/register/soc/rtc_cntl_struct.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/register/soc/rtc_io_struct.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/register/soc/sens_struct.h \
+  /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/gpio_pins.h \
+  /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/reset_reasons.h \
+  /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/soc.h \
+  /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h \
+  /home/diazb/esp/esp-idf/components/soc/esp32s3/register/soc/io_mux_reg.h \
+  /home/diazb/esp/esp-idf/components/soc/esp32s3/register/soc/reg_base.h \
+  /home/diazb/esp/esp-idf/components/soc/esp32s3/register/soc/rtc_cntl_struct.h \
+  /home/diazb/esp/esp-idf/components/soc/esp32s3/register/soc/rtc_io_struct.h \
+  /home/diazb/esp/esp-idf/components/soc/esp32s3/register/soc/sens_struct.h \
   /home/diazb/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core-isa.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core-matmap.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/extreg.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/system.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/tie.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/xt_specreg.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/core-isa.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/core-matmap.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/core.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/extreg.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/system.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/tie.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/xt_specreg.h \
   /home/diazb/esp/esp-idf/components/xtensa/include/xt_instr_macros.h \
   /home/diazb/esp/esp-idf/components/xtensa/include/xt_utils.h \
   /home/diazb/esp/esp-idf/components/xtensa/include/xtensa/corebits.h \
@@ -445,9 +436,9 @@ esp-idf/driver/CMakeFiles/__idf_driver.dir/twai/twai.c.obj: /home/diazb/esp/esp-
   /home/diazb/esp/esp-idf/components/esp_driver_gpio/include/driver/gpio.h \
   /home/diazb/esp/esp-idf/components/esp_driver_gpio/include/driver/gpio_etm.h \
   /home/diazb/esp/esp-idf/components/esp_driver_gpio/include/esp_private/gpio.h \
-  /home/diazb/esp/esp-idf/components/esp_hal_gpio/esp32/include/soc/gpio_num.h \
+  /home/diazb/esp/esp-idf/components/esp_hal_gpio/esp32s3/include/soc/gpio_num.h \
   /home/diazb/esp/esp-idf/components/esp_hal_gpio/include/hal/gpio_types.h \
-  /home/diazb/esp/esp-idf/components/esp_hal_twai/esp32/include/hal/twai_ll.h \
+  /home/diazb/esp/esp-idf/components/esp_hal_twai/esp32s3/include/hal/twai_ll.h \
   /home/diazb/esp/esp-idf/components/esp_hal_twai/include/hal/twai_hal.h \
   /home/diazb/esp/esp-idf/components/esp_hal_twai/include/hal/twai_periph.h \
   /home/diazb/esp/esp-idf/components/esp_hal_twai/include/hal/twai_types.h \
@@ -492,9 +483,6 @@ esp-idf/driver/CMakeFiles/__idf_driver.dir/twai/twai.c.obj: /home/diazb/esp/esp-
   /home/diazb/esp/esp-idf/components/freertos/config/include/freertos/FreeRTOSConfig.h \
   /home/diazb/esp/esp-idf/components/freertos/config/xtensa/include/freertos/FreeRTOSConfig_arch.h \
   /home/diazb/esp/esp-idf/components/freertos/esp_additions/include/freertos/idf_additions.h \
-  /home/diazb/esp/esp-idf/components/hal/esp32/include/hal/efuse_hal.h \
-  /home/diazb/esp/esp-idf/components/hal/esp32/include/hal/efuse_ll.h \
-  /home/diazb/esp/esp-idf/components/hal/include/hal/efuse_hal.h \
   /home/diazb/esp/esp-idf/components/hal/platform_port/include/hal/assert.h \
   /home/diazb/esp/esp-idf/components/hal/platform_port/include/hal/config.h \
   /home/diazb/esp/esp-idf/components/hal/platform_port/include/hal/misc.h \
@@ -511,32 +499,26 @@ esp-idf/driver/CMakeFiles/__idf_driver.dir/twai/twai.c.obj: /home/diazb/esp/esp-
   /home/diazb/esp/esp-idf/components/log/include/esp_log_timestamp.h \
   /home/diazb/esp/esp-idf/components/log/include/esp_log_write.h \
   /home/diazb/esp/esp-idf/components/log/include/esp_private/log_attr.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/clk_tree_defs.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/dport_access.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/efuse_defs.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/gpio_pins.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/interrupts.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/periph_defs.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/reset_reasons.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/soc.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/soc_caps.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/register/soc/dport_reg.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/register/soc/efuse_reg.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/register/soc/efuse_struct.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/register/soc/io_mux_reg.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/register/soc/reg_base.h \
-  /home/diazb/esp/esp-idf/components/soc/esp32/register/soc/twai_struct.h \
-  /home/diazb/esp/esp-idf/components/soc/include/soc/chip_revision.h \
-  /home/diazb/esp/esp-idf/components/soc/include/soc/efuse_periph.h \
+  /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/clk_tree_defs.h \
+  /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/gpio_pins.h \
+  /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/interrupts.h \
+  /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/periph_defs.h \
+  /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/reset_reasons.h \
+  /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/soc.h \
+  /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h \
+  /home/diazb/esp/esp-idf/components/soc/esp32s3/register/soc/io_mux_reg.h \
+  /home/diazb/esp/esp-idf/components/soc/esp32s3/register/soc/reg_base.h \
+  /home/diazb/esp/esp-idf/components/soc/esp32s3/register/soc/system_struct.h \
+  /home/diazb/esp/esp-idf/components/soc/esp32s3/register/soc/twai_struct.h \
   /home/diazb/esp/esp-idf/components/soc/include/soc/regdma.h \
   /home/diazb/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core-isa.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core-matmap.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/extreg.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/system.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/tie.h \
-  /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/xt_specreg.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/core-isa.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/core-matmap.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/core.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/extreg.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/system.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/tie.h \
+  /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/xt_specreg.h \
   /home/diazb/esp/esp-idf/components/xtensa/include/xt_instr_macros.h \
   /home/diazb/esp/esp-idf/components/xtensa/include/xt_utils.h \
   /home/diazb/esp/esp-idf/components/xtensa/include/xtensa/corebits.h \
@@ -580,26 +562,6 @@ esp-idf/driver/CMakeFiles/__idf_driver.dir/twai/twai.c.obj: /home/diazb/esp/esp-
   /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/syslimits.h
 
 
-/home/diazb/esp/esp-idf/components/soc/include/soc/efuse_periph.h:
-
-/home/diazb/esp/esp-idf/components/soc/include/soc/chip_revision.h:
-
-/home/diazb/esp/esp-idf/components/soc/esp32/register/soc/twai_struct.h:
-
-/home/diazb/esp/esp-idf/components/soc/esp32/register/soc/efuse_struct.h:
-
-/home/diazb/esp/esp-idf/components/soc/esp32/register/soc/efuse_reg.h:
-
-/home/diazb/esp/esp-idf/components/soc/esp32/include/soc/efuse_defs.h:
-
-/home/diazb/esp/esp-idf/components/hal/include/hal/efuse_hal.h:
-
-/home/diazb/esp/esp-idf/components/hal/esp32/include/hal/efuse_ll.h:
-
-/home/diazb/esp/esp-idf/components/hal/esp32/include/hal/efuse_hal.h:
-
-/home/diazb/esp/esp-idf/components/esp_hw_support/include/clk_ctrl_os.h:
-
 /home/diazb/esp/esp-idf/components/esp_hal_twai/include/hal/twai_types_deprecated.h:
 
 /home/diazb/esp/esp-idf/components/esp_hal_twai/include/hal/twai_types.h:
@@ -608,25 +570,13 @@ esp-idf/driver/CMakeFiles/__idf_driver.dir/twai/twai.c.obj: /home/diazb/esp/esp-
 
 /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/queue.h:
 
-/home/diazb/esp/esp-idf/components/soc/include/soc/rtc_periph.h:
-
-/home/diazb/esp/esp-idf/components/esp_hw_support/include/esp_clk_tree.h:
-
-/home/diazb/esp/esp-idf/components/soc/include/soc/rtc_cntl_periph.h:
-
-/home/diazb/esp/esp-idf/components/soc/esp32/register/soc/rtc_io_struct.h:
-
-/home/diazb/esp/esp-idf/components/soc/esp32/register/soc/rtc_cntl_struct.h:
-
 /home/diazb/esp/esp-idf/components/esp_hw_support/include/esp_private/rtc_ctrl.h:
+
+/home/diazb/esp/esp-idf/components/soc/esp32s3/register/soc/sens_struct.h:
 
 /home/diazb/esp/esp-idf/components/esp_hal_touch_sens/include/hal/touch_sensor_periph.h:
 
 /home/diazb/esp/esp-idf/components/esp_hal_touch_sens/include/hal/touch_sens_types.h:
-
-/home/diazb/esp/esp-idf/components/esp_hal_touch_sens/esp32/include/hal/touch_sensor_ll.h:
-
-/home/diazb/esp/esp-idf/components/esp_hal_touch_sens/esp32/include/hal/touch_sensor_legacy_hal.h:
 
 /home/diazb/esp/esp-idf/components/esp_hal_gpio/include/hal/rtc_io_types.h:
 
@@ -634,7 +584,7 @@ esp-idf/driver/CMakeFiles/__idf_driver.dir/twai/twai.c.obj: /home/diazb/esp/esp-
 
 /home/diazb/esp/esp-idf/components/driver/touch_sensor/include/driver/touch_sensor_common.h:
 
-/home/diazb/esp/esp-idf/components/driver/touch_sensor/esp32/include/driver/touch_sensor_legacy.h:
+/home/diazb/esp/esp-idf/components/driver/touch_sensor/esp32s3/touch_sensor.c:
 
 /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/syslimits.h:
 
@@ -642,11 +592,9 @@ esp-idf/driver/CMakeFiles/__idf_driver.dir/twai/twai.c.obj: /home/diazb/esp/esp-
 
 /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/features.h:
 
-/home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/stdlib.h:
+/home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/_types.h:
 
-/home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/_wait.h:
-
-/home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/stdio.h:
+/home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/stdint.h:
 
 /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/malloc.h:
 
@@ -658,11 +606,15 @@ esp-idf/driver/CMakeFiles/__idf_driver.dir/twai/twai.c.obj: /home/diazb/esp/esp-
 
 /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/machine/endian.h:
 
+/home/diazb/esp/esp-idf/components/soc/esp32s3/register/soc/twai_struct.h:
+
 /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/machine/_types.h:
 
 /home/diazb/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/portmacro.h:
 
-/home/diazb/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/task.h:
+/home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/stdlib.h:
+
+/home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h:
 
 /home/diazb/esp/esp-idf/components/log/include/esp_log_buffer.h:
 
@@ -676,21 +628,21 @@ esp-idf/driver/CMakeFiles/__idf_driver.dir/twai/twai.c.obj: /home/diazb/esp/esp-
 
 /home/diazb/esp/esp-idf/components/esp_system/include/esp_private/crosscore_int.h:
 
+/home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/tie.h:
+
 /home/diazb/esp/esp-idf/components/driver/touch_sensor/touch_sensor_common.c:
 
 /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/ctype.h:
 
 /home/diazb/esp/esp-idf/components/xtensa/include/xtensa/xtruntime.h:
 
-/home/diazb/esp/esp-idf/components/esp_hal_gpio/esp32/include/hal/gpio_ll.h:
-
-/home/diazb/esp/esp-idf/components/soc/esp32/include/soc/soc.h:
-
-/home/diazb/esp/esp-idf/components/esp_rom/include/esp_rom_gpio.h:
+/home/diazb/esp/esp-idf/components/esp_hal_gpio/esp32s3/include/hal/gpio_ll.h:
 
 /home/diazb/esp/esp-idf/components/esp_ringbuf/include/freertos/ringbuf.h:
 
 /home/diazb/esp/esp-idf/components/hal/platform_port/include/hal/config.h:
+
+/home/diazb/esp/esp-idf/components/esp_hal_touch_sens/esp32s3/include/hal/touch_sensor_ll.h:
 
 /home/diazb/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/projdefs.h:
 
@@ -698,13 +650,15 @@ esp-idf/driver/CMakeFiles/__idf_driver.dir/twai/twai.c.obj: /home/diazb/esp/esp-
 
 /home/diazb/esp/esp-idf/components/esp_libc/platform_include/sys/reent.h:
 
-/home/diazb/esp/esp-idf/components/soc/esp32/register/soc/sens_struct.h:
-
 /home/diazb/esp/esp-idf/components/esp_libc/platform_include/sys/lock.h:
+
+/home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/extreg.h:
 
 /home/diazb/esp/esp-idf/components/esp_hw_support/etm/include/esp_etm.h:
 
 /home/diazb/esp/esp-idf/components/esp_hw_support/include/esp_private/periph_ctrl.h:
+
+/home/diazb/esp/esp-idf/components/esp_hal_i2c/include/hal/i2c_types.h:
 
 /home/diazb/esp/esp-idf/components/driver/twai/include/driver/twai_types_legacy.h:
 
@@ -714,7 +668,7 @@ esp-idf/driver/CMakeFiles/__idf_driver.dir/twai/twai.c.obj: /home/diazb/esp/esp-
 
 /home/diazb/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/queue.h:
 
-/home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core-matmap.h:
+/home/diazb/esp/esp-idf/components/soc/esp32s3/register/soc/io_mux_reg.h:
 
 /home/diazb/esp/esp-idf/components/esp_common/include/esp_compiler.h:
 
@@ -726,11 +680,7 @@ esp-idf/driver/CMakeFiles/__idf_driver.dir/twai/twai.c.obj: /home/diazb/esp/esp-
 
 /home/diazb/esp/esp-idf/components/soc/include/soc/gpio_periph.h:
 
-/home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/machine/param.h:
-
-/home/diazb/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/message_buffer.h:
-
-/home/diazb/esp/esp-idf/components/esp_common/include/esp_attr.h:
+/home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/interrupts.h:
 
 /home/diazb/esp/esp-idf/components/esp_common/include/esp_macros.h:
 
@@ -742,37 +692,19 @@ esp-idf/driver/CMakeFiles/__idf_driver.dir/twai/twai.c.obj: /home/diazb/esp/esp-
 
 /home/diazb/esp/esp-idf/components/driver/i2c/include/driver/i2c_types_legacy.h:
 
-/home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/config.h:
-
-/home/diazb/esp/esp-idf/components/soc/esp32/include/soc/interrupts.h:
-
-/home/diazb/esp/esp-idf/components/esp_hw_support/include/esp_private/esp_clk.h:
-
-/home/diazb/esp/esp-idf/components/esp_hal_touch_sens/include/hal/touch_sensor_legacy_types.h:
-
-/home/diazb/esp/esp-idf/components/esp_common/include/esp_check.h:
-
-/home/diazb/esp/esp-idf/components/driver/touch_sensor/esp32/touch_sensor.c:
-
-/home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/machine/ieeefp.h:
-
-/home/diazb/esp/esp-idf/components/esp_driver_gpio/include/esp_private/gpio.h:
-
-/home/diazb/esp/esp-idf/components/esp_hal_gpio/esp32/include/soc/gpio_num.h:
-
-/home/diazb/esp/esp-idf/components/soc/esp32/register/soc/gpio_struct.h:
-
 /home/diazb/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/timers.h:
+
+/home/diazb/esp/esp-idf/components/esp_hw_support/include/esp_clk_tree.h:
+
+/home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/xt_specreg.h:
 
 /home/diazb/esp/esp-idf/components/esp_hal_twai/include/hal/twai_hal.h:
 
 /home/diazb/esp/esp-idf/components/esp_libc/platform_include/stdio.h:
 
+/home/diazb/esp/esp-idf/components/esp_hal_i2c/esp32s3/include/hal/i2c_ll.h:
+
 /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/float.h:
-
-/home/diazb/esp/esp-idf/components/soc/esp32/register/soc/dport_reg.h:
-
-/home/diazb/esp/esp-idf/components/esp_common/include/esp_bit_defs.h:
 
 /home/diazb/esp/esp-idf/components/esp_driver_gpio/include/driver/gpio_etm.h:
 
@@ -786,8 +718,6 @@ esp-idf/driver/CMakeFiles/__idf_driver.dir/twai/twai.c.obj: /home/diazb/esp/esp-
 
 /home/diazb/esp/esp-idf/components/soc/include/soc/regdma.h:
 
-/home/diazb/esp/esp-idf/components/xtensa/include/xtensa_api.h:
-
 /home/diazb/esp/esp-idf/components/esp_hw_support/include/esp_private/esp_gpio_reserve.h:
 
 /home/diazb/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/portbenchmark.h:
@@ -800,9 +730,19 @@ esp-idf/driver/CMakeFiles/__idf_driver.dir/twai/twai.c.obj: /home/diazb/esp/esp-
 
 /home/diazb/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/mpu_wrappers.h:
 
+/home/diazb/esp/esp-idf/components/esp_hal_twai/esp32s3/include/hal/twai_ll.h:
+
 config/sdkconfig.h:
 
-/home/diazb/esp/esp-idf/components/soc/esp32/register/soc/i2c_struct.h:
+/home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/periph_defs.h:
+
+/home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/config.h:
+
+/home/diazb/esp/esp-idf/components/esp_hw_support/include/esp_private/esp_clk.h:
+
+/home/diazb/esp/esp-idf/components/esp_hal_touch_sens/include/hal/touch_sensor_legacy_types.h:
+
+/home/diazb/esp/esp-idf/components/esp_common/include/esp_check.h:
 
 /home/diazb/esp/esp-idf/components/esp_hal_touch_sens/include/hal/touch_sensor_legacy_hal.h:
 
@@ -810,11 +750,11 @@ config/sdkconfig.h:
 
 /home/diazb/esp/esp-idf/components/esp_libc/platform_include/esp_newlib.h:
 
+/home/diazb/esp/esp-idf/components/soc/esp32s3/register/soc/reg_base.h:
+
 /home/diazb/esp/esp-idf/components/esp_hal_gpio/include/hal/gpio_types.h:
 
-/home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/stdint.h:
-
-/home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/extreg.h:
+/home/diazb/esp/esp-idf/components/esp_hal_i2c/include/hal/i2c_periph.h:
 
 /home/diazb/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/FreeRTOS.h:
 
@@ -824,11 +764,7 @@ config/sdkconfig.h:
 
 /home/diazb/esp/esp-idf/components/esp_hal_gpio/include/hal/gpio_hal.h:
 
-/home/diazb/esp/esp-idf/components/esp_hw_support/port/esp32/include/soc/rtc.h:
-
 /home/diazb/esp/esp-idf/components/esp_hw_support/include/esp_cpu.h:
-
-/home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/tie.h:
 
 /home/diazb/esp/esp-idf/components/esp_common/include/esp_err.h:
 
@@ -836,11 +772,31 @@ config/sdkconfig.h:
 
 /home/diazb/esp/esp-idf/components/esp_hal_i2c/include/hal/i2c_hal.h:
 
+/home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/machine/ieeefp.h:
+
+/home/diazb/esp/esp-idf/components/esp_driver_gpio/include/esp_private/gpio.h:
+
+/home/diazb/esp/esp-idf/components/esp_hw_support/include/clk_ctrl_os.h:
+
+/home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/_wait.h:
+
+/home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/stdio.h:
+
+/home/diazb/esp/esp-idf/components/esp_hal_gpio/esp32s3/include/soc/gpio_num.h:
+
+/home/diazb/esp/esp-idf/components/esp_rom/include/esp_rom_sys.h:
+
+/home/diazb/esp/esp-idf/components/log/include/esp_log.h:
+
 /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/stdarg.h:
 
 /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/inttypes.h:
 
 /home/diazb/esp/esp-idf/components/esp_hw_support/include/esp_memory_utils.h:
+
+/home/diazb/esp/esp-idf/components/esp_hw_support/include/esp_intr_alloc.h:
+
+/home/diazb/esp/esp-idf/components/log/include/esp_log_args.h:
 
 /home/diazb/esp/esp-idf/components/freertos/esp_additions/include/freertos/idf_additions.h:
 
@@ -852,11 +808,13 @@ config/sdkconfig.h:
 
 /home/diazb/esp/esp-idf/components/hal/include/hal/hal_utils.h:
 
-/home/diazb/esp/esp-idf/components/esp_hal_twai/esp32/include/hal/twai_ll.h:
-
 /home/diazb/esp/esp-idf/components/xtensa/include/xtensa/xtruntime-core-state.h:
 
 /home/diazb/esp/esp-idf/components/heap/include/esp_heap_caps.h:
+
+/home/diazb/esp/esp-idf/components/xtensa/include/xtensa_api.h:
+
+/home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/clk_tree_defs.h:
 
 /home/diazb/esp/esp-idf/components/freertos/config/include/freertos/FreeRTOSConfig.h:
 
@@ -864,15 +822,13 @@ config/sdkconfig.h:
 
 /home/diazb/esp/esp-idf/components/heap/include/soc/soc_memory_layout.h:
 
-/home/diazb/esp/esp-idf/components/esp_rom/include/esp_rom_sys.h:
+/home/diazb/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/portable.h:
 
-/home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/system.h:
+/home/diazb/esp/esp-idf/components/log/include/esp_log_attr.h:
 
-/home/diazb/esp/esp-idf/components/log/include/esp_log.h:
+/home/diazb/esp/esp-idf/components/soc/esp32s3/register/soc/rtc_cntl_struct.h:
 
 /home/diazb/esp/esp-idf/components/log/include/esp_log_config.h:
-
-/home/diazb/esp/esp-idf/components/soc/esp32/include/soc/gpio_sig_map.h:
 
 /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/string.h:
 
@@ -886,9 +842,9 @@ config/sdkconfig.h:
 
 /home/diazb/esp/esp-idf/components/log/include/esp_log_level.h:
 
-/home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/xt_specreg.h:
-
 /home/diazb/esp/esp-idf/components/log/include/esp_log_write.h:
+
+/home/diazb/esp/esp-idf/components/soc/esp32s3/register/soc/rtc_io_struct.h:
 
 /home/diazb/esp/esp-idf/components/esp_libc/platform_include/assert.h:
 
@@ -896,59 +852,59 @@ config/sdkconfig.h:
 
 /home/diazb/esp/esp-idf/components/xtensa/include/xtensa/hal.h:
 
-/home/diazb/esp/esp-idf/components/esp_hal_i2c/include/hal/i2c_types.h:
+/home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/gpio_pins.h:
 
-/home/diazb/esp/esp-idf/components/soc/esp32/include/soc/clk_tree_defs.h:
+/home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/gpio_sig_map.h:
 
-/home/diazb/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/portable.h:
+/home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/reset_reasons.h:
 
-/home/diazb/esp/esp-idf/components/log/include/esp_log_attr.h:
+/home/diazb/esp/esp-idf/components/soc/esp32s3/register/soc/i2c_reg.h:
 
-/home/diazb/esp/esp-idf/components/soc/esp32/include/soc/reset_reasons.h:
+/home/diazb/esp/esp-idf/components/esp_common/include/esp_bit_defs.h:
 
-/home/diazb/esp/esp-idf/components/soc/esp32/include/soc/dport_access.h:
+/home/diazb/esp/esp-idf/components/soc/esp32s3/register/soc/i2c_struct.h:
 
-/home/diazb/esp/esp-idf/components/esp_hw_support/include/esp_intr_alloc.h:
+/home/diazb/esp/esp-idf/components/xtensa/include/xtensa/xtruntime-frames.h:
 
-/home/diazb/esp/esp-idf/components/log/include/esp_log_args.h:
+/home/diazb/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/task.h:
 
-/home/diazb/esp/esp-idf/components/soc/esp32/include/soc/gpio_pins.h:
+/home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/soc.h:
 
-/home/diazb/esp/esp-idf/components/esp_hal_i2c/include/hal/i2c_periph.h:
+/home/diazb/esp/esp-idf/components/soc/esp32s3/register/soc/rtc_cntl_reg.h:
 
-/home/diazb/esp/esp-idf/components/soc/esp32/include/soc/periph_defs.h:
+/home/diazb/esp/esp-idf/components/soc/esp32s3/register/soc/system_struct.h:
 
-/home/diazb/esp/esp-idf/components/soc/esp32/include/soc/soc_caps.h:
+/home/diazb/esp/esp-idf/components/esp_rom/include/esp_rom_gpio.h:
+
+/home/diazb/esp/esp-idf/components/soc/esp32s3/register/soc/usb_serial_jtag_reg.h:
 
 /home/diazb/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h:
 
-/home/diazb/esp/esp-idf/components/soc/esp32/register/soc/i2c_reg.h:
-
-/home/diazb/esp/esp-idf/components/soc/esp32/register/soc/io_mux_reg.h:
-
-/home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/_types.h:
-
-/home/diazb/esp/esp-idf/components/soc/esp32/register/soc/reg_base.h:
-
-/home/diazb/esp/esp-idf/components/soc/esp32/register/soc/rtc_cntl_reg.h:
+/home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/core-isa.h:
 
 /home/diazb/esp/esp-idf/components/driver/i2c/i2c.c:
 
-/home/diazb/esp/esp-idf/components/soc/esp32/register/soc/rtc_io_reg.h:
+/home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/core-matmap.h:
 
-/home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core-isa.h:
+/home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/core.h:
 
-/home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core.h:
+/home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/machine/param.h:
 
-/home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/assert.h:
+/home/diazb/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/message_buffer.h:
+
+/home/diazb/esp/esp-idf/components/esp_common/include/esp_attr.h:
+
+/home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/system.h:
 
 /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/string.h:
 
 /home/diazb/esp/esp-idf/components/xtensa/include/xt_instr_macros.h:
 
+/home/diazb/esp/esp-idf/components/soc/esp32s3/register/soc/gpio_struct.h:
+
 /home/diazb/esp/esp-idf/components/xtensa/include/xt_utils.h:
 
-/home/diazb/esp/esp-idf/components/xtensa/include/xtensa/xtruntime-frames.h:
+/home/diazb/esp/esp-idf/components/esp_hal_touch_sens/esp32s3/include/hal/touch_sensor_legacy_hal.h:
 
 /home/diazb/esp/esp-idf/components/esp_system/include/esp_system.h:
 
@@ -960,12 +916,10 @@ config/sdkconfig.h:
 
 /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/alloca.h:
 
-/home/diazb/esp/esp-idf/components/esp_timer/include/esp_timer.h:
-
 /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/limits.h:
 
-/home/diazb/esp/esp-idf/components/heap/include/multi_heap.h:
+/home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/assert.h:
 
-/home/diazb/esp/esp-idf/components/esp_hal_i2c/esp32/include/hal/i2c_ll.h:
+/home/diazb/esp/esp-idf/components/heap/include/multi_heap.h:
 
 /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/limits.h:

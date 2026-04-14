@@ -9,11 +9,10 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/diazb/esp/esp-idf/components/soc/dport_access_common.c" "esp-idf/soc/CMakeFiles/__idf_soc.dir/dport_access_common.c.obj" "gcc" "esp-idf/soc/CMakeFiles/__idf_soc.dir/dport_access_common.c.obj.d"
-  "/home/diazb/esp/esp-idf/components/soc/esp32/dport_access.c" "esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/dport_access.c.obj" "gcc" "esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/dport_access.c.obj.d"
-  "/home/diazb/esp/esp-idf/components/soc/esp32/gpio_periph.c" "esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/gpio_periph.c.obj" "gcc" "esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/gpio_periph.c.obj.d"
-  "/home/diazb/esp/esp-idf/components/soc/esp32/interrupts.c" "esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/interrupts.c.obj" "gcc" "esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/interrupts.c.obj.d"
-  "/home/diazb/esp/esp-idf/components/soc/esp32/mpi_periph.c" "esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/mpi_periph.c.obj" "gcc" "esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/mpi_periph.c.obj.d"
-  "/home/diazb/esp/esp-idf/components/soc/esp32/power_supply_periph.c" "esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/power_supply_periph.c.obj" "gcc" "esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/power_supply_periph.c.obj.d"
+  "/home/diazb/esp/esp-idf/components/soc/esp32s3/gpio_periph.c" "esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/gpio_periph.c.obj" "gcc" "esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/gpio_periph.c.obj.d"
+  "/home/diazb/esp/esp-idf/components/soc/esp32s3/interrupts.c" "esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/interrupts.c.obj" "gcc" "esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/interrupts.c.obj.d"
+  "/home/diazb/esp/esp-idf/components/soc/esp32s3/mpi_periph.c" "esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/mpi_periph.c.obj" "gcc" "esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/mpi_periph.c.obj.d"
+  "/home/diazb/esp/esp-idf/components/soc/esp32s3/power_supply_periph.c" "esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/power_supply_periph.c.obj" "gcc" "esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/power_supply_periph.c.obj.d"
   "/home/diazb/esp/esp-idf/components/soc/lldesc.c" "esp-idf/soc/CMakeFiles/__idf_soc.dir/lldesc.c.obj" "gcc" "esp-idf/soc/CMakeFiles/__idf_soc.dir/lldesc.c.obj.d"
   )
 

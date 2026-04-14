@@ -1,7 +1,7 @@
 esp-idf/esp_hal_touch_sens/CMakeFiles/__idf_esp_hal_touch_sens.dir/touch_sensor_legacy_hal.c.obj: \
  /home/diazb/esp/esp-idf/components/esp_hal_touch_sens/touch_sensor_legacy_hal.c \
- /home/diazb/esp/esp-idf/components/esp_hal_touch_sens/esp32/include/hal/touch_sensor_legacy_hal.h \
- /home/diazb/esp/esp-idf/components/esp_hal_touch_sens/esp32/include/hal/touch_sensor_ll.h \
+ /home/diazb/esp/esp-idf/components/esp_hal_touch_sens/esp32s3/include/hal/touch_sensor_legacy_hal.h \
+ /home/diazb/esp/esp-idf/components/esp_hal_touch_sens/esp32s3/include/hal/touch_sensor_ll.h \
  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/stdlib.h \
  /home/diazb/esp/esp-idf/components/esp_libc/platform_include/sys/cdefs.h \
  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/cdefs.h \
@@ -21,6 +21,7 @@ esp-idf/esp_hal_touch_sens/CMakeFiles/__idf_esp_hal_touch_sens.dir/touch_sensor_
  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/_locale.h \
  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/_wait.h \
  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/stdbool.h \
+ /home/diazb/esp/esp-idf/components/esp_common/include/esp_bit_defs.h \
  /home/diazb/esp/esp-idf/components/hal/platform_port/include/hal/misc.h \
  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/string.h \
  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/strings.h \
@@ -29,16 +30,15 @@ esp-idf/esp_hal_touch_sens/CMakeFiles/__idf_esp_hal_touch_sens.dir/touch_sensor_
  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/string.h \
  /home/diazb/esp/esp-idf/components/hal/platform_port/include/hal/assert.h \
  /home/diazb/esp/esp-idf/components/esp_hal_touch_sens/include/hal/touch_sensor_periph.h \
- /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/soc_caps.h \
+ /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h \
  /home/diazb/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h \
- /home/diazb/esp/esp-idf/components/soc/esp32/register/soc/sens_struct.h \
- /home/diazb/esp/esp-idf/components/soc/esp32/register/soc/rtc_io_struct.h \
- /home/diazb/esp/esp-idf/components/soc/esp32/register/soc/rtc_cntl_struct.h \
+ /home/diazb/esp/esp-idf/components/soc/esp32s3/register/soc/rtc_cntl_struct.h \
+ /home/diazb/esp/esp-idf/components/soc/esp32s3/register/soc/rtc_io_struct.h \
+ /home/diazb/esp/esp-idf/components/soc/esp32s3/register/soc/sens_struct.h \
  /home/diazb/esp/esp-idf/components/esp_hal_touch_sens/include/hal/touch_sens_types.h \
  /home/diazb/esp/esp-idf/components/esp_hal_touch_sens/include/hal/touch_sensor_legacy_types.h \
  /home/diazb/esp/esp-idf/components/esp_common/include/esp_attr.h \
  /home/diazb/esp/esp-idf/components/esp_common/include/esp_assert.h \
  /home/diazb/esp/esp-idf/components/esp_libc/platform_include/assert.h \
  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/assert.h \
- /home/diazb/esp/esp-idf/components/esp_common/include/esp_bit_defs.h \
  /home/diazb/esp/esp-idf/components/esp_hal_touch_sens/include/hal/touch_sensor_legacy_hal.h

@@ -68,7 +68,7 @@ include CMakeFiles/refresh-config.dir/progress.make
 
 CMakeFiles/refresh-config:
 	/home/diazb/esp/idf-tools/python_env/idf6.1_py3.12_env/bin/python /home/diazb/esp/esp-idf/tools/kconfig_new/prepare_kconfig_files.py --list-separator=semicolon --env-file /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build/bootloader/config.env
-	/home/diazb/esp/idf-tools/python_env/idf6.1_py3.12_env/bin/python -m kconfgen --list-separator=semicolon --kconfig /home/diazb/esp/esp-idf/Kconfig --sdkconfig-rename /home/diazb/esp/esp-idf/sdkconfig.rename --config /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/sdkconfig --env IDF_MINIMAL_BUILD=n --env-file /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build/bootloader/config.env --env IDF_TARGET=esp32 --env IDF_TOOLCHAIN=gcc --env IDF_ENV_FPGA= --env IDF_INIT_VERSION=6.1.0 --output config /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/sdkconfig
+	/home/diazb/esp/idf-tools/python_env/idf6.1_py3.12_env/bin/python -m kconfgen --list-separator=semicolon --kconfig /home/diazb/esp/esp-idf/Kconfig --sdkconfig-rename /home/diazb/esp/esp-idf/sdkconfig.rename --config /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/sdkconfig --env IDF_MINIMAL_BUILD=n --env-file /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build/bootloader/config.env --env IDF_TARGET=esp32s3 --env IDF_TOOLCHAIN=gcc --env IDF_ENV_FPGA= --env IDF_INIT_VERSION=6.1.0 --output config /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/sdkconfig
 
 refresh-config: CMakeFiles/refresh-config
 refresh-config: CMakeFiles/refresh-config.dir/build.make

@@ -175,29 +175,29 @@ __idf_esp_hal_mspi/fast:
 	cd /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hal_mspi/CMakeFiles/__idf_esp_hal_mspi.dir/build.make esp-idf/esp_hal_mspi/CMakeFiles/__idf_esp_hal_mspi.dir/build
 .PHONY : __idf_esp_hal_mspi/fast
 
-esp32/mspi_periph.obj: esp32/mspi_periph.c.obj
-.PHONY : esp32/mspi_periph.obj
+esp32s3/mspi_periph.obj: esp32s3/mspi_periph.c.obj
+.PHONY : esp32s3/mspi_periph.obj
 
 # target to build an object file
-esp32/mspi_periph.c.obj:
-	cd /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hal_mspi/CMakeFiles/__idf_esp_hal_mspi.dir/build.make esp-idf/esp_hal_mspi/CMakeFiles/__idf_esp_hal_mspi.dir/esp32/mspi_periph.c.obj
-.PHONY : esp32/mspi_periph.c.obj
+esp32s3/mspi_periph.c.obj:
+	cd /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hal_mspi/CMakeFiles/__idf_esp_hal_mspi.dir/build.make esp-idf/esp_hal_mspi/CMakeFiles/__idf_esp_hal_mspi.dir/esp32s3/mspi_periph.c.obj
+.PHONY : esp32s3/mspi_periph.c.obj
 
-esp32/mspi_periph.i: esp32/mspi_periph.c.i
-.PHONY : esp32/mspi_periph.i
+esp32s3/mspi_periph.i: esp32s3/mspi_periph.c.i
+.PHONY : esp32s3/mspi_periph.i
 
 # target to preprocess a source file
-esp32/mspi_periph.c.i:
-	cd /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hal_mspi/CMakeFiles/__idf_esp_hal_mspi.dir/build.make esp-idf/esp_hal_mspi/CMakeFiles/__idf_esp_hal_mspi.dir/esp32/mspi_periph.c.i
-.PHONY : esp32/mspi_periph.c.i
+esp32s3/mspi_periph.c.i:
+	cd /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hal_mspi/CMakeFiles/__idf_esp_hal_mspi.dir/build.make esp-idf/esp_hal_mspi/CMakeFiles/__idf_esp_hal_mspi.dir/esp32s3/mspi_periph.c.i
+.PHONY : esp32s3/mspi_periph.c.i
 
-esp32/mspi_periph.s: esp32/mspi_periph.c.s
-.PHONY : esp32/mspi_periph.s
+esp32s3/mspi_periph.s: esp32s3/mspi_periph.c.s
+.PHONY : esp32s3/mspi_periph.s
 
 # target to generate assembly for a file
-esp32/mspi_periph.c.s:
-	cd /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hal_mspi/CMakeFiles/__idf_esp_hal_mspi.dir/build.make esp-idf/esp_hal_mspi/CMakeFiles/__idf_esp_hal_mspi.dir/esp32/mspi_periph.c.s
-.PHONY : esp32/mspi_periph.c.s
+esp32s3/mspi_periph.c.s:
+	cd /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hal_mspi/CMakeFiles/__idf_esp_hal_mspi.dir/build.make esp-idf/esp_hal_mspi/CMakeFiles/__idf_esp_hal_mspi.dir/esp32s3/mspi_periph.c.s
+.PHONY : esp32s3/mspi_periph.c.s
 
 spi_flash_encrypt_hal_iram.obj: spi_flash_encrypt_hal_iram.c.obj
 .PHONY : spi_flash_encrypt_hal_iram.obj
@@ -247,6 +247,30 @@ spi_flash_hal.c.s:
 	cd /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hal_mspi/CMakeFiles/__idf_esp_hal_mspi.dir/build.make esp-idf/esp_hal_mspi/CMakeFiles/__idf_esp_hal_mspi.dir/spi_flash_hal.c.s
 .PHONY : spi_flash_hal.c.s
 
+spi_flash_hal_gpspi.obj: spi_flash_hal_gpspi.c.obj
+.PHONY : spi_flash_hal_gpspi.obj
+
+# target to build an object file
+spi_flash_hal_gpspi.c.obj:
+	cd /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hal_mspi/CMakeFiles/__idf_esp_hal_mspi.dir/build.make esp-idf/esp_hal_mspi/CMakeFiles/__idf_esp_hal_mspi.dir/spi_flash_hal_gpspi.c.obj
+.PHONY : spi_flash_hal_gpspi.c.obj
+
+spi_flash_hal_gpspi.i: spi_flash_hal_gpspi.c.i
+.PHONY : spi_flash_hal_gpspi.i
+
+# target to preprocess a source file
+spi_flash_hal_gpspi.c.i:
+	cd /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hal_mspi/CMakeFiles/__idf_esp_hal_mspi.dir/build.make esp-idf/esp_hal_mspi/CMakeFiles/__idf_esp_hal_mspi.dir/spi_flash_hal_gpspi.c.i
+.PHONY : spi_flash_hal_gpspi.c.i
+
+spi_flash_hal_gpspi.s: spi_flash_hal_gpspi.c.s
+.PHONY : spi_flash_hal_gpspi.s
+
+# target to generate assembly for a file
+spi_flash_hal_gpspi.c.s:
+	cd /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hal_mspi/CMakeFiles/__idf_esp_hal_mspi.dir/build.make esp-idf/esp_hal_mspi/CMakeFiles/__idf_esp_hal_mspi.dir/spi_flash_hal_gpspi.c.s
+.PHONY : spi_flash_hal_gpspi.c.s
+
 spi_flash_hal_iram.obj: spi_flash_hal_iram.c.obj
 .PHONY : spi_flash_hal_iram.obj
 
@@ -284,15 +308,18 @@ help:
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... __idf_esp_hal_mspi"
-	@echo "... esp32/mspi_periph.obj"
-	@echo "... esp32/mspi_periph.i"
-	@echo "... esp32/mspi_periph.s"
+	@echo "... esp32s3/mspi_periph.obj"
+	@echo "... esp32s3/mspi_periph.i"
+	@echo "... esp32s3/mspi_periph.s"
 	@echo "... spi_flash_encrypt_hal_iram.obj"
 	@echo "... spi_flash_encrypt_hal_iram.i"
 	@echo "... spi_flash_encrypt_hal_iram.s"
 	@echo "... spi_flash_hal.obj"
 	@echo "... spi_flash_hal.i"
 	@echo "... spi_flash_hal.s"
+	@echo "... spi_flash_hal_gpspi.obj"
+	@echo "... spi_flash_hal_gpspi.i"
+	@echo "... spi_flash_hal_gpspi.s"
 	@echo "... spi_flash_hal_iram.obj"
 	@echo "... spi_flash_hal_iram.i"
 	@echo "... spi_flash_hal_iram.s"

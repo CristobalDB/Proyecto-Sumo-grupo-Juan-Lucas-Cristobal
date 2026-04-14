@@ -16,4 +16,4 @@ esp-idf/esp_stdio/CMakeFiles/__idf_esp_stdio.dir/stdio_simple.c.obj: \
  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/_intsup.h \
  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/_stdint.h \
  /home/diazb/esp/esp-idf/components/esp_rom/include/esp_rom_usb_serial.h \
- /home/diazb/esp/esp-idf/components/esp_rom/esp32/esp_rom_caps.h
+ /home/diazb/esp/esp-idf/components/esp_rom/esp32s3/esp_rom_caps.h

@@ -102,8 +102,4 @@ esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/port/arch/xtensa/panic_arch.c
  /home/diazb/esp/esp-idf/components/esp_system/include/esp_private/panic_internal.h \
  /home/diazb/esp/esp-idf/components/xtensa/include/esp_private/panic_reason.h \
  /home/diazb/esp/esp-idf/components/esp_system/port/include/private/esp_private/cache_err_int.h \
- /home/diazb/esp/esp-idf/components/soc/esp32s3/register/soc/rtc_cntl_reg.h \
- /home/diazb/esp/esp-idf/components/esp_hw_support/include/esp_memprot.h \
- /home/diazb/esp/esp-idf/components/esp_hw_support/include/esp_memprot_err.h \
- /home/diazb/esp/esp-idf/components/esp_hw_support/include/soc/esp32s3/soc_memprot_types.h \
- /home/diazb/esp/esp-idf/components/esp_hw_support/include/esp_memprot_types.h
+ /home/diazb/esp/esp-idf/components/soc/esp32s3/register/soc/rtc_cntl_reg.h

@@ -14,6 +14,7 @@ esp-idf/tcp_transport/CMakeFiles/__idf_tcp_transport.dir/transport.c.obj
  /home/diazb/esp/esp-idf/components/esp_common/include/esp_idf_version.h
  /home/diazb/esp/esp-idf/components/esp_common/include/esp_macros.h
  /home/diazb/esp/esp-idf/components/esp_common/include/esp_types.h
+ /home/diazb/esp/esp-idf/components/esp_hal_security/include/hal/hmac_types.h
  /home/diazb/esp/esp-idf/components/esp_hw_support/include/esp_cpu.h
  /home/diazb/esp/esp-idf/components/esp_hw_support/include/esp_intr_alloc.h
  /home/diazb/esp/esp-idf/components/esp_hw_support/include/esp_intr_types.h
@@ -35,8 +36,12 @@ esp-idf/tcp_transport/CMakeFiles/__idf_tcp_transport.dir/transport.c.obj
  /home/diazb/esp/esp-idf/components/esp_libc/platform_include/sys/time.h
  /home/diazb/esp/esp-idf/components/esp_libc/platform_include/sys/unistd.h
  /home/diazb/esp/esp-idf/components/esp_libc/platform_include/time.h
+ /home/diazb/esp/esp-idf/components/esp_rom/esp32s3/include/esp32s3/rom/digital_signature.h
  /home/diazb/esp/esp-idf/components/esp_rom/include/esp_rom_md5.h
  /home/diazb/esp/esp-idf/components/esp_rom/include/esp_rom_sys.h
+ /home/diazb/esp/esp-idf/components/esp_security/include/esp_ds.h
+ /home/diazb/esp/esp-idf/components/esp_security/include/esp_ds_err.h
+ /home/diazb/esp/esp-idf/components/esp_security/include/esp_hmac.h
  /home/diazb/esp/esp-idf/components/esp_system/include/esp_private/crosscore_int.h
  /home/diazb/esp/esp-idf/components/esp_system/include/esp_system.h
  /home/diazb/esp/esp-idf/components/esp_system/include/esp_task.h
@@ -163,23 +168,24 @@ esp-idf/tcp_transport/CMakeFiles/__idf_tcp_transport.dir/transport.c.obj
  /home/diazb/esp/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h
  /home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_aes_contexts.h
  /home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_cmac_contexts.h
+ /home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_hmac_opaque_contexts.h
  /home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_hmac_transparent_contexts.h
+ /home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_rsa_ds_contexts.h
  /home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_sha_contexts.h
- /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/interrupts.h
- /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/reset_reasons.h
- /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/soc.h
- /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/soc_caps.h
- /home/diazb/esp/esp-idf/components/soc/esp32/register/soc/reg_base.h
+ /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/reset_reasons.h
+ /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/soc.h
+ /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h
+ /home/diazb/esp/esp-idf/components/soc/esp32s3/register/soc/reg_base.h
  /home/diazb/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h
  /home/diazb/esp/esp-idf/components/tcp_transport/include/esp_transport.h
  /home/diazb/esp/esp-idf/components/tcp_transport/private_include/esp_transport_internal.h
- /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core-isa.h
- /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core-matmap.h
- /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core.h
- /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/extreg.h
- /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/system.h
- /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/tie.h
- /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/xt_specreg.h
+ /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/core-isa.h
+ /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/core-matmap.h
+ /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/core.h
+ /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/extreg.h
+ /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/system.h
+ /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/tie.h
+ /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/xt_specreg.h
  /home/diazb/esp/esp-idf/components/xtensa/include/xt_instr_macros.h
  /home/diazb/esp/esp-idf/components/xtensa/include/xt_utils.h
  /home/diazb/esp/esp-idf/components/xtensa/include/xtensa/corebits.h
@@ -257,6 +263,7 @@ esp-idf/tcp_transport/CMakeFiles/__idf_tcp_transport.dir/transport_internal.c.ob
  /home/diazb/esp/esp-idf/components/esp_common/include/esp_idf_version.h
  /home/diazb/esp/esp-idf/components/esp_common/include/esp_macros.h
  /home/diazb/esp/esp-idf/components/esp_common/include/esp_types.h
+ /home/diazb/esp/esp-idf/components/esp_hal_security/include/hal/hmac_types.h
  /home/diazb/esp/esp-idf/components/esp_hw_support/include/esp_cpu.h
  /home/diazb/esp/esp-idf/components/esp_hw_support/include/esp_intr_alloc.h
  /home/diazb/esp/esp-idf/components/esp_hw_support/include/esp_intr_types.h
@@ -278,8 +285,12 @@ esp-idf/tcp_transport/CMakeFiles/__idf_tcp_transport.dir/transport_internal.c.ob
  /home/diazb/esp/esp-idf/components/esp_libc/platform_include/sys/time.h
  /home/diazb/esp/esp-idf/components/esp_libc/platform_include/sys/unistd.h
  /home/diazb/esp/esp-idf/components/esp_libc/platform_include/time.h
+ /home/diazb/esp/esp-idf/components/esp_rom/esp32s3/include/esp32s3/rom/digital_signature.h
  /home/diazb/esp/esp-idf/components/esp_rom/include/esp_rom_md5.h
  /home/diazb/esp/esp-idf/components/esp_rom/include/esp_rom_sys.h
+ /home/diazb/esp/esp-idf/components/esp_security/include/esp_ds.h
+ /home/diazb/esp/esp-idf/components/esp_security/include/esp_ds_err.h
+ /home/diazb/esp/esp-idf/components/esp_security/include/esp_hmac.h
  /home/diazb/esp/esp-idf/components/esp_system/include/esp_private/crosscore_int.h
  /home/diazb/esp/esp-idf/components/esp_system/include/esp_system.h
  /home/diazb/esp/esp-idf/components/esp_system/include/esp_task.h
@@ -406,23 +417,24 @@ esp-idf/tcp_transport/CMakeFiles/__idf_tcp_transport.dir/transport_internal.c.ob
  /home/diazb/esp/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h
  /home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_aes_contexts.h
  /home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_cmac_contexts.h
+ /home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_hmac_opaque_contexts.h
  /home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_hmac_transparent_contexts.h
+ /home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_rsa_ds_contexts.h
  /home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_sha_contexts.h
- /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/interrupts.h
- /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/reset_reasons.h
- /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/soc.h
- /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/soc_caps.h
- /home/diazb/esp/esp-idf/components/soc/esp32/register/soc/reg_base.h
+ /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/reset_reasons.h
+ /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/soc.h
+ /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h
+ /home/diazb/esp/esp-idf/components/soc/esp32s3/register/soc/reg_base.h
  /home/diazb/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h
  /home/diazb/esp/esp-idf/components/tcp_transport/include/esp_transport.h
  /home/diazb/esp/esp-idf/components/tcp_transport/private_include/esp_transport_internal.h
- /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core-isa.h
- /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core-matmap.h
- /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core.h
- /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/extreg.h
- /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/system.h
- /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/tie.h
- /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/xt_specreg.h
+ /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/core-isa.h
+ /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/core-matmap.h
+ /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/core.h
+ /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/extreg.h
+ /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/system.h
+ /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/tie.h
+ /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/xt_specreg.h
  /home/diazb/esp/esp-idf/components/xtensa/include/xt_instr_macros.h
  /home/diazb/esp/esp-idf/components/xtensa/include/xt_utils.h
  /home/diazb/esp/esp-idf/components/xtensa/include/xtensa/corebits.h
@@ -585,21 +597,20 @@ esp-idf/tcp_transport/CMakeFiles/__idf_tcp_transport.dir/transport_socks_proxy.c
  /home/diazb/esp/esp-idf/components/lwip/port/include/netinet/in.h
  /home/diazb/esp/esp-idf/components/lwip/port/include/sntp/sntp_get_set_time.h
  /home/diazb/esp/esp-idf/components/lwip/port/include/sockets_ext.h
- /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/interrupts.h
- /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/reset_reasons.h
- /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/soc.h
- /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/soc_caps.h
- /home/diazb/esp/esp-idf/components/soc/esp32/register/soc/reg_base.h
+ /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/reset_reasons.h
+ /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/soc.h
+ /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h
+ /home/diazb/esp/esp-idf/components/soc/esp32s3/register/soc/reg_base.h
  /home/diazb/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h
  /home/diazb/esp/esp-idf/components/tcp_transport/include/esp_transport.h
  /home/diazb/esp/esp-idf/components/tcp_transport/include/esp_transport_socks_proxy.h
- /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core-isa.h
- /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core-matmap.h
- /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core.h
- /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/extreg.h
- /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/system.h
- /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/tie.h
- /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/xt_specreg.h
+ /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/core-isa.h
+ /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/core-matmap.h
+ /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/core.h
+ /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/extreg.h
+ /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/system.h
+ /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/tie.h
+ /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/xt_specreg.h
  /home/diazb/esp/esp-idf/components/xtensa/include/xt_instr_macros.h
  /home/diazb/esp/esp-idf/components/xtensa/include/xt_utils.h
  /home/diazb/esp/esp-idf/components/xtensa/include/xtensa/corebits.h
@@ -676,6 +687,7 @@ esp-idf/tcp_transport/CMakeFiles/__idf_tcp_transport.dir/transport_ssl.c.obj
  /home/diazb/esp/esp-idf/components/esp_common/include/esp_idf_version.h
  /home/diazb/esp/esp-idf/components/esp_common/include/esp_macros.h
  /home/diazb/esp/esp-idf/components/esp_common/include/esp_types.h
+ /home/diazb/esp/esp-idf/components/esp_hal_security/include/hal/hmac_types.h
  /home/diazb/esp/esp-idf/components/esp_hw_support/include/esp_cpu.h
  /home/diazb/esp/esp-idf/components/esp_hw_support/include/esp_intr_alloc.h
  /home/diazb/esp/esp-idf/components/esp_hw_support/include/esp_intr_types.h
@@ -697,8 +709,12 @@ esp-idf/tcp_transport/CMakeFiles/__idf_tcp_transport.dir/transport_ssl.c.obj
  /home/diazb/esp/esp-idf/components/esp_libc/platform_include/sys/time.h
  /home/diazb/esp/esp-idf/components/esp_libc/platform_include/sys/unistd.h
  /home/diazb/esp/esp-idf/components/esp_libc/platform_include/time.h
+ /home/diazb/esp/esp-idf/components/esp_rom/esp32s3/include/esp32s3/rom/digital_signature.h
  /home/diazb/esp/esp-idf/components/esp_rom/include/esp_rom_md5.h
  /home/diazb/esp/esp-idf/components/esp_rom/include/esp_rom_sys.h
+ /home/diazb/esp/esp-idf/components/esp_security/include/esp_ds.h
+ /home/diazb/esp/esp-idf/components/esp_security/include/esp_ds_err.h
+ /home/diazb/esp/esp-idf/components/esp_security/include/esp_hmac.h
  /home/diazb/esp/esp-idf/components/esp_system/include/esp_private/crosscore_int.h
  /home/diazb/esp/esp-idf/components/esp_system/include/esp_system.h
  /home/diazb/esp/esp-idf/components/esp_system/include/esp_task.h
@@ -825,24 +841,25 @@ esp-idf/tcp_transport/CMakeFiles/__idf_tcp_transport.dir/transport_ssl.c.obj
  /home/diazb/esp/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h
  /home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_aes_contexts.h
  /home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_cmac_contexts.h
+ /home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_hmac_opaque_contexts.h
  /home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_hmac_transparent_contexts.h
+ /home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_rsa_ds_contexts.h
  /home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_sha_contexts.h
- /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/interrupts.h
- /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/reset_reasons.h
- /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/soc.h
- /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/soc_caps.h
- /home/diazb/esp/esp-idf/components/soc/esp32/register/soc/reg_base.h
+ /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/reset_reasons.h
+ /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/soc.h
+ /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h
+ /home/diazb/esp/esp-idf/components/soc/esp32s3/register/soc/reg_base.h
  /home/diazb/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h
  /home/diazb/esp/esp-idf/components/tcp_transport/include/esp_transport.h
  /home/diazb/esp/esp-idf/components/tcp_transport/include/esp_transport_ssl.h
  /home/diazb/esp/esp-idf/components/tcp_transport/private_include/esp_transport_internal.h
- /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core-isa.h
- /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core-matmap.h
- /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core.h
- /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/extreg.h
- /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/system.h
- /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/tie.h
- /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/xt_specreg.h
+ /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/core-isa.h
+ /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/core-matmap.h
+ /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/core.h
+ /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/extreg.h
+ /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/system.h
+ /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/tie.h
+ /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/xt_specreg.h
  /home/diazb/esp/esp-idf/components/xtensa/include/xt_instr_macros.h
  /home/diazb/esp/esp-idf/components/xtensa/include/xt_utils.h
  /home/diazb/esp/esp-idf/components/xtensa/include/xtensa/corebits.h
@@ -921,6 +938,7 @@ esp-idf/tcp_transport/CMakeFiles/__idf_tcp_transport.dir/transport_ws.c.obj
  /home/diazb/esp/esp-idf/components/esp_common/include/esp_idf_version.h
  /home/diazb/esp/esp-idf/components/esp_common/include/esp_macros.h
  /home/diazb/esp/esp-idf/components/esp_common/include/esp_types.h
+ /home/diazb/esp/esp-idf/components/esp_hal_security/include/hal/hmac_types.h
  /home/diazb/esp/esp-idf/components/esp_hw_support/include/esp_cpu.h
  /home/diazb/esp/esp-idf/components/esp_hw_support/include/esp_intr_alloc.h
  /home/diazb/esp/esp-idf/components/esp_hw_support/include/esp_intr_types.h
@@ -943,8 +961,12 @@ esp-idf/tcp_transport/CMakeFiles/__idf_tcp_transport.dir/transport_ws.c.obj
  /home/diazb/esp/esp-idf/components/esp_libc/platform_include/sys/time.h
  /home/diazb/esp/esp-idf/components/esp_libc/platform_include/sys/unistd.h
  /home/diazb/esp/esp-idf/components/esp_libc/platform_include/time.h
+ /home/diazb/esp/esp-idf/components/esp_rom/esp32s3/include/esp32s3/rom/digital_signature.h
  /home/diazb/esp/esp-idf/components/esp_rom/include/esp_rom_md5.h
  /home/diazb/esp/esp-idf/components/esp_rom/include/esp_rom_sys.h
+ /home/diazb/esp/esp-idf/components/esp_security/include/esp_ds.h
+ /home/diazb/esp/esp-idf/components/esp_security/include/esp_ds_err.h
+ /home/diazb/esp/esp-idf/components/esp_security/include/esp_hmac.h
  /home/diazb/esp/esp-idf/components/esp_system/include/esp_private/crosscore_int.h
  /home/diazb/esp/esp-idf/components/esp_system/include/esp_system.h
  /home/diazb/esp/esp-idf/components/esp_system/include/esp_task.h
@@ -1072,25 +1094,26 @@ esp-idf/tcp_transport/CMakeFiles/__idf_tcp_transport.dir/transport_ws.c.obj
  /home/diazb/esp/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h
  /home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_aes_contexts.h
  /home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_cmac_contexts.h
+ /home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_hmac_opaque_contexts.h
  /home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_hmac_transparent_contexts.h
+ /home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_rsa_ds_contexts.h
  /home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/include/psa_crypto_driver_esp_sha_contexts.h
- /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/interrupts.h
- /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/reset_reasons.h
- /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/soc.h
- /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/soc_caps.h
- /home/diazb/esp/esp-idf/components/soc/esp32/register/soc/reg_base.h
+ /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/reset_reasons.h
+ /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/soc.h
+ /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h
+ /home/diazb/esp/esp-idf/components/soc/esp32s3/register/soc/reg_base.h
  /home/diazb/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h
  /home/diazb/esp/esp-idf/components/tcp_transport/include/esp_transport.h
  /home/diazb/esp/esp-idf/components/tcp_transport/include/esp_transport_tcp.h
  /home/diazb/esp/esp-idf/components/tcp_transport/include/esp_transport_ws.h
  /home/diazb/esp/esp-idf/components/tcp_transport/private_include/esp_transport_internal.h
- /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core-isa.h
- /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core-matmap.h
- /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core.h
- /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/extreg.h
- /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/system.h
- /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/tie.h
- /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/xt_specreg.h
+ /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/core-isa.h
+ /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/core-matmap.h
+ /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/core.h
+ /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/extreg.h
+ /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/system.h
+ /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/tie.h
+ /home/diazb/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/xt_specreg.h
  /home/diazb/esp/esp-idf/components/xtensa/include/xt_instr_macros.h
  /home/diazb/esp/esp-idf/components/xtensa/include/xt_utils.h
  /home/diazb/esp/esp-idf/components/xtensa/include/xtensa/corebits.h

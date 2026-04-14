@@ -175,6 +175,54 @@ tfpsacrypto/fast:
 	cd /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build
 .PHONY : tfpsacrypto/fast
 
+home/diazb/esp/esp-idf/components/mbedtls/port/aes/dma/esp_aes_dma_core.obj: home/diazb/esp/esp-idf/components/mbedtls/port/aes/dma/esp_aes_dma_core.c.obj
+.PHONY : home/diazb/esp/esp-idf/components/mbedtls/port/aes/dma/esp_aes_dma_core.obj
+
+# target to build an object file
+home/diazb/esp/esp-idf/components/mbedtls/port/aes/dma/esp_aes_dma_core.c.obj:
+	cd /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/diazb/esp/esp-idf/components/mbedtls/port/aes/dma/esp_aes_dma_core.c.obj
+.PHONY : home/diazb/esp/esp-idf/components/mbedtls/port/aes/dma/esp_aes_dma_core.c.obj
+
+home/diazb/esp/esp-idf/components/mbedtls/port/aes/dma/esp_aes_dma_core.i: home/diazb/esp/esp-idf/components/mbedtls/port/aes/dma/esp_aes_dma_core.c.i
+.PHONY : home/diazb/esp/esp-idf/components/mbedtls/port/aes/dma/esp_aes_dma_core.i
+
+# target to preprocess a source file
+home/diazb/esp/esp-idf/components/mbedtls/port/aes/dma/esp_aes_dma_core.c.i:
+	cd /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/diazb/esp/esp-idf/components/mbedtls/port/aes/dma/esp_aes_dma_core.c.i
+.PHONY : home/diazb/esp/esp-idf/components/mbedtls/port/aes/dma/esp_aes_dma_core.c.i
+
+home/diazb/esp/esp-idf/components/mbedtls/port/aes/dma/esp_aes_dma_core.s: home/diazb/esp/esp-idf/components/mbedtls/port/aes/dma/esp_aes_dma_core.c.s
+.PHONY : home/diazb/esp/esp-idf/components/mbedtls/port/aes/dma/esp_aes_dma_core.s
+
+# target to generate assembly for a file
+home/diazb/esp/esp-idf/components/mbedtls/port/aes/dma/esp_aes_dma_core.c.s:
+	cd /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/diazb/esp/esp-idf/components/mbedtls/port/aes/dma/esp_aes_dma_core.c.s
+.PHONY : home/diazb/esp/esp-idf/components/mbedtls/port/aes/dma/esp_aes_dma_core.c.s
+
+home/diazb/esp/esp-idf/components/mbedtls/port/aes/dma/esp_aes_gdma_impl.obj: home/diazb/esp/esp-idf/components/mbedtls/port/aes/dma/esp_aes_gdma_impl.c.obj
+.PHONY : home/diazb/esp/esp-idf/components/mbedtls/port/aes/dma/esp_aes_gdma_impl.obj
+
+# target to build an object file
+home/diazb/esp/esp-idf/components/mbedtls/port/aes/dma/esp_aes_gdma_impl.c.obj:
+	cd /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/diazb/esp/esp-idf/components/mbedtls/port/aes/dma/esp_aes_gdma_impl.c.obj
+.PHONY : home/diazb/esp/esp-idf/components/mbedtls/port/aes/dma/esp_aes_gdma_impl.c.obj
+
+home/diazb/esp/esp-idf/components/mbedtls/port/aes/dma/esp_aes_gdma_impl.i: home/diazb/esp/esp-idf/components/mbedtls/port/aes/dma/esp_aes_gdma_impl.c.i
+.PHONY : home/diazb/esp/esp-idf/components/mbedtls/port/aes/dma/esp_aes_gdma_impl.i
+
+# target to preprocess a source file
+home/diazb/esp/esp-idf/components/mbedtls/port/aes/dma/esp_aes_gdma_impl.c.i:
+	cd /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/diazb/esp/esp-idf/components/mbedtls/port/aes/dma/esp_aes_gdma_impl.c.i
+.PHONY : home/diazb/esp/esp-idf/components/mbedtls/port/aes/dma/esp_aes_gdma_impl.c.i
+
+home/diazb/esp/esp-idf/components/mbedtls/port/aes/dma/esp_aes_gdma_impl.s: home/diazb/esp/esp-idf/components/mbedtls/port/aes/dma/esp_aes_gdma_impl.c.s
+.PHONY : home/diazb/esp/esp-idf/components/mbedtls/port/aes/dma/esp_aes_gdma_impl.s
+
+# target to generate assembly for a file
+home/diazb/esp/esp-idf/components/mbedtls/port/aes/dma/esp_aes_gdma_impl.c.s:
+	cd /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/diazb/esp/esp-idf/components/mbedtls/port/aes/dma/esp_aes_gdma_impl.c.s
+.PHONY : home/diazb/esp/esp-idf/components/mbedtls/port/aes/dma/esp_aes_gdma_impl.c.s
+
 home/diazb/esp/esp-idf/components/mbedtls/port/aes/esp_aes.obj: home/diazb/esp/esp-idf/components/mbedtls/port/aes/esp_aes.c.obj
 .PHONY : home/diazb/esp/esp-idf/components/mbedtls/port/aes/esp_aes.obj
 
@@ -319,6 +367,30 @@ home/diazb/esp/esp-idf/components/mbedtls/port/bignum/esp_bignum.c.s:
 	cd /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/diazb/esp/esp-idf/components/mbedtls/port/bignum/esp_bignum.c.s
 .PHONY : home/diazb/esp/esp-idf/components/mbedtls/port/bignum/esp_bignum.c.s
 
+home/diazb/esp/esp-idf/components/mbedtls/port/crypto_shared_gdma/esp_crypto_shared_gdma.obj: home/diazb/esp/esp-idf/components/mbedtls/port/crypto_shared_gdma/esp_crypto_shared_gdma.c.obj
+.PHONY : home/diazb/esp/esp-idf/components/mbedtls/port/crypto_shared_gdma/esp_crypto_shared_gdma.obj
+
+# target to build an object file
+home/diazb/esp/esp-idf/components/mbedtls/port/crypto_shared_gdma/esp_crypto_shared_gdma.c.obj:
+	cd /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/diazb/esp/esp-idf/components/mbedtls/port/crypto_shared_gdma/esp_crypto_shared_gdma.c.obj
+.PHONY : home/diazb/esp/esp-idf/components/mbedtls/port/crypto_shared_gdma/esp_crypto_shared_gdma.c.obj
+
+home/diazb/esp/esp-idf/components/mbedtls/port/crypto_shared_gdma/esp_crypto_shared_gdma.i: home/diazb/esp/esp-idf/components/mbedtls/port/crypto_shared_gdma/esp_crypto_shared_gdma.c.i
+.PHONY : home/diazb/esp/esp-idf/components/mbedtls/port/crypto_shared_gdma/esp_crypto_shared_gdma.i
+
+# target to preprocess a source file
+home/diazb/esp/esp-idf/components/mbedtls/port/crypto_shared_gdma/esp_crypto_shared_gdma.c.i:
+	cd /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/diazb/esp/esp-idf/components/mbedtls/port/crypto_shared_gdma/esp_crypto_shared_gdma.c.i
+.PHONY : home/diazb/esp/esp-idf/components/mbedtls/port/crypto_shared_gdma/esp_crypto_shared_gdma.c.i
+
+home/diazb/esp/esp-idf/components/mbedtls/port/crypto_shared_gdma/esp_crypto_shared_gdma.s: home/diazb/esp/esp-idf/components/mbedtls/port/crypto_shared_gdma/esp_crypto_shared_gdma.c.s
+.PHONY : home/diazb/esp/esp-idf/components/mbedtls/port/crypto_shared_gdma/esp_crypto_shared_gdma.s
+
+# target to generate assembly for a file
+home/diazb/esp/esp-idf/components/mbedtls/port/crypto_shared_gdma/esp_crypto_shared_gdma.c.s:
+	cd /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/diazb/esp/esp-idf/components/mbedtls/port/crypto_shared_gdma/esp_crypto_shared_gdma.c.s
+.PHONY : home/diazb/esp/esp-idf/components/mbedtls/port/crypto_shared_gdma/esp_crypto_shared_gdma.c.s
+
 home/diazb/esp/esp-idf/components/mbedtls/port/esp_hardware.obj: home/diazb/esp/esp-idf/components/mbedtls/port/esp_hardware.c.obj
 .PHONY : home/diazb/esp/esp-idf/components/mbedtls/port/esp_hardware.obj
 
@@ -342,6 +414,30 @@ home/diazb/esp/esp-idf/components/mbedtls/port/esp_hardware.s: home/diazb/esp/es
 home/diazb/esp/esp-idf/components/mbedtls/port/esp_hardware.c.s:
 	cd /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/diazb/esp/esp-idf/components/mbedtls/port/esp_hardware.c.s
 .PHONY : home/diazb/esp/esp-idf/components/mbedtls/port/esp_hardware.c.s
+
+home/diazb/esp/esp-idf/components/mbedtls/port/esp_hmac_pbkdf2.obj: home/diazb/esp/esp-idf/components/mbedtls/port/esp_hmac_pbkdf2.c.obj
+.PHONY : home/diazb/esp/esp-idf/components/mbedtls/port/esp_hmac_pbkdf2.obj
+
+# target to build an object file
+home/diazb/esp/esp-idf/components/mbedtls/port/esp_hmac_pbkdf2.c.obj:
+	cd /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/diazb/esp/esp-idf/components/mbedtls/port/esp_hmac_pbkdf2.c.obj
+.PHONY : home/diazb/esp/esp-idf/components/mbedtls/port/esp_hmac_pbkdf2.c.obj
+
+home/diazb/esp/esp-idf/components/mbedtls/port/esp_hmac_pbkdf2.i: home/diazb/esp/esp-idf/components/mbedtls/port/esp_hmac_pbkdf2.c.i
+.PHONY : home/diazb/esp/esp-idf/components/mbedtls/port/esp_hmac_pbkdf2.i
+
+# target to preprocess a source file
+home/diazb/esp/esp-idf/components/mbedtls/port/esp_hmac_pbkdf2.c.i:
+	cd /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/diazb/esp/esp-idf/components/mbedtls/port/esp_hmac_pbkdf2.c.i
+.PHONY : home/diazb/esp/esp-idf/components/mbedtls/port/esp_hmac_pbkdf2.c.i
+
+home/diazb/esp/esp-idf/components/mbedtls/port/esp_hmac_pbkdf2.s: home/diazb/esp/esp-idf/components/mbedtls/port/esp_hmac_pbkdf2.c.s
+.PHONY : home/diazb/esp/esp-idf/components/mbedtls/port/esp_hmac_pbkdf2.s
+
+# target to generate assembly for a file
+home/diazb/esp/esp-idf/components/mbedtls/port/esp_hmac_pbkdf2.c.s:
+	cd /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/diazb/esp/esp-idf/components/mbedtls/port/esp_hmac_pbkdf2.c.s
+.PHONY : home/diazb/esp/esp-idf/components/mbedtls/port/esp_hmac_pbkdf2.c.s
 
 home/diazb/esp/esp-idf/components/mbedtls/port/esp_mem.obj: home/diazb/esp/esp-idf/components/mbedtls/port/esp_mem.c.obj
 .PHONY : home/diazb/esp/esp-idf/components/mbedtls/port/esp_mem.obj
@@ -463,6 +559,30 @@ home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/esp_mac/psa_crypto_dri
 	cd /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/esp_mac/psa_crypto_driver_esp_cmac.c.s
 .PHONY : home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/esp_mac/psa_crypto_driver_esp_cmac.c.s
 
+home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/esp_mac/psa_crypto_driver_esp_hmac_opaque.obj: home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/esp_mac/psa_crypto_driver_esp_hmac_opaque.c.obj
+.PHONY : home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/esp_mac/psa_crypto_driver_esp_hmac_opaque.obj
+
+# target to build an object file
+home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/esp_mac/psa_crypto_driver_esp_hmac_opaque.c.obj:
+	cd /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/esp_mac/psa_crypto_driver_esp_hmac_opaque.c.obj
+.PHONY : home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/esp_mac/psa_crypto_driver_esp_hmac_opaque.c.obj
+
+home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/esp_mac/psa_crypto_driver_esp_hmac_opaque.i: home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/esp_mac/psa_crypto_driver_esp_hmac_opaque.c.i
+.PHONY : home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/esp_mac/psa_crypto_driver_esp_hmac_opaque.i
+
+# target to preprocess a source file
+home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/esp_mac/psa_crypto_driver_esp_hmac_opaque.c.i:
+	cd /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/esp_mac/psa_crypto_driver_esp_hmac_opaque.c.i
+.PHONY : home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/esp_mac/psa_crypto_driver_esp_hmac_opaque.c.i
+
+home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/esp_mac/psa_crypto_driver_esp_hmac_opaque.s: home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/esp_mac/psa_crypto_driver_esp_hmac_opaque.c.s
+.PHONY : home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/esp_mac/psa_crypto_driver_esp_hmac_opaque.s
+
+# target to generate assembly for a file
+home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/esp_mac/psa_crypto_driver_esp_hmac_opaque.c.s:
+	cd /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/esp_mac/psa_crypto_driver_esp_hmac_opaque.c.s
+.PHONY : home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/esp_mac/psa_crypto_driver_esp_hmac_opaque.c.s
+
 home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/esp_mac/psa_crypto_driver_esp_hmac_transparent.obj: home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/esp_mac/psa_crypto_driver_esp_hmac_transparent.c.obj
 .PHONY : home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/esp_mac/psa_crypto_driver_esp_hmac_transparent.obj
 
@@ -511,77 +631,125 @@ home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/esp_md/psa_crypto_driv
 	cd /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/esp_md/psa_crypto_driver_esp_md5.c.s
 .PHONY : home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/esp_md/psa_crypto_driver_esp_md5.c.s
 
-home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/esp_sha/parallel_engine/psa_crypto_driver_esp_sha1.obj: home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/esp_sha/parallel_engine/psa_crypto_driver_esp_sha1.c.obj
-.PHONY : home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/esp_sha/parallel_engine/psa_crypto_driver_esp_sha1.obj
+home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/esp_rsa_ds/psa_crypto_driver_esp_rsa_ds.obj: home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/esp_rsa_ds/psa_crypto_driver_esp_rsa_ds.c.obj
+.PHONY : home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/esp_rsa_ds/psa_crypto_driver_esp_rsa_ds.obj
 
 # target to build an object file
-home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/esp_sha/parallel_engine/psa_crypto_driver_esp_sha1.c.obj:
-	cd /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/esp_sha/parallel_engine/psa_crypto_driver_esp_sha1.c.obj
-.PHONY : home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/esp_sha/parallel_engine/psa_crypto_driver_esp_sha1.c.obj
+home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/esp_rsa_ds/psa_crypto_driver_esp_rsa_ds.c.obj:
+	cd /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/esp_rsa_ds/psa_crypto_driver_esp_rsa_ds.c.obj
+.PHONY : home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/esp_rsa_ds/psa_crypto_driver_esp_rsa_ds.c.obj
 
-home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/esp_sha/parallel_engine/psa_crypto_driver_esp_sha1.i: home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/esp_sha/parallel_engine/psa_crypto_driver_esp_sha1.c.i
-.PHONY : home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/esp_sha/parallel_engine/psa_crypto_driver_esp_sha1.i
+home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/esp_rsa_ds/psa_crypto_driver_esp_rsa_ds.i: home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/esp_rsa_ds/psa_crypto_driver_esp_rsa_ds.c.i
+.PHONY : home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/esp_rsa_ds/psa_crypto_driver_esp_rsa_ds.i
 
 # target to preprocess a source file
-home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/esp_sha/parallel_engine/psa_crypto_driver_esp_sha1.c.i:
-	cd /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/esp_sha/parallel_engine/psa_crypto_driver_esp_sha1.c.i
-.PHONY : home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/esp_sha/parallel_engine/psa_crypto_driver_esp_sha1.c.i
+home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/esp_rsa_ds/psa_crypto_driver_esp_rsa_ds.c.i:
+	cd /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/esp_rsa_ds/psa_crypto_driver_esp_rsa_ds.c.i
+.PHONY : home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/esp_rsa_ds/psa_crypto_driver_esp_rsa_ds.c.i
 
-home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/esp_sha/parallel_engine/psa_crypto_driver_esp_sha1.s: home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/esp_sha/parallel_engine/psa_crypto_driver_esp_sha1.c.s
-.PHONY : home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/esp_sha/parallel_engine/psa_crypto_driver_esp_sha1.s
+home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/esp_rsa_ds/psa_crypto_driver_esp_rsa_ds.s: home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/esp_rsa_ds/psa_crypto_driver_esp_rsa_ds.c.s
+.PHONY : home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/esp_rsa_ds/psa_crypto_driver_esp_rsa_ds.s
 
 # target to generate assembly for a file
-home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/esp_sha/parallel_engine/psa_crypto_driver_esp_sha1.c.s:
-	cd /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/esp_sha/parallel_engine/psa_crypto_driver_esp_sha1.c.s
-.PHONY : home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/esp_sha/parallel_engine/psa_crypto_driver_esp_sha1.c.s
+home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/esp_rsa_ds/psa_crypto_driver_esp_rsa_ds.c.s:
+	cd /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/esp_rsa_ds/psa_crypto_driver_esp_rsa_ds.c.s
+.PHONY : home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/esp_rsa_ds/psa_crypto_driver_esp_rsa_ds.c.s
 
-home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/esp_sha/parallel_engine/psa_crypto_driver_esp_sha256.obj: home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/esp_sha/parallel_engine/psa_crypto_driver_esp_sha256.c.obj
-.PHONY : home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/esp_sha/parallel_engine/psa_crypto_driver_esp_sha256.obj
+home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/esp_rsa_ds/psa_crypto_driver_esp_rsa_ds_utilities.obj: home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/esp_rsa_ds/psa_crypto_driver_esp_rsa_ds_utilities.c.obj
+.PHONY : home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/esp_rsa_ds/psa_crypto_driver_esp_rsa_ds_utilities.obj
 
 # target to build an object file
-home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/esp_sha/parallel_engine/psa_crypto_driver_esp_sha256.c.obj:
-	cd /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/esp_sha/parallel_engine/psa_crypto_driver_esp_sha256.c.obj
-.PHONY : home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/esp_sha/parallel_engine/psa_crypto_driver_esp_sha256.c.obj
+home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/esp_rsa_ds/psa_crypto_driver_esp_rsa_ds_utilities.c.obj:
+	cd /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/esp_rsa_ds/psa_crypto_driver_esp_rsa_ds_utilities.c.obj
+.PHONY : home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/esp_rsa_ds/psa_crypto_driver_esp_rsa_ds_utilities.c.obj
 
-home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/esp_sha/parallel_engine/psa_crypto_driver_esp_sha256.i: home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/esp_sha/parallel_engine/psa_crypto_driver_esp_sha256.c.i
-.PHONY : home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/esp_sha/parallel_engine/psa_crypto_driver_esp_sha256.i
+home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/esp_rsa_ds/psa_crypto_driver_esp_rsa_ds_utilities.i: home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/esp_rsa_ds/psa_crypto_driver_esp_rsa_ds_utilities.c.i
+.PHONY : home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/esp_rsa_ds/psa_crypto_driver_esp_rsa_ds_utilities.i
 
 # target to preprocess a source file
-home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/esp_sha/parallel_engine/psa_crypto_driver_esp_sha256.c.i:
-	cd /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/esp_sha/parallel_engine/psa_crypto_driver_esp_sha256.c.i
-.PHONY : home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/esp_sha/parallel_engine/psa_crypto_driver_esp_sha256.c.i
+home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/esp_rsa_ds/psa_crypto_driver_esp_rsa_ds_utilities.c.i:
+	cd /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/esp_rsa_ds/psa_crypto_driver_esp_rsa_ds_utilities.c.i
+.PHONY : home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/esp_rsa_ds/psa_crypto_driver_esp_rsa_ds_utilities.c.i
 
-home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/esp_sha/parallel_engine/psa_crypto_driver_esp_sha256.s: home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/esp_sha/parallel_engine/psa_crypto_driver_esp_sha256.c.s
-.PHONY : home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/esp_sha/parallel_engine/psa_crypto_driver_esp_sha256.s
+home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/esp_rsa_ds/psa_crypto_driver_esp_rsa_ds_utilities.s: home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/esp_rsa_ds/psa_crypto_driver_esp_rsa_ds_utilities.c.s
+.PHONY : home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/esp_rsa_ds/psa_crypto_driver_esp_rsa_ds_utilities.s
 
 # target to generate assembly for a file
-home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/esp_sha/parallel_engine/psa_crypto_driver_esp_sha256.c.s:
-	cd /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/esp_sha/parallel_engine/psa_crypto_driver_esp_sha256.c.s
-.PHONY : home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/esp_sha/parallel_engine/psa_crypto_driver_esp_sha256.c.s
+home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/esp_rsa_ds/psa_crypto_driver_esp_rsa_ds_utilities.c.s:
+	cd /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/esp_rsa_ds/psa_crypto_driver_esp_rsa_ds_utilities.c.s
+.PHONY : home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/esp_rsa_ds/psa_crypto_driver_esp_rsa_ds_utilities.c.s
 
-home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/esp_sha/parallel_engine/psa_crypto_driver_esp_sha512.obj: home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/esp_sha/parallel_engine/psa_crypto_driver_esp_sha512.c.obj
-.PHONY : home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/esp_sha/parallel_engine/psa_crypto_driver_esp_sha512.obj
+home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/esp_sha/core/psa_crypto_driver_esp_sha1.obj: home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/esp_sha/core/psa_crypto_driver_esp_sha1.c.obj
+.PHONY : home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/esp_sha/core/psa_crypto_driver_esp_sha1.obj
 
 # target to build an object file
-home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/esp_sha/parallel_engine/psa_crypto_driver_esp_sha512.c.obj:
-	cd /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/esp_sha/parallel_engine/psa_crypto_driver_esp_sha512.c.obj
-.PHONY : home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/esp_sha/parallel_engine/psa_crypto_driver_esp_sha512.c.obj
+home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/esp_sha/core/psa_crypto_driver_esp_sha1.c.obj:
+	cd /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/esp_sha/core/psa_crypto_driver_esp_sha1.c.obj
+.PHONY : home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/esp_sha/core/psa_crypto_driver_esp_sha1.c.obj
 
-home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/esp_sha/parallel_engine/psa_crypto_driver_esp_sha512.i: home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/esp_sha/parallel_engine/psa_crypto_driver_esp_sha512.c.i
-.PHONY : home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/esp_sha/parallel_engine/psa_crypto_driver_esp_sha512.i
+home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/esp_sha/core/psa_crypto_driver_esp_sha1.i: home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/esp_sha/core/psa_crypto_driver_esp_sha1.c.i
+.PHONY : home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/esp_sha/core/psa_crypto_driver_esp_sha1.i
 
 # target to preprocess a source file
-home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/esp_sha/parallel_engine/psa_crypto_driver_esp_sha512.c.i:
-	cd /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/esp_sha/parallel_engine/psa_crypto_driver_esp_sha512.c.i
-.PHONY : home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/esp_sha/parallel_engine/psa_crypto_driver_esp_sha512.c.i
+home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/esp_sha/core/psa_crypto_driver_esp_sha1.c.i:
+	cd /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/esp_sha/core/psa_crypto_driver_esp_sha1.c.i
+.PHONY : home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/esp_sha/core/psa_crypto_driver_esp_sha1.c.i
 
-home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/esp_sha/parallel_engine/psa_crypto_driver_esp_sha512.s: home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/esp_sha/parallel_engine/psa_crypto_driver_esp_sha512.c.s
-.PHONY : home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/esp_sha/parallel_engine/psa_crypto_driver_esp_sha512.s
+home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/esp_sha/core/psa_crypto_driver_esp_sha1.s: home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/esp_sha/core/psa_crypto_driver_esp_sha1.c.s
+.PHONY : home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/esp_sha/core/psa_crypto_driver_esp_sha1.s
 
 # target to generate assembly for a file
-home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/esp_sha/parallel_engine/psa_crypto_driver_esp_sha512.c.s:
-	cd /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/esp_sha/parallel_engine/psa_crypto_driver_esp_sha512.c.s
-.PHONY : home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/esp_sha/parallel_engine/psa_crypto_driver_esp_sha512.c.s
+home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/esp_sha/core/psa_crypto_driver_esp_sha1.c.s:
+	cd /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/esp_sha/core/psa_crypto_driver_esp_sha1.c.s
+.PHONY : home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/esp_sha/core/psa_crypto_driver_esp_sha1.c.s
+
+home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/esp_sha/core/psa_crypto_driver_esp_sha256.obj: home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/esp_sha/core/psa_crypto_driver_esp_sha256.c.obj
+.PHONY : home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/esp_sha/core/psa_crypto_driver_esp_sha256.obj
+
+# target to build an object file
+home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/esp_sha/core/psa_crypto_driver_esp_sha256.c.obj:
+	cd /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/esp_sha/core/psa_crypto_driver_esp_sha256.c.obj
+.PHONY : home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/esp_sha/core/psa_crypto_driver_esp_sha256.c.obj
+
+home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/esp_sha/core/psa_crypto_driver_esp_sha256.i: home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/esp_sha/core/psa_crypto_driver_esp_sha256.c.i
+.PHONY : home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/esp_sha/core/psa_crypto_driver_esp_sha256.i
+
+# target to preprocess a source file
+home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/esp_sha/core/psa_crypto_driver_esp_sha256.c.i:
+	cd /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/esp_sha/core/psa_crypto_driver_esp_sha256.c.i
+.PHONY : home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/esp_sha/core/psa_crypto_driver_esp_sha256.c.i
+
+home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/esp_sha/core/psa_crypto_driver_esp_sha256.s: home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/esp_sha/core/psa_crypto_driver_esp_sha256.c.s
+.PHONY : home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/esp_sha/core/psa_crypto_driver_esp_sha256.s
+
+# target to generate assembly for a file
+home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/esp_sha/core/psa_crypto_driver_esp_sha256.c.s:
+	cd /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/esp_sha/core/psa_crypto_driver_esp_sha256.c.s
+.PHONY : home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/esp_sha/core/psa_crypto_driver_esp_sha256.c.s
+
+home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/esp_sha/core/psa_crypto_driver_esp_sha512.obj: home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/esp_sha/core/psa_crypto_driver_esp_sha512.c.obj
+.PHONY : home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/esp_sha/core/psa_crypto_driver_esp_sha512.obj
+
+# target to build an object file
+home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/esp_sha/core/psa_crypto_driver_esp_sha512.c.obj:
+	cd /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/esp_sha/core/psa_crypto_driver_esp_sha512.c.obj
+.PHONY : home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/esp_sha/core/psa_crypto_driver_esp_sha512.c.obj
+
+home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/esp_sha/core/psa_crypto_driver_esp_sha512.i: home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/esp_sha/core/psa_crypto_driver_esp_sha512.c.i
+.PHONY : home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/esp_sha/core/psa_crypto_driver_esp_sha512.i
+
+# target to preprocess a source file
+home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/esp_sha/core/psa_crypto_driver_esp_sha512.c.i:
+	cd /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/esp_sha/core/psa_crypto_driver_esp_sha512.c.i
+.PHONY : home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/esp_sha/core/psa_crypto_driver_esp_sha512.c.i
+
+home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/esp_sha/core/psa_crypto_driver_esp_sha512.s: home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/esp_sha/core/psa_crypto_driver_esp_sha512.c.s
+.PHONY : home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/esp_sha/core/psa_crypto_driver_esp_sha512.s
+
+# target to generate assembly for a file
+home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/esp_sha/core/psa_crypto_driver_esp_sha512.c.s:
+	cd /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/esp_sha/core/psa_crypto_driver_esp_sha512.c.s
+.PHONY : home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/esp_sha/core/psa_crypto_driver_esp_sha512.c.s
 
 home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/esp_sha/psa_crypto_driver_esp_sha.obj: home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/esp_sha/psa_crypto_driver_esp_sha.c.obj
 .PHONY : home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/esp_sha/psa_crypto_driver_esp_sha.obj
@@ -607,6 +775,54 @@ home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/esp_sha/psa_crypto_dri
 	cd /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/esp_sha/psa_crypto_driver_esp_sha.c.s
 .PHONY : home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/esp_sha/psa_crypto_driver_esp_sha.c.s
 
+home/diazb/esp/esp-idf/components/mbedtls/port/sha/core/esp_sha_gdma_impl.obj: home/diazb/esp/esp-idf/components/mbedtls/port/sha/core/esp_sha_gdma_impl.c.obj
+.PHONY : home/diazb/esp/esp-idf/components/mbedtls/port/sha/core/esp_sha_gdma_impl.obj
+
+# target to build an object file
+home/diazb/esp/esp-idf/components/mbedtls/port/sha/core/esp_sha_gdma_impl.c.obj:
+	cd /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/diazb/esp/esp-idf/components/mbedtls/port/sha/core/esp_sha_gdma_impl.c.obj
+.PHONY : home/diazb/esp/esp-idf/components/mbedtls/port/sha/core/esp_sha_gdma_impl.c.obj
+
+home/diazb/esp/esp-idf/components/mbedtls/port/sha/core/esp_sha_gdma_impl.i: home/diazb/esp/esp-idf/components/mbedtls/port/sha/core/esp_sha_gdma_impl.c.i
+.PHONY : home/diazb/esp/esp-idf/components/mbedtls/port/sha/core/esp_sha_gdma_impl.i
+
+# target to preprocess a source file
+home/diazb/esp/esp-idf/components/mbedtls/port/sha/core/esp_sha_gdma_impl.c.i:
+	cd /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/diazb/esp/esp-idf/components/mbedtls/port/sha/core/esp_sha_gdma_impl.c.i
+.PHONY : home/diazb/esp/esp-idf/components/mbedtls/port/sha/core/esp_sha_gdma_impl.c.i
+
+home/diazb/esp/esp-idf/components/mbedtls/port/sha/core/esp_sha_gdma_impl.s: home/diazb/esp/esp-idf/components/mbedtls/port/sha/core/esp_sha_gdma_impl.c.s
+.PHONY : home/diazb/esp/esp-idf/components/mbedtls/port/sha/core/esp_sha_gdma_impl.s
+
+# target to generate assembly for a file
+home/diazb/esp/esp-idf/components/mbedtls/port/sha/core/esp_sha_gdma_impl.c.s:
+	cd /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/diazb/esp/esp-idf/components/mbedtls/port/sha/core/esp_sha_gdma_impl.c.s
+.PHONY : home/diazb/esp/esp-idf/components/mbedtls/port/sha/core/esp_sha_gdma_impl.c.s
+
+home/diazb/esp/esp-idf/components/mbedtls/port/sha/core/sha.obj: home/diazb/esp/esp-idf/components/mbedtls/port/sha/core/sha.c.obj
+.PHONY : home/diazb/esp/esp-idf/components/mbedtls/port/sha/core/sha.obj
+
+# target to build an object file
+home/diazb/esp/esp-idf/components/mbedtls/port/sha/core/sha.c.obj:
+	cd /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/diazb/esp/esp-idf/components/mbedtls/port/sha/core/sha.c.obj
+.PHONY : home/diazb/esp/esp-idf/components/mbedtls/port/sha/core/sha.c.obj
+
+home/diazb/esp/esp-idf/components/mbedtls/port/sha/core/sha.i: home/diazb/esp/esp-idf/components/mbedtls/port/sha/core/sha.c.i
+.PHONY : home/diazb/esp/esp-idf/components/mbedtls/port/sha/core/sha.i
+
+# target to preprocess a source file
+home/diazb/esp/esp-idf/components/mbedtls/port/sha/core/sha.c.i:
+	cd /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/diazb/esp/esp-idf/components/mbedtls/port/sha/core/sha.c.i
+.PHONY : home/diazb/esp/esp-idf/components/mbedtls/port/sha/core/sha.c.i
+
+home/diazb/esp/esp-idf/components/mbedtls/port/sha/core/sha.s: home/diazb/esp/esp-idf/components/mbedtls/port/sha/core/sha.c.s
+.PHONY : home/diazb/esp/esp-idf/components/mbedtls/port/sha/core/sha.s
+
+# target to generate assembly for a file
+home/diazb/esp/esp-idf/components/mbedtls/port/sha/core/sha.c.s:
+	cd /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/diazb/esp/esp-idf/components/mbedtls/port/sha/core/sha.c.s
+.PHONY : home/diazb/esp/esp-idf/components/mbedtls/port/sha/core/sha.c.s
+
 home/diazb/esp/esp-idf/components/mbedtls/port/sha/esp_sha.obj: home/diazb/esp/esp-idf/components/mbedtls/port/sha/esp_sha.c.obj
 .PHONY : home/diazb/esp/esp-idf/components/mbedtls/port/sha/esp_sha.obj
 
@@ -630,30 +846,6 @@ home/diazb/esp/esp-idf/components/mbedtls/port/sha/esp_sha.s: home/diazb/esp/esp
 home/diazb/esp/esp-idf/components/mbedtls/port/sha/esp_sha.c.s:
 	cd /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/diazb/esp/esp-idf/components/mbedtls/port/sha/esp_sha.c.s
 .PHONY : home/diazb/esp/esp-idf/components/mbedtls/port/sha/esp_sha.c.s
-
-home/diazb/esp/esp-idf/components/mbedtls/port/sha/parallel_engine/sha.obj: home/diazb/esp/esp-idf/components/mbedtls/port/sha/parallel_engine/sha.c.obj
-.PHONY : home/diazb/esp/esp-idf/components/mbedtls/port/sha/parallel_engine/sha.obj
-
-# target to build an object file
-home/diazb/esp/esp-idf/components/mbedtls/port/sha/parallel_engine/sha.c.obj:
-	cd /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/diazb/esp/esp-idf/components/mbedtls/port/sha/parallel_engine/sha.c.obj
-.PHONY : home/diazb/esp/esp-idf/components/mbedtls/port/sha/parallel_engine/sha.c.obj
-
-home/diazb/esp/esp-idf/components/mbedtls/port/sha/parallel_engine/sha.i: home/diazb/esp/esp-idf/components/mbedtls/port/sha/parallel_engine/sha.c.i
-.PHONY : home/diazb/esp/esp-idf/components/mbedtls/port/sha/parallel_engine/sha.i
-
-# target to preprocess a source file
-home/diazb/esp/esp-idf/components/mbedtls/port/sha/parallel_engine/sha.c.i:
-	cd /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/diazb/esp/esp-idf/components/mbedtls/port/sha/parallel_engine/sha.c.i
-.PHONY : home/diazb/esp/esp-idf/components/mbedtls/port/sha/parallel_engine/sha.c.i
-
-home/diazb/esp/esp-idf/components/mbedtls/port/sha/parallel_engine/sha.s: home/diazb/esp/esp-idf/components/mbedtls/port/sha/parallel_engine/sha.c.s
-.PHONY : home/diazb/esp/esp-idf/components/mbedtls/port/sha/parallel_engine/sha.s
-
-# target to generate assembly for a file
-home/diazb/esp/esp-idf/components/mbedtls/port/sha/parallel_engine/sha.c.s:
-	cd /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/diazb/esp/esp-idf/components/mbedtls/port/sha/parallel_engine/sha.c.s
-.PHONY : home/diazb/esp/esp-idf/components/mbedtls/port/sha/parallel_engine/sha.c.s
 
 psa_crypto.obj: psa_crypto.c.obj
 .PHONY : psa_crypto.obj
@@ -860,6 +1052,12 @@ help:
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... tfpsacrypto"
+	@echo "... home/diazb/esp/esp-idf/components/mbedtls/port/aes/dma/esp_aes_dma_core.obj"
+	@echo "... home/diazb/esp/esp-idf/components/mbedtls/port/aes/dma/esp_aes_dma_core.i"
+	@echo "... home/diazb/esp/esp-idf/components/mbedtls/port/aes/dma/esp_aes_dma_core.s"
+	@echo "... home/diazb/esp/esp-idf/components/mbedtls/port/aes/dma/esp_aes_gdma_impl.obj"
+	@echo "... home/diazb/esp/esp-idf/components/mbedtls/port/aes/dma/esp_aes_gdma_impl.i"
+	@echo "... home/diazb/esp/esp-idf/components/mbedtls/port/aes/dma/esp_aes_gdma_impl.s"
 	@echo "... home/diazb/esp/esp-idf/components/mbedtls/port/aes/esp_aes.obj"
 	@echo "... home/diazb/esp/esp-idf/components/mbedtls/port/aes/esp_aes.i"
 	@echo "... home/diazb/esp/esp-idf/components/mbedtls/port/aes/esp_aes.s"
@@ -878,9 +1076,15 @@ help:
 	@echo "... home/diazb/esp/esp-idf/components/mbedtls/port/bignum/esp_bignum.obj"
 	@echo "... home/diazb/esp/esp-idf/components/mbedtls/port/bignum/esp_bignum.i"
 	@echo "... home/diazb/esp/esp-idf/components/mbedtls/port/bignum/esp_bignum.s"
+	@echo "... home/diazb/esp/esp-idf/components/mbedtls/port/crypto_shared_gdma/esp_crypto_shared_gdma.obj"
+	@echo "... home/diazb/esp/esp-idf/components/mbedtls/port/crypto_shared_gdma/esp_crypto_shared_gdma.i"
+	@echo "... home/diazb/esp/esp-idf/components/mbedtls/port/crypto_shared_gdma/esp_crypto_shared_gdma.s"
 	@echo "... home/diazb/esp/esp-idf/components/mbedtls/port/esp_hardware.obj"
 	@echo "... home/diazb/esp/esp-idf/components/mbedtls/port/esp_hardware.i"
 	@echo "... home/diazb/esp/esp-idf/components/mbedtls/port/esp_hardware.s"
+	@echo "... home/diazb/esp/esp-idf/components/mbedtls/port/esp_hmac_pbkdf2.obj"
+	@echo "... home/diazb/esp/esp-idf/components/mbedtls/port/esp_hmac_pbkdf2.i"
+	@echo "... home/diazb/esp/esp-idf/components/mbedtls/port/esp_hmac_pbkdf2.s"
 	@echo "... home/diazb/esp/esp-idf/components/mbedtls/port/esp_mem.obj"
 	@echo "... home/diazb/esp/esp-idf/components/mbedtls/port/esp_mem.i"
 	@echo "... home/diazb/esp/esp-idf/components/mbedtls/port/esp_mem.s"
@@ -896,30 +1100,42 @@ help:
 	@echo "... home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/esp_mac/psa_crypto_driver_esp_cmac.obj"
 	@echo "... home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/esp_mac/psa_crypto_driver_esp_cmac.i"
 	@echo "... home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/esp_mac/psa_crypto_driver_esp_cmac.s"
+	@echo "... home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/esp_mac/psa_crypto_driver_esp_hmac_opaque.obj"
+	@echo "... home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/esp_mac/psa_crypto_driver_esp_hmac_opaque.i"
+	@echo "... home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/esp_mac/psa_crypto_driver_esp_hmac_opaque.s"
 	@echo "... home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/esp_mac/psa_crypto_driver_esp_hmac_transparent.obj"
 	@echo "... home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/esp_mac/psa_crypto_driver_esp_hmac_transparent.i"
 	@echo "... home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/esp_mac/psa_crypto_driver_esp_hmac_transparent.s"
 	@echo "... home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/esp_md/psa_crypto_driver_esp_md5.obj"
 	@echo "... home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/esp_md/psa_crypto_driver_esp_md5.i"
 	@echo "... home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/esp_md/psa_crypto_driver_esp_md5.s"
-	@echo "... home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/esp_sha/parallel_engine/psa_crypto_driver_esp_sha1.obj"
-	@echo "... home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/esp_sha/parallel_engine/psa_crypto_driver_esp_sha1.i"
-	@echo "... home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/esp_sha/parallel_engine/psa_crypto_driver_esp_sha1.s"
-	@echo "... home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/esp_sha/parallel_engine/psa_crypto_driver_esp_sha256.obj"
-	@echo "... home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/esp_sha/parallel_engine/psa_crypto_driver_esp_sha256.i"
-	@echo "... home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/esp_sha/parallel_engine/psa_crypto_driver_esp_sha256.s"
-	@echo "... home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/esp_sha/parallel_engine/psa_crypto_driver_esp_sha512.obj"
-	@echo "... home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/esp_sha/parallel_engine/psa_crypto_driver_esp_sha512.i"
-	@echo "... home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/esp_sha/parallel_engine/psa_crypto_driver_esp_sha512.s"
+	@echo "... home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/esp_rsa_ds/psa_crypto_driver_esp_rsa_ds.obj"
+	@echo "... home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/esp_rsa_ds/psa_crypto_driver_esp_rsa_ds.i"
+	@echo "... home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/esp_rsa_ds/psa_crypto_driver_esp_rsa_ds.s"
+	@echo "... home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/esp_rsa_ds/psa_crypto_driver_esp_rsa_ds_utilities.obj"
+	@echo "... home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/esp_rsa_ds/psa_crypto_driver_esp_rsa_ds_utilities.i"
+	@echo "... home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/esp_rsa_ds/psa_crypto_driver_esp_rsa_ds_utilities.s"
+	@echo "... home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/esp_sha/core/psa_crypto_driver_esp_sha1.obj"
+	@echo "... home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/esp_sha/core/psa_crypto_driver_esp_sha1.i"
+	@echo "... home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/esp_sha/core/psa_crypto_driver_esp_sha1.s"
+	@echo "... home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/esp_sha/core/psa_crypto_driver_esp_sha256.obj"
+	@echo "... home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/esp_sha/core/psa_crypto_driver_esp_sha256.i"
+	@echo "... home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/esp_sha/core/psa_crypto_driver_esp_sha256.s"
+	@echo "... home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/esp_sha/core/psa_crypto_driver_esp_sha512.obj"
+	@echo "... home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/esp_sha/core/psa_crypto_driver_esp_sha512.i"
+	@echo "... home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/esp_sha/core/psa_crypto_driver_esp_sha512.s"
 	@echo "... home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/esp_sha/psa_crypto_driver_esp_sha.obj"
 	@echo "... home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/esp_sha/psa_crypto_driver_esp_sha.i"
 	@echo "... home/diazb/esp/esp-idf/components/mbedtls/port/psa_driver/esp_sha/psa_crypto_driver_esp_sha.s"
+	@echo "... home/diazb/esp/esp-idf/components/mbedtls/port/sha/core/esp_sha_gdma_impl.obj"
+	@echo "... home/diazb/esp/esp-idf/components/mbedtls/port/sha/core/esp_sha_gdma_impl.i"
+	@echo "... home/diazb/esp/esp-idf/components/mbedtls/port/sha/core/esp_sha_gdma_impl.s"
+	@echo "... home/diazb/esp/esp-idf/components/mbedtls/port/sha/core/sha.obj"
+	@echo "... home/diazb/esp/esp-idf/components/mbedtls/port/sha/core/sha.i"
+	@echo "... home/diazb/esp/esp-idf/components/mbedtls/port/sha/core/sha.s"
 	@echo "... home/diazb/esp/esp-idf/components/mbedtls/port/sha/esp_sha.obj"
 	@echo "... home/diazb/esp/esp-idf/components/mbedtls/port/sha/esp_sha.i"
 	@echo "... home/diazb/esp/esp-idf/components/mbedtls/port/sha/esp_sha.s"
-	@echo "... home/diazb/esp/esp-idf/components/mbedtls/port/sha/parallel_engine/sha.obj"
-	@echo "... home/diazb/esp/esp-idf/components/mbedtls/port/sha/parallel_engine/sha.i"
-	@echo "... home/diazb/esp/esp-idf/components/mbedtls/port/sha/parallel_engine/sha.s"
 	@echo "... psa_crypto.obj"
 	@echo "... psa_crypto.i"
 	@echo "... psa_crypto.s"

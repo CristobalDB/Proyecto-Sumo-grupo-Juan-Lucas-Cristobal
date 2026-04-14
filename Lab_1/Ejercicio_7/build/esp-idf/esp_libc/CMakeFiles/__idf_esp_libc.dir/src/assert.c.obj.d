@@ -46,10 +46,9 @@ esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/src/assert.c.obj: \
  /home/diazb/esp/esp-idf/components/heap/include/soc/soc_memory_layout.h \
  /home/diazb/esp/esp-idf/components/heap/include/heap_memory_layout.h \
  /home/diazb/esp/esp-idf/components/esp_hw_support/include/esp_memory_utils.h \
- /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/soc.h \
+ /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/soc.h \
  /home/diazb/esp/esp-idf/components/esp_common/include/esp_assert.h \
- /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/soc_caps.h \
+ /home/diazb/esp/esp-idf/components/soc/esp32s3/register/soc/reg_base.h \
+ /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h \
  /home/diazb/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h \
- /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/interrupts.h \
- /home/diazb/esp/esp-idf/components/soc/esp32/register/soc/reg_base.h \
  /home/diazb/esp/esp-idf/components/spi_flash/include/esp_private/cache_utils.h

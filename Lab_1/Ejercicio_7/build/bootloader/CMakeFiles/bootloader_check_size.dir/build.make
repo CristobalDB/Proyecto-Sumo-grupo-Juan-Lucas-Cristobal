@@ -67,7 +67,7 @@ include CMakeFiles/bootloader_check_size.dir/compiler_depend.make
 include CMakeFiles/bootloader_check_size.dir/progress.make
 
 CMakeFiles/bootloader_check_size:
-	/home/diazb/esp/idf-tools/python_env/idf6.1_py3.12_env/bin/python /home/diazb/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x1000 /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build/bootloader/bootloader.bin
+	/home/diazb/esp/idf-tools/python_env/idf6.1_py3.12_env/bin/python /home/diazb/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x0 /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build/bootloader/bootloader.bin
 
 bootloader_check_size: CMakeFiles/bootloader_check_size
 bootloader_check_size: CMakeFiles/bootloader_check_size.dir/build.make

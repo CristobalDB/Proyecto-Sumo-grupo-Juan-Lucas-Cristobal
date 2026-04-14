@@ -70,7 +70,7 @@ CMakeFiles/gen_bootloader_binary: .bin_timestamp
 
 .bin_timestamp: bootloader.elf
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build/bootloader/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating binary image from built executable"
-	/home/diazb/esp/idf-tools/python_env/idf6.1_py3.12_env/bin/python -m esptool --chip esp32 elf2image --flash-mode dio --flash-freq 40m --flash-size 2MB --min-rev-full 0 --max-rev-full 399 -o /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build/bootloader/bootloader.bin /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build/bootloader/bootloader.elf
+	/home/diazb/esp/idf-tools/python_env/idf6.1_py3.12_env/bin/python -m esptool --chip esp32s3 elf2image --flash-mode dio --flash-freq 80m --flash-size 2MB --min-rev-full 0 --max-rev-full 99 -o /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build/bootloader/bootloader.bin /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build/bootloader/bootloader.elf
 	/usr/bin/cmake -E echo "Generated /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build/bootloader/bootloader.bin"
 	/usr/bin/cmake -E md5sum /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build/bootloader/bootloader.bin > /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build/bootloader/.bin_timestamp
 

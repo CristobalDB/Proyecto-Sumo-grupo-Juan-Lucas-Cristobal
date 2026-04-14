@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/__idf_esp_hal_mspi.dir/esp32/mspi_periph.c.obj"
-  "CMakeFiles/__idf_esp_hal_mspi.dir/esp32/mspi_periph.c.obj.d"
+  "CMakeFiles/__idf_esp_hal_mspi.dir/esp32s3/mspi_periph.c.obj"
+  "CMakeFiles/__idf_esp_hal_mspi.dir/esp32s3/mspi_periph.c.obj.d"
   "libesp_hal_mspi.a"
   "libesp_hal_mspi.pdb"
 )

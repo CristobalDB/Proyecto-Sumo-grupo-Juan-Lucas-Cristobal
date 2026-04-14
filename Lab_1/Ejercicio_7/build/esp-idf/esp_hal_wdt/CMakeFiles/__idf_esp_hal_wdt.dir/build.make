@@ -69,47 +69,63 @@ include esp-idf/esp_hal_wdt/CMakeFiles/__idf_esp_hal_wdt.dir/progress.make
 # Include the compile flags for this target's objects.
 include esp-idf/esp_hal_wdt/CMakeFiles/__idf_esp_hal_wdt.dir/flags.make
 
-esp-idf/esp_hal_wdt/CMakeFiles/__idf_esp_hal_wdt.dir/esp32/mwdt_periph.c.obj: esp-idf/esp_hal_wdt/CMakeFiles/__idf_esp_hal_wdt.dir/flags.make
-esp-idf/esp_hal_wdt/CMakeFiles/__idf_esp_hal_wdt.dir/esp32/mwdt_periph.c.obj: /home/diazb/esp/esp-idf/components/esp_hal_wdt/esp32/mwdt_periph.c
-esp-idf/esp_hal_wdt/CMakeFiles/__idf_esp_hal_wdt.dir/esp32/mwdt_periph.c.obj: esp-idf/esp_hal_wdt/CMakeFiles/__idf_esp_hal_wdt.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object esp-idf/esp_hal_wdt/CMakeFiles/__idf_esp_hal_wdt.dir/esp32/mwdt_periph.c.obj"
-	cd /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build/esp-idf/esp_hal_wdt && /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/esp_hal_wdt/CMakeFiles/__idf_esp_hal_wdt.dir/esp32/mwdt_periph.c.obj -MF CMakeFiles/__idf_esp_hal_wdt.dir/esp32/mwdt_periph.c.obj.d -o CMakeFiles/__idf_esp_hal_wdt.dir/esp32/mwdt_periph.c.obj -c /home/diazb/esp/esp-idf/components/esp_hal_wdt/esp32/mwdt_periph.c
+esp-idf/esp_hal_wdt/CMakeFiles/__idf_esp_hal_wdt.dir/esp32s3/mwdt_periph.c.obj: esp-idf/esp_hal_wdt/CMakeFiles/__idf_esp_hal_wdt.dir/flags.make
+esp-idf/esp_hal_wdt/CMakeFiles/__idf_esp_hal_wdt.dir/esp32s3/mwdt_periph.c.obj: /home/diazb/esp/esp-idf/components/esp_hal_wdt/esp32s3/mwdt_periph.c
+esp-idf/esp_hal_wdt/CMakeFiles/__idf_esp_hal_wdt.dir/esp32s3/mwdt_periph.c.obj: esp-idf/esp_hal_wdt/CMakeFiles/__idf_esp_hal_wdt.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object esp-idf/esp_hal_wdt/CMakeFiles/__idf_esp_hal_wdt.dir/esp32s3/mwdt_periph.c.obj"
+	cd /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build/esp-idf/esp_hal_wdt && /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/esp_hal_wdt/CMakeFiles/__idf_esp_hal_wdt.dir/esp32s3/mwdt_periph.c.obj -MF CMakeFiles/__idf_esp_hal_wdt.dir/esp32s3/mwdt_periph.c.obj.d -o CMakeFiles/__idf_esp_hal_wdt.dir/esp32s3/mwdt_periph.c.obj -c /home/diazb/esp/esp-idf/components/esp_hal_wdt/esp32s3/mwdt_periph.c
 
-esp-idf/esp_hal_wdt/CMakeFiles/__idf_esp_hal_wdt.dir/esp32/mwdt_periph.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/__idf_esp_hal_wdt.dir/esp32/mwdt_periph.c.i"
-	cd /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build/esp-idf/esp_hal_wdt && /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/diazb/esp/esp-idf/components/esp_hal_wdt/esp32/mwdt_periph.c > CMakeFiles/__idf_esp_hal_wdt.dir/esp32/mwdt_periph.c.i
+esp-idf/esp_hal_wdt/CMakeFiles/__idf_esp_hal_wdt.dir/esp32s3/mwdt_periph.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/__idf_esp_hal_wdt.dir/esp32s3/mwdt_periph.c.i"
+	cd /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build/esp-idf/esp_hal_wdt && /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/diazb/esp/esp-idf/components/esp_hal_wdt/esp32s3/mwdt_periph.c > CMakeFiles/__idf_esp_hal_wdt.dir/esp32s3/mwdt_periph.c.i
 
-esp-idf/esp_hal_wdt/CMakeFiles/__idf_esp_hal_wdt.dir/esp32/mwdt_periph.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/__idf_esp_hal_wdt.dir/esp32/mwdt_periph.c.s"
-	cd /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build/esp-idf/esp_hal_wdt && /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/diazb/esp/esp-idf/components/esp_hal_wdt/esp32/mwdt_periph.c -o CMakeFiles/__idf_esp_hal_wdt.dir/esp32/mwdt_periph.c.s
+esp-idf/esp_hal_wdt/CMakeFiles/__idf_esp_hal_wdt.dir/esp32s3/mwdt_periph.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/__idf_esp_hal_wdt.dir/esp32s3/mwdt_periph.c.s"
+	cd /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build/esp-idf/esp_hal_wdt && /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/diazb/esp/esp-idf/components/esp_hal_wdt/esp32s3/mwdt_periph.c -o CMakeFiles/__idf_esp_hal_wdt.dir/esp32s3/mwdt_periph.c.s
 
-esp-idf/esp_hal_wdt/CMakeFiles/__idf_esp_hal_wdt.dir/wdt_hal_iram.c.obj: esp-idf/esp_hal_wdt/CMakeFiles/__idf_esp_hal_wdt.dir/flags.make
-esp-idf/esp_hal_wdt/CMakeFiles/__idf_esp_hal_wdt.dir/wdt_hal_iram.c.obj: /home/diazb/esp/esp-idf/components/esp_hal_wdt/wdt_hal_iram.c
-esp-idf/esp_hal_wdt/CMakeFiles/__idf_esp_hal_wdt.dir/wdt_hal_iram.c.obj: esp-idf/esp_hal_wdt/CMakeFiles/__idf_esp_hal_wdt.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object esp-idf/esp_hal_wdt/CMakeFiles/__idf_esp_hal_wdt.dir/wdt_hal_iram.c.obj"
-	cd /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build/esp-idf/esp_hal_wdt && /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/esp_hal_wdt/CMakeFiles/__idf_esp_hal_wdt.dir/wdt_hal_iram.c.obj -MF CMakeFiles/__idf_esp_hal_wdt.dir/wdt_hal_iram.c.obj.d -o CMakeFiles/__idf_esp_hal_wdt.dir/wdt_hal_iram.c.obj -c /home/diazb/esp/esp-idf/components/esp_hal_wdt/wdt_hal_iram.c
+esp-idf/esp_hal_wdt/CMakeFiles/__idf_esp_hal_wdt.dir/rom_patch.c.obj: esp-idf/esp_hal_wdt/CMakeFiles/__idf_esp_hal_wdt.dir/flags.make
+esp-idf/esp_hal_wdt/CMakeFiles/__idf_esp_hal_wdt.dir/rom_patch.c.obj: /home/diazb/esp/esp-idf/components/esp_hal_wdt/rom_patch.c
+esp-idf/esp_hal_wdt/CMakeFiles/__idf_esp_hal_wdt.dir/rom_patch.c.obj: esp-idf/esp_hal_wdt/CMakeFiles/__idf_esp_hal_wdt.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object esp-idf/esp_hal_wdt/CMakeFiles/__idf_esp_hal_wdt.dir/rom_patch.c.obj"
+	cd /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build/esp-idf/esp_hal_wdt && /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/esp_hal_wdt/CMakeFiles/__idf_esp_hal_wdt.dir/rom_patch.c.obj -MF CMakeFiles/__idf_esp_hal_wdt.dir/rom_patch.c.obj.d -o CMakeFiles/__idf_esp_hal_wdt.dir/rom_patch.c.obj -c /home/diazb/esp/esp-idf/components/esp_hal_wdt/rom_patch.c
 
-esp-idf/esp_hal_wdt/CMakeFiles/__idf_esp_hal_wdt.dir/wdt_hal_iram.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/__idf_esp_hal_wdt.dir/wdt_hal_iram.c.i"
-	cd /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build/esp-idf/esp_hal_wdt && /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/diazb/esp/esp-idf/components/esp_hal_wdt/wdt_hal_iram.c > CMakeFiles/__idf_esp_hal_wdt.dir/wdt_hal_iram.c.i
+esp-idf/esp_hal_wdt/CMakeFiles/__idf_esp_hal_wdt.dir/rom_patch.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/__idf_esp_hal_wdt.dir/rom_patch.c.i"
+	cd /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build/esp-idf/esp_hal_wdt && /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/diazb/esp/esp-idf/components/esp_hal_wdt/rom_patch.c > CMakeFiles/__idf_esp_hal_wdt.dir/rom_patch.c.i
 
-esp-idf/esp_hal_wdt/CMakeFiles/__idf_esp_hal_wdt.dir/wdt_hal_iram.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/__idf_esp_hal_wdt.dir/wdt_hal_iram.c.s"
-	cd /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build/esp-idf/esp_hal_wdt && /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/diazb/esp/esp-idf/components/esp_hal_wdt/wdt_hal_iram.c -o CMakeFiles/__idf_esp_hal_wdt.dir/wdt_hal_iram.c.s
+esp-idf/esp_hal_wdt/CMakeFiles/__idf_esp_hal_wdt.dir/rom_patch.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/__idf_esp_hal_wdt.dir/rom_patch.c.s"
+	cd /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build/esp-idf/esp_hal_wdt && /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/diazb/esp/esp-idf/components/esp_hal_wdt/rom_patch.c -o CMakeFiles/__idf_esp_hal_wdt.dir/rom_patch.c.s
+
+esp-idf/esp_hal_wdt/CMakeFiles/__idf_esp_hal_wdt.dir/xt_wdt_hal.c.obj: esp-idf/esp_hal_wdt/CMakeFiles/__idf_esp_hal_wdt.dir/flags.make
+esp-idf/esp_hal_wdt/CMakeFiles/__idf_esp_hal_wdt.dir/xt_wdt_hal.c.obj: /home/diazb/esp/esp-idf/components/esp_hal_wdt/xt_wdt_hal.c
+esp-idf/esp_hal_wdt/CMakeFiles/__idf_esp_hal_wdt.dir/xt_wdt_hal.c.obj: esp-idf/esp_hal_wdt/CMakeFiles/__idf_esp_hal_wdt.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object esp-idf/esp_hal_wdt/CMakeFiles/__idf_esp_hal_wdt.dir/xt_wdt_hal.c.obj"
+	cd /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build/esp-idf/esp_hal_wdt && /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/esp_hal_wdt/CMakeFiles/__idf_esp_hal_wdt.dir/xt_wdt_hal.c.obj -MF CMakeFiles/__idf_esp_hal_wdt.dir/xt_wdt_hal.c.obj.d -o CMakeFiles/__idf_esp_hal_wdt.dir/xt_wdt_hal.c.obj -c /home/diazb/esp/esp-idf/components/esp_hal_wdt/xt_wdt_hal.c
+
+esp-idf/esp_hal_wdt/CMakeFiles/__idf_esp_hal_wdt.dir/xt_wdt_hal.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/__idf_esp_hal_wdt.dir/xt_wdt_hal.c.i"
+	cd /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build/esp-idf/esp_hal_wdt && /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/diazb/esp/esp-idf/components/esp_hal_wdt/xt_wdt_hal.c > CMakeFiles/__idf_esp_hal_wdt.dir/xt_wdt_hal.c.i
+
+esp-idf/esp_hal_wdt/CMakeFiles/__idf_esp_hal_wdt.dir/xt_wdt_hal.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/__idf_esp_hal_wdt.dir/xt_wdt_hal.c.s"
+	cd /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build/esp-idf/esp_hal_wdt && /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/diazb/esp/esp-idf/components/esp_hal_wdt/xt_wdt_hal.c -o CMakeFiles/__idf_esp_hal_wdt.dir/xt_wdt_hal.c.s
 
 # Object files for target __idf_esp_hal_wdt
 __idf_esp_hal_wdt_OBJECTS = \
-"CMakeFiles/__idf_esp_hal_wdt.dir/esp32/mwdt_periph.c.obj" \
-"CMakeFiles/__idf_esp_hal_wdt.dir/wdt_hal_iram.c.obj"
+"CMakeFiles/__idf_esp_hal_wdt.dir/esp32s3/mwdt_periph.c.obj" \
+"CMakeFiles/__idf_esp_hal_wdt.dir/rom_patch.c.obj" \
+"CMakeFiles/__idf_esp_hal_wdt.dir/xt_wdt_hal.c.obj"
 
 # External object files for target __idf_esp_hal_wdt
 __idf_esp_hal_wdt_EXTERNAL_OBJECTS =
 
-esp-idf/esp_hal_wdt/libesp_hal_wdt.a: esp-idf/esp_hal_wdt/CMakeFiles/__idf_esp_hal_wdt.dir/esp32/mwdt_periph.c.obj
-esp-idf/esp_hal_wdt/libesp_hal_wdt.a: esp-idf/esp_hal_wdt/CMakeFiles/__idf_esp_hal_wdt.dir/wdt_hal_iram.c.obj
+esp-idf/esp_hal_wdt/libesp_hal_wdt.a: esp-idf/esp_hal_wdt/CMakeFiles/__idf_esp_hal_wdt.dir/esp32s3/mwdt_periph.c.obj
+esp-idf/esp_hal_wdt/libesp_hal_wdt.a: esp-idf/esp_hal_wdt/CMakeFiles/__idf_esp_hal_wdt.dir/rom_patch.c.obj
+esp-idf/esp_hal_wdt/libesp_hal_wdt.a: esp-idf/esp_hal_wdt/CMakeFiles/__idf_esp_hal_wdt.dir/xt_wdt_hal.c.obj
 esp-idf/esp_hal_wdt/libesp_hal_wdt.a: esp-idf/esp_hal_wdt/CMakeFiles/__idf_esp_hal_wdt.dir/build.make
 esp-idf/esp_hal_wdt/libesp_hal_wdt.a: esp-idf/esp_hal_wdt/CMakeFiles/__idf_esp_hal_wdt.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C static library libesp_hal_wdt.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C static library libesp_hal_wdt.a"
 	cd /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build/esp-idf/esp_hal_wdt && $(CMAKE_COMMAND) -P CMakeFiles/__idf_esp_hal_wdt.dir/cmake_clean_target.cmake
 	cd /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build/esp-idf/esp_hal_wdt && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/__idf_esp_hal_wdt.dir/link.txt --verbose=$(VERBOSE)
 

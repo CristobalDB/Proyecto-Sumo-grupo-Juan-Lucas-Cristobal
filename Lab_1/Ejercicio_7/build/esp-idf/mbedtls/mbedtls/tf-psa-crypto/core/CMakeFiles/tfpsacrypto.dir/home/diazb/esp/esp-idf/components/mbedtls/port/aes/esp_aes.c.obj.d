@@ -24,8 +24,8 @@ esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/diazb
  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/inttypes.h \
  /home/diazb/esp/esp-idf/components/esp_rom/include/esp_rom_sys.h \
  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/stdbool.h \
- /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/reset_reasons.h \
- /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/soc_caps.h \
+ /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/reset_reasons.h \
+ /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h \
  /home/diazb/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h \
  /home/diazb/esp/esp-idf/components/log/include/esp_log_config.h \
  /home/diazb/esp/esp-idf/components/log/include/esp_log_level.h \
@@ -51,20 +51,23 @@ esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/diazb
  /home/diazb/esp/esp-idf/components/esp_security/include/esp_crypto_lock.h \
  /home/diazb/esp/esp-idf/components/esp_hal_security/include/hal/aes_hal.h \
  /home/diazb/esp/esp-idf/components/esp_hal_security/include/hal/aes_types.h \
- /home/diazb/esp/esp-idf/components/esp_hal_security/esp32/include/hal/aes_ll.h \
- /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/hwcrypto_reg.h \
- /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/soc.h \
- /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/interrupts.h \
+ /home/diazb/esp/esp-idf/components/esp_hal_security/esp32s3/include/hal/aes_ll.h \
+ /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/hwcrypto_reg.h \
+ /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/soc.h \
  /home/diazb/esp/esp-idf/components/esp_common/include/esp_bit_defs.h \
- /home/diazb/esp/esp-idf/components/soc/esp32/register/soc/reg_base.h \
- /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/dport_access.h \
- /home/diazb/esp/esp-idf/components/soc/esp32/register/soc/dport_reg.h \
+ /home/diazb/esp/esp-idf/components/soc/esp32s3/register/soc/reg_base.h \
+ /home/diazb/esp/esp-idf/components/soc/esp32s3/register/soc/system_struct.h \
  /home/diazb/esp/esp-idf/components/mbedtls/port/aes/include/esp_aes_internal.h \
  /home/diazb/esp/esp-idf/components/mbedtls/port/include/aes/esp_aes.h \
  /home/diazb/esp/esp-idf/components/esp_common/include/esp_types.h \
  /home/diazb/esp/esp-idf/components/mbedtls/port/include/esp_crypto_dma.h \
  /home/diazb/esp/esp-idf/components/esp_hal_dma/include/hal/dma_types.h \
  /home/diazb/esp/esp-idf/components/esp_hal_dma/include/hal/gdma_types.h \
+ /home/diazb/esp/esp-idf/components/esp_hal_dma/esp32s3/include/hal/gdma_channel.h \
+ /home/diazb/esp/esp-idf/components/esp_hal_dma/esp32s3/include/hal/gdma_ll.h \
+ /home/diazb/esp/esp-idf/components/hal/platform_port/include/hal/assert.h \
+ /home/diazb/esp/esp-idf/components/soc/esp32s3/register/soc/gdma_struct.h \
+ /home/diazb/esp/esp-idf/components/soc/esp32s3/register/soc/gdma_reg.h \
  /home/diazb/esp/esp-idf/components/esp_security/include/esp_crypto_periph_clk.h \
  /home/diazb/esp/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/include/mbedtls/platform_util.h \
  /home/diazb/esp/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/include/tf-psa-crypto/build_info.h \
@@ -81,61 +84,4 @@ esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/diazb
  /home/diazb/esp/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/include/mbedtls/config_adjust_legacy_crypto.h \
  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/limits.h \
  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/syslimits.h \
- /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/limits.h \
- /home/diazb/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/FreeRTOS.h \
- /home/diazb/esp/esp-idf/components/freertos/config/include/freertos/FreeRTOSConfig.h \
- /home/diazb/esp/esp-idf/components/freertos/config/xtensa/include/freertos/FreeRTOSConfig_arch.h \
- /home/diazb/esp/esp-idf/components/xtensa/include/xtensa_config.h \
- /home/diazb/esp/esp-idf/components/xtensa/include/xtensa/hal.h \
- /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core.h \
- /home/diazb/esp/esp-idf/components/xtensa/include/xtensa/xtensa-versions.h \
- /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core-isa.h \
- /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core-matmap.h \
- /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/tie.h \
- /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/system.h \
- /home/diazb/esp/esp-idf/components/xtensa/include/xtensa_context.h \
- /home/diazb/esp/esp-idf/components/xtensa/include/xtensa/corebits.h \
- /home/diazb/esp/esp-idf/components/xtensa/include/xtensa/xtruntime-frames.h \
- /home/diazb/esp/esp-idf/components/esp_libc/platform_include/sys/reent.h \
- /home/diazb/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/projdefs.h \
- /home/diazb/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/portable.h \
- /home/diazb/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/deprecated_definitions.h \
- /home/diazb/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/portmacro.h \
- /home/diazb/esp/esp-idf/components/xtensa/include/xtensa/xtruntime.h \
- /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/xt_specreg.h \
- /home/diazb/esp/esp-idf/components/xtensa/include/xtensa/xtruntime-core-state.h \
- /home/diazb/esp/esp-idf/components/xtensa/include/xt_instr_macros.h \
- /home/diazb/esp/esp-idf/components/xtensa/include/xtensa/xtruntime.h \
- /home/diazb/esp/esp-idf/components/esp_hw_support/include/spinlock.h \
- /home/diazb/esp/esp-idf/components/esp_hw_support/include/esp_cpu.h \
- /home/diazb/esp/esp-idf/components/xtensa/include/xtensa_api.h \
- /home/diazb/esp/esp-idf/components/xtensa/include/xt_utils.h \
- /home/diazb/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/extreg.h \
- /home/diazb/esp/esp-idf/components/esp_hw_support/include/esp_intr_alloc.h \
- /home/diazb/esp/esp-idf/components/esp_libc/platform_include/stdio.h \
- /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/stdio.h \
- /home/diazb/esp/esp-idf/components/esp_libc/platform_include/sys/lock.h \
- /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/lock.h \
- /home/diazb/esp/esp-idf/components/esp_common/include/esp_err.h \
- /home/diazb/esp/esp-idf/components/esp_hw_support/include/esp_intr_types.h \
- /home/diazb/esp/esp-idf/components/esp_system/include/esp_private/crosscore_int.h \
- /home/diazb/esp/esp-idf/components/esp_hw_support/include/esp_memory_utils.h \
- /home/diazb/esp/esp-idf/components/esp_libc/platform_include/esp_newlib.h \
- /home/diazb/esp/esp-idf/components/heap/include/esp_heap_caps.h \
- /home/diazb/esp/esp-idf/components/heap/include/multi_heap.h \
- /home/diazb/esp/esp-idf/components/esp_system/include/esp_system.h \
- /home/diazb/esp/esp-idf/components/esp_common/include/esp_idf_version.h \
- /home/diazb/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/portbenchmark.h \
- /home/diazb/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/mpu_wrappers.h \
- /home/diazb/esp/esp-idf/components/freertos/esp_additions/include/freertos/idf_additions.h \
- /home/diazb/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/task.h \
- /home/diazb/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/list.h \
- /home/diazb/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/queue.h \
- /home/diazb/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/task.h \
- /home/diazb/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/semphr.h \
- /home/diazb/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/queue.h \
- /home/diazb/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/stream_buffer.h \
- /home/diazb/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/message_buffer.h \
- /home/diazb/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/stream_buffer.h \
- /home/diazb/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/event_groups.h \
- /home/diazb/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/timers.h
+ /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/limits.h

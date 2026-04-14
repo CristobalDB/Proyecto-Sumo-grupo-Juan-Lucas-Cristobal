@@ -44,12 +44,12 @@ esp-idf/esp_partition/CMakeFiles/__idf_esp_partition.dir/partition_target.c.obj:
  /home/diazb/esp/esp-idf/components/esp_blockdev/include/esp_blockdev.h \
  /home/diazb/esp/esp-idf/components/esp_partition/include/esp_partition.h \
  /home/diazb/esp/esp-idf/components/bootloader_support/include/esp_flash_encrypt.h \
- /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/soc_caps.h \
+ /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h \
  /home/diazb/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h \
  /home/diazb/esp/esp-idf/components/log/include/esp_log.h \
  /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/inttypes.h \
  /home/diazb/esp/esp-idf/components/esp_rom/include/esp_rom_sys.h \
- /home/diazb/esp/esp-idf/components/soc/esp32/include/soc/reset_reasons.h \
+ /home/diazb/esp/esp-idf/components/soc/esp32s3/include/soc/reset_reasons.h \
  /home/diazb/esp/esp-idf/components/log/include/esp_log_config.h \
  /home/diazb/esp/esp-idf/components/log/include/esp_log_level.h \
  /home/diazb/esp/esp-idf/components/esp_common/include/esp_assert.h \

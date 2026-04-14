@@ -73,123 +73,107 @@ esp-idf/soc/CMakeFiles/__idf_soc.dir/lldesc.c.obj: esp-idf/soc/CMakeFiles/__idf_
 esp-idf/soc/CMakeFiles/__idf_soc.dir/lldesc.c.obj: /home/diazb/esp/esp-idf/components/soc/lldesc.c
 esp-idf/soc/CMakeFiles/__idf_soc.dir/lldesc.c.obj: esp-idf/soc/CMakeFiles/__idf_soc.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/lldesc.c.obj"
-	cd /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build/esp-idf/soc && /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/soc/CMakeFiles/__idf_soc.dir/lldesc.c.obj -MF CMakeFiles/__idf_soc.dir/lldesc.c.obj.d -o CMakeFiles/__idf_soc.dir/lldesc.c.obj -c /home/diazb/esp/esp-idf/components/soc/lldesc.c
+	cd /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build/esp-idf/soc && /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/soc/CMakeFiles/__idf_soc.dir/lldesc.c.obj -MF CMakeFiles/__idf_soc.dir/lldesc.c.obj.d -o CMakeFiles/__idf_soc.dir/lldesc.c.obj -c /home/diazb/esp/esp-idf/components/soc/lldesc.c
 
 esp-idf/soc/CMakeFiles/__idf_soc.dir/lldesc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/__idf_soc.dir/lldesc.c.i"
-	cd /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build/esp-idf/soc && /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/diazb/esp/esp-idf/components/soc/lldesc.c > CMakeFiles/__idf_soc.dir/lldesc.c.i
+	cd /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build/esp-idf/soc && /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/diazb/esp/esp-idf/components/soc/lldesc.c > CMakeFiles/__idf_soc.dir/lldesc.c.i
 
 esp-idf/soc/CMakeFiles/__idf_soc.dir/lldesc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/__idf_soc.dir/lldesc.c.s"
-	cd /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build/esp-idf/soc && /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/diazb/esp/esp-idf/components/soc/lldesc.c -o CMakeFiles/__idf_soc.dir/lldesc.c.s
+	cd /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build/esp-idf/soc && /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/diazb/esp/esp-idf/components/soc/lldesc.c -o CMakeFiles/__idf_soc.dir/lldesc.c.s
 
 esp-idf/soc/CMakeFiles/__idf_soc.dir/dport_access_common.c.obj: esp-idf/soc/CMakeFiles/__idf_soc.dir/flags.make
 esp-idf/soc/CMakeFiles/__idf_soc.dir/dport_access_common.c.obj: /home/diazb/esp/esp-idf/components/soc/dport_access_common.c
 esp-idf/soc/CMakeFiles/__idf_soc.dir/dport_access_common.c.obj: esp-idf/soc/CMakeFiles/__idf_soc.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/dport_access_common.c.obj"
-	cd /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build/esp-idf/soc && /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/soc/CMakeFiles/__idf_soc.dir/dport_access_common.c.obj -MF CMakeFiles/__idf_soc.dir/dport_access_common.c.obj.d -o CMakeFiles/__idf_soc.dir/dport_access_common.c.obj -c /home/diazb/esp/esp-idf/components/soc/dport_access_common.c
+	cd /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build/esp-idf/soc && /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/soc/CMakeFiles/__idf_soc.dir/dport_access_common.c.obj -MF CMakeFiles/__idf_soc.dir/dport_access_common.c.obj.d -o CMakeFiles/__idf_soc.dir/dport_access_common.c.obj -c /home/diazb/esp/esp-idf/components/soc/dport_access_common.c
 
 esp-idf/soc/CMakeFiles/__idf_soc.dir/dport_access_common.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/__idf_soc.dir/dport_access_common.c.i"
-	cd /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build/esp-idf/soc && /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/diazb/esp/esp-idf/components/soc/dport_access_common.c > CMakeFiles/__idf_soc.dir/dport_access_common.c.i
+	cd /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build/esp-idf/soc && /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/diazb/esp/esp-idf/components/soc/dport_access_common.c > CMakeFiles/__idf_soc.dir/dport_access_common.c.i
 
 esp-idf/soc/CMakeFiles/__idf_soc.dir/dport_access_common.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/__idf_soc.dir/dport_access_common.c.s"
-	cd /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build/esp-idf/soc && /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/diazb/esp/esp-idf/components/soc/dport_access_common.c -o CMakeFiles/__idf_soc.dir/dport_access_common.c.s
+	cd /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build/esp-idf/soc && /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/diazb/esp/esp-idf/components/soc/dport_access_common.c -o CMakeFiles/__idf_soc.dir/dport_access_common.c.s
 
-esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/interrupts.c.obj: esp-idf/soc/CMakeFiles/__idf_soc.dir/flags.make
-esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/interrupts.c.obj: /home/diazb/esp/esp-idf/components/soc/esp32/interrupts.c
-esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/interrupts.c.obj: esp-idf/soc/CMakeFiles/__idf_soc.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/interrupts.c.obj"
-	cd /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build/esp-idf/soc && /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/interrupts.c.obj -MF CMakeFiles/__idf_soc.dir/esp32/interrupts.c.obj.d -o CMakeFiles/__idf_soc.dir/esp32/interrupts.c.obj -c /home/diazb/esp/esp-idf/components/soc/esp32/interrupts.c
+esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/interrupts.c.obj: esp-idf/soc/CMakeFiles/__idf_soc.dir/flags.make
+esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/interrupts.c.obj: /home/diazb/esp/esp-idf/components/soc/esp32s3/interrupts.c
+esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/interrupts.c.obj: esp-idf/soc/CMakeFiles/__idf_soc.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/interrupts.c.obj"
+	cd /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build/esp-idf/soc && /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/interrupts.c.obj -MF CMakeFiles/__idf_soc.dir/esp32s3/interrupts.c.obj.d -o CMakeFiles/__idf_soc.dir/esp32s3/interrupts.c.obj -c /home/diazb/esp/esp-idf/components/soc/esp32s3/interrupts.c
 
-esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/interrupts.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/__idf_soc.dir/esp32/interrupts.c.i"
-	cd /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build/esp-idf/soc && /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/diazb/esp/esp-idf/components/soc/esp32/interrupts.c > CMakeFiles/__idf_soc.dir/esp32/interrupts.c.i
+esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/interrupts.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/__idf_soc.dir/esp32s3/interrupts.c.i"
+	cd /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build/esp-idf/soc && /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/diazb/esp/esp-idf/components/soc/esp32s3/interrupts.c > CMakeFiles/__idf_soc.dir/esp32s3/interrupts.c.i
 
-esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/interrupts.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/__idf_soc.dir/esp32/interrupts.c.s"
-	cd /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build/esp-idf/soc && /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/diazb/esp/esp-idf/components/soc/esp32/interrupts.c -o CMakeFiles/__idf_soc.dir/esp32/interrupts.c.s
+esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/interrupts.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/__idf_soc.dir/esp32s3/interrupts.c.s"
+	cd /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build/esp-idf/soc && /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/diazb/esp/esp-idf/components/soc/esp32s3/interrupts.c -o CMakeFiles/__idf_soc.dir/esp32s3/interrupts.c.s
 
-esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/gpio_periph.c.obj: esp-idf/soc/CMakeFiles/__idf_soc.dir/flags.make
-esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/gpio_periph.c.obj: /home/diazb/esp/esp-idf/components/soc/esp32/gpio_periph.c
-esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/gpio_periph.c.obj: esp-idf/soc/CMakeFiles/__idf_soc.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/gpio_periph.c.obj"
-	cd /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build/esp-idf/soc && /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/gpio_periph.c.obj -MF CMakeFiles/__idf_soc.dir/esp32/gpio_periph.c.obj.d -o CMakeFiles/__idf_soc.dir/esp32/gpio_periph.c.obj -c /home/diazb/esp/esp-idf/components/soc/esp32/gpio_periph.c
+esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/gpio_periph.c.obj: esp-idf/soc/CMakeFiles/__idf_soc.dir/flags.make
+esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/gpio_periph.c.obj: /home/diazb/esp/esp-idf/components/soc/esp32s3/gpio_periph.c
+esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/gpio_periph.c.obj: esp-idf/soc/CMakeFiles/__idf_soc.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/gpio_periph.c.obj"
+	cd /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build/esp-idf/soc && /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/gpio_periph.c.obj -MF CMakeFiles/__idf_soc.dir/esp32s3/gpio_periph.c.obj.d -o CMakeFiles/__idf_soc.dir/esp32s3/gpio_periph.c.obj -c /home/diazb/esp/esp-idf/components/soc/esp32s3/gpio_periph.c
 
-esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/gpio_periph.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/__idf_soc.dir/esp32/gpio_periph.c.i"
-	cd /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build/esp-idf/soc && /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/diazb/esp/esp-idf/components/soc/esp32/gpio_periph.c > CMakeFiles/__idf_soc.dir/esp32/gpio_periph.c.i
+esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/gpio_periph.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/__idf_soc.dir/esp32s3/gpio_periph.c.i"
+	cd /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build/esp-idf/soc && /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/diazb/esp/esp-idf/components/soc/esp32s3/gpio_periph.c > CMakeFiles/__idf_soc.dir/esp32s3/gpio_periph.c.i
 
-esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/gpio_periph.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/__idf_soc.dir/esp32/gpio_periph.c.s"
-	cd /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build/esp-idf/soc && /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/diazb/esp/esp-idf/components/soc/esp32/gpio_periph.c -o CMakeFiles/__idf_soc.dir/esp32/gpio_periph.c.s
+esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/gpio_periph.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/__idf_soc.dir/esp32s3/gpio_periph.c.s"
+	cd /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build/esp-idf/soc && /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/diazb/esp/esp-idf/components/soc/esp32s3/gpio_periph.c -o CMakeFiles/__idf_soc.dir/esp32s3/gpio_periph.c.s
 
-esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/dport_access.c.obj: esp-idf/soc/CMakeFiles/__idf_soc.dir/flags.make
-esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/dport_access.c.obj: /home/diazb/esp/esp-idf/components/soc/esp32/dport_access.c
-esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/dport_access.c.obj: esp-idf/soc/CMakeFiles/__idf_soc.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/dport_access.c.obj"
-	cd /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build/esp-idf/soc && /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/dport_access.c.obj -MF CMakeFiles/__idf_soc.dir/esp32/dport_access.c.obj.d -o CMakeFiles/__idf_soc.dir/esp32/dport_access.c.obj -c /home/diazb/esp/esp-idf/components/soc/esp32/dport_access.c
+esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/mpi_periph.c.obj: esp-idf/soc/CMakeFiles/__idf_soc.dir/flags.make
+esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/mpi_periph.c.obj: /home/diazb/esp/esp-idf/components/soc/esp32s3/mpi_periph.c
+esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/mpi_periph.c.obj: esp-idf/soc/CMakeFiles/__idf_soc.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/mpi_periph.c.obj"
+	cd /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build/esp-idf/soc && /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/mpi_periph.c.obj -MF CMakeFiles/__idf_soc.dir/esp32s3/mpi_periph.c.obj.d -o CMakeFiles/__idf_soc.dir/esp32s3/mpi_periph.c.obj -c /home/diazb/esp/esp-idf/components/soc/esp32s3/mpi_periph.c
 
-esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/dport_access.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/__idf_soc.dir/esp32/dport_access.c.i"
-	cd /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build/esp-idf/soc && /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/diazb/esp/esp-idf/components/soc/esp32/dport_access.c > CMakeFiles/__idf_soc.dir/esp32/dport_access.c.i
+esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/mpi_periph.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/__idf_soc.dir/esp32s3/mpi_periph.c.i"
+	cd /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build/esp-idf/soc && /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/diazb/esp/esp-idf/components/soc/esp32s3/mpi_periph.c > CMakeFiles/__idf_soc.dir/esp32s3/mpi_periph.c.i
 
-esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/dport_access.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/__idf_soc.dir/esp32/dport_access.c.s"
-	cd /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build/esp-idf/soc && /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/diazb/esp/esp-idf/components/soc/esp32/dport_access.c -o CMakeFiles/__idf_soc.dir/esp32/dport_access.c.s
+esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/mpi_periph.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/__idf_soc.dir/esp32s3/mpi_periph.c.s"
+	cd /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build/esp-idf/soc && /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/diazb/esp/esp-idf/components/soc/esp32s3/mpi_periph.c -o CMakeFiles/__idf_soc.dir/esp32s3/mpi_periph.c.s
 
-esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/mpi_periph.c.obj: esp-idf/soc/CMakeFiles/__idf_soc.dir/flags.make
-esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/mpi_periph.c.obj: /home/diazb/esp/esp-idf/components/soc/esp32/mpi_periph.c
-esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/mpi_periph.c.obj: esp-idf/soc/CMakeFiles/__idf_soc.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/mpi_periph.c.obj"
-	cd /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build/esp-idf/soc && /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/mpi_periph.c.obj -MF CMakeFiles/__idf_soc.dir/esp32/mpi_periph.c.obj.d -o CMakeFiles/__idf_soc.dir/esp32/mpi_periph.c.obj -c /home/diazb/esp/esp-idf/components/soc/esp32/mpi_periph.c
+esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/power_supply_periph.c.obj: esp-idf/soc/CMakeFiles/__idf_soc.dir/flags.make
+esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/power_supply_periph.c.obj: /home/diazb/esp/esp-idf/components/soc/esp32s3/power_supply_periph.c
+esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/power_supply_periph.c.obj: esp-idf/soc/CMakeFiles/__idf_soc.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/power_supply_periph.c.obj"
+	cd /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build/esp-idf/soc && /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/power_supply_periph.c.obj -MF CMakeFiles/__idf_soc.dir/esp32s3/power_supply_periph.c.obj.d -o CMakeFiles/__idf_soc.dir/esp32s3/power_supply_periph.c.obj -c /home/diazb/esp/esp-idf/components/soc/esp32s3/power_supply_periph.c
 
-esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/mpi_periph.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/__idf_soc.dir/esp32/mpi_periph.c.i"
-	cd /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build/esp-idf/soc && /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/diazb/esp/esp-idf/components/soc/esp32/mpi_periph.c > CMakeFiles/__idf_soc.dir/esp32/mpi_periph.c.i
+esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/power_supply_periph.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/__idf_soc.dir/esp32s3/power_supply_periph.c.i"
+	cd /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build/esp-idf/soc && /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/diazb/esp/esp-idf/components/soc/esp32s3/power_supply_periph.c > CMakeFiles/__idf_soc.dir/esp32s3/power_supply_periph.c.i
 
-esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/mpi_periph.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/__idf_soc.dir/esp32/mpi_periph.c.s"
-	cd /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build/esp-idf/soc && /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/diazb/esp/esp-idf/components/soc/esp32/mpi_periph.c -o CMakeFiles/__idf_soc.dir/esp32/mpi_periph.c.s
-
-esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/power_supply_periph.c.obj: esp-idf/soc/CMakeFiles/__idf_soc.dir/flags.make
-esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/power_supply_periph.c.obj: /home/diazb/esp/esp-idf/components/soc/esp32/power_supply_periph.c
-esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/power_supply_periph.c.obj: esp-idf/soc/CMakeFiles/__idf_soc.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/power_supply_periph.c.obj"
-	cd /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build/esp-idf/soc && /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/power_supply_periph.c.obj -MF CMakeFiles/__idf_soc.dir/esp32/power_supply_periph.c.obj.d -o CMakeFiles/__idf_soc.dir/esp32/power_supply_periph.c.obj -c /home/diazb/esp/esp-idf/components/soc/esp32/power_supply_periph.c
-
-esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/power_supply_periph.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/__idf_soc.dir/esp32/power_supply_periph.c.i"
-	cd /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build/esp-idf/soc && /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/diazb/esp/esp-idf/components/soc/esp32/power_supply_periph.c > CMakeFiles/__idf_soc.dir/esp32/power_supply_periph.c.i
-
-esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/power_supply_periph.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/__idf_soc.dir/esp32/power_supply_periph.c.s"
-	cd /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build/esp-idf/soc && /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/diazb/esp/esp-idf/components/soc/esp32/power_supply_periph.c -o CMakeFiles/__idf_soc.dir/esp32/power_supply_periph.c.s
+esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/power_supply_periph.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/__idf_soc.dir/esp32s3/power_supply_periph.c.s"
+	cd /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build/esp-idf/soc && /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/diazb/esp/esp-idf/components/soc/esp32s3/power_supply_periph.c -o CMakeFiles/__idf_soc.dir/esp32s3/power_supply_periph.c.s
 
 # Object files for target __idf_soc
 __idf_soc_OBJECTS = \
 "CMakeFiles/__idf_soc.dir/lldesc.c.obj" \
 "CMakeFiles/__idf_soc.dir/dport_access_common.c.obj" \
-"CMakeFiles/__idf_soc.dir/esp32/interrupts.c.obj" \
-"CMakeFiles/__idf_soc.dir/esp32/gpio_periph.c.obj" \
-"CMakeFiles/__idf_soc.dir/esp32/dport_access.c.obj" \
-"CMakeFiles/__idf_soc.dir/esp32/mpi_periph.c.obj" \
-"CMakeFiles/__idf_soc.dir/esp32/power_supply_periph.c.obj"
+"CMakeFiles/__idf_soc.dir/esp32s3/interrupts.c.obj" \
+"CMakeFiles/__idf_soc.dir/esp32s3/gpio_periph.c.obj" \
+"CMakeFiles/__idf_soc.dir/esp32s3/mpi_periph.c.obj" \
+"CMakeFiles/__idf_soc.dir/esp32s3/power_supply_periph.c.obj"
 
 # External object files for target __idf_soc
 __idf_soc_EXTERNAL_OBJECTS =
 
 esp-idf/soc/libsoc.a: esp-idf/soc/CMakeFiles/__idf_soc.dir/lldesc.c.obj
 esp-idf/soc/libsoc.a: esp-idf/soc/CMakeFiles/__idf_soc.dir/dport_access_common.c.obj
-esp-idf/soc/libsoc.a: esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/interrupts.c.obj
-esp-idf/soc/libsoc.a: esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/gpio_periph.c.obj
-esp-idf/soc/libsoc.a: esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/dport_access.c.obj
-esp-idf/soc/libsoc.a: esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/mpi_periph.c.obj
-esp-idf/soc/libsoc.a: esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/power_supply_periph.c.obj
+esp-idf/soc/libsoc.a: esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/interrupts.c.obj
+esp-idf/soc/libsoc.a: esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/gpio_periph.c.obj
+esp-idf/soc/libsoc.a: esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/mpi_periph.c.obj
+esp-idf/soc/libsoc.a: esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/power_supply_periph.c.obj
 esp-idf/soc/libsoc.a: esp-idf/soc/CMakeFiles/__idf_soc.dir/build.make
 esp-idf/soc/libsoc.a: esp-idf/soc/CMakeFiles/__idf_soc.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking C static library libsoc.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking C static library libsoc.a"
 	cd /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build/esp-idf/soc && $(CMAKE_COMMAND) -P CMakeFiles/__idf_soc.dir/cmake_clean_target.cmake
 	cd /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_7/build/esp-idf/soc && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/__idf_soc.dir/link.txt --verbose=$(VERBOSE)
 
