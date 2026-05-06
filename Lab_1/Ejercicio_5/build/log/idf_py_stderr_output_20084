@@ -1,0 +1,11 @@
+Command: cmake -G Unix Makefiles -B /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_5/build -DPYTHON_DEPS_CHECKED=1 -DPYTHON=/home/diazb/esp/idf-tools/python_env/idf6.1_py3.12_env/bin/python -DESP_PLATFORM=1 -DIDF_TARGET=esp32s3 -DCCACHE_ENABLE=False /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_1/Ejercicio_5
+CMake Error at /home/diazb/esp/esp-idf/tools/cmake/build.cmake:380 (message):
+  Failed to resolve component 'esp_dsp' required by component 'main': unknown
+  name.
+Call Stack (most recent call first):
+  /home/diazb/esp/esp-idf/tools/cmake/build.cmake:423 (__build_resolve_and_add_req)
+  /home/diazb/esp/esp-idf/tools/cmake/build.cmake:753 (__build_expand_requirements)
+  /home/diazb/esp/esp-idf/tools/cmake/project.cmake:753 (idf_build_process)
+  CMakeLists.txt:3 (project)
+
+
