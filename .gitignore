@@ -1,0 +1,11 @@
+**/.pio/
+.pio/
+
+
+**/.vscode/
+.vscode/
+
+
+*.db
+*.ipch
+**/ipch/
