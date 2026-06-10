@@ -1,0 +1,103 @@
+Command: /home/diazb/esp/idf-tools/python_env/idf6.1_py3.12_env/bin/python /home/diazb/esp/esp-idf/tools/idf_monitor.py -p /dev/ttyUSB0 -b 115200 --toolchain-prefix xtensa-esp32s3-elf- --target esp32s3 --revision 0 /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_3/projects_tf/hello_world/build/hello_world.elf /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_3/projects_tf/hello_world/build/bootloader/bootloader.elf -m '/home/diazb/esp/idf-tools/python_env/idf6.1_py3.12_env/bin/python' '/home/diazb/esp/esp-idf/tools/idf.py' '-p' '/dev/ttyUSB0'
+ESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0x1 (POWERON),boot:0x28 (SPI_FAST_FLASH_BOOT)
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce2820,len:0x1664
+load:0x403c8700,len:0xf38
+load:0x403cb700,len:0x31ec
+entry 0x403c8930
+[0;32mI (25) boot: ESP-IDF v6.1-dev-2938-g12f36a021f 2nd stage bootloader[0m
+[0;32mI (25) boot: compile time May 26 2026 16:38:31[0m
+[0;32mI (25) boot: Multicore bootloader[0m
+[0;32mI (27) boot: chip revision: v0.2[0m
+[0;32mI (30) boot: efuse block revision: v1.4[0m
+[0;32mI (33) qio_mode: Enabling QIO for flash chip MXIC[0m
+[0;32mI (38) boot.esp32s3: Boot SPI Speed : 80MHz[0m
+[0;32mI (41) boot.esp32s3: SPI Mode       : QIO[0m
+[0;32mI (45) boot.esp32s3: SPI Flash Size : 2MB[0m
+[0;32mI (49) boot: Enabling RNG early entropy source...[0m
+[0;32mI (53) boot: Partition Table:[0m
+[0;32mI (56) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (62) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (69) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (75) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (82) boot: End of partition table[0m
+[0;32mI (85) esp_image: segment 0: paddr=00010020 vaddr=3c020020 size=0c3c4h ( 50116) map[0m
+[0;32mI (100) esp_image: segment 1: paddr=0001c3ec vaddr=3fc8f400 size=02f80h ( 12160) load[0m
+[0;32mI (103) esp_image: segment 2: paddr=0001f374 vaddr=40374000 size=00ca4h (  3236) load[0m
+[0;32mI (108) esp_image: segment 3: paddr=00020020 vaddr=42000020 size=14814h ( 83988) map[0m
+[0;32mI (128) esp_image: segment 4: paddr=0003483c vaddr=40374ca4 size=0a6d4h ( 42708) load[0m
+[0;32mI (136) esp_image: segment 5: paddr=0003ef18 vaddr=50000000 size=00024h (    36) load[0m
+[0;32mI (142) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (142) boot: Disabling RNG early entropy source...[0m
+[0;32mI (154) cpu_start: Multicore app[0m
+[0;32mI (162) cpu_start: GPIO 44 and 43 are used as console UART I/O pins[0m
+[0;32mI (163) cpu_start: Pro cpu start user code[0m
+[0;32mI (163) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (165) app_init: Application information:[0m
+[0;32mI (169) app_init: Project name:     hello_world[0m
+[0;32mI (173) app_init: App version:      d0dc7862-dirty[0m
+[0;32mI (177) app_init: Compile time:     May 26 2026 16:38:56[0m
+[0;32mI (182) app_init: ELF file SHA256:  54710d8d3...[0m
+[0;32mI (187) app_init: ESP-IDF:          v6.1-dev-2938-g12f36a021f[0m
+[0;32mI (192) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (196) efuse_init: Max chip rev:     v0.99 [0m
+[0;32mI (200) efuse_init: Chip rev:         v0.2[0m
+[0;32mI (204) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (210) heap_init: At 3FC93780 len 00055F90 (343 KiB): RAM[0m
+[0;32mI (215) heap_init: At 3FCE9710 len 00005724 (21 KiB): RAM[0m
+[0;32mI (220) heap_init: At 3FCF0000 len 00008000 (32 KiB): DRAM[0m
+[0;32mI (226) heap_init: At 600FE000 len 00001FE8 (7 KiB): RTCRAM[0m
+[0;32mI (231) spi_flash: detected chip: mxic[0m
+[0;32mI (234) spi_flash: flash io: qio[0m
+[0;33mW (237) spi_flash: Detected size(16384k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (250) sleep_gpio: Configure to isolate all GPIO pins in sleep state[0m
+[0;32mI (256) sleep_gpio: Enable automatic switching of GPIO sleep configuration[0m
+[0;32mI (263) main_task: Started on CPU0[0m
+[0;32mI (283) main_task: Calling app_main()[0m
+x: 0.000 | y_TF: 0.000 (139 us) | y_Manual: 0.026 (61 us)
+x: 0.314 | y_TF: 0.373 (60 us) | y_Manual: 0.291 (21 us)
+x: 0.628 | y_TF: 0.559 (52 us) | y_Manual: 0.566 (19 us)
+x: 0.942 | y_TF: 0.839 (50 us) | y_Manual: 0.819 (20 us)
+x: 1.257 | y_TF: 0.966 (50 us) | y_Manual: 0.933 (20 us)
+x: 1.571 | y_TF: 1.042 (50 us) | y_Manual: 0.996 (20 us)
+x: 1.885 | y_TF: 0.957 (50 us) | y_Manual: 0.932 (20 us)
+x: 2.199 | y_TF: 0.822 (50 us) | y_Manual: 0.810 (20 us)
+x: 2.513 | y_TF: 0.534 (50 us) | y_Manual: 0.584 (20 us)
+x: 2.827 | y_TF: 0.237 (50 us) | y_Manual: 0.289 (20 us)
+x: 3.142 | y_TF: 0.008 (50 us) | y_Manual: -0.005 (20 us)
+x: 3.456 | y_TF: -0.305 (50 us) | y_Manual: -0.299 (20 us)
+x: 3.770 | y_TF: -0.534 (50 us) | y_Manual: -0.579 (20 us)
+x: 4.084 | y_TF: -0.779 (50 us) | y_Manual: -0.839 (20 us)
+x: 4.398 | y_TF: -0.966 (50 us) | y_Manual: -0.947 (20 us)
+x: 4.712 | y_TF: -1.110 (50 us) | y_Manual: -1.006 (20 us)
+x: 5.027 | y_TF: -0.983 (50 us) | y_Manual: -0.950 (20 us)
+x: 5.341 | y_TF: -0.746 (50 us) | y_Manual: -0.809 (20 us)
+x: 5.655 | y_TF: -0.534 (50 us) | y_Manual: -0.574 (20 us)
+x: 5.969 | y_TF: -0.356 (50 us) | y_Manual: -0.307 (20 us)
+x: 0.000 | y_TF: 0.000 (50 us) | y_Manual: 0.026 (20 us)
+x: 0.314 | y_TF: 0.373 (50 us) | y_Manual: 0.291 (20 us)
+x: 0.628 | y_TF: 0.559 (50 us) | y_Manual: 0.566 (20 us)
+x: 0.942 | y_TF: 0.839 (50 us) | y_Manual: 0.819 (20 us)
+x: 1.257 | y_TF: 0.966 (50 us) | y_Manual: 0.933 (20 us)
+x: 1.571 | y_TF: 1.042 (50 us) | y_Manual: 0.996 (20 us)
+x: 1.885 | y_TF: 0.957 (50 us) | y_Manual: 0.932 (20 us)
+x: 2.199 | y_TF: 0.822 (50 us) | y_Manual: 0.810 (20 us)
+x: 2.513 | y_TF: 0.534 (50 us) | y_Manual: 0.584 (20 us)
+x: 2.827 | y_TF: 0.237 (50 us) | y_Manual: 0.289 (20 us)
+x: 3.142 | y_TF: 0.008 (50 us) | y_Manual: -0.005 (20 us)
+x: 3.456 | y_TF: -0.305 (50 us) | y_Manual: -0.299 (20 us)
+x: 3.770 | y_TF: -0.534 (50 us) | y_Manual: -0.579 (20 us)
+x: 4.084 | y_TF: -0.779 (50 us) | y_Manual: -0.839 (20 us)
+x: 4.398 | y_TF: -0.966 (50 us) | y_Manual: -0.947 (20 us)
+x: 4.712 | y_TF: -1.110 (50 us) | y_Manual: -1.006 (20 us)
+x: 5.027 | y_TF: -0.983 (50 us) | y_Manual: -0.950 (20 us)
+x: 5.341 | y_TF: -0.746 (50 us) | y_Manual: -0.809 (20 us)
+x: 5.655 | y_TF: -0.534 (50 us) | y_Manual: -0.574 (20 us)
+x: 5.969 | y_TF: -0.356 (50 us) | y_Manual: -0.307 (20 us)
+x: 0.000 | y_TF: 0.000 (50 us) | y_Manual: 0.026 (20 us)
+x: 0.314 | y_TF: 0.373 (50 us) | y_Manual: 0.291 (20 us)
+x: 0.628 | y_TF: 0.559 (50 us) | y_Manual: 0.566 (20 us)
+x: 0.942 | y_TF: 0.839 (50 us) | y_Manual: 0.819 (20 us)

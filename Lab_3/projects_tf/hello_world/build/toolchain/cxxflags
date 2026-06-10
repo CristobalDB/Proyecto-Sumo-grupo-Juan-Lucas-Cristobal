@@ -1,0 +1,6 @@
+-mlongcalls
+-fno-builtin-memcpy
+-fno-builtin-memset
+-fno-builtin-bzero
+"-specs=/home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_3/projects_tf/hello_world/build/specs/picolibc.specs"
+-fno-rtti

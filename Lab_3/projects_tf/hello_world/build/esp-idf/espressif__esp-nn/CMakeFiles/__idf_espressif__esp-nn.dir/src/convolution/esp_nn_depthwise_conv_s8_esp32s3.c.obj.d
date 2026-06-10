@@ -1,0 +1,31 @@
+esp-idf/espressif__esp-nn/CMakeFiles/__idf_espressif__esp-nn.dir/src/convolution/esp_nn_depthwise_conv_s8_esp32s3.c.obj: \
+ /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_3/projects_tf/hello_world/managed_components/espressif__esp-nn/src/convolution/esp_nn_depthwise_conv_s8_esp32s3.c \
+ /home/diazb/esp/esp-idf/components/esp_libc/platform_include/stdio.h \
+ /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_3/projects_tf/hello_world/build/config/sdkconfig.h \
+ /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/stddef.h \
+ /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/features.h \
+ /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/picolibc.h \
+ /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/stdio.h \
+ /home/diazb/esp/esp-idf/components/esp_libc/platform_include/sys/cdefs.h \
+ /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/cdefs.h \
+ /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/config.h \
+ /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/machine/ieeefp.h \
+ /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/float.h \
+ /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/machine/_default_types.h \
+ /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/stdint.h \
+ /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/_intsup.h \
+ /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/_stdint.h \
+ /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/stdarg.h \
+ /home/diazb/esp/esp-idf/components/esp_libc/platform_include/sys/lock.h \
+ /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/lock.h \
+ /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/_types.h \
+ /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/machine/_types.h \
+ /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_3/projects_tf/hello_world/managed_components/espressif__esp-nn/include/esp_nn_defs.h \
+ /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_3/projects_tf/hello_world/managed_components/espressif__esp-nn/src/common/common_functions.h \
+ /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/stdbool.h \
+ /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/string.h \
+ /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/_locale.h \
+ /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/strings.h \
+ /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/string.h \
+ /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_3/projects_tf/hello_world/managed_components/espressif__esp-nn/include/esp_nn_generic_opt.h \
+ /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_3/projects_tf/hello_world/managed_components/espressif__esp-nn/include/esp_nn_ansi_headers.h

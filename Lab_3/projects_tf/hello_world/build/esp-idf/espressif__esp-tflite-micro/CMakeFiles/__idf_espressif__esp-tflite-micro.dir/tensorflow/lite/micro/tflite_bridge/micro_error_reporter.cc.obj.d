@@ -1,0 +1,30 @@
+esp-idf/espressif__esp-tflite-micro/CMakeFiles/__idf_espressif__esp-tflite-micro.dir/tensorflow/lite/micro/tflite_bridge/micro_error_reporter.cc.obj: \
+ /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_3/projects_tf/hello_world/managed_components/espressif__esp-tflite-micro/tensorflow/lite/micro/tflite_bridge/micro_error_reporter.cc \
+ /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_3/projects_tf/hello_world/managed_components/espressif__esp-tflite-micro/tensorflow/lite/micro/tflite_bridge/micro_error_reporter.h \
+ /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/xtensa-esp-elf/include/c++/15.2.0/cstdarg \
+ /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/xtensa-esp-elf/include/c++/15.2.0/xtensa-esp-elf/esp32s3/no-rtti/bits/c++config.h \
+ /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/xtensa-esp-elf/include/c++/15.2.0/xtensa-esp-elf/esp32s3/no-rtti/bits/os_defines.h \
+ /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/xtensa-esp-elf/include/c++/15.2.0/xtensa-esp-elf/esp32s3/no-rtti/bits/cpu_defines.h \
+ /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/stdarg.h \
+ /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_3/projects_tf/hello_world/managed_components/espressif__esp-tflite-micro/tensorflow/lite/core/api/error_reporter.h \
+ /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_3/projects_tf/hello_world/managed_components/espressif__esp-tflite-micro/tensorflow/compiler/mlir/lite/core/api/error_reporter.h \
+ /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_3/projects_tf/hello_world/managed_components/espressif__esp-tflite-micro/tensorflow/lite/micro/compatibility.h \
+ /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/xtensa-esp-elf/include/c++/15.2.0/cstdint \
+ /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/stdint.h \
+ /home/diazb/esp/esp-idf/components/esp_libc/platform_include/sys/cdefs.h \
+ /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/cdefs.h \
+ /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/config.h \
+ /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/machine/ieeefp.h \
+ /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/features.h \
+ /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/picolibc.h \
+ /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/float.h \
+ /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/machine/_default_types.h \
+ /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_3/projects_tf/hello_world/build/config/sdkconfig.h \
+ /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/stddef.h \
+ /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/_intsup.h \
+ /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/_stdint.h \
+ /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/xtensa-esp-elf/include/c++/15.2.0/new \
+ /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/xtensa-esp-elf/include/c++/15.2.0/bits/exception.h \
+ /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/xtensa-esp-elf/include/c++/15.2.0/bits/version.h \
+ /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_3/projects_tf/hello_world/managed_components/espressif__esp-tflite-micro/tensorflow/lite/micro/micro_log.h \
+ /home/diazb/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/xtensa-esp-elf/include/c++/15.2.0/cstddef

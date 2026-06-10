@@ -1,0 +1,2 @@
+CMakeFiles/hello_world.elf.dir/project_elf_src_esp32s3.c.obj: \
+ /home/diazb/Proyecto-Sumo-grupo-Juan-Lucas-Cristobal/Lab_3/projects_tf/hello_world/build/project_elf_src_esp32s3.c
